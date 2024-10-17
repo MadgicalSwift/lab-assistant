@@ -10,6 +10,20 @@ export class User {
 
   @Column()
   language: string;
+
   @Column()
   botID: string;
+
+  @Column({ nullable: true })
+  userName: string;
+
+  @Column({ nullable: true })
+  scienceTopic : string;
+
+  @Column({ nullable: true })
+  difficultyLevel : string;
+
+  @Column({ nullable: true })
+  experimentName : string;
+
 }

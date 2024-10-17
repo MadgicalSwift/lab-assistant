@@ -1,0 +1,405 @@
+{
+  "topics": [
+    {
+      "topic_name": "Physics",
+      "levels": [
+        {
+          "level_name": "Easy",
+          "experiments": [
+            {
+              "experiment_name": "Magnets in Action",
+              "aim": "To demonstrate the basic properties of magnets and how they interact.",
+              "objectives": [
+                "Understand the concept of magnetic attraction and repulsion.",
+                "Learn about magnetic poles."
+              ],
+              "materials_needed": [
+                "2 bar magnets",
+                "Paper clips",
+                "Iron nails"
+              ],
+              "steps": [
+                "Step 1: Take two magnets and place them near each other.",
+                "Step 2: Observe if they attract or repel.",
+                "Step 3: Bring paper clips and iron nails near the magnets and observe if they get attracted."
+              ],
+              "video_link": "https://example.com/video-magnets-in-action",
+              "quiz_sets": [
+                {
+                  "set_name": "Quiz Set 1",
+                  "questions": [
+                    {
+                      "question": "What happens when you bring two magnets close to each other?",
+                      "options": [
+                        "They attract each other",
+                        "They repel each other",
+                        "Nothing happens",
+                        "They spin around"
+                      ],
+                      "correct_answer": "They attract each other",
+                      "explanation": "Magnets attract or repel depending on their poles."
+                    },
+                    {
+                      "question": "Which of these items will be attracted to a magnet?",
+                      "options": ["Wood", "Plastic", "Iron nail", "Glass"],
+                      "correct_answer": "Iron nail",
+                      "explanation": "Magnets attract materials made of iron."
+                    },
+                    {
+                      "question": "What are the ends of a magnet called?",
+                      "options": ["Edges", "Poles", "Corners", "Sides"],
+                      "correct_answer": "Poles",
+                      "explanation": "The ends of a magnet are called North and South poles."
+                    },
+                    {
+                      "question": "What happens when you bring the North pole of one magnet near the South pole of another magnet?",
+                      "options": [
+                        "They repel",
+                        "They attract",
+                        "Nothing happens",
+                        "They move apart"
+                      ],
+                      "correct_answer": "They attract",
+                      "explanation": "Opposite poles attract each other."
+                    },
+                    {
+                      "question": "What happens when you bring two North poles of magnets near each other?",
+                      "options": [
+                        "They attract",
+                        "They repel",
+                        "They combine",
+                        "They disappear"
+                      ],
+                      "correct_answer": "They repel",
+                      "explanation": "Like poles repel each other."
+                    },
+                    {
+                      "question": "Which material can block magnetic force?",
+                      "options": ["Paper", "Aluminum", "Wood", "Steel"],
+                      "correct_answer": "Steel",
+                      "explanation": "Materials like steel can block or weaken magnetic force."
+                    },
+                    {
+                      "question": "Which object would be magnetic?",
+                      "options": [
+                        "Plastic spoon",
+                        "Iron nail",
+                        "Copper wire",
+                        "Rubber band"
+                      ],
+                      "correct_answer": "Iron nail",
+                      "explanation": "Magnets attract iron-based materials."
+                    },
+                    {
+                      "question": "Which planet has a strong magnetic field?",
+                      "options": ["Earth", "Mars", "Venus", "Jupiter"],
+                      "correct_answer": "Earth",
+                      "explanation": "Earth has a magnetic field due to the movement of molten iron in its core."
+                    },
+                    {
+                      "question": "What is the area around a magnet where its force is effective called?",
+                      "options": [
+                        "Magnetic zone",
+                        "Force field",
+                        "Magnetic field",
+                        "Gravity zone"
+                      ],
+                      "correct_answer": "Magnetic field",
+                      "explanation": "The magnetic field is the region around a magnet where its force can be felt."
+                    },
+                    {
+                      "question": "Which of the following materials is NOT magnetic?",
+                      "options": ["Cobalt", "Iron", "Nickel", "Copper"],
+                      "correct_answer": "Copper",
+                      "explanation": "Copper is not magnetic, unlike iron, nickel, and cobalt."
+                    }
+                  ]
+                },
+                {
+                  "set_name": "Quiz Set 2",
+                  "questions": [
+                    {
+                      "question": "How can you tell which end of the magnet is the North pole?",
+                      "options": [
+                        "It attracts all objects",
+                        "It repels metal",
+                        "It points toward Earth's North Pole",
+                        "It sticks to plastic"
+                      ],
+                      "correct_answer": "It points toward Earth's North Pole",
+                      "explanation": "The North pole of a magnet aligns itself with Earth's North Pole."
+                    },
+                    {
+                      "question": "Which material is magnetic?",
+                      "options": ["Aluminum", "Copper", "Steel", "Wood"],
+                      "correct_answer": "Steel",
+                      "explanation": "Steel contains iron, which is magnetic."
+                    },
+                    {
+                      "question": "What happens when you rub a magnet on an iron nail?",
+                      "options": [
+                        "The nail becomes magnetic",
+                        "The magnet breaks",
+                        "The nail changes color",
+                        "Nothing happens"
+                      ],
+                      "correct_answer": "The nail becomes magnetic",
+                      "explanation": "Rubbing a magnet on an iron nail magnetizes the nail temporarily."
+                    },
+                    {
+                      "question": "How can you make a magnet weaker?",
+                      "options": [
+                        "Heat it up",
+                        "Cool it down",
+                        "Put it in water",
+                        "Rub it with plastic"
+                      ],
+                      "correct_answer": "Heat it up",
+                      "explanation": "Heating a magnet causes its magnetic field to weaken."
+                    },
+                    {
+                      "question": "Which of these is a temporary magnet?",
+                      "options": [
+                        "Iron nail rubbed with a magnet",
+                        "Bar magnet",
+                        "Earth",
+                        "Lodestone"
+                      ],
+                      "correct_answer": "Iron nail rubbed with a magnet",
+                      "explanation": "An iron nail becomes a temporary magnet after being rubbed with a permanent magnet."
+                    },
+                    {
+                      "question": "Where are magnetic fields the strongest?",
+                      "options": [
+                        "At the center of a magnet",
+                        "At the poles of a magnet",
+                        "All around the magnet equally",
+                        "At the edges of a magnet"
+                      ],
+                      "correct_answer": "At the poles of a magnet",
+                      "explanation": "The magnetic field is strongest at the North and South poles of a magnet."
+                    },
+                    {
+                      "question": "Which of the following is a use of magnets?",
+                      "options": [
+                        "Holding notes on a fridge",
+                        "Heating objects",
+                        "Absorbing light",
+                        "Measuring temperature"
+                      ],
+                      "correct_answer": "Holding notes on a fridge",
+                      "explanation": "Magnets are commonly used to hold items on metallic surfaces like refrigerators."
+                    },
+                    {
+                      "question": "Which of these animals can sense Earth's magnetic field?",
+                      "options": ["Dogs", "Birds", "Cats", "Elephants"],
+                      "correct_answer": "Birds",
+                      "explanation": "Many birds use Earth's magnetic field for navigation during migration."
+                    },
+                    {
+                      "question": "What happens if you cut a magnet in half?",
+                      "options": [
+                        "You get two smaller magnets",
+                        "It loses all magnetism",
+                        "One half is magnetic, and one half is not",
+                        "The magnet turns into dust"
+                      ],
+                      "correct_answer": "You get two smaller magnets",
+                      "explanation": "Cutting a magnet results in two magnets, each with its own North and South poles."
+                    },
+                    {
+                      "question": "How can you turn an iron object into a magnet?",
+                      "options": [
+                        "By freezing it",
+                        "By hitting it with a hammer",
+                        "By rubbing it with a magnet",
+                        "By soaking it in water"
+                      ],
+                      "correct_answer": "By rubbing it with a magnet",
+                      "explanation": "Rubbing an iron object with a magnet can magnetize it temporarily."
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "experiment_name": "Balloon Rocket"
+            },
+            {
+              "experiment_name": "Pendulum Swing"
+            }
+          ]
+        },
+        {
+          "level_name": "Medium",
+          "experiments": [
+            {
+              "experiment_name": "Newton's Cradle"
+            },
+            {
+              "experiment_name": "Simple Electric Circuit"
+            },
+            {
+              "experiment_name": "Friction and Inclined Plane"
+            }
+          ]
+        },
+        {
+          "level_name": "Hard",
+          "experiments": [
+            {
+              "experiment_name": "Lorentz Force Experiment"
+            },
+            {
+              "experiment_name": "Photoelectric Effect"
+            },
+            {
+              "experiment_name": "Resonance in a Tuning Fork"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_name": "Chemistry",
+      "levels": [
+        {
+          "level_name": "Easy",
+          "experiments": [
+            {
+              "experiment_name": "Baking Soda and Vinegar Reaction"
+            },
+            {
+              "experiment_name": "pH Indicator with Red Cabbage"
+            },
+            {
+              "experiment_name": "Crystallization of Sugar"
+            }
+          ]
+        },
+        {
+          "level_name": "Medium",
+          "experiments": [
+            {
+              "experiment_name": "Elephant Toothpaste"
+            },
+            {
+              "experiment_name": "Copper Sulfate Crystals"
+            },
+            {
+              "experiment_name": "Making Soap"
+            }
+          ]
+        },
+        {
+          "level_name": "Hard",
+          "experiments": [
+            {
+              "experiment_name": "Titration of Acids and Bases"
+            },
+            {
+              "experiment_name": "Determining Molar Mass of a Gas"
+            },
+            {
+              "experiment_name": "Decomposition of Hydrogen Peroxide"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_name": "Biology",
+      "levels": [
+        {
+          "level_name": "Easy",
+          "experiments": [
+            {
+              "experiment_name": "Plant Growth in Different Light Conditions"
+            },
+            {
+              "experiment_name": "Chromatography of Leaf Pigments"
+            },
+            {
+              "experiment_name": "Observing Microorganisms in Pond Water"
+            }
+          ]
+        },
+        {
+          "level_name": "Medium",
+          "experiments": [
+            {
+              "experiment_name": "Effect of pH on Yeast Fermentation"
+            },
+            {
+              "experiment_name": "Enzyme Activity: Catalase and Hydrogen Peroxide"
+            },
+            {
+              "experiment_name": "Population Growth of Bacteria"
+            }
+          ]
+        },
+        {
+          "level_name": "Hard",
+          "experiments": [
+            {
+              "experiment_name": "DNA Extraction from Fruits"
+            },
+            {
+              "experiment_name": "Impact of Invasive Species on Local Ecosystems"
+            },
+            {
+              "experiment_name": "Effects of Antibiotics on Bacterial Growth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic_name": "Earth Sciences",
+      "levels": [
+        {
+          "level_name": "Easy",
+          "experiments": [
+            {
+              "experiment_name": "Soil Erosion Experiment"
+            },
+            {
+              "experiment_name": "Water Cycle in a Bag"
+            },
+            {
+              "experiment_name": "Homemade Volcano"
+            }
+          ]
+        },
+        {
+          "level_name": "Medium",
+          "experiments": [
+            {
+              "experiment_name": "Climate Change and Plant Growth"
+            },
+            {
+              "experiment_name": "Making a Compass"
+            },
+            {
+              "experiment_name": "Analyzing Water Quality"
+            }
+          ]
+        },
+        {
+          "level_name": "Hard",
+          "experiments": [
+            {
+              "experiment_name": "Seismology: Measuring Earthquakes"
+            },
+            {
+              "experiment_name": "Modeling Plate Tectonics"
+            },
+            {
+              "experiment_name": "Investigating Soil Composition"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,8 @@ import { Injectable } from '@nestjs/common';
 import IntentClassifier from '../intent/intent.classifier';
 import { MessageService } from 'src/message/message.service';
 import { UserService } from 'src/model/user.service';
+import { localisedStrings } from 'src/i18n/en/localised-strings';
+import data from '../datasource/data.json';
 
 @Injectable()
 export class ChatbotService {
@@ -20,23 +22,56 @@ export class ChatbotService {
   }
 
   public async processMessage(body: any): Promise<any> {
-    const { from, text } = body;
+    const { from, text, button_response } = body;
+    const buttonBody = button_response?.body;
+    const textBody = text?.body;
+    const scienceTopics = data.topics.map((topic) => topic.topic_name);
     let botID = process.env.BOT_ID;
-    const userData = await this.userService.findUserByMobileNumber(from);
-    const { intent, entities } = this.intentClassifier.getIntent(text.body);
-    if (userData.language === 'english' || userData.language === 'hindi') {
-      await this.userService.saveUser(userData);
+    let userData = await this.userService.findUserByMobileNumber(from);
+    if (!userData) {
+      console.log('User not found, Creating new user');
+      userData = await this.userService.createUser(from, 'english', botID);
     }
-    if (intent === 'greeting') {
-      this.message.sendWelcomeMessage(from, userData.language);
-    } else if (intent === 'select_language') {
-      const selectedLanguage = entities[0];
-      const userData = await this.userService.findUserByMobileNumber(from);
-      userData.language = selectedLanguage;
-      await this.userService.saveUser(userData);
-      this.message.sendLanguageChangedMessage(from, userData.language);
+    const selectedScienceTopic = data.topics.find(
+      (t) => t.topic_name === userData.scienceTopic,
+    );
+
+    const selectedDifficultyLevel = selectedScienceTopic?.levels.find(
+      (l) => l.level_name === userData.difficultyLevel,
+    );
+    const matchedExperiment = selectedDifficultyLevel?.experiments.find(
+      (experiment) => experiment.experiment_name === buttonBody,
+    );
+
+    switch (true) {
+      case localisedStrings.ages.includes(buttonBody):
+        await this.message.sendScienceTopics(from);
+        break;
+
+      case scienceTopics.includes(buttonBody):
+        userData.scienceTopic = buttonBody;
+        await this.message.sendDifficultyLevel(from, userData.scienceTopic);
+        break;
+
+      case localisedStrings.difficultyLevelButtons.includes(buttonBody):
+        userData.difficultyLevel = buttonBody;
+        await this.message.sendExperimentTopics(from, userData);
+        break;
+
+      case matchedExperiment !== undefined:
+        console.log('Matched experiment:', matchedExperiment.experiment_name);
+        break;
+
+      case localisedStrings.validText.includes(textBody):
+        this.message.sendWelcomeMessage(from, userData.language);
+        break;
+
+      default:
+        userData.userName = textBody;
+        await this.message.sendAgeButtons(from);
+        break;
     }
-    return 'ok';
+    await this.userService.saveUser(userData);
   }
 }
 export default ChatbotService;

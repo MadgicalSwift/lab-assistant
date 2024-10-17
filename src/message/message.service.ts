@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import axios from 'axios';
-import { CustomException } from 'src/common/exception/custom.exception';
+// import { CustomException } from 'src/common/exception/custom.exception';
 import { localisedStrings } from 'src/i18n/en/localised-strings';
 
 @Injectable()
@@ -22,10 +22,15 @@ export abstract class MessageService {
       });
       return response.data;
     } catch (error) {
-      throw new CustomException(error);
+      console.log('Error sending message:', error.response?.data);
+      // throw new CustomException(error);
     }
   }
 
   abstract sendWelcomeMessage(from: string, language: string);
+  abstract sendAgeButtons(from: string);
+  abstract sendScienceTopics(from: string);
+  abstract sendDifficultyLevel(from: string, topic: string);
+  abstract sendExperimentTopics(from: string, userData: any)
   abstract sendLanguageChangedMessage(from: string, language: string);
 }
