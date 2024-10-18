@@ -25,30 +25,27 @@ export class ChatbotService {
     const { from, text, button_response } = body;
     const buttonBody = button_response?.body;
     const textBody = text?.body;
-    const scienceTopics = data.topics.map((topic) => topic.topic_name);
+    const allScienceTopics = data.topics.map((topic) => topic.topic_name);
     let botID = process.env.BOT_ID;
     let userData = await this.userService.findUserByMobileNumber(from);
     if (!userData) {
       console.log('User not found, Creating new user');
       userData = await this.userService.createUser(from, 'english', botID);
     }
-    const selectedScienceTopic = data.topics.find(
-      (t) => t.topic_name === userData.scienceTopic,
-    );
 
-    const selectedDifficultyLevel = selectedScienceTopic?.levels.find(
-      (l) => l.level_name === userData.difficultyLevel,
-    );
-    const matchedExperiment = selectedDifficultyLevel?.experiments.find(
-      (experiment) => experiment.experiment_name === buttonBody,
-    );
+    const selectedExperimentDetails = data.topics
+      .find((t) => t.topic_name === userData.scienceTopic)
+      ?.levels.find((l) => l.level_name === userData.difficultyLevel)
+      ?.experiments.find(
+        (experiment) => experiment.experiment_name === buttonBody,
+      );
 
     switch (true) {
       case localisedStrings.ages.includes(buttonBody):
         await this.message.sendScienceTopics(from);
         break;
 
-      case scienceTopics.includes(buttonBody):
+      case allScienceTopics.includes(buttonBody):
         userData.scienceTopic = buttonBody;
         await this.message.sendDifficultyLevel(from, userData.scienceTopic);
         break;
@@ -58,8 +55,15 @@ export class ChatbotService {
         await this.message.sendExperimentTopics(from, userData);
         break;
 
-      case matchedExperiment !== undefined:
-        console.log('Matched experiment:', matchedExperiment.experiment_name);
+      case selectedExperimentDetails !== undefined:
+        userData.experimentName = buttonBody;
+        await this.message.sendExperimentDetails(
+          from,
+          selectedExperimentDetails,
+        );
+        break;
+
+      case localisedStrings.startButton.includes(buttonBody):
         break;
 
       case localisedStrings.validText.includes(textBody):

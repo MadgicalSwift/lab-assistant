@@ -19,11 +19,11 @@
                 "Iron nails"
               ],
               "steps": [
-                "Step 1: Take two magnets and place them near each other.",
-                "Step 2: Observe if they attract or repel.",
-                "Step 3: Bring paper clips and iron nails near the magnets and observe if they get attracted."
+                "Take two magnets and place them near each other.",
+                "Observe if they attract or repel.",
+                "Bring paper clips and iron nails near the magnets and observe if they get attracted."
               ],
-              "video_link": "https://example.com/video-magnets-in-action",
+              "video_link": "https://www.youtube.com/watch?v=60qnTvDbOZ0",
               "quiz_sets": [
                 {
                   "set_name": "Quiz Set 1",
@@ -223,10 +223,53 @@
               ]
             },
             {
-              "experiment_name": "Balloon Rocket"
+              "experiment_name": "Balloon Rocket",
+              "aim": "To demonstrate Newton's Third Law of Motion using a balloon as a rocket.",
+              "objectives": [
+                "Understand the basic principles of action and reaction forces.",
+                "Explore how gases can be used to propel objects."
+              ],
+              "materials_needed": [
+                "Balloon",
+                "String",
+                "Tape",
+                "Straw",
+                "Scissors"
+              ],
+              "steps": [
+                "Cut a long piece of string and tie one end to a stationary object.",
+                "Thread the string through a straw.",
+                "Inflate the balloon but do not tie it, just hold the open end.",
+                "Tape the balloon to the straw.",
+                "Pull the string tight and release the balloon to observe its motion."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=TfZsGy_q9zA",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Pendulum Swing"
+              "experiment_name": "Pendulum Swing",
+              "aim": "To explore the motion of a pendulum and understand how gravity affects its swing.",
+              "objectives": [
+                "Observe how the length of a pendulum affects its period.",
+                "Understand the role of gravity in pendulum motion.",
+                "Explore the concept of periodic motion."
+              ],
+              "materials_needed": [
+                "String (about 1 meter long)",
+                "Weight (such as a small metal washer or a stone)",
+                "Protractor (optional, for measuring angles)",
+                "Stopwatch",
+                "Tape or a hook to attach the string"
+              ],
+              "steps": [
+                "Cut a piece of string about 1 meter long and attach a small weight to one end.",
+                "Tape or hook the other end of the string to a fixed point, allowing the weight to hang freely.",
+                "Pull the weight to one side to a small angle (less than 15 degrees) and release it, allowing it to swing back and forth.",
+                "Use a stopwatch to measure the time it takes for the pendulum to complete one full swing (this is called the period).",
+                "Repeat the experiment with different lengths of string to observe how the length affects the period of the pendulum."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=02w9lSii_Hs",
+              "quiz_sets": []
             }
           ]
         },
@@ -234,13 +277,81 @@
           "level_name": "Medium",
           "experiments": [
             {
-              "experiment_name": "Newton's Cradle"
+              "experiment_name": "Newton's Cradle",
+              "aim": "To demonstrate the principles of conservation of momentum and energy using Newton's Cradle.",
+              "objectives": [
+                "Understand the concept of momentum transfer.",
+                "Observe the conservation of energy in a system.",
+                "Explore how forces are transmitted through a series of objects."
+              ],
+              "materials_needed": [
+                "Newton's Cradle apparatus (or similar setup with hanging metal balls)",
+                "Stopwatch (optional, for timing the motion)",
+                "Ruler (optional, for measuring displacement)"
+              ],
+              "steps": [
+                "Set up the Newton's Cradle on a flat surface.",
+                "Pull one of the end balls back and release it, allowing it to swing and hit the other balls.",
+                "Observe how the ball on the opposite end swings out while the middle balls remain mostly stationary.",
+                "Repeat the experiment by pulling back two or more balls and releasing them to observe the effect on the system.",
+                "Optionally, measure the time it takes for the balls to stop moving to observe energy dissipation over time."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=vE8UeU7RNKk",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Simple Electric Circuit"
+              "experiment_name": "Simple Electric Circuit",
+              "aim": "To understand how a basic electric circuit works by constructing one using simple materials.",
+              "objectives": [
+                "Learn the components of a simple electric circuit.",
+                "Observe how electric current flows through a circuit.",
+                "Understand the role of a power source, conductor, and load in a circuit."
+              ],
+              "materials_needed": [
+                "Battery (1.5V or 9V)",
+                "Battery holder (optional)",
+                "Copper wires (with insulation removed at the ends)",
+                "Small light bulb or LED",
+                "Light bulb holder (optional)",
+                "Switch (optional, to control the circuit)"
+              ],
+              "steps": [
+                "Place the battery in the battery holder (if using one) or connect the wires directly to the battery terminals.",
+                "Connect one end of the copper wire to the positive terminal of the battery.",
+                "Connect the other end of the wire to the positive terminal of the light bulb or LED.",
+                "Connect a second wire from the negative terminal of the light bulb to the negative terminal of the battery to complete the circuit.",
+                "Observe the light bulb glowing, indicating the flow of electric current through the circuit.",
+                "Optionally, add a switch in the circuit to control the flow of current by breaking or completing the circuit."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=oDUAvaXsK1g",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Friction and Inclined Plane"
+              "experiment_name": "Friction and Inclined Plane",
+              "aim": "To explore how friction affects the motion of an object on an inclined plane.",
+              "objectives": [
+                "Understand the role of friction in motion.",
+                "Investigate how the angle of an inclined plane affects frictional force.",
+                "Compare the motion of different materials on the same inclined plane."
+              ],
+              "materials_needed": [
+                "Inclined plane (a wooden or metal board)",
+                "Different objects (wooden block, plastic object, metal object)",
+                "Protractor (for measuring the angle of the inclined plane)",
+                "Ruler or measuring tape",
+                "Stopwatch (optional, for timing the motion)",
+                "Sandpaper or different surfaces (optional, to test various friction levels)"
+              ],
+              "steps": [
+                "Set up the inclined plane at a low angle using a protractor to measure the angle.",
+                "Place one of the objects (e.g., a wooden block) at the top of the inclined plane and release it to slide down.",
+                "Observe how quickly the object moves and how far it travels.",
+                "Repeat the experiment with different objects to observe how their materials affect the friction and motion.",
+                "Increase the angle of the inclined plane and repeat the experiment with each object, noting how the motion changes with steeper angles.",
+                "Optionally, test the effect of different surface textures (e.g., sandpaper) on the inclined plane to explore how surface friction affects the object's motion."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=PYkEyGICEBk",
+              "quiz_sets": []
             }
           ]
         },
@@ -248,13 +359,83 @@
           "level_name": "Hard",
           "experiments": [
             {
-              "experiment_name": "Lorentz Force Experiment"
+              "experiment_name": "Lorentz Force Experiment",
+              "aim": "To demonstrate the effect of the Lorentz force on a charged particle moving through a magnetic field.",
+              "objectives": [
+                "Understand the concept of the Lorentz force and its application in electromagnetism.",
+                "Observe how a charged particle experiences a force when moving through a magnetic field.",
+                "Explore the relationship between the direction of the magnetic field, the velocity of the particle, and the resulting force."
+              ],
+              "materials_needed": [
+                "Copper wire (for creating a current-carrying wire loop)",
+                "Power source (battery or DC power supply)",
+                "Magnets (strong, like neodymium magnets)",
+                "Switch (to control current)",
+                "Ampere meter (optional, for measuring current)",
+                "Compass (optional, to observe the magnetic field direction)"
+              ],
+              "steps": [
+                "Set up the copper wire in a loop, and connect it to the power source through the switch, allowing current to flow through the wire.",
+                "Place the magnets near the wire loop, ensuring that the magnetic field intersects the wire perpendicularly.",
+                "Close the switch to allow current to flow through the wire loop.",
+                "Observe the force exerted on the wire loop by the magnetic field (the wire may experience a motion or deflection due to the Lorentz force).",
+                "Reverse the direction of the current by switching the battery or reversing the connections and observe how the direction of the force changes.",
+                "Optionally, use a compass to visualize the direction of the magnetic field around the wire and how it interacts with the external magnetic field."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=qXi2fP6jIH0",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Photoelectric Effect"
+              "experiment_name": "Photoelectric Effect",
+              "aim": "To demonstrate the photoelectric effect and observe how light can cause the emission of electrons from a metal surface.",
+              "objectives": [
+                "Understand the principles of the photoelectric effect.",
+                "Observe the relationship between light frequency and the emission of electrons.",
+                "Explore how the intensity and frequency of light affect electron emission."
+              ],
+              "materials_needed": [
+                "Metal plate (commonly made of zinc or another photo-sensitive material)",
+                "Light source (ultraviolet light or other high-frequency light)",
+                "Electroscope (or other devices to detect electron emission)",
+                "Power supply (optional, to provide initial charge to the metal plate)",
+                "Filters (optional, to vary the light frequency)",
+                "Volt meter (optional, for measuring electric potential)"
+              ],
+              "steps": [
+                "Charge the metal plate using the power supply or by rubbing it to induce an electric charge.",
+                "Set up the electroscope connected to the metal plate to observe any discharge.",
+                "Shine the ultraviolet light (or a light source of varying frequency) on the metal plate.",
+                "Observe the electroscope for any changes, which indicates the emission of electrons (discharge).",
+                "Experiment with different light frequencies by using filters to see how the emission of electrons varies with the light frequency.",
+                "Optionally, measure the electric potential using the volt meter to correlate the amount of electron emission with the frequency and intensity of light."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=oYnp0WZDhYQ",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Resonance in a Tuning Fork"
+              "experiment_name": "Resonance in a Tuning Fork",
+              "aim": "To demonstrate resonance using a tuning fork and observe how vibrations transfer through air or other materials.",
+              "objectives": [
+                "Understand the concept of resonance.",
+                "Observe how sound waves can cause vibrations in objects at their natural frequency.",
+                "Explore how the medium (air, water, etc.) affects resonance and sound transmission."
+              ],
+              "materials_needed": [
+                "Tuning forks of different frequencies",
+                "Rubber mallet (to strike the tuning fork)",
+                "Resonance box or a hard surface (optional)",
+                "Water (for observing resonance in water, optional)",
+                "Second tuning fork (optional, for resonance demonstration)"
+              ],
+              "steps": [
+                "Hold the tuning fork by its handle and strike one of its prongs gently with the rubber mallet.",
+                "Place the base of the vibrating tuning fork on a hard surface or resonance box to amplify the sound.",
+                "Observe how the sound intensifies when the tuning fork's vibrations resonate with the surface.",
+                "If using water, gently dip the vibrating tuning fork into the water and observe the ripples formed due to the resonance.",
+                "Optionally, take a second tuning fork of the same frequency, place them near each other, and strike one of them. Observe how the second fork begins to vibrate due to resonance, even though it wasn't struck directly."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=5H8aRCyEGnU",
+              "quiz_sets": []
             }
           ]
         }
@@ -267,13 +448,94 @@
           "level_name": "Easy",
           "experiments": [
             {
-              "experiment_name": "Baking Soda and Vinegar Reaction"
+              "experiment_name": "Baking Soda and Vinegar Reaction",
+              "aim": "To observe the chemical reaction between baking soda and vinegar and understand the concept of an acid-base reaction.",
+              "objectives": [
+                "Identify the products of the reaction between baking soda and vinegar.",
+                "Understand the concepts of acids, bases, and neutralization.",
+                "Observe gas production and changes in temperature during the reaction."
+              ],
+              "materials_needed": [
+                "Baking soda (sodium bicarbonate)",
+                "Vinegar (acetic acid)",
+                "Clear plastic bottle or container",
+                "Balloon (optional, for capturing gas produced)",
+                "Measuring spoons",
+                "Funnel (optional, for easier pouring)",
+                "Safety goggles (for eye protection)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "Measure 1-2 tablespoons of baking soda and place it into the clear plastic bottle.",
+                "Using the funnel, pour about 1/2 cup of vinegar into the bottle with baking soda.",
+                "Observe the reaction as bubbles and foam form, indicating the release of carbon dioxide gas.",
+                "If using a balloon, stretch it over the mouth of the bottle to capture the gas produced, and watch it inflate.",
+                "Optionally, discuss the temperature change during the reaction, noting whether it feels warmer or cooler to the touch."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=_CYgsqji_0k",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "pH Indicator with Red Cabbage"
+              "experiment_name": "pH Indicator with Red Cabbage",
+              "aim": "To extract a natural pH indicator from red cabbage and use it to test the acidity or alkalinity of various substances.",
+              "objectives": [
+                "Understand the concept of pH and how it relates to acids and bases.",
+                "Learn how to create a natural pH indicator using red cabbage.",
+                "Test different household substances to determine their pH levels."
+              ],
+              "materials_needed": [
+                "Red cabbage",
+                "Knife (for chopping the cabbage)",
+                "Saucepan",
+                "Water",
+                "Strainer or filter (to separate liquid from solid)",
+                "Small cups or test tubes (for testing samples)",
+                "Various household substances (e.g., vinegar, baking soda, lemon juice, soap, water)",
+                "pH scale chart (optional, for comparison)"
+              ],
+              "steps": [
+                "Chop the red cabbage into small pieces and place them in a saucepan.",
+                "Add enough water to cover the cabbage and bring it to a boil.",
+                "Simmer the mixture for about 15-20 minutes until the water turns a deep purple color.",
+                "Remove the saucepan from heat and allow the mixture to cool.",
+                "Strain the liquid through a strainer or filter into a separate container to obtain the cabbage juice.",
+                "Pour small amounts of the cabbage juice into several cups or test tubes.",
+                "Add different household substances to each cup of cabbage juice and observe the color changes.",
+                "Compare the resulting colors to a pH scale chart to determine the pH levels of the tested substances."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=a6dYHEC8A9g",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Crystallization of Sugar"
+              "experiment_name": "Crystallization of Sugar",
+              "aim": "To observe the process of crystallization by creating sugar crystals from a saturated sugar solution.",
+              "objectives": [
+                "Understand the concept of saturation and how crystals form from a solution.",
+                "Observe the growth of sugar crystals over time.",
+                "Explore factors that affect crystallization, such as temperature and concentration."
+              ],
+              "materials_needed": [
+                "Granulated sugar",
+                "Water",
+                "Heat source (stove or hot plate)",
+                "Saucepan",
+                "Glass jar or container",
+                "String or wooden stick (for crystal growth support)",
+                "Spoon (for stirring)",
+                "Thermometer (optional, for measuring temperature)"
+              ],
+              "steps": [
+                "Heat 1 cup of water in the saucepan until it is nearly boiling.",
+                "Gradually add sugar to the hot water, stirring continuously until no more sugar dissolves (this creates a saturated solution).",
+                "Remove the saucepan from heat and allow the solution to cool slightly.",
+                "Pour the sugar solution into a glass jar or container.",
+                "Tie a string or attach a wooden stick to a pencil and place it in the jar, ensuring it doesn't touch the bottom.",
+                "Set the jar in a cool, undisturbed place for several days to allow sugar crystals to form.",
+                "After a few days, observe the growth of sugar crystals on the string or stick and in the solution.",
+                "Optionally, discuss how changes in temperature or concentration could affect the size and quality of the crystals."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=t2_zOIoUdO4",
+              "quiz_sets": []
             }
           ]
         },
@@ -281,13 +543,101 @@
           "level_name": "Medium",
           "experiments": [
             {
-              "experiment_name": "Elephant Toothpaste"
+              "experiment_name": "Elephant Toothpaste",
+              "aim": "To demonstrate an exothermic reaction and the rapid decomposition of hydrogen peroxide, resulting in a large foamy eruption.",
+              "objectives": [
+                "Understand the concept of catalysts and exothermic reactions.",
+                "Observe the reaction between hydrogen peroxide, yeast, and dish soap.",
+                "Explore the role of oxygen gas in creating foam."
+              ],
+              "materials_needed": [
+                "Hydrogen peroxide (6% or higher concentration)",
+                "Dry yeast",
+                "Warm water",
+                "Dish soap (liquid)",
+                "Food coloring (optional, for visual effect)",
+                "Plastic bottle or container",
+                "Tray or baking sheet (to catch overflow)",
+                "Spoon (for mixing)",
+                "Safety goggles (for eye protection)",
+                "Gloves (optional, for safety)"
+              ],
+              "steps": [
+                "Put on safety goggles and gloves to protect your eyes and skin.",
+                "In a small cup, mix a packet of dry yeast with about 3 tablespoons of warm water and let it sit for a few minutes to activate.",
+                "In a plastic bottle, combine about 1/2 cup of hydrogen peroxide, a squirt of dish soap, and a few drops of food coloring (if using).",
+                "Pour the activated yeast mixture into the bottle with the hydrogen peroxide solution.",
+                "Quickly step back and observe the reaction as foam erupts from the bottle, creating a large 'toothpaste' effect.",
+                "Discuss the exothermic nature of the reaction and the role of the yeast as a catalyst in breaking down hydrogen peroxide into water and oxygen gas."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=ltY_jEV4j4E",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Copper Sulfate Crystals"
+              "experiment_name": "Copper Sulfate Crystals",
+              "aim": "To grow copper sulfate crystals from a saturated solution and observe the crystallization process.",
+              "objectives": [
+                "Understand the principles of crystallization and solubility.",
+                "Observe the formation of crystal structures over time.",
+                "Explore factors that influence crystal growth, such as temperature and concentration."
+              ],
+              "materials_needed": [
+                "Copper sulfate (available at garden supply stores or online)",
+                "Water",
+                "Glass container or jar",
+                "Stirring rod or spoon",
+                "String or a skewer (for hanging crystals)",
+                "Heat source (optional, for warming the solution)",
+                "Safety goggles (for eye protection)",
+                "Gloves (optional, for handling chemicals)"
+              ],
+              "steps": [
+                "Put on safety goggles and gloves to protect your eyes and skin.",
+                "Heat approximately 1 cup of water in a saucepan until it is warm but not boiling.",
+                "Gradually add copper sulfate to the warm water, stirring continuously until no more copper sulfate dissolves, creating a saturated solution.",
+                "Pour the saturated solution into a glass container or jar.",
+                "Optionally, tie a piece of string or skewer to a pencil and suspend it in the solution, ensuring it does not touch the bottom.",
+                "Leave the container in a cool, undisturbed place for several days to allow crystals to form.",
+                "Observe the growth of the copper sulfate crystals over time and note their shape and size.",
+                "Discuss the process of crystallization and the factors that influenced crystal growth, such as temperature and concentration."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=QdwKhbtzsug",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Making Soap"
+              "experiment_name": "Making Soap",
+              "aim": "To understand the process of saponification and create homemade soap using natural ingredients.",
+              "objectives": [
+                "Learn about the chemical reaction involved in soap making.",
+                "Understand the role of oils, lye, and additives in soap production.",
+                "Create a simple batch of soap to observe the results of the saponification process."
+              ],
+              "materials_needed": [
+                "Lye (sodium hydroxide)",
+                "Distilled water",
+                "Oils (e.g., olive oil, coconut oil, or palm oil)",
+                "Thermometer",
+                "Scale (for measuring ingredients)",
+                "Mixing bowl (preferably glass or stainless steel)",
+                "Stick blender or whisk",
+                "Soap mold (silicone molds work well)",
+                "Safety goggles and gloves (for protection)",
+                "Fragrance or essential oils (optional, for scent)",
+                "Colorants (optional, for adding color)"
+              ],
+              "steps": [
+                "Put on safety goggles and gloves to protect yourself from lye, which is caustic.",
+                "Measure out the lye and distilled water separately using the scale. Carefully add the lye to the water in a well-ventilated area, stirring until dissolved. (Always add lye to water, not the other way around.)",
+                "Allow the lye solution to cool to around 100-110°F (38-43°C).",
+                "Measure the oils and heat them gently in a separate mixing bowl until they reach the same temperature as the lye solution.",
+                "Slowly pour the lye solution into the oils while stirring gently. Use a stick blender or whisk to mix until the mixture reaches 'trace' (a thick, pudding-like consistency).",
+                "If desired, add fragrance, colorants, or any other additives at this stage and mix well.",
+                "Pour the soap mixture into the soap mold and cover it with a towel to insulate.",
+                "Allow the soap to sit undisturbed for 24-48 hours until it hardens.",
+                "Once hardened, carefully remove the soap from the mold and cut it into bars. Let the bars cure for 4-6 weeks before using."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=Tu_sWoHULtY",
+              "quiz_sets": []
             }
           ]
         },
@@ -295,13 +645,99 @@
           "level_name": "Hard",
           "experiments": [
             {
-              "experiment_name": "Titration of Acids and Bases"
+              "experiment_name": "Titration of Acids and Bases",
+              "aim": "To determine the concentration of an acid or base solution by neutralizing it with a base or acid of known concentration.",
+              "objectives": [
+                "Understand the principles of titration and the concept of molarity.",
+                "Learn how to accurately measure and mix solutions during a titration.",
+                "Determine the endpoint of a titration using an appropriate indicator."
+              ],
+              "materials_needed": [
+                "Burette",
+                "Pipette and pipette filler",
+                "Conical flask (Erlenmeyer flask)",
+                "Standard solution of acid or base (known concentration)",
+                "Solution of unknown concentration (acid or base)",
+                "pH indicator or phenolphthalein (as an endpoint indicator)",
+                "Distilled water (for rinsing and dilution)",
+                "White tile or paper (to better see the color change)",
+                "Funnel (for filling the burette)"
+              ],
+              "steps": [
+                "Rinse the burette with the standard solution to avoid contamination, then fill it with the solution using a funnel and remove the funnel afterward.",
+                "Using a pipette, measure a specific volume of the solution of unknown concentration and transfer it to the conical flask.",
+                "Add a few drops of the pH indicator or phenolphthalein to the solution in the conical flask.",
+                "Place the conical flask on a white tile or paper for better visibility of the color change.",
+                "Open the burette tap slowly to allow the standard solution to flow into the conical flask while continuously swirling the flask to mix the solutions.",
+                "Observe the color change as the titration approaches the endpoint. When you see a permanent color change, stop adding the standard solution.",
+                "Record the final volume of the standard solution in the burette.",
+                "Calculate the concentration of the unknown solution using the titration formula: \\( C_1V_1 = C_2V_2 \\), where \\( C \\) is concentration and \\( V \\) is volume."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=sFpFCPTDv2w",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Determining Molar Mass of a Gas"
+              "experiment_name": "Determining Molar Mass of a Gas",
+              "aim": "To determine the molar mass of an unknown gas using the ideal gas law.",
+              "objectives": [
+                "Understand the relationship between pressure, volume, temperature, and the number of moles of a gas.",
+                "Learn how to apply the ideal gas law to find the molar mass of a gas.",
+                "Perform calculations using experimental data to determine the molar mass."
+              ],
+              "materials_needed": [
+                "Gas collection apparatus (e.g., gas syringe or balloon)",
+                "Balance (for measuring mass)",
+                "Temperature probe or thermometer",
+                "Pressure gauge",
+                "Stopwatch or timer",
+                "Known volume container (e.g., graduated cylinder)",
+                "Unknown gas (e.g., carbon dioxide or another gas)",
+                "Safety goggles (for protection)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "Set up the gas collection apparatus to capture the unknown gas. Ensure that the system is airtight.",
+                "Measure the mass of the empty gas collection apparatus using the balance and record it.",
+                "Allow the gas to fill the apparatus, then measure and record the final mass of the apparatus with the gas.",
+                "Calculate the mass of the gas by subtracting the initial mass from the final mass.",
+                "Measure the temperature of the gas using a thermometer or temperature probe.",
+                "Measure the pressure of the gas using a pressure gauge.",
+                "Record the volume of the gas collected, using the known volume of the container.",
+                "Apply the ideal gas law equation: \\( PV = nRT \\), where \\( P \\) is pressure, \\( V \\) is volume, \\( n \\) is the number of moles, \\( R \\) is the gas constant, and \\( T \\) is temperature in Kelvin.",
+                "Rearrange the equation to find the molar mass (\\( M \\)) using the formula: \\( M = \frac{m}{n} \\), where \\( m \\) is the mass of the gas and \\( n \\) is the number of moles."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=AuCePiGWeys",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Decomposition of Hydrogen Peroxide"
+              "experiment_name": "Decomposition of Hydrogen Peroxide",
+              "aim": "To observe the decomposition of hydrogen peroxide into water and oxygen gas, and to understand the role of a catalyst in this reaction.",
+              "objectives": [
+                "Understand the chemical reaction involved in the decomposition of hydrogen peroxide.",
+                "Observe the effects of a catalyst (e.g., potassium iodide or manganese dioxide) on the rate of reaction.",
+                "Measure the volume of oxygen gas produced during the reaction."
+              ],
+              "materials_needed": [
+                "Hydrogen peroxide (H2O2, 3% or higher concentration)",
+                "Potassium iodide or manganese dioxide (as a catalyst)",
+                "Clear plastic bottle or test tube",
+                "Graduated cylinder (for measuring liquids)",
+                "Measuring spoon",
+                "Stopwatch or timer",
+                "Safety goggles (for protection)",
+                "Gloves (optional, for safety)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "In a clear plastic bottle or test tube, measure and pour about 50 mL of hydrogen peroxide.",
+                "If using potassium iodide, add about 1-2 grams of potassium iodide to the hydrogen peroxide. If using manganese dioxide, add a small spoonful to the bottle.",
+                "Observe the reaction as oxygen gas is produced, leading to bubbling and foam formation.",
+                "Use a graduated cylinder to capture and measure the volume of gas produced by placing it upside down in a basin filled with water. Collect any gas escaping from the reaction.",
+                "Record the volume of oxygen gas produced over time, noting how quickly it increases.",
+                "Discuss the reaction mechanism and the role of the catalyst in accelerating the decomposition of hydrogen peroxide."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=Ta4DomSDzF8",
+              "quiz_sets": []
             }
           ]
         }
@@ -314,13 +750,101 @@
           "level_name": "Easy",
           "experiments": [
             {
-              "experiment_name": "Plant Growth in Different Light Conditions"
+              "experiment_name": "Plant Growth in Different Light Conditions",
+              "aim": "To investigate how varying light conditions affect the growth of plants.",
+              "objectives": [
+                "Understand the importance of light for photosynthesis in plants.",
+                "Compare the growth rates of plants under different light conditions (e.g., full sunlight, partial sunlight, and darkness).",
+                "Analyze the data collected to draw conclusions about the impact of light on plant growth."
+              ],
+              "materials_needed": [
+                "Small potted plants (e.g., bean plants or any fast-growing species)",
+                "Light sources (e.g., natural sunlight, grow lights, or light bulbs of different intensities)",
+                "Measuring tape or ruler (for measuring plant height)",
+                "Watering can (for consistent watering)",
+                "Soil (for planting the seeds or plants)",
+                "Labels (for identifying different conditions)",
+                "Notebook (for recording observations)",
+                "Timer or clock (for timing the exposure to light conditions)"
+              ],
+              "steps": [
+                "Select three groups of plants and label them according to their light conditions: Group A (full sunlight), Group B (partial sunlight), and Group C (darkness).",
+                "Plant the seeds or place the potted plants in their respective light conditions.",
+                "Ensure all plants receive the same amount of water and care throughout the experiment.",
+                "Measure and record the initial height of each plant.",
+                "Observe the plants over a period of time (e.g., 2-4 weeks), measuring their height and noting any changes in leaf color or overall health.",
+                "At regular intervals (e.g., daily or weekly), record the height of each plant and any other relevant observations in your notebook.",
+                "After the designated period, analyze the data collected to compare the growth of plants in different light conditions.",
+                "Discuss the results and conclusions regarding the effects of light on plant growth."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=Sw46uQciI-A",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Chromatography of Leaf Pigments"
+              "experiment_name": "Chromatography of Leaf Pigments",
+              "aim": "To separate and identify the different pigments present in a leaf using chromatography.",
+              "objectives": [
+                "Understand the principles of chromatography and how it can be used to separate substances.",
+                "Identify the various pigments in a leaf and their respective properties.",
+                "Learn how to calculate the Rf value of each pigment."
+              ],
+              "materials_needed": [
+                "Fresh green leaf (e.g., spinach, kale, or other leafy greens)",
+                "Solvent (e.g., ethanol, acetone, or a mixture of water and alcohol)",
+                "Filter paper or chromatography paper",
+                "Glass or ceramic dish (for developing the chromatography paper)",
+                "Pencil (for marking the paper)",
+                "Mortar and pestle (for grinding the leaf)",
+                "Ruler (for measuring distances)",
+                "Dropper or pipette (for applying the pigment solution)",
+                "Safety goggles (for protection)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "Using a mortar and pestle, grind a small piece of the leaf with a few drops of the solvent to extract the pigments.",
+                "Cut a strip of chromatography paper about 2-3 cm wide and 10-15 cm long.",
+                "Using a dropper, apply a small dot of the extracted pigment solution about 1-2 cm from the bottom of the chromatography paper strip.",
+                "Allow the dot to dry and then suspend the paper in a glass or ceramic dish containing a small amount of solvent (the solvent level should be below the dot).",
+                "Cover the dish to prevent evaporation and allow the solvent to travel up the paper, separating the pigments as it moves.",
+                "Once the solvent has moved near the top of the paper (about 2-3 cm from the top), remove the strip from the dish and mark the solvent front with a pencil.",
+                "Measure the distance each pigment traveled from the baseline and the distance the solvent front traveled.",
+                "Calculate the Rf value for each pigment using the formula: \\( Rf = \frac{\text{distance traveled by pigment}}{\text{distance traveled by solvent}} \\).",
+                "Discuss the results and identify the pigments based on their Rf values and colors."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=ej2zXOwASVI",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Observing Microorganisms in Pond Water"
+              "experiment_name": "Observing Microorganisms in Pond Water",
+              "aim": "To observe and identify various microorganisms present in pond water using a microscope.",
+              "objectives": [
+                "Understand the diversity of microorganisms in aquatic ecosystems.",
+                "Learn how to collect and prepare samples for microscopic observation.",
+                "Identify different types of microorganisms based on their characteristics."
+              ],
+              "materials_needed": [
+                "Pond water sample",
+                "Microscope",
+                "Microscope slides and coverslips",
+                "Pipette or dropper (for transferring samples)",
+                "Light source (if the microscope does not have one)",
+                "Notebook (for recording observations)",
+                "Camera or smartphone (optional, for capturing images)",
+                "Safety goggles (for eye protection)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "Collect a small sample of pond water using a pipette or dropper, ensuring to include debris like algae or plant matter for a diverse sample.",
+                "Place a drop of the pond water sample on a microscope slide.",
+                "Carefully place a coverslip over the drop to prevent air bubbles.",
+                "Position the slide under the microscope and begin with the lowest magnification to locate the microorganisms.",
+                "Gradually increase the magnification to observe the details of the microorganisms.",
+                "Take notes on the shapes, sizes, and movements of the observed microorganisms, such as protozoa, algae, and bacteria.",
+                "If desired, use a camera or smartphone to capture images of the microorganisms for later analysis.",
+                "Discuss the types of microorganisms observed and their roles in the ecosystem based on your observations."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=YH7CPkp3YK8",
+              "quiz_sets": []
             }
           ]
         },
@@ -328,13 +852,107 @@
           "level_name": "Medium",
           "experiments": [
             {
-              "experiment_name": "Effect of pH on Yeast Fermentation"
+              "experiment_name": "Effect of pH on Yeast Fermentation",
+              "aim": "To investigate how different pH levels affect the rate of fermentation in yeast.",
+              "objectives": [
+                "Understand the role of pH in yeast metabolism and fermentation.",
+                "Measure the rate of carbon dioxide production as an indicator of fermentation activity.",
+                "Analyze the effect of acidic and basic conditions on yeast performance."
+              ],
+              "materials_needed": [
+                "Active dry yeast",
+                "Sugar",
+                "Warm water",
+                "pH buffers (e.g., pH 4, 7, 10)",
+                "Fermentation vessels (e.g., test tubes or small bottles with lids)",
+                "Measuring spoons",
+                "Graduated cylinder or measuring cup",
+                "Balloon (for capturing CO2)",
+                "Thermometer (for measuring water temperature)",
+                "Safety goggles (for protection)",
+                "Notebook (for recording observations)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "Prepare a yeast solution by mixing 1 tablespoon of active dry yeast with 1 cup of warm water (around 30-40°C) and 1 tablespoon of sugar. Allow it to sit for about 10 minutes to activate the yeast.",
+                "Divide the yeast solution evenly into several fermentation vessels, each containing equal volumes of yeast solution.",
+                "Add different pH buffers to each vessel to achieve varying pH levels (e.g., pH 4, 7, 10). Label each vessel accordingly.",
+                "To capture the carbon dioxide produced during fermentation, stretch a balloon over the opening of each vessel.",
+                "Place all fermentation vessels in a warm location and monitor them for several hours or overnight.",
+                "Observe the balloons for signs of inflation, which indicates carbon dioxide production from fermentation.",
+                "Measure the circumference of each balloon at regular intervals to quantify the amount of gas produced.",
+                "Record the results and analyze how different pH levels affected the rate of fermentation.",
+                "Discuss the implications of pH on yeast activity and fermentation in biological processes."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=nOApywAeOF0",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Enzyme Activity: Catalase and Hydrogen Peroxide"
+              "experiment_name": "Enzyme Activity: Catalase and Hydrogen Peroxide",
+              "aim": "To investigate the activity of the enzyme catalase in breaking down hydrogen peroxide into water and oxygen.",
+              "objectives": [
+                "Understand the function of catalase as a biological catalyst.",
+                "Measure the rate of oxygen production as an indicator of enzyme activity.",
+                "Analyze how different factors, such as temperature or pH, affect catalase activity."
+              ],
+              "materials_needed": [
+                "Fresh potato or liver (source of catalase)",
+                "Hydrogen peroxide (H2O2, 3% or higher concentration)",
+                "Knife (for cutting the source of catalase)",
+                "Test tubes or small reaction vessels",
+                "Graduated cylinder (for measuring liquids)",
+                "Measuring spoons",
+                "Stopwatch or timer",
+                "Thermometer (for measuring temperature, if applicable)",
+                "Safety goggles (for protection)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "Prepare the source of catalase by cutting a small piece of fresh potato or liver into small cubes or slices.",
+                "Measure a specific volume (e.g., 5 mL) of hydrogen peroxide using a graduated cylinder.",
+                "In a test tube, add the measured hydrogen peroxide.",
+                "Quickly add the pieces of potato or liver to the test tube with hydrogen peroxide and start the stopwatch.",
+                "Observe the reaction and record the amount of foam (oxygen gas) produced over a specific time (e.g., 1 minute).",
+                "To investigate the effect of temperature, repeat the experiment at different temperatures (e.g., ice bath, room temperature, and warm water) using the same procedures.",
+                "To investigate the effect of pH, prepare buffers with different pH levels and repeat the experiment using those buffers instead of pure water.",
+                "Record all observations, including the height of foam produced or the time taken for the reaction to reach its peak.",
+                "Discuss the results and implications regarding the factors affecting catalase activity."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=IX3442726Es",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Population Growth of Bacteria"
+              "experiment_name": "Population Growth of Bacteria",
+              "aim": "To observe and measure the population growth of bacteria over time under controlled conditions.",
+              "objectives": [
+                "Understand the phases of bacterial growth: lag, log, stationary, and death.",
+                "Learn how to measure bacterial growth using colony-forming units (CFUs) or optical density (OD).",
+                "Analyze the effects of different conditions (e.g., nutrient availability, temperature) on bacterial growth rates."
+              ],
+              "materials_needed": [
+                "Nutrient agar plates or broth",
+                "Bacterial culture (e.g., E. coli or another fast-growing strain)",
+                "Sterile inoculating loops or pipettes",
+                "Incubator (set at an appropriate temperature for bacterial growth, typically 37°C)",
+                "Colony counter or spectrophotometer (for measuring growth)",
+                "Measuring spoons (for nutrient agar preparation, if applicable)",
+                "Petri dishes (if using agar plates)",
+                "Safety goggles and gloves (for protection)",
+                "Notebook (for recording observations)"
+              ],
+              "steps": [
+                "Put on safety goggles and gloves to protect yourself during the experiment.",
+                "Prepare nutrient agar plates or broth according to the manufacturer's instructions, if using solid media.",
+                "Using a sterile inoculating loop or pipette, transfer a small amount of bacterial culture onto the agar plate or into the broth.",
+                "If using agar plates, spread the culture evenly across the surface with the inoculating loop.",
+                "Incubate the agar plates or broth in the incubator at the appropriate temperature for 24-48 hours, depending on the bacterial strain.",
+                "After the incubation period, observe the growth of bacteria. If using agar plates, count the number of colonies formed. If using broth, measure the optical density (OD) using a spectrophotometer at the appropriate wavelength (usually 600 nm).",
+                "Record the results, noting the time of observation and the growth measurements (CFUs or OD readings).",
+                "To investigate the effect of different conditions, repeat the experiment under varying conditions, such as different nutrient concentrations or temperatures.",
+                "Analyze the growth curves generated from the data collected and discuss the implications regarding bacterial population dynamics."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=JpnH_6kqvdw",
+              "quiz_sets": []
             }
           ]
         },
@@ -342,13 +960,107 @@
           "level_name": "Hard",
           "experiments": [
             {
-              "experiment_name": "DNA Extraction from Fruits"
+              "experiment_name": "DNA Extraction from Fruits",
+              "aim": "To extract DNA from fruit cells and visualize it using simple laboratory techniques.",
+              "objectives": [
+                "Understand the basic concepts of DNA structure and function.",
+                "Learn the process of cell lysis and DNA precipitation.",
+                "Visualize and analyze extracted DNA."
+              ],
+              "materials_needed": [
+                "Fruits (e.g., strawberries, bananas, or kiwis)",
+                "Dish soap (liquid detergent)",
+                "Salt",
+                "Water",
+                "Coffee filter or cheesecloth",
+                "Isopropyl alcohol or ethanol (chilled)",
+                "Measuring spoons and cups",
+                "Test tubes or small containers",
+                "Stirring rod or toothpick",
+                "Ice bath (optional, for chilling alcohol)",
+                "Safety goggles (for protection)",
+                "Notebook (for recording observations)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "Prepare a DNA extraction solution by mixing 1 cup of water, 1 tablespoon of dish soap, and 1 teaspoon of salt in a small container.",
+                "In a separate container, mash up the fruit (about one whole fruit) to break down the cells. You can use a fork or your hands to do this.",
+                "Add 2-3 tablespoons of the DNA extraction solution to the mashed fruit and mix gently for about 5 minutes to allow the soap to break down the cell membranes.",
+                "Place a coffee filter or cheesecloth over another container and pour the fruit mixture through it to filter out the solid parts. Collect the liquid in the container below.",
+                "Slowly add an equal volume of chilled isopropyl alcohol or ethanol to the filtered liquid. Pour it down the side of the container to create a layer on top of the fruit mixture.",
+                "Wait for a few minutes. You should see white, stringy strands forming in the alcohol layer. These strands are the extracted DNA.",
+                "Use a stirring rod or toothpick to spool the DNA and remove it from the solution.",
+                "Discuss your observations and the implications of DNA extraction in genetics and biotechnology."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=ojGRBQ2FjP8",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Impact of Invasive Species on Local Ecosystems"
+              "experiment_name": "Impact of Invasive Species on Local Ecosystems",
+              "aim": "To investigate the effects of invasive species on the biodiversity and health of local ecosystems.",
+              "objectives": [
+                "Understand the concept of invasive species and their ecological impacts.",
+                "Observe and compare the biodiversity of areas with and without invasive species.",
+                "Analyze data to evaluate the effects of invasive species on local flora and fauna."
+              ],
+              "materials_needed": [
+                "Field guides for local flora and fauna",
+                "Notebooks or data sheets for recording observations",
+                "Measuring tape or ruler (for area measurements)",
+                "Binoculars (for observing wildlife)",
+                "Camera (optional, for documentation)",
+                "GPS device or map (for locating study sites)",
+                "Sampling equipment (e.g., nets or containers for collecting organisms, if applicable)",
+                "Data analysis tools (e.g., spreadsheet software for data entry and analysis)",
+                "Safety gear (appropriate clothing for fieldwork, sunscreen, insect repellent)"
+              ],
+              "steps": [
+                "Select two study sites: one area where invasive species are present and another similar area where they are not.",
+                "Use the measuring tape or ruler to define a specific area at each site for observation and data collection.",
+                "Observe and document the plant and animal species present in each area, noting the abundance and diversity of species.",
+                "Record any signs of invasive species, such as their population density and their impact on native species.",
+                "Collect samples of plants or organisms if necessary (ensuring compliance with local regulations regarding collection).",
+                "After completing the field observations, analyze the data to compare biodiversity and ecosystem health between the two sites.",
+                "Discuss the findings and the implications of invasive species on local ecosystems, including potential management strategies.",
+                "Consider presenting your findings through a report or presentation to inform others about the impact of invasive species."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=spTWwqVP_2s",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Effects of Antibiotics on Bacterial Growth"
+              "experiment_name": "Effects of Antibiotics on Bacterial Growth",
+              "aim": "To investigate the effectiveness of different antibiotics on inhibiting the growth of bacteria.",
+              "objectives": [
+                "Understand how antibiotics work and their role in combating bacterial infections.",
+                "Measure the zone of inhibition created by antibiotics on bacterial growth.",
+                "Compare the effectiveness of various antibiotics against a specific bacterial strain."
+              ],
+              "materials_needed": [
+                "Nutrient agar plates",
+                "Bacterial culture (e.g., E. coli or another common strain)",
+                "Different antibiotics (e.g., penicillin, tetracycline, amoxicillin) in disk form or as solutions",
+                "Sterile inoculating loops",
+                "Pipettes (if using liquid antibiotics)",
+                "Ruler or caliper (for measuring zones of inhibition)",
+                "Incubator (set at 37°C or appropriate temperature for bacterial growth)",
+                "Safety goggles and gloves (for protection)",
+                "Notebook (for recording observations)"
+              ],
+              "steps": [
+                "Put on safety goggles and gloves to protect yourself during the experiment.",
+                "Prepare nutrient agar plates according to the manufacturer's instructions, if not pre-prepared.",
+                "Using a sterile inoculating loop, inoculate the surface of the agar plate with the bacterial culture, spreading it evenly to create a lawn of bacteria.",
+                "Allow the plate to sit for about 10 minutes to let the bacteria adhere to the agar surface.",
+                "Using sterile tweezers, place antibiotic disks evenly on the agar surface. If using liquid antibiotics, use a pipette to place drops onto the surface.",
+                "Label each disk with the name of the antibiotic used.",
+                "Incubate the agar plates at 37°C for 24 hours.",
+                "After incubation, observe the plates for zones of inhibition (clear areas around the antibiotic disks where bacterial growth is suppressed).",
+                "Measure the diameter of the zones of inhibition using a ruler or caliper, and record the results in your notebook.",
+                "Analyze the data to compare the effectiveness of the different antibiotics based on the size of the zones of inhibition.",
+                "Discuss the implications of antibiotic use in medicine and the potential for antibiotic resistance."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=bDa4-nSc7J8",
+              "quiz_sets": []
             }
           ]
         }
@@ -361,13 +1073,100 @@
           "level_name": "Easy",
           "experiments": [
             {
-              "experiment_name": "Soil Erosion Experiment"
+              "experiment_name": "Soil Erosion Experiment",
+              "aim": "To investigate the effects of different ground covers on soil erosion.",
+              "objectives": [
+                "Understand the factors that contribute to soil erosion.",
+                "Evaluate the effectiveness of various ground covers in preventing soil erosion.",
+                "Analyze data to understand the relationship between ground cover and soil stability."
+              ],
+              "materials_needed": [
+                "Soil (sandbox soil or potting soil)",
+                "Containers or trays (to hold the soil and simulate landscapes)",
+                "Grass seeds or other ground cover seeds (e.g., clover, moss)",
+                "Watering can or spray bottle (for watering the soil)",
+                "Measuring cup or graduated cylinder (for measuring water and soil)",
+                "Sieve or mesh (to catch soil particles during erosion testing)",
+                "Ruler or measuring tape (to measure soil depth and erosion loss)",
+                "Cardboard or plastic sheets (to create a simulated slope, if needed)",
+                "Notebook (for recording observations and data)",
+                "Safety goggles (for eye protection)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "Fill the containers or trays with an equal amount of soil, ensuring a consistent depth across all samples.",
+                "Prepare different sections for various ground covers by planting grass seeds or other plants in designated areas.",
+                "Allow the plants to grow for a week or more, watering them as necessary to ensure healthy growth.",
+                "Once the plants have established themselves, simulate rain by pouring a measured amount of water (e.g., 200 mL) over each soil sample at a consistent rate.",
+                "Collect the runoff water in a sieve or mesh to catch soil particles, measuring the volume of water and any soil particles collected.",
+                "Record the amount of soil lost from each sample by measuring the initial depth and subtracting the remaining depth after the simulation.",
+                "Repeat the experiment several times for accuracy and to account for variations in growth or water application.",
+                "Analyze the data to compare the effectiveness of different ground covers in reducing soil erosion.",
+                "Discuss the implications of soil erosion on agriculture, ecosystems, and environmental health."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=3uL5D2WS0P8",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Water Cycle in a Bag"
+              "experiment_name": "Water Cycle in a Bag",
+              "aim": "To demonstrate the water cycle process (evaporation, condensation, and precipitation) using a simple model.",
+              "objectives": [
+                "Understand the key processes of the water cycle.",
+                "Observe the effects of temperature on evaporation and condensation.",
+                "Illustrate how water moves through the environment."
+              ],
+              "materials_needed": [
+                "Ziplock bag or clear plastic bag",
+                "Permanent markers (for labeling and drawing on the bag)",
+                "Water",
+                "Small amount of blue food coloring (optional, for visual effect)",
+                "Clear adhesive tape",
+                "Sunny window or light source",
+                "Notebook (for recording observations)"
+              ],
+              "steps": [
+                "Using permanent markers, label the Ziplock bag with the title 'Water Cycle' and draw the sun and clouds on one side.",
+                "Fill the bag with about 1/4 cup (60 mL) of water and, if desired, add a few drops of blue food coloring to make the water more visible.",
+                "Seal the bag tightly to prevent any leaks.",
+                "Use clear adhesive tape to attach the bag to a sunny window or place it under a light source, ensuring it receives heat.",
+                "Observe the bag over the next few days. Look for signs of evaporation, condensation, and precipitation.",
+                "Record your observations in your notebook, noting how the water level changes and how water droplets form inside the bag.",
+                "Discuss the implications of your observations and how they relate to the real-world water cycle."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=4WQBtAJxMbY",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Homemade Volcano"
+              "experiment_name": "Homemade Volcano",
+              "aim": "To demonstrate a volcanic eruption using a chemical reaction between baking soda and vinegar.",
+              "objectives": [
+                "Understand the chemical reaction that causes the eruption.",
+                "Observe the effects of gas production in a confined space.",
+                "Learn about the structure of a volcano and volcanic eruptions."
+              ],
+              "materials_needed": [
+                "Baking soda (sodium bicarbonate)",
+                "Vinegar (acetic acid)",
+                "Plastic bottle or small container (to act as the volcano)",
+                "Tray or baking sheet (to catch overflow)",
+                "Food coloring (optional, for visual effect)",
+                "Dish soap (optional, for foamy eruption)",
+                "Measuring spoons and cups",
+                "Funnel (optional, for easier pouring)",
+                "Safety goggles (for protection)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "Place the plastic bottle or container in the center of the tray or baking sheet to catch any overflow from the eruption.",
+                "Fill the bottle about 1/4 full with baking soda using a funnel if needed.",
+                "Add a few drops of food coloring to the baking soda for a colorful eruption.",
+                "In a separate container, mix about 1/2 cup of vinegar with a few drops of dish soap (if using) to create more bubbles.",
+                "Quickly pour the vinegar mixture into the bottle with baking soda and step back to observe the eruption.",
+                "Watch as the reaction produces carbon dioxide gas, causing the mixture to bubble and overflow like a volcanic eruption.",
+                "Discuss the chemical reaction (baking soda + vinegar = carbon dioxide + water + sodium acetate) and how it relates to real volcanic eruptions."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=3GnaAmJCt7Y",
+              "quiz_sets": []
             }
           ]
         },
@@ -375,13 +1174,101 @@
           "level_name": "Medium",
           "experiments": [
             {
-              "experiment_name": "Climate Change and Plant Growth"
+              "experiment_name": "Climate Change and Plant Growth",
+              "aim": "To investigate how varying environmental conditions related to climate change affect plant growth.",
+              "objectives": [
+                "Understand the impact of factors such as temperature, light, and carbon dioxide levels on plant growth.",
+                "Measure and analyze the growth rates of plants under different simulated climate conditions.",
+                "Discuss the implications of climate change on agriculture and ecosystems."
+              ],
+              "materials_needed": [
+                "Potted plants (e.g., beans, radishes, or other fast-growing species)",
+                "Plant growth measurement tools (e.g., ruler, measuring tape)",
+                "Grow lights (if necessary for light conditions)",
+                "Thermometers (for measuring temperature)",
+                "Carbon dioxide source (e.g., baking soda or dry ice) or controlled environment chamber",
+                "Watering can or spray bottle (for watering the plants)",
+                "Soil moisture meter (optional, for monitoring soil moisture levels)",
+                "Notebook (for recording observations and data)",
+                "Labels for marking different experimental groups"
+              ],
+              "steps": [
+                "Choose several potted plants of the same species to ensure consistency in growth conditions.",
+                "Set up different experimental groups, each simulating a different climate change condition (e.g., increased temperature, altered light exposure, elevated CO2 levels).",
+                "For the temperature group, place plants in environments at different temperatures (e.g., room temperature, warm, or cool areas).",
+                "For light exposure, use grow lights to provide varying light intensities or durations.",
+                "For CO2 levels, introduce baking soda in water (for moderate CO2) or dry ice (for higher CO2) to the soil or air around the plants.",
+                "Water the plants consistently according to their needs, ensuring that all groups receive adequate moisture.",
+                "Measure the growth of the plants regularly (e.g., every few days), recording height, leaf number, and overall health.",
+                "Analyze the data collected to compare plant growth under the different climate conditions.",
+                "Discuss the findings, considering the potential impacts of climate change on plant growth and agriculture."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=P0XMTDTw46o",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Making a Compass"
+              "experiment_name": "Making a Compass",
+              "aim": "To create a simple compass using household materials and understand how a compass works.",
+              "objectives": [
+                "Learn about Earth's magnetic field and how it affects a compass.",
+                "Understand the principles of magnetism and navigation.",
+                "Demonstrate how to create a working compass using basic materials."
+              ],
+              "materials_needed": [
+                "A needle (preferably steel)",
+                "A small magnet (or a piece of iron or steel that can be magnetized)",
+                "A cork or small piece of foam (to float the needle)",
+                "A shallow dish or bowl (to hold water)",
+                "Water",
+                "A permanent marker (optional, for labeling directions)",
+                "Safety goggles (for protection)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes during the experiment.",
+                "If using a small magnet, stroke the needle with the magnet in one direction about 30-40 times to magnetize it. This aligns the magnetic domains in the needle.",
+                "Fill the shallow dish or bowl with water to create a floating surface.",
+                "Carefully place the magnetized needle onto the cork or foam piece so that it can float on the water.",
+                "Gently place the cork or foam with the needle onto the water surface in the dish. The needle should be able to move freely.",
+                "Observe how the needle aligns itself and points in a north-south direction due to Earth's magnetic field.",
+                "You can use a permanent marker to label the north and south ends of the needle based on its alignment.",
+                "Discuss how this homemade compass works and the principles of magnetism involved.",
+                "Explore practical applications of compasses in navigation and geography."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=yNrpxAv8SHQ",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Analyzing Water Quality"
+              "experiment_name": "Analyzing Water Quality",
+              "aim": "To assess the quality of water samples based on various physical and chemical parameters.",
+              "objectives": [
+                "Understand the importance of water quality for ecosystems and human health.",
+                "Learn how to measure different water quality indicators, such as pH, turbidity, and dissolved oxygen.",
+                "Analyze water samples from different sources to compare their quality."
+              ],
+              "materials_needed": [
+                "Water samples (e.g., from a tap, pond, river, or bottled water)",
+                "pH test strips or a pH meter",
+                "Turbidity meter or a clear container (for visual turbidity assessment)",
+                "Dissolved oxygen test kit",
+                "Thermometer (to measure water temperature)",
+                "Conductivity meter (optional, for measuring electrical conductivity)",
+                "Notebook (for recording observations and data)",
+                "Safety goggles (for protection)",
+                "Gloves (optional, for handling water samples)"
+              ],
+              "steps": [
+                "Put on safety goggles and gloves to protect yourself while handling water samples.",
+                "Collect water samples from different sources and label each container accordingly.",
+                "Measure the temperature of each water sample using a thermometer and record the results in your notebook.",
+                "Test the pH of each water sample using pH test strips or a pH meter, and record the values.",
+                "Assess the turbidity of the water samples. If using a turbidity meter, follow the manufacturer’s instructions. If assessing visually, fill a clear container with water and observe the clarity.",
+                "Use the dissolved oxygen test kit to measure the oxygen levels in each water sample, following the kit's instructions.",
+                "(Optional) Measure the electrical conductivity of the water samples using a conductivity meter, if available.",
+                "Analyze and compare the results from each water sample, noting any significant differences in quality.",
+                "Discuss the implications of your findings on environmental health and human safety, including sources of pollution and the importance of maintaining water quality."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=gDr4yVRph8M",
+              "quiz_sets": []
             }
           ]
         },
@@ -389,13 +1276,101 @@
           "level_name": "Hard",
           "experiments": [
             {
-              "experiment_name": "Seismology: Measuring Earthquakes"
+              "experiment_name": "Seismology: Measuring Earthquakes",
+              "aim": "To simulate and measure earthquake waves using simple materials and understand how seismographs work.",
+              "objectives": [
+                "Understand the basic concepts of seismic waves and how they are measured.",
+                "Learn how to simulate an earthquake and observe the resulting wave patterns.",
+                "Explore the importance of seismology in predicting and understanding earthquakes."
+              ],
+              "materials_needed": [
+                "Rubber bands",
+                "Two wooden boards or thick cardboard sheets",
+                "Small weights (like washers or small bags of sand)",
+                "Marker (to label different sections)",
+                "Paper (to record observations)",
+                "Ruler (for measuring wave amplitude and distance)",
+                "Tape (to secure materials if needed)",
+                "A protractor (optional, for measuring angles)"
+              ],
+              "steps": [
+                "Set up the two wooden boards or cardboard sheets parallel to each other, with a gap in between to simulate the Earth's crust.",
+                "Use rubber bands to attach one board to a stable surface, allowing the other board to move freely.",
+                "Place small weights on the free end of the movable board to create tension.",
+                "To simulate an earthquake, quickly pull and release the movable board, allowing it to snap back. This action creates waves similar to seismic waves.",
+                "Observe the waves as they travel along the board. Measure the amplitude (height) of the waves using a ruler.",
+                "Record your observations on paper, noting the wave patterns and their characteristics.",
+                "If desired, change the tension on the movable board by adjusting the weights and repeat the experiment to see how it affects wave amplitude and speed.",
+                "Discuss the implications of your findings in relation to real earthquakes and how seismographs are used to measure seismic waves.",
+                "Explore how data from seismographs can help predict and understand earthquake behavior."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=pmf4TXroRJM",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Modeling Plate Tectonics"
+              "experiment_name": "Modeling Plate Tectonics",
+              "aim": "To simulate and observe the movement of tectonic plates and understand the effects of their interactions.",
+              "objectives": [
+                "Understand the theory of plate tectonics and the types of plate boundaries.",
+                "Observe how different plate movements can lead to geological features such as mountains, earthquakes, and volcanoes.",
+                "Explore the relationship between plate tectonics and Earth's geological activity."
+              ],
+              "materials_needed": [
+                "A large tray or shallow container (to hold the model)",
+                "Play dough or modeling clay in different colors (to represent different tectonic plates)",
+                "Cardboard or stiff paper (for making base plates or boundaries)",
+                "Marbles or small balls (to represent magma or the mantle)",
+                "Ruler (for measuring distances)",
+                "Pencil (for marking on the cardboard)",
+                "Water (optional, for simulating subduction zones)",
+                "Notebook (for recording observations and data)"
+              ],
+              "steps": [
+                "Prepare your workspace by laying out the large tray or shallow container.",
+                "Use the play dough or modeling clay to form different tectonic plates in various colors. Make at least three plates representing different boundaries (divergent, convergent, and transform).",
+                "Place the plates on the tray, ensuring there are gaps between them to simulate movement.",
+                "To simulate divergent boundaries, gently pull the plates apart, observing how new material could form between them.",
+                "For convergent boundaries, push two plates together to see how they create mountains or cause one plate to subduct beneath the other. You can place marbles or small balls underneath to represent magma or the mantle.",
+                "To model transform boundaries, slide the plates past each other and observe any friction or movement.",
+                "Optionally, you can introduce water to simulate subduction zones where oceanic plates sink beneath continental plates.",
+                "Record your observations in your notebook, noting the types of plate interactions and the geological features that result.",
+                "Discuss how your model relates to real-world plate tectonics, including examples of real plate boundaries and their effects on the Earth's surface."
+              ],
+              "video_link": "",
+              "quiz_sets": []
             },
             {
-              "experiment_name": "Investigating Soil Composition"
+              "experiment_name": "Investigating Soil Composition",
+              "aim": "To analyze the composition of different soil samples and understand their properties.",
+              "objectives": [
+                "Identify the different components of soil, including sand, silt, clay, and organic matter.",
+                "Understand how soil composition affects water retention and plant growth.",
+                "Compare soil samples from various locations to determine their characteristics."
+              ],
+              "materials_needed": [
+                "Soil samples from different locations (e.g., garden, park, forest, beach)",
+                "Transparent jars or containers (for layering soil samples)",
+                "Water (for testing water retention)",
+                "Measuring cups (for measuring soil and water amounts)",
+                "Ruler (for measuring soil layers)",
+                "Sieve or mesh (to separate soil particles by size)",
+                "Notebook (for recording observations and data)",
+                "Marker (to label jars)",
+                "Safety goggles (for protection)"
+              ],
+              "steps": [
+                "Put on safety goggles to protect your eyes while handling soil samples.",
+                "Collect soil samples from various locations, ensuring you take a representative sample from each area.",
+                "Label each jar or container with the location of the soil sample.",
+                "To analyze soil composition, use a sieve or mesh to separate the soil into different particle sizes (sand, silt, and clay).",
+                "Place the separated soil components into the labeled jars, creating layers to observe the composition visually.",
+                "Measure and record the height of each soil layer in the jars using a ruler.",
+                "To test water retention, add a specific amount of water to each jar and observe how quickly the water is absorbed by the soil. Record the time taken for water absorption.",
+                "Discuss the properties of each soil type, including texture, color, and composition, and how these properties affect water retention and plant growth.",
+                "Analyze the results and compare the soil samples from different locations, noting any significant differences and their potential impacts on vegetation."
+              ],
+              "video_link": "https://www.youtube.com/watch?v=VeuQeAxJIjs",
+              "quiz_sets": []
             }
           ]
         }

@@ -8,6 +8,7 @@ export const localisedStrings = {
   difficultyLevelPrompt: 'What difficulty level would you like to try today?',  
   difficultyLevelButtons: ['Easy', 'Medium', 'Hard'],  
   experimentTopicMessage: 'Here are some cool experiments you can try! Select one to get started!',
+  startButton:'Start',
   language_hindi: 'हिन्दी', 
   language_english: 'English',  
   language_changed: 'Language changed to English', 

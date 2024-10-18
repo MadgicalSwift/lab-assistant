@@ -31,6 +31,7 @@ export abstract class MessageService {
   abstract sendAgeButtons(from: string);
   abstract sendScienceTopics(from: string);
   abstract sendDifficultyLevel(from: string, topic: string);
-  abstract sendExperimentTopics(from: string, userData: any)
+  abstract sendExperimentTopics(from: string, userData: any);
+  abstract sendExperimentDetails(from: string, selectedExperimentDetails: any);
   abstract sendLanguageChangedMessage(from: string, language: string);
 }

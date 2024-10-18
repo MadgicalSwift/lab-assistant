@@ -55,11 +55,13 @@ export function difficultyLevelButtons(from: string, topic: string) {
           body: localisedStrings.difficultyLevelPrompt,
         },
       },
-      buttons: localisedStrings.difficultyLevelButtons.map((difficultyLevel: string) => ({
-        type: 'solid',
-        body: difficultyLevel,
-        reply: difficultyLevel,
-      })),
+      buttons: localisedStrings.difficultyLevelButtons.map(
+        (difficultyLevel: string) => ({
+          type: 'solid',
+          body: difficultyLevel,
+          reply: difficultyLevel,
+        }),
+      ),
       allow_custom_response: false,
     },
   };
@@ -86,10 +88,51 @@ export function experimentTopicButtons(from: string, userData: any) {
       body: {
         type: 'text',
         text: {
-          body: localisedStrings.difficultyLevelPrompt,
+          body: localisedStrings.experimentTopicMessage,
         },
       },
       buttons,
+      allow_custom_response: false,
+    },
+  };
+}
+
+export function experimentDetailsWithButton(from: string, selectedExperimentDetail: any) {
+  const experimentDetails = `
+**Overview**: ${selectedExperimentDetail.aim}
+
+**Objectives**:
+${selectedExperimentDetail.objectives
+  .map((objective, index) => `${index + 1}. ${objective}`)
+  .join('\n\n')}
+
+**Materials Needed**:
+${selectedExperimentDetail.materials_needed
+  .map((material, index) => `${index + 1}. ${material}`)
+  .join('\n\n')}
+
+**Step-by-Step Instructions**: 
+${selectedExperimentDetail.steps.map((step, index) => `${index + 1}. ${step}`).join('\n\n')}
+
+${selectedExperimentDetail.video_link ? `**Video Tutorial**:${selectedExperimentDetail.video_link}` : ''}
+`;
+  return {
+    to: from,
+    type: 'button',
+    button: {
+      body: {
+        type: 'text',
+        text: {
+          body: experimentDetails,
+        },
+      },
+      buttons: [
+        {
+          type: 'solid',
+          body: localisedStrings.startButton,
+          reply: localisedStrings.startButton,
+        },
+      ],
       allow_custom_response: false,
     },
   };

@@ -8,6 +8,7 @@ import {
   scienceTopicButtons,
   difficultyLevelButtons,
   experimentTopicButtons,
+  experimentDetailsWithButton,
 } from 'src/i18n/buttons/buttons';
 dotenv.config();
 
@@ -18,7 +19,7 @@ export class SwiftchatMessageService extends MessageService {
   apiUrl = process.env.API_URL;
   baseUrl = `${this.apiUrl}/${this.botId}/messages`;
 
-  private prepareRequestData(from: string, requestBody: string): any {
+  private prepareRequestData(from: string, requestBody: any): any {
     return {
       to: from,
       type: 'text',
@@ -71,7 +72,7 @@ export class SwiftchatMessageService extends MessageService {
     return response;
   }
 
-  async sendExperimentTopics(from: string, userData: any) {
+  async sendExperimentTopics(from: string, userData: string) {
     const messageData = experimentTopicButtons(from, userData);
     const response = await this.sendMessage(
       this.baseUrl,
@@ -79,6 +80,15 @@ export class SwiftchatMessageService extends MessageService {
       this.apiKey,
     );
     return response;
+  }
+
+  async sendExperimentDetails(from: string, selectedExperimentDetails: any) {
+    const messageData = experimentDetailsWithButton(from, selectedExperimentDetails);
+    const response = await this.sendMessage(
+      this.baseUrl,
+      messageData,
+      this.apiKey,
+    );
   }
 
   async sendLanguageChangedMessage(from: string, language: string) {
