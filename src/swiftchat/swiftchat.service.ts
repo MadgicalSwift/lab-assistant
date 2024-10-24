@@ -4,7 +4,7 @@ import { LocalizationService } from 'src/localization/localization.service';
 import { MessageService } from 'src/message/message.service';
 import { localisedStrings } from 'src/i18n/en/localised-strings';
 import {
-  createAgeButton,
+  createClassButton,
   scienceTopicButtons,
   difficultyLevelButtons,
   experimentTopicButtons,
@@ -43,7 +43,7 @@ export class SwiftchatMessageService extends MessageService {
   }
 
   async sendAgeButtons(from: string) {
-    const messageData = createAgeButton(from);
+    const messageData = createClassButton(from);
     const response = await this.sendMessage(
       this.baseUrl,
       messageData,
@@ -52,8 +52,8 @@ export class SwiftchatMessageService extends MessageService {
     return response;
   }
 
-  async sendScienceTopics(from: string) {
-    const messageData = scienceTopicButtons(from);
+  async sendScienceTopics(from: string, buttonBody: string) {
+    const messageData = scienceTopicButtons(from, buttonBody);
     const response = await this.sendMessage(
       this.baseUrl,
       messageData,
@@ -62,8 +62,8 @@ export class SwiftchatMessageService extends MessageService {
     return response;
   }
 
-  async sendDifficultyLevel(from: string, topic: string) {
-    const messageData = difficultyLevelButtons(from, topic);
+  async sendDifficultyLevel(from: string) {
+    const messageData = difficultyLevelButtons(from);
     const response = await this.sendMessage(
       this.baseUrl,
       messageData,
@@ -89,6 +89,7 @@ export class SwiftchatMessageService extends MessageService {
       messageData,
       this.apiKey,
     );
+    return response;
   }
 
   async sendLanguageChangedMessage(from: string, language: string) {

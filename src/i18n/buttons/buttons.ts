@@ -1,7 +1,8 @@
 import data from '../../datasource/data.json';
+
 import { localisedStrings } from '../en/localised-strings';
 
-export function createAgeButton(from: string) {
+export function createClassButton(from: string) {
   return {
     to: from,
     type: 'button',
@@ -9,21 +10,27 @@ export function createAgeButton(from: string) {
       body: {
         type: 'text',
         text: {
-          body: localisedStrings.agePrompt,
+          body: localisedStrings.classPrompt,
         },
       },
-      buttons: localisedStrings.ages.map((age: string) => ({
+      buttons: localisedStrings.classes.map((classes: string) => ({
         type: 'solid',
-        body: age,
-        reply: age,
+        body: classes,
+        reply: classes,
       })),
       allow_custom_response: false,
     },
   };
 }
 
-export function scienceTopicButtons(from: string) {
-  const topic = data.topics.map((topic) => topic.topic_name);
+export function scienceTopicButtons(from: string, buttonBody: string) {
+  const classGroup = data.classGroups.find(
+    (group) => group.class === buttonBody,
+  );
+
+  // Get topics from the found class group
+  const topics = classGroup?.topics.map((topic) => topic.topic_name) || [];
+
   return {
     to: from,
     type: 'button',
@@ -34,7 +41,7 @@ export function scienceTopicButtons(from: string) {
           body: localisedStrings.scienceTopicMessage,
         },
       },
-      buttons: topic.map((topic: string) => ({
+      buttons: topics.map((topic) => ({
         type: 'solid',
         body: topic,
         reply: topic,
@@ -44,7 +51,7 @@ export function scienceTopicButtons(from: string) {
   };
 }
 
-export function difficultyLevelButtons(from: string, topic: string) {
+export function difficultyLevelButtons(from: string) {
   return {
     to: from,
     type: 'button',
@@ -68,19 +75,28 @@ export function difficultyLevelButtons(from: string, topic: string) {
 }
 
 export function experimentTopicButtons(from: string, userData: any) {
-  const selectedScienceTopic = data.topics.find(
-    (t) => t.topic_name === userData.scienceTopic,
-  );
-  const selectedDifficultyLevel = selectedScienceTopic.levels.find(
-    (l) => l.level_name === userData.difficultyLevel,
+  const selectedClassGroup = data.classGroups.find(
+    (group) => group.class === userData.classGroup,
   );
 
-  const buttons = selectedDifficultyLevel.experiments.map((experiment) => ({
+  // Find the selected science topic within the class group
+  const selectedScienceTopic = selectedClassGroup?.topics.find(
+    (topic) => topic.topic_name === userData.scienceTopic,
+  );
+
+  // Find the selected difficulty level within the science topic
+  const selectedDifficultyLevel = selectedScienceTopic?.levels.find(
+    (level) => level.level_name === userData.difficultyLevel,
+  );
+
+  // Map through the experiments and create buttons based on the experiment_name
+  const buttons = selectedDifficultyLevel?.experiments.map((experiment) => ({
     type: 'solid',
     body: experiment.experiment_name,
     reply: experiment.experiment_name,
   }));
 
+  // Return the button response with the experiment topic message
   return {
     to: from,
     type: 'button',
@@ -88,16 +104,20 @@ export function experimentTopicButtons(from: string, userData: any) {
       body: {
         type: 'text',
         text: {
-          body: localisedStrings.experimentTopicMessage,
+          body: localisedStrings.experimentTopicMessage, // Customize this text if needed
         },
       },
-      buttons,
+      buttons: buttons,
       allow_custom_response: false,
     },
   };
 }
 
-export function experimentDetailsWithButton(from: string, selectedExperimentDetail: any) {
+export function experimentDetailsWithButton(
+  from: string,
+  selectedExperimentDetail: any,
+) {
+  // Construct the experiment details message
   const experimentDetails = `
 **Overview**: ${selectedExperimentDetail.aim}
 
@@ -112,9 +132,15 @@ ${selectedExperimentDetail.materials_needed
   .join('\n\n')}
 
 **Step-by-Step Instructions**: 
-${selectedExperimentDetail.steps.map((step, index) => `${index + 1}. ${step}`).join('\n\n')}
+${selectedExperimentDetail.steps
+  .map((step, index) => `${index + 1}. ${step}`)
+  .join('\n\n')}
 
-${selectedExperimentDetail.video_link ? `**Video Tutorial**:${selectedExperimentDetail.video_link}` : ''}
+${
+  selectedExperimentDetail.video_link
+    ? `**Video Tutorial**:${selectedExperimentDetail.video_link}`
+    : ''
+}
 `;
   return {
     to: from,

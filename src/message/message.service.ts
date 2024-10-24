@@ -29,8 +29,8 @@ export abstract class MessageService {
 
   abstract sendWelcomeMessage(from: string, language: string);
   abstract sendAgeButtons(from: string);
-  abstract sendScienceTopics(from: string);
-  abstract sendDifficultyLevel(from: string, topic: string);
+  abstract sendScienceTopics(from: string, buttonBody: string);
+  abstract sendDifficultyLevel(from: string);
   abstract sendExperimentTopics(from: string, userData: any);
   abstract sendExperimentDetails(from: string, selectedExperimentDetails: any);
   abstract sendLanguageChangedMessage(from: string, language: string);

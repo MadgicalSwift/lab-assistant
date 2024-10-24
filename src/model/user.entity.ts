@@ -18,6 +18,9 @@ export class User {
   userName: string;
 
   @Column({ nullable: true })
+  classGroup : string;
+
+  @Column({ nullable: true })
   scienceTopic : string;
 
   @Column({ nullable: true })
