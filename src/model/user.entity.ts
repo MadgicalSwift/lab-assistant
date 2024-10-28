@@ -29,4 +29,12 @@ export class User {
   @Column({ nullable: true })
   experimentName : string;
 
+  @Column({ default: 0 })
+  currentQuestionIndex : number;
+  
+  @Column({ nullable: true })
+  setName : string;
+
+  @Column({ default: 0 })
+  score : number;
 }

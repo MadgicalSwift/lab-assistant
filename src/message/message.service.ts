@@ -28,10 +28,14 @@ export abstract class MessageService {
   }
 
   abstract sendWelcomeMessage(from: string, language: string);
-  abstract sendAgeButtons(from: string);
+  abstract sendClassButtons(from: string);
   abstract sendScienceTopics(from: string, buttonBody: string);
   abstract sendDifficultyLevel(from: string);
   abstract sendExperimentTopics(from: string, userData: any);
   abstract sendExperimentDetails(from: string, selectedExperimentDetails: any);
+  abstract sendExperimentFirstQuestion(from: string, selectedExperimentquestion: any);
+  abstract sendQuestion(from: string, selectedExperimentquestion: any, setName: string, currentQuestionIndex: number);
+  abstract sendFeedBack(from: string, selectedExperimentquestion: any, setName: string, currentQuestionIndex: number, buttonBody: string);
+  abstract sendScoreWithButtons(from: string, score: number);
   abstract sendLanguageChangedMessage(from: string, language: string);
 }

@@ -1,5 +1,5 @@
 import data from '../../datasource/data.json';
-
+import _ from 'lodash';
 import { localisedStrings } from '../en/localised-strings';
 
 export function createClassButton(from: string) {
@@ -157,6 +157,115 @@ ${
           type: 'solid',
           body: localisedStrings.startButton,
           reply: localisedStrings.startButton,
+        },
+      ],
+      allow_custom_response: false,
+    },
+  };
+}
+
+export function firstQuestionWithOptionButtons(
+  from: string,
+  selectedExperimentquestion: any,
+) {
+  // Select a random question set
+  const randomSet =
+    selectedExperimentquestion[
+      Math.floor(Math.random() * selectedExperimentquestion.length)
+    ];
+
+  const questionObject = randomSet.questions[0];
+
+  // Check if the question exists for the given index
+  if (!questionObject) {
+    console.error('No question found at the provided index.');
+    return;
+  }
+  // Shuffle options using lodash
+  const shuffledOptions = _.shuffle(questionObject.options);
+  const messageData = {
+    to: from,
+    type: 'button',
+    button: {
+      body: {
+        type: 'text',
+        text: {
+          body: questionObject.question,
+        },
+      },
+      buttons: shuffledOptions.map((option: string) => ({
+        type: 'solid',
+        body: option,
+        reply: option,
+      })),
+      allow_custom_response: false,
+    },
+  };
+
+  return {
+    messageData,
+    setName: randomSet.set_name,
+  };
+}
+
+export function nextQuestionWithOptionButtons(
+  from: string,
+  selectedExperimentquestion: any,
+  setName: string,
+  currentQuestionIndex: number,
+) {
+  const questionObject = selectedExperimentquestion.find(
+    (set: any) => set.set_name === setName,
+  ).questions[currentQuestionIndex];
+  // Shuffle options using lodash
+  const shuffledOptions = _.shuffle(questionObject.options);
+
+  return {
+    to: from,
+    type: 'button',
+    button: {
+      body: {
+        type: 'text',
+        text: {
+          body: questionObject.question,
+        },
+      },
+      buttons: shuffledOptions.map((option: string) => ({
+        type: 'solid',
+        body: option,
+        reply: option,
+      })),
+      allow_custom_response: false,
+    },
+  };
+}
+
+export function scoreWithButtons(from: string) {
+  return {
+    to: from,
+    type: 'button',
+    button: {
+      body: {
+        type: 'text',
+        text: {
+          body: localisedStrings.afterScoreMessage,
+        },
+      },
+      buttons: [
+        {
+          type: 'solid',
+          body: localisedStrings.selectExperimentButton,
+          reply: localisedStrings.selectExperimentButton,
+        },
+        {
+          type: 'solid',
+          body: localisedStrings.mainMenuButton,
+          reply: localisedStrings.mainMenuButton,
+        },
+        {
+          type: 'solid',
+          body: localisedStrings.retakeQuizButton,
+          reply: localisedStrings.retakeQuizButton,
         },
       ],
       allow_custom_response: false,
