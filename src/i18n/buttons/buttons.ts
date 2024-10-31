@@ -113,10 +113,7 @@ export function experimentTopicButtons(from: string, userData: any) {
   };
 }
 
-export function experimentDetailsWithButton(
-  from: string,
-  selectedExperimentDetail: any,
-) {
+export function experimentDetails(from: string, selectedExperimentDetail: any) {
   // Construct the experiment details message
   const experimentDetails = `
 **Overview**: ${selectedExperimentDetail.aim}
@@ -135,13 +132,40 @@ ${selectedExperimentDetail.materials_needed
 ${selectedExperimentDetail.steps
   .map((step, index) => `${index + 1}. ${step}`)
   .join('\n\n')}
-
-${
-  selectedExperimentDetail.video_link
-    ? `**Video Tutorial**:${selectedExperimentDetail.video_link}`
-    : ''
-}
 `;
+  if (!selectedExperimentDetail.video_link) {
+    return {
+      to: from,
+      type: 'button',
+      button: {
+        body: {
+          type: 'text',
+          text: {
+            body: experimentDetails,
+          },
+        },
+        buttons: [
+          {
+            type: 'solid',
+            body: localisedStrings.startButton,
+            reply: localisedStrings.startButton,
+          },
+        ],
+        allow_custom_response: false,
+      },
+    };
+  } else {
+    return {
+      to: from,
+      type: 'text',
+      text: {
+        body: experimentDetails,
+      },
+    };
+  }
+}
+
+export function videoWithButton(from: string, video_link: string) {
   return {
     to: from,
     type: 'button',
@@ -149,7 +173,7 @@ ${
       body: {
         type: 'text',
         text: {
-          body: experimentDetails,
+          body: video_link,
         },
       },
       buttons: [
@@ -214,9 +238,25 @@ export function nextQuestionWithOptionButtons(
   setName: string,
   currentQuestionIndex: number,
 ) {
-  const questionObject = selectedExperimentquestion.find(
+
+  // Find the set by setName and validate that it exists
+  const questionSet = selectedExperimentquestion.find(
     (set: any) => set.set_name === setName,
-  ).questions[currentQuestionIndex];
+  );
+  
+  // Check if the questionSet and the specific question exist
+  if (!questionSet || !questionSet.questions[currentQuestionIndex]) {
+    console.error("Question set or specific question not found.");
+    return;
+  }
+
+  const questionObject = questionSet.questions[currentQuestionIndex];
+
+  // Check if the questionObject and its options are valid
+  if (!questionObject || !questionObject.options) {
+    console.error("Question object or options are missing.");
+    return;
+  }
   // Shuffle options using lodash
   const shuffledOptions = _.shuffle(questionObject.options);
 

@@ -6,7 +6,7 @@ import { User } from './model/user.entity';
 import { AppController } from './app.controller';
 import { UserService } from './model/user.service';
 import * as dotenv from 'dotenv';
-import { databaseConfig } from './config/database-config.service';
+// import { databaseConfig } from './config/database-config.service';
 import { APP_FILTER } from '@nestjs/core';
 import { LoggingService } from './common/middleware/logger.middleware';
 import { SwiftchatModule } from './swiftchat/swiftchat.module';
@@ -18,12 +18,12 @@ dotenv.config();
 
 @Module({
   imports: [
-    TypeOrmModule.forRootAsync({
-      useFactory: () => {
-        return databaseConfig;
-      },
-    }),
-    TypeOrmModule.forFeature([User]),
+    // TypeOrmModule.forRootAsync({
+    //   useFactory: () => {
+    //     return databaseConfig;
+    //   },
+    // }),
+    // TypeOrmModule.forFeature([User]),
     MessageModule,
     ChatbotModule,
     SwiftchatModule,

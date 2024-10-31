@@ -7,7 +7,7 @@ import { UserService } from './user.service';
 // import { MockUserService } from './mockuser.service';
 
 @Module({
-  imports: [TypeOrmModule.forFeature([User])],
+  // imports: [TypeOrmModule.forFeature([User])],
   providers: [UserService],
   exports: [UserService], // Export the UserService to make it available for other modules
 })

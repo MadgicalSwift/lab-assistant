@@ -4,21 +4,24 @@ import { MessageService } from 'src/message/message.service';
 import { UserService } from 'src/model/user.service';
 import { localisedStrings } from 'src/i18n/en/localised-strings';
 import data from '../datasource/data.json';
-
+import { MixpanelService } from 'src/mixpanel/mixpanel.service';
 @Injectable()
 export class ChatbotService {
   private readonly intentClassifier: IntentClassifier;
   private readonly message: MessageService;
   private readonly userService: UserService;
+  private readonly mixpanel: MixpanelService;
 
   constructor(
     intentClassifier: IntentClassifier,
     message: MessageService,
     userService: UserService,
+    mixpanel: MixpanelService,
   ) {
     this.intentClassifier = intentClassifier;
     this.message = message;
     this.userService = userService;
+    this.mixpanel = mixpanel;
   }
 
   public async processMessage(body: any): Promise<any> {
@@ -26,8 +29,9 @@ export class ChatbotService {
     const buttonBody = button_response?.body;
     const textBody = text?.body;
     let botID = process.env.BOT_ID;
-    let userData = await this.userService.findUserByMobileNumber(from);
+    let userData = await this.userService.findUserByMobileNumber(from, botID);
     if (!userData) {
+      console.log('Creating new user');
       userData = await this.userService.createUser(from, 'english', botID);
     }
     const classGroup = data.classGroups.find(
@@ -50,6 +54,14 @@ export class ChatbotService {
       );
 
     if (buttonBody) {
+      // Mixpanel tracking data
+      const trackingData = {
+        distinct_id: from,
+        button: buttonBody,
+        botID: botID,
+      };
+
+      this.mixpanel.track('Button_Click', trackingData);
       switch (true) {
         case localisedStrings.classes.includes(buttonBody):
           userData.classGroup = buttonBody;
@@ -72,16 +84,25 @@ export class ChatbotService {
             from,
             selectedExperimentDetails,
           );
+
+          await this.message.sendExperimentVideo(
+            from,
+            selectedExperimentDetails,
+          );
           break;
 
-        case localisedStrings.startButton.includes(buttonBody):
+        case localisedStrings.startButton.includes(buttonBody): {
           const { setName } = await this.message.sendExperimentFirstQuestion(
             from,
             selectedExperimentquestion?.quiz_sets,
           );
           userData.setName = setName;
-          userData.currentQuestionIndex += 1;
+          userData.currentQuestionIndex =
+            typeof userData.currentQuestionIndex === 'number'
+              ? userData.currentQuestionIndex + 1
+              : 1;
           break;
+        }
 
         case localisedStrings.selectExperimentButton === buttonBody:
           await this.message.sendExperimentTopics(from, userData);
@@ -101,14 +122,22 @@ export class ChatbotService {
           userData.currentQuestionIndex += 1;
           break;
         default:
-          const feedback = await this.message.sendFeedBack(
-            from,
-            selectedExperimentquestion?.quiz_sets,
-            userData.setName,
-            userData.currentQuestionIndex,
-            buttonBody,
-          );
-          userData.score += feedback;
+          {
+            let feedback = await this.message.sendFeedBack(
+              from,
+              selectedExperimentquestion?.quiz_sets,
+              userData.setName,
+              userData.currentQuestionIndex,
+              buttonBody,
+            );
+            if (typeof userData.score !== 'number' || isNaN(userData.score)) {
+              userData.score = 0;
+            }
+            if (typeof feedback !== 'number' || isNaN(feedback)) {
+              feedback = 0; // Default to 0 if feedback isn't a valid number
+            }
+            userData.score += feedback;
+          }
           if (userData.currentQuestionIndex >= 10) {
             await this.message.sendScoreWithButtons(from, userData.score);
             userData.score = 0;
@@ -126,6 +155,8 @@ export class ChatbotService {
       }
     } else {
       if (localisedStrings.validText.includes(textBody)) {
+        userData.score = 0;
+        userData.currentQuestionIndex = 0;
         this.message.sendWelcomeMessage(from, userData.language);
         return;
       }

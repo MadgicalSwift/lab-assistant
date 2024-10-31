@@ -9,10 +9,11 @@ import {
   scienceTopicButtons,
   difficultyLevelButtons,
   experimentTopicButtons,
-  experimentDetailsWithButton,
+  experimentDetails,
   firstQuestionWithOptionButtons,
   nextQuestionWithOptionButtons,
   scoreWithButtons,
+  videoWithButton,
 } from 'src/i18n/buttons/buttons';
 dotenv.config();
 
@@ -32,8 +33,9 @@ export class SwiftchatMessageService extends MessageService {
       },
     };
   }
+
   async sendWelcomeMessage(from: string, language: string) {
-    const requestData = this.prepareRequestData(
+    const requestData = await this.prepareRequestData(
       from,
       localisedStrings.welcomeMessage,
     );
@@ -87,10 +89,7 @@ export class SwiftchatMessageService extends MessageService {
   }
 
   async sendExperimentDetails(from: string, selectedExperimentDetails: any) {
-    const messageData = experimentDetailsWithButton(
-      from,
-      selectedExperimentDetails,
-    );
+    const messageData = experimentDetails(from, selectedExperimentDetails);
     const response = await this.sendMessage(
       this.baseUrl,
       messageData,
@@ -148,7 +147,7 @@ export class SwiftchatMessageService extends MessageService {
     );
 
     if (questionSet) {
-      let currentQuestion;
+      let currentQuestion: any; 
 
       if (currentQuestionIndex === 0) {
         currentQuestion = questionSet.questions[0];
@@ -157,10 +156,10 @@ export class SwiftchatMessageService extends MessageService {
       }
 
       // Check if buttonBody matches the correct answer for this question
-      if (currentQuestion.correct_answer === buttonBody) {
-        const requestData = this.prepareRequestData(
+      if (currentQuestion?.correct_answer === buttonBody) {
+        const requestData = await this.prepareRequestData(
           from,
-          `${localisedStrings.correctAnswer}. ${currentQuestion.explanation}`,
+          `${localisedStrings.correctAnswer}\n**${currentQuestion.explanation}**`,
         );
         const response = await this.sendMessage(
           this.baseUrl,
@@ -169,9 +168,9 @@ export class SwiftchatMessageService extends MessageService {
         );
         return 1;
       } else {
-        const requestData = this.prepareRequestData(
+        const requestData = await this.prepareRequestData(
           from,
-          `${localisedStrings.incorrectAnswer}. ${currentQuestion.explanation}`,
+          `${localisedStrings.incorrectAnswer}\n**${currentQuestion.explanation}**`,
         );
         const response = await this.sendMessage(
           this.baseUrl,
@@ -249,6 +248,22 @@ export class SwiftchatMessageService extends MessageService {
     return response;
   }
 
+  async sendExperimentVideo(from: string, selectedExperimentDetails: any) {
+    if (!selectedExperimentDetails.video_link) {
+      return;
+    }
+    const messageData = videoWithButton(
+      from,
+      selectedExperimentDetails.video_link,
+    );
+    const response = await this.sendMessage(
+      this.baseUrl,
+      messageData,
+      this.apiKey,
+    );
+    return response;
+  }
+  
   async sendLanguageChangedMessage(from: string, language: string) {
     const localisedStrings = LocalizationService.getLocalisedString(language);
     const requestData = this.prepareRequestData(
