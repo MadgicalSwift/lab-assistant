@@ -45109,6 +45109,676 @@
                           "explanation": "The onion skin has a higher concentration of epidermal cells, which are ideal for observation."
                         }
                       ]
+                    },
+                    {
+                      "set_name": "Quiz Set 3",
+                      "questions": [
+                        {
+                          "question": "What is the main purpose of using a microscope in this experiment?",
+                          "options": [
+                            "To observe large objects",
+                            "To magnify small objects and observe their details",
+                            "To cut the onion slice",
+                            "To add water to the slide"
+                          ],
+                          "correct_answer": "To magnify small objects and observe their details",
+                          "explanation": "The microscope is used to magnify small structures such as cells, making their details visible."
+                        },
+                        {
+                          "question": "Which part of the onion is used for preparing the microscope slide?",
+                          "options": [
+                            "Outer skin",
+                            "Thin layer of onion skin (epidermis)",
+                            "Onion bulb",
+                            "Root tip"
+                          ],
+                          "correct_answer": "Thin layer of onion skin (epidermis)",
+                          "explanation": "The thin layer of onion skin is used as it contains a single layer of cells, making it easy to observe."
+                        },
+                        {
+                          "question": "Why do we add distilled water to the onion skin before covering it with a cover slip?",
+                          "options": [
+                            "To clean the slide",
+                            "To keep the cells hydrated and visible",
+                            "To dry the cells",
+                            "To change the color of the cells"
+                          ],
+                          "correct_answer": "To keep the cells hydrated and visible",
+                          "explanation": "Adding water keeps the cells moist and maintains their structure for better observation."
+                        },
+                        {
+                          "question": "How should you place the cover slip over the onion skin?",
+                          "options": [
+                            "Quickly and without care",
+                            "Gently, ensuring no air bubbles are trapped",
+                            "By pressing down hard",
+                            "By leaving it at an angle"
+                          ],
+                          "correct_answer": "Gently, ensuring no air bubbles are trapped",
+                          "explanation": "Air bubbles can interfere with observation, so it's important to place the cover slip gently."
+                        },
+                        {
+                          "question": "What happens if air bubbles are trapped under the cover slip?",
+                          "options": [
+                            "They help focus the cells",
+                            "They make cells appear clearer",
+                            "They obstruct the view of the cells",
+                            "They change the color of the cells"
+                          ],
+                          "correct_answer": "They obstruct the view of the cells",
+                          "explanation": "Air bubbles interfere with clear viewing and can make it difficult to observe cells properly."
+                        },
+                        {
+                          "question": "What part of the onion cell can you observe under the microscope?",
+                          "options": [
+                            "Cell membrane only",
+                            "Cell wall, cytoplasm, and nucleus",
+                            "Chloroplasts",
+                            "Cell wall only"
+                          ],
+                          "correct_answer": "Cell wall, cytoplasm, and nucleus",
+                          "explanation": "Onion cells typically display a cell wall, cytoplasm, and nucleus under the microscope."
+                        },
+                        {
+                          "question": "Which part of the microscope should be adjusted to change magnification?",
+                          "options": [
+                            "Objective lens",
+                            "Stage",
+                            "Light source",
+                            "Cover slip"
+                          ],
+                          "correct_answer": "Objective lens",
+                          "explanation": "Adjusting the objective lens changes the level of magnification for better viewing."
+                        },
+                        {
+                          "question": "Why is it recommended to start with the lowest magnification when observing cells?",
+                          "options": [
+                            "To observe all details immediately",
+                            "To find and focus the cells before increasing magnification",
+                            "To reduce light intensity",
+                            "To prevent cell damage"
+                          ],
+                          "correct_answer": "To find and focus the cells before increasing magnification",
+                          "explanation": "Starting with a lower magnification helps locate and focus on the cells before zooming in."
+                        },
+                        {
+                          "question": "What is the primary function of the cell wall observed in the onion cell?",
+                          "options": [
+                            "To transport nutrients",
+                            "To protect and give shape to the cell",
+                            "To store food",
+                            "To change cell color"
+                          ],
+                          "correct_answer": "To protect and give shape to the cell",
+                          "explanation": "The cell wall provides structure, support, and protection to the plant cell."
+                        },
+                        {
+                          "question": "What is the significance of observing plant cells?",
+                          "options": [
+                            "To understand plant cell structure and organization",
+                            "To change plant colors",
+                            "To identify chloroplasts in onions",
+                            "To dissect animal cells"
+                          ],
+                          "correct_answer": "To understand plant cell structure and organization",
+                          "explanation": "Observing plant cells helps understand their structure and how they function in the plant."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 4",
+                      "questions": [
+                        {
+                          "question": "Which tool is used to cut the onion to obtain a thin slice for observation?",
+                          "options": [
+                            "Microscope",
+                            "Scalpel or razor blade",
+                            "Cover slip",
+                            "Tweezers"
+                          ],
+                          "correct_answer": "Scalpel or razor blade",
+                          "explanation": "A scalpel or razor blade is used to carefully cut thin slices of the onion."
+                        },
+                        {
+                          "question": "What role does the cover slip play in the experiment?",
+                          "options": [
+                            "It covers the microscope",
+                            "It prevents air bubbles and holds the sample in place",
+                            "It colors the sample",
+                            "It removes water from the slide"
+                          ],
+                          "correct_answer": "It prevents air bubbles and holds the sample in place",
+                          "explanation": "The cover slip holds the sample steady and minimizes air bubbles for a clearer view."
+                        },
+                        {
+                          "question": "How should the microscope be set up to observe the slide?",
+                          "options": [
+                            "In a dark room",
+                            "With proper light adjustment",
+                            "Without focusing",
+                            "With the cover slip removed"
+                          ],
+                          "correct_answer": "With proper light adjustment",
+                          "explanation": "Adjusting the light ensures the slide is properly illuminated for viewing."
+                        },
+                        {
+                          "question": "Why is it important to use a thin layer of onion skin for this observation?",
+                          "options": [
+                            "Thick layers show more cells",
+                            "Thin layers allow light to pass through easily for better observation",
+                            "Thick layers have no cells",
+                            "Thin layers are easier to cut"
+                          ],
+                          "correct_answer": "Thin layers allow light to pass through easily for better observation",
+                          "explanation": "Thin layers make it easier to observe cells as light passes through them more readily."
+                        },
+                        {
+                          "question": "What magnification is typically used first when viewing the onion cells?",
+                          "options": [
+                            "Highest magnification",
+                            "Lowest magnification",
+                            "Medium magnification",
+                            "No magnification"
+                          ],
+                          "correct_answer": "Lowest magnification",
+                          "explanation": "The lowest magnification is used first to locate and focus on the cells before increasing magnification."
+                        },
+                        {
+                          "question": "What is one of the key structures observed in the onion cells?",
+                          "options": [
+                            "Chloroplasts",
+                            "Nucleus",
+                            "Flagella",
+                            "Vacuole only"
+                          ],
+                          "correct_answer": "Nucleus",
+                          "explanation": "The nucleus, which contains genetic material, is visible in onion cells."
+                        },
+                        {
+                          "question": "What precaution should be taken while handling the scalpel?",
+                          "options": [
+                            "Use it without focus",
+                            "Handle it with care to avoid injury",
+                            "Press it hard into the onion",
+                            "Ignore safety measures"
+                          ],
+                          "correct_answer": "Handle it with care to avoid injury",
+                          "explanation": "Handling the scalpel carefully is important to prevent cuts and injuries."
+                        },
+                        {
+                          "question": "Why do we observe plant cells like onion cells?",
+                          "options": [
+                            "To see chlorophyll",
+                            "To understand basic cell structure and organization",
+                            "To measure their temperature",
+                            "To change cell properties"
+                          ],
+                          "correct_answer": "To understand basic cell structure and organization",
+                          "explanation": "Observing plant cells helps understand their fundamental structure and function."
+                        },
+                        {
+                          "question": "What does the cytoplasm do in a cell?",
+                          "options": [
+                            "Protects the cell",
+                            "Holds organelles and allows movement of substances",
+                            "Provides a hard structure",
+                            "Removes light"
+                          ],
+                          "correct_answer": "Holds organelles and allows movement of substances",
+                          "explanation": "The cytoplasm contains the cell's organelles and allows the movement of substances within the cell."
+                        },
+                        {
+                          "question": "What is the primary function of the cell wall?",
+                          "options": [
+                            "To help in photosynthesis",
+                            "To provide shape and protection",
+                            "To move the cell",
+                            "To store energy"
+                          ],
+                          "correct_answer": "To provide shape and protection",
+                          "explanation": "The cell wall gives shape and protects the cell, contributing to its structural integrity."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 5",
+                      "questions": [
+                        {
+                          "question": "What type of cells are observed in this experiment?",
+                          "options": [
+                            "Bacterial cells",
+                            "Animal cells",
+                            "Plant cells",
+                            "Fungal cells"
+                          ],
+                          "correct_answer": "Plant cells",
+                          "explanation": "Onion cells are plant cells, as they come from a plant tissue."
+                        },
+                        {
+                          "question": "Which structure is visible under the microscope in onion cells but not in animal cells?",
+                          "options": [
+                            "Nucleus",
+                            "Cytoplasm",
+                            "Cell wall",
+                            "Mitochondria"
+                          ],
+                          "correct_answer": "Cell wall",
+                          "explanation": "The cell wall is a key structure in plant cells and is absent in animal cells."
+                        },
+                        {
+                          "question": "What happens if you increase the magnification too quickly?",
+                          "options": [
+                            "You might lose focus on the cells",
+                            "It will be easier to see",
+                            "The light will become brighter",
+                            "The cells will disappear"
+                          ],
+                          "correct_answer": "You might lose focus on the cells",
+                          "explanation": "Rapidly increasing magnification may cause loss of focus, making cells hard to locate."
+                        },
+                        {
+                          "question": "What does adjusting the diaphragm on the microscope do?",
+                          "options": [
+                            "Changes magnification",
+                            "Controls light intensity",
+                            "Moves the stage",
+                            "Removes air bubbles"
+                          ],
+                          "correct_answer": "Controls light intensity",
+                          "explanation": "The diaphragm adjusts the amount of light passing through the slide for better clarity."
+                        },
+                        {
+                          "question": "What substance is added to the onion skin for hydration during observation?",
+                          "options": [
+                            "Alcohol",
+                            "Distilled water",
+                            "Oil",
+                            "Vinegar"
+                          ],
+                          "correct_answer": "Distilled water",
+                          "explanation": "Distilled water hydrates the onion cells, allowing clearer viewing under the microscope."
+                        },
+                        {
+                          "question": "What might occur if the cover slip is placed roughly?",
+                          "options": [
+                            "It will sharpen the view",
+                            "It can cause the sample to break or move",
+                            "It makes the sample clearer",
+                            "It removes moisture"
+                          ],
+                          "correct_answer": "It can cause the sample to break or move",
+                          "explanation": "Placing the cover slip roughly can damage or misplace the sample, affecting the observation."
+                        },
+                        {
+                          "question": "Which structure is responsible for protecting plant cells?",
+                          "options": [
+                            "Nucleus",
+                            "Mitochondria",
+                            "Cell wall",
+                            "Vacuole"
+                          ],
+                          "correct_answer": "Cell wall",
+                          "explanation": "The cell wall provides protection and structural support to the plant cell."
+                        },
+                        {
+                          "question": "What is the purpose of focusing the microscope carefully?",
+                          "options": [
+                            "To clean the cells",
+                            "To see a clear image of cells",
+                            "To dry the slide",
+                            "To add more light"
+                          ],
+                          "correct_answer": "To see a clear image of cells",
+                          "explanation": "Proper focusing allows for a clear and detailed view of the onion cells under observation."
+                        },
+                        {
+                          "question": "Why is the onion skin used in cell observation?",
+                          "options": [
+                            "It is easily available and has simple cell structure",
+                            "It contains chloroplasts",
+                            "It has thick cell walls",
+                            "It absorbs more light"
+                          ],
+                          "correct_answer": "It is easily available and has simple cell structure",
+                          "explanation": "Onion skin cells are easy to obtain and offer a simple cell structure for observation."
+                        },
+                        {
+                          "question": "What should you record in your observations?",
+                          "options": [
+                            "Number of air bubbles",
+                            "Cell shape, structure, and any notable details",
+                            "Weight of the onion",
+                            "Slide thickness"
+                          ],
+                          "correct_answer": "Cell shape, structure, and any notable details",
+                          "explanation": "Observations should include details about cell structure, such as shape and key parts."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 6",
+                      "questions": [
+                        {
+                          "question": "Which layer of the onion is used to observe cells under the microscope?",
+                          "options": ["Outer skin", "Epidermis (thin inner layer)", "Root tips", "Whole bulb"],
+                          "correct_answer": "Epidermis (thin inner layer)",
+                          "explanation": "The epidermis is thin, allowing for clear observation of plant cell structures."
+                        },
+                        {
+                          "question": "What is the function of the nucleus in the onion cell?",
+                          "options": ["Stores water", "Controls cell activities", "Provides support", "Transports materials"],
+                          "correct_answer": "Controls cell activities",
+                          "explanation": "The nucleus contains genetic material and controls cell processes."
+                        },
+                        {
+                          "question": "How can you ensure minimal air bubbles when placing the cover slip?",
+                          "options": ["Use more water", "Lower the cover slip slowly at an angle", "Drop the cover slip", "Ignore the bubbles"],
+                          "correct_answer": "Lower the cover slip slowly at an angle",
+                          "explanation": "This method reduces air bubbles and ensures better observation."
+                        },
+                        {
+                          "question": "Which cell structure provides rigidity to the onion cell?",
+                          "options": ["Cytoplasm", "Cell wall", "Chloroplasts", "Nucleus"],
+                          "correct_answer": "Cell wall",
+                          "explanation": "The cell wall provides shape and structural support to plant cells."
+                        },
+                        {
+                          "question": "Why is distilled water used in preparing the onion slide?",
+                          "options": ["To clean the slide", "To provide moisture and clarity", "To stain the cells", "To dry the slide"],
+                          "correct_answer": "To provide moisture and clarity",
+                          "explanation": "Water maintains the cell's structure and makes it easier to view."
+                        },
+                        {
+                          "question": "What magnification should you use to clearly observe onion cell structure?",
+                          "options": ["Lowest first, then increase", "Always the highest", "Medium only", "None"],
+                          "correct_answer": "Lowest first, then increase",
+                          "explanation": "Starting low helps focus before higher magnification is applied."
+                        },
+                        {
+                          "question": "Why should the slide be prepared gently?",
+                          "options": ["To create more cells", "To prevent sample damage", "To make it colorful", "To dry it quickly"],
+                          "correct_answer": "To prevent sample damage",
+                          "explanation": "Gentle preparation avoids tearing or distorting the cells."
+                        },
+                        {
+                          "question": "Which organelle might be hard to see in onion cells due to the absence of chlorophyll?",
+                          "options": ["Nucleus", "Chloroplasts", "Cell wall", "Cytoplasm"],
+                          "correct_answer": "Chloroplasts",
+                          "explanation": "Onion cells lack chlorophyll, so chloroplasts are not typically visible."
+                        },
+                        {
+                          "question": "What happens if the cover slip moves during observation?",
+                          "options": ["Improves clarity", "May disrupt the view", "Adds cells", "Increases magnification"],
+                          "correct_answer": "May disrupt the view",
+                          "explanation": "Movement can blur or misalign the sample, reducing clarity."
+                        },
+                        {
+                          "question": "What should be noted about the onion cells under observation?",
+                          "options": ["Color only", "Shape, size, and structures", "Thickness of slide", "Weight"],
+                          "correct_answer": "Shape, size, and structures",
+                          "explanation": "Observations should include detailed structural features of the cells."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 7",
+                      "questions": [
+                        {
+                          "question": "What tool is used to cut a thin onion slice?",
+                          "options": ["Microscope", "Scalpel", "Cover slip", "Tweezers"],
+                          "correct_answer": "Scalpel",
+                          "explanation": "A scalpel is used to carefully cut the onion."
+                        },
+                        {
+                          "question": "How should light be adjusted on the microscope for clear viewing?",
+                          "options": ["Turned off", "Adjusted for clarity", "Set to maximum", "Ignored"],
+                          "correct_answer": "Adjusted for clarity",
+                          "explanation": "Proper light adjustment ensures clear visibility of cells."
+                        },
+                        {
+                          "question": "Which part of the onion cell is rigid and visible under a microscope?",
+                          "options": ["Nucleus", "Chloroplast", "Cell wall", "Mitochondria"],
+                          "correct_answer": "Cell wall",
+                          "explanation": "The cell wall gives structure to the plant cell and can be seen."
+                        },
+                        {
+                          "question": "Why is focusing done carefully while using a microscope?",
+                          "options": ["To avoid clear view", "To prevent cell damage", "To obtain a clear image", "To see only air bubbles"],
+                          "correct_answer": "To obtain a clear image",
+                          "explanation": "Proper focusing results in a sharper and more defined image of the cells."
+                        },
+                        {
+                          "question": "What is observed inside the cell as the main fluid space?",
+                          "options": ["Cell wall", "Cytoplasm", "Chloroplast", "Mitochondria"],
+                          "correct_answer": "Cytoplasm",
+                          "explanation": "The cytoplasm is the fluid matrix holding other organelles."
+                        },
+                        {
+                          "question": "Why are air bubbles a problem in microscope slides?",
+                          "options": ["They clarify cells", "They obscure cell view", "They add color", "They are important features"],
+                          "correct_answer": "They obscure cell view",
+                          "explanation": "Air bubbles can block or distort the view of the cells."
+                        },
+                        {
+                          "question": "How are cells organized in a thin onion slice?",
+                          "options": ["Randomly scattered", "In layers with visible cell walls", "In a circular shape", "Separated by a gap"],
+                          "correct_answer": "In layers with visible cell walls",
+                          "explanation": "Onion cells are layered and have clearly visible cell walls."
+                        },
+                        {
+                          "question": "Which lens magnification should you begin with?",
+                          "options": ["High magnification", "Medium", "Lowest", "None"],
+                          "correct_answer": "Lowest",
+                          "explanation": "Starting with the lowest magnification helps locate the cells."
+                        },
+                        {
+                          "question": "What should you not do when placing the cover slip?",
+                          "options": ["Trap air bubbles", "Be gentle", "Use water", "Prepare carefully"],
+                          "correct_answer": "Trap air bubbles",
+                          "explanation": "Air bubbles make observation difficult."
+                        },
+                        {
+                          "question": "What is a common shape for onion cells?",
+                          "options": ["Circular", "Hexagonal or rectangular", "Star-shaped", "Triangular"],
+                          "correct_answer": "Hexagonal or rectangular",
+                          "explanation": "The cells often appear as rectangular structures under the microscope."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 8",
+                      "questions": [
+                        {
+                          "question": "What is the purpose of adding distilled water to the onion skin on the slide?",
+                          "options": ["To dry the cells", "To prevent light reflection", "To keep the cells hydrated", "To color the cells"],
+                          "correct_answer": "To keep the cells hydrated",
+                          "explanation": "Distilled water prevents the cells from drying out and keeps their structures visible."
+                        },
+                        {
+                          "question": "When switching to a higher magnification, what should be done to maintain focus?",
+                          "options": ["Nothing", "Refocus the microscope", "Add more water", "Remove the cover slip"],
+                          "correct_answer": "Refocus the microscope",
+                          "explanation": "Refocusing is essential as higher magnification narrows the field of view."
+                        },
+                        {
+                          "question": "What cell component appears as a darker circular area within the cell?",
+                          "options": ["Cell wall", "Nucleus", "Cytoplasm", "Chloroplast"],
+                          "correct_answer": "Nucleus",
+                          "explanation": "The nucleus is often visible as a darker region in the cell."
+                        },
+                        {
+                          "question": "How do you ensure even distribution of the onion cells on the slide?",
+                          "options": ["Shake the slide", "Press gently with the cover slip", "Use no cover slip", "Tilt the microscope"],
+                          "correct_answer": "Press gently with the cover slip",
+                          "explanation": "Gentle pressure helps flatten and distribute the cells evenly."
+                        },
+                        {
+                          "question": "What is an advantage of using onion cells for this experiment?",
+                          "options": ["They are large and easy to see", "They are rare", "They glow under light", "They have complex structures"],
+                          "correct_answer": "They are large and easy to see",
+                          "explanation": "Onion cells are large, making their structures easily observable under a microscope."
+                        },
+                        {
+                          "question": "Which part of the microscope controls the amount of light reaching the slide?",
+                          "options": ["Objective lens", "Diaphragm", "Eyepiece", "Stage clips"],
+                          "correct_answer": "Diaphragm",
+                          "explanation": "The diaphragm adjusts light intensity for better viewing."
+                        },
+                        {
+                          "question": "Why is it important to remove excess water from the slide?",
+                          "options": ["To prevent reflections", "To reduce glare", "To keep cells dry", "To ensure clear visibility"],
+                          "correct_answer": "To ensure clear visibility",
+                          "explanation": "Excess water can obscure the view by causing bubbles or reflections."
+                        },
+                        {
+                          "question": "What is one function of the cell wall in plant cells?",
+                          "options": ["Provides structural support", "Conducts photosynthesis", "Replaces nucleus", "Prevents water absorption"],
+                          "correct_answer": "Provides structural support",
+                          "explanation": "The cell wall gives shape and structure to plant cells."
+                        },
+                        {
+                          "question": "Why should you start with the lowest magnification first?",
+                          "options": ["For easier focusing", "To avoid damaging cells", "To increase brightness", "To magnify less"],
+                          "correct_answer": "For easier focusing",
+                          "explanation": "Starting low helps in locating and focusing on the sample."
+                        },
+                        {
+                          "question": "If cells appear unclear or faint, what adjustment is recommended?",
+                          "options": ["Increase light intensity", "Decrease magnification", "Shake the slide", "Use a different sample"],
+                          "correct_answer": "Increase light intensity",
+                          "explanation": "Increasing light intensity improves clarity and detail."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 9",
+                      "questions": [
+                        {
+                          "question": "What might happen if you use too much pressure on the cover slip?",
+                          "options": ["Better view", "Crushing the cells", "Nothing", "Color change"],
+                          "correct_answer": "Crushing the cells",
+                          "explanation": "Excessive pressure can distort or damage cells, making them difficult to observe."
+                        },
+                        {
+                          "question": "Which of the following structures is unique to plant cells like the onion cells?",
+                          "options": ["Nucleus", "Cell membrane", "Cell wall", "Mitochondria"],
+                          "correct_answer": "Cell wall",
+                          "explanation": "The cell wall is a unique structure found in plant cells but not in animal cells."
+                        },
+                        {
+                          "question": "How should the slide be cleaned after use?",
+                          "options": ["With water", "With a dry cloth", "With alcohol", "Carefully and thoroughly"],
+                          "correct_answer": "Carefully and thoroughly",
+                          "explanation": "Proper cleaning prevents contamination and damage to the slide."
+                        },
+                        {
+                          "question": "What could cause air bubbles to appear under the cover slip?",
+                          "options": ["Not using water", "Placing cover slip carelessly", "Too much light", "High magnification"],
+                          "correct_answer": "Placing cover slip carelessly",
+                          "explanation": "Proper technique when placing the cover slip prevents air bubbles."
+                        },
+                        {
+                          "question": "Which adjustment knob should be used first when focusing?",
+                          "options": ["Coarse adjustment knob", "Fine adjustment knob", "Light switch", "Diaphragm"],
+                          "correct_answer": "Coarse adjustment knob",
+                          "explanation": "This knob allows for larger, initial focusing adjustments."
+                        },
+                        {
+                          "question": "When increasing magnification, what may need to be adjusted?",
+                          "options": ["Slide position", "Light intensity", "Cover slip", "None"],
+                          "correct_answer": "Light intensity",
+                          "explanation": "Higher magnification often requires increased light for clarity."
+                        },
+                        {
+                          "question": "What term describes the area you can see through the microscope?",
+                          "options": ["Field of view", "Magnification limit", "Depth", "Resolution"],
+                          "correct_answer": "Field of view",
+                          "explanation": "Field of view is the visible area through the microscope."
+                        },
+                        {
+                          "question": "Which plant cell component may be visible but is not present in animal cells?",
+                          "options": ["Cytoplasm", "Nucleus", "Cell wall", "Cell membrane"],
+                          "correct_answer": "Cell wall",
+                          "explanation": "The cell wall is found in plant cells but not in animal cells."
+                        },
+                        {
+                          "question": "What should you avoid doing when observing cells under a microscope?",
+                          "options": ["Refocusing", "Using high magnification", "Touching the lens", "Adjusting light"],
+                          "correct_answer": "Touching the lens",
+                          "explanation": "Touching the lens can cause smudges or scratches, reducing clarity."
+                        },
+                        {
+                          "question": "What is typically used to cut the onion sample?",
+                          "options": ["Microscope", "Tweezers", "Scalpel or blade", "Glass"],
+                          "correct_answer": "Scalpel or blade",
+                          "explanation": "A scalpel is used to carefully prepare the onion sample for observation."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 10",
+                      "questions": [
+                        {
+                          "question": "What do you observe when you first view an onion cell slide?",
+                          "options": ["Shapes of cells", "Only bubbles", "Nothing", "Animal cells"],
+                          "correct_answer": "Shapes of cells",
+                          "explanation": "The arrangement and shapes of the cells become visible through the microscope."
+                        },
+                        {
+                          "question": "What happens if you focus too quickly on high magnification?",
+                          "options": ["Clear view", "Distortion or loss of focus", "More cells appear", "No impact"],
+                          "correct_answer": "Distortion or loss of focus",
+                          "explanation": "Quick focusing can cause blur or damage to the slide."
+                        },
+                        {
+                          "question": "Why is it important to properly prepare the microscope slide?",
+                          "options": ["For fun", "To improve cell visibility", "To make it heavy", "To avoid work"],
+                          "correct_answer": "To improve cell visibility",
+                          "explanation": "Proper slide preparation ensures clear and detailed observation."
+                        },
+                        {
+                          "question": "What is the primary reason for using an onion in this experiment?",
+                          "options": ["It glows", "It’s translucent and cells are large", "It tastes good", "It is colorful"],
+                          "correct_answer": "It’s translucent and cells are large",
+                          "explanation": "The onion's cell structure is visible and easy to observe."
+                        },
+                        {
+                          "question": "What can air bubbles under the cover slip lead to?",
+                          "options": ["No effect", "Blurry view", "Enhanced magnification", "Instant focus"],
+                          "correct_answer": "Blurry view",
+                          "explanation": "Air bubbles can distort the view, making it difficult to see cells."
+                        },
+                        {
+                          "question": "What happens to the cells when viewed under high magnification?",
+                          "options": ["Cells are more detailed", "Less visible", "Disappear", "Turn into 3D"],
+                          "correct_answer": "Cells are more detailed",
+                          "explanation": "Higher magnification reveals more details of cell structures."
+                        },
+                        {
+                          "question": "What is the first step in preparing an onion slide?",
+                          "options": ["Focus on it", "Cut a thin slice", "Add water", "Look through the lens"],
+                          "correct_answer": "Cut a thin slice",
+                          "explanation": "The initial step is to obtain a thin slice for observation."
+                        },
+                        {
+                          "question": "How should the onion epidermis be handled?",
+                          "options": ["With tweezers carefully", "Roughly", "Ignored", "Burned"],
+                          "correct_answer": "With tweezers carefully",
+                          "explanation": "Careful handling prevents damage to the delicate epidermis."
+                        },
+                        {
+                          "question": "What might obscure the cells on a poorly prepared slide?",
+                          "options": ["Perfect clarity", "Air bubbles and excess water", "Increased focus", "Nothing"],
+                          "correct_answer": "Air bubbles and excess water",
+                          "explanation": "These elements can distort or block visibility of the cells."
+                        },
+                        {
+                          "question": "How can you make sure the cover slip doesn’t move?",
+                          "options": ["Tape it", "Place gently and evenly", "Add soap", "Spin it"],
+                          "correct_answer": "Place gently and evenly",
+                          "explanation": "Even and careful placement keeps the cover slip stable."
+                        }
+                      ]
                     }
                   ]
                 },
@@ -45367,6 +46037,396 @@
                           ],
                           "correct_answer": "All of the above",
                           "explanation": "The skeleton consists of long, short, flat, and irregular bones."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 3",
+                      "questions": [
+                        {
+                          "question": "What is the primary purpose of using straws in this experiment?",
+                          "options": ["To represent bones of different lengths", "To represent muscles", "To create art", "To observe chemical reactions"],
+                          "correct_answer": "To represent bones of different lengths",
+                          "explanation": "Straws of different lengths symbolize the various bones in the human skeleton."
+                        },
+                        {
+                          "question": "Which bone is often considered the longest bone in the human body?",
+                          "options": ["Humerus", "Femur", "Radius", "Vertebrae"],
+                          "correct_answer": "Femur",
+                          "explanation": "The femur, or thigh bone, is the longest bone in the human body."
+                        },
+                        {
+                          "question": "What function do joints serve in the human skeleton?",
+                          "options": ["Facilitate movement", "Store minerals", "Produce blood cells", "Protect organs"],
+                          "correct_answer": "Facilitate movement",
+                          "explanation": "Joints enable bones to move and provide flexibility."
+                        },
+                        {
+                          "question": "How should straws be connected to represent joints?",
+                          "options": ["By melting", "Using tape or glue", "By bending", "Using rubber bands"],
+                          "correct_answer": "Using tape or glue",
+                          "explanation": "Tape or glue can be used to connect straws at joints to model skeletal movement."
+                        },
+                        {
+                          "question": "Which part of the skeleton is known for protecting the brain?",
+                          "options": ["Ribs", "Skull", "Pelvis", "Femur"],
+                          "correct_answer": "Skull",
+                          "explanation": "The skull protects the brain from injury."
+                        },
+                        {
+                          "question": "What is the main purpose of labeling each straw in this experiment?",
+                          "options": ["For decoration", "To identify bones", "To add weight", "To test balance"],
+                          "correct_answer": "To identify bones",
+                          "explanation": "Labeling helps to identify which straw represents which bone."
+                        },
+                        {
+                          "question": "What should be done first before cutting the straws?",
+                          "options": ["Reviewing reference images", "Labeling them", "Gluing them", "Measuring their weight"],
+                          "correct_answer": "Reviewing reference images",
+                          "explanation": "Reference images help to identify the length and shape of bones."
+                        },
+                        {
+                          "question": "Which bone is often referred to as the 'collarbone'?",
+                          "options": ["Scapula", "Clavicle", "Humerus", "Rib"],
+                          "correct_answer": "Clavicle",
+                          "explanation": "The clavicle is commonly called the collarbone."
+                        },
+                        {
+                          "question": "What is a major role of the human skeleton?",
+                          "options": ["Regulating temperature", "Providing structural support", "Digesting food", "Creating energy"],
+                          "correct_answer": "Providing structural support",
+                          "explanation": "The skeleton provides a framework for the body."
+                        },
+                        {
+                          "question": "Why should you use construction paper or cardboard as the base?",
+                          "options": ["To make it colorful", "To provide stability for the skeleton model", "To absorb water", "To weigh down the model"],
+                          "correct_answer": "To provide stability for the skeleton model",
+                          "explanation": "A base ensures that the straw skeleton remains stable."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 4",
+                      "questions": [
+                        {
+                          "question": "What does the vertebral column represent in this model?",
+                          "options": ["A single bone", "A series of bones forming the spine", "Only the arms", "The leg bones"],
+                          "correct_answer": "A series of bones forming the spine",
+                          "explanation": "The vertebral column consists of individual bones called vertebrae."
+                        },
+                        {
+                          "question": "Which bone is part of the upper arm?",
+                          "options": ["Femur", "Humerus", "Tibia", "Ulna"],
+                          "correct_answer": "Humerus",
+                          "explanation": "The humerus is the bone of the upper arm."
+                        },
+                        {
+                          "question": "What should you do if the straws are not aligning properly?",
+                          "options": ["Force them", "Add more tape or glue", "Start over", "Ignore it"],
+                          "correct_answer": "Add more tape or glue",
+                          "explanation": "Proper connection ensures stability of the model."
+                        },
+                        {
+                          "question": "Which bones protect the heart and lungs?",
+                          "options": ["Femur", "Ribs", "Vertebrae", "Skull"],
+                          "correct_answer": "Ribs",
+                          "explanation": "The ribcage protects vital organs like the heart and lungs."
+                        },
+                        {
+                          "question": "What does the term 'skeleton' refer to?",
+                          "options": ["The body's muscles", "The entire bone structure of the body", "The organs", "The skin"],
+                          "correct_answer": "The entire bone structure of the body",
+                          "explanation": "The skeleton includes all bones in the body."
+                        },
+                        {
+                          "question": "Why is it useful to use a marker for labeling bones?",
+                          "options": ["To add weight", "To make the model colorful", "To identify bones accurately", "To connect straws"],
+                          "correct_answer": "To identify bones accurately",
+                          "explanation": "Labeling helps understand each bone's function and location."
+                        },
+                        {
+                          "question": "Which bone is part of the leg?",
+                          "options": ["Humerus", "Femur", "Ulna", "Scapula"],
+                          "correct_answer": "Femur",
+                          "explanation": "The femur is the thigh bone."
+                        },
+                        {
+                          "question": "What role does the pelvis play?",
+                          "options": ["Support the spine", "Anchor the legs and support organs", "Protect the lungs", "Control blood flow"],
+                          "correct_answer": "Anchor the legs and support organs",
+                          "explanation": "The pelvis supports lower body organs and provides attachment for the legs."
+                        },
+                        {
+                          "question": "When placing bones in your model, what should you keep in mind?",
+                          "options": ["Exact positions of real bones", "Random placement", "Only length", "Color of bones"],
+                          "correct_answer": "Exact positions of real bones",
+                          "explanation": "Correct positioning provides an accurate representation of the human skeleton."
+                        },
+                        {
+                          "question": "Why is it important to understand the function of bones?",
+                          "options": ["To build muscle", "To improve posture", "For understanding bodily support and movement", "To increase weight"],
+                          "correct_answer": "For understanding bodily support and movement",
+                          "explanation": "Bones play a crucial role in bodily functions and movement."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 5",
+                      "questions": [
+                        {
+                          "question": "What is the primary role of bones in the skeletal system?",
+                          "options": ["Protection and movement", "Regulation of temperature", "Digestion", "Producing enzymes"],
+                          "correct_answer": "Protection and movement",
+                          "explanation": "Bones support the body and protect organs while enabling movement."
+                        },
+                        {
+                          "question": "What are long bones represented by in this experiment?",
+                          "options": ["Tape", "Glue", "Straws", "Markers"],
+                          "correct_answer": "Straws",
+                          "explanation": "Long bones like the femur are represented by straws."
+                        },
+                        {
+                          "question": "Which of the following bones is not in the arm?",
+                          "options": ["Radius", "Ulna", "Humerus", "Tibia"],
+                          "correct_answer": "Tibia",
+                          "explanation": "The tibia is found in the leg."
+                        },
+                        {
+                          "question": "What connects bones together in joints?",
+                          "options": ["Cartilage", "Ligaments", "Nerves", "Veins"],
+                          "correct_answer": "Ligaments",
+                          "explanation": "Ligaments connect bones together at joints."
+                        },
+                        {
+                          "question": "What function do rib bones serve?",
+                          "options": ["Anchor muscles", "Protect the brain", "Protect the lungs and heart", "Aid in digestion"],
+                          "correct_answer": "Protect the lungs and heart",
+                          "explanation": "Rib bones form a protective cage around vital organs."
+                        },
+                        {
+                          "question": "How should you handle cutting straws for your skeleton model?",
+                          "options": ["Cut randomly", "Cut according to bone length", "Bend them", "Break them with force"],
+                          "correct_answer": "Cut according to bone length",
+                          "explanation": "This ensures a realistic skeletal model representation."
+                        },
+                        {
+                          "question": "What role does the spinal column play?",
+                          "options": ["It digests food", "Provides structure and protects the spinal cord", "Covers the brain", "Produces red blood cells"],
+                          "correct_answer": "Provides structure and protects the spinal cord",
+                          "explanation": "The spinal column offers structure and safety to the spinal cord."
+                        },
+                        {
+                          "question": "What material can be used as joints in the skeleton model?",
+                          "options": ["Extra straws", "Glue or tape", "Markers", "Construction paper"],
+                          "correct_answer": "Glue or tape",
+                          "explanation": "These materials hold straw pieces together, representing joints."
+                        },
+                        {
+                          "question": "What happens if bones in the human body do not align correctly?",
+                          "options": ["Nothing changes", "Normal function is affected", "Bones strengthen", "Movement is improved"],
+                          "correct_answer": "Normal function is affected",
+                          "explanation": "Misalignment can cause pain or impaired movement."
+                        },
+                        {
+                          "question": "Which bone forms the shoulder joint along with the humerus?",
+                          "options": ["Clavicle", "Radius", "Femur", "Scapula"],
+                          "correct_answer": "Scapula",
+                          "explanation": "The scapula forms the shoulder joint along with the humerus."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 6",
+                      "questions": [
+                        {
+                          "question": "Why is the pelvis important in your skeleton model?",
+                          "options": ["It is not important", "Anchors the legs", "Supports the spine only", "Protects the brain"],
+                          "correct_answer": "Anchors the legs",
+                          "explanation": "The pelvis supports organs and provides leg attachment points."
+                        },
+                        {
+                          "question": "How should straw lengths represent leg bones compared to arm bones?",
+                          "options": ["Same length", "Slightly longer", "Much shorter", "Same thickness but different material"],
+                          "correct_answer": "Slightly longer",
+                          "explanation": "Leg bones are generally longer for supporting body weight."
+                        },
+                        {
+                          "question": "What is an example of a flat bone in the body?",
+                          "options": ["Femur", "Rib", "Tibia", "Vertebra"],
+                          "correct_answer": "Rib",
+                          "explanation": "Ribs are flat bones providing protection."
+                        },
+                        {
+                          "question": "What does the term 'cartilage' refer to in the human body?",
+                          "options": ["Bone tissue", "Flexible tissue between bones", "Veins", "Muscle tissue"],
+                          "correct_answer": "Flexible tissue between bones",
+                          "explanation": "Cartilage acts as a cushion for movement and flexibility."
+                        },
+                        {
+                          "question": "Which bones form the arms in the human skeleton model?",
+                          "options": ["Femur and tibia", "Humerus, radius, and ulna", "Vertebrae", "Skull bones"],
+                          "correct_answer": "Humerus, radius, and ulna",
+                          "explanation": "These bones make up the arm."
+                        },
+                        {
+                          "question": "What purpose do bones serve for soft tissues?",
+                          "options": ["Generate electricity", "Protect and support soft tissues", "Absorb light", "Reduce body temperature"],
+                          "correct_answer": "Protect and support soft tissues",
+                          "explanation": "Bones provide structure and safety for tissues."
+                        },
+                        {
+                          "question": "How do you ensure stability in the skeleton model?",
+                          "options": ["By balancing weight on one side", "Use proper joints with tape or glue", "Ignore alignment", "Cut straws into equal pieces"],
+                          "correct_answer": "Use proper joints with tape or glue",
+                          "explanation": "Connecting the straws securely gives structure to the model."
+                        },
+                        {
+                          "question": "Which major bone is involved in forming the knee joint?",
+                          "options": ["Skull", "Pelvis", "Femur", "Scapula"],
+                          "correct_answer": "Femur",
+                          "explanation": "The femur connects with the lower leg bones to form the knee."
+                        },
+                        {
+                          "question": "Why is it helpful to understand bones' locations when building a model?",
+                          "options": ["To color them", "To identify joint positions", "For random placement", "To make it heavier"],
+                          "correct_answer": "To identify joint positions",
+                          "explanation": "Proper placement is essential to demonstrate function and movement."
+                        },
+                        {
+                          "question": "What system is made up of bones and joints?",
+                          "options": ["Digestive system", "Nervous system", "Skeletal system", "Respiratory system"],
+                          "correct_answer": "Skeletal system",
+                          "explanation": "The skeletal system consists of bones and joints."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 7",
+                      "questions": [
+                        {
+                          "question": "Which bone is known as the 'collarbone' in the human skeleton?",
+                          "options": ["Humerus", "Scapula", "Clavicle", "Femur"],
+                          "correct_answer": "Clavicle",
+                          "explanation": "The clavicle, or collarbone, connects the arm to the body."
+                        },
+                        {
+                          "question": "What is the main function of the human skull?",
+                          "options": ["Support weight", "Protect the brain", "Aid digestion", "Connect joints"],
+                          "correct_answer": "Protect the brain",
+                          "explanation": "The skull encloses and protects the brain."
+                        },
+                        {
+                          "question": "In your model, how can you represent the spine?",
+                          "options": ["Use a single straw", "Use multiple straws connected at intervals", "Tape two straws together", "Skip it entirely"],
+                          "correct_answer": "Use multiple straws connected at intervals",
+                          "explanation": "This approach mimics the vertebrae that make up the spine."
+                        },
+                        {
+                          "question": "Which part of the skeleton provides movement?",
+                          "options": ["Bones only", "Joints and muscles", "Skin", "Cartilage"],
+                          "correct_answer": "Joints and muscles",
+                          "explanation": "Bones, joints, and muscles work together for movement."
+                        },
+                        {
+                          "question": "What type of bone is the femur classified as?",
+                          "options": ["Flat bone", "Short bone", "Long bone", "Irregular bone"],
+                          "correct_answer": "Long bone",
+                          "explanation": "The femur is a long bone in the human skeleton."
+                        },
+                        {
+                          "question": "Why should your straw model include different lengths?",
+                          "options": ["For decorative purposes", "To show varying bone sizes", "To make it easy to break", "To make it colorful"],
+                          "correct_answer": "To show varying bone sizes",
+                          "explanation": "Bone sizes vary depending on their function."
+                        },
+                        {
+                          "question": "Which structure helps bones move smoothly at the joints?",
+                          "options": ["Nerves", "Cartilage", "Ligaments", "Veins"],
+                          "correct_answer": "Cartilage",
+                          "explanation": "Cartilage reduces friction between bones."
+                        },
+                        {
+                          "question": "Which bones form the base of the spine?",
+                          "options": ["Cranium", "Pelvic bones", "Sacrum and coccyx", "Ulna"],
+                          "correct_answer": "Sacrum and coccyx",
+                          "explanation": "These bones form the lower end of the vertebral column."
+                        },
+                        {
+                          "question": "How does using straws in the model demonstrate bone connections?",
+                          "options": ["By being flexible", "By showing fixed points", "By creating movement", "By acting as tendons"],
+                          "correct_answer": "By creating movement",
+                          "explanation": "Connections show how bones join and move at joints."
+                        },
+                        {
+                          "question": "What is the largest bone in the human body?",
+                          "options": ["Tibia", "Femur", "Humerus", "Clavicle"],
+                          "correct_answer": "Femur",
+                          "explanation": "The femur, or thigh bone, is the longest and strongest."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 8",
+                      "questions": [
+                        {
+                          "question": "Which bone forms the elbow joint along with the ulna?",
+                          "options": ["Radius", "Scapula", "Clavicle", "Tibia"],
+                          "correct_answer": "Radius",
+                          "explanation": "The radius and ulna form the elbow joint with the humerus."
+                        },
+                        {
+                          "question": "How do joints contribute to the skeletal system?",
+                          "options": ["Prevent movement", "Allow movement and flexibility", "Break easily", "Hold organs together"],
+                          "correct_answer": "Allow movement and flexibility",
+                          "explanation": "Joints enable bones to move relative to one another."
+                        },
+                        {
+                          "question": "What kind of bones make up the wrist?",
+                          "options": ["Flat bones", "Long bones", "Short bones", "Irregular bones"],
+                          "correct_answer": "Short bones",
+                          "explanation": "The wrist contains short bones called carpals."
+                        },
+                        {
+                          "question": "What tool is used in the model to attach bones (straws)?",
+                          "options": ["Scissors", "Tape or glue", "Pins", "Markers"],
+                          "correct_answer": "Tape or glue",
+                          "explanation": "Tape or glue connects straws to form a skeleton."
+                        },
+                        {
+                          "question": "What is the term for where two or more bones meet?",
+                          "options": ["Muscle", "Tendon", "Joint", "Cavity"],
+                          "correct_answer": "Joint",
+                          "explanation": "Joints connect bones and facilitate movement."
+                        },
+                        {
+                          "question": "What should be done if straws are too long for a bone model?",
+                          "options": ["Keep as is", "Cut to size", "Ignore", "Color them"],
+                          "correct_answer": "Cut to size",
+                          "explanation": "Adjusting straw length improves model accuracy."
+                        },
+                        {
+                          "question": "Which structure provides strength and durability to bones?",
+                          "options": ["Blood vessels", "Bone marrow", "Calcium-rich matrix", "Cartilage"],
+                          "correct_answer": "Calcium-rich matrix",
+                          "explanation": "Calcium makes bones strong and rigid."
+                        },
+                        {
+                          "question": "In what area do bones produce red blood cells?",
+                          "options": ["Bone marrow", "Skin", "Cartilage", "Muscle"],
+                          "correct_answer": "Bone marrow",
+                          "explanation": "Red blood cells are formed in the bone marrow."
+                        },
+                        {
+                          "question": "Which of the following is a weight-bearing bone in the leg?",
+                          "options": ["Radius", "Humerus", "Femur", "Ulna"],
+                          "correct_answer": "Femur",
+                          "explanation": "The femur bears the body's weight."
+                        },
+                        {
+                          "question": "Which material did you use to simulate bone joints?",
+                          "options": ["Straws only", "Glue or tape", "Markers", "Ruler"],
+                          "correct_answer": "Glue or tape",
+                          "explanation": "Connecting straws with glue or tape simulates joints."
                         }
                       ]
                     }
@@ -45632,10 +46692,529 @@
                           "explanation": "Animal cells are more flexible in shape compared to plant cells, which have a fixed structure."
                         }
                       ]
+                    },
+                    {
+                      "set_name": "Quiz Set 3",
+                      "questions": [
+                        {
+                          "question": "What structure is present in plant cells but not in animal cells?",
+                          "options": ["Nucleus", "Cell wall", "Mitochondria", "Ribosomes"],
+                          "correct_answer": "Cell wall",
+                          "explanation": "Plant cells have a cell wall made of cellulose, which is absent in animal cells."
+                        },
+                        {
+                          "question": "Which organelle is responsible for photosynthesis in plant cells?",
+                          "options": ["Mitochondria", "Ribosomes", "Chloroplasts", "Golgi apparatus"],
+                          "correct_answer": "Chloroplasts",
+                          "explanation": "Chloroplasts contain chlorophyll and carry out photosynthesis."
+                        },
+                        {
+                          "question": "What is the function of the nucleus in both plant and animal cells?",
+                          "options": ["Provide energy", "Store waste", "Control cell activities", "Produce proteins"],
+                          "correct_answer": "Control cell activities",
+                          "explanation": "The nucleus contains genetic material and controls cell functions."
+                        },
+                        {
+                          "question": "Which stain is used to observe plant cells more clearly?",
+                          "options": ["Methylene blue", "Iodine", "Eosin", "Acetone"],
+                          "correct_answer": "Iodine",
+                          "explanation": "Iodine stains the cell structures, making them easier to observe."
+                        },
+                        {
+                          "question": "In animal cells, what is the function of mitochondria?",
+                          "options": ["Protein synthesis", "Energy production", "Storage of genetic information", "Photosynthesis"],
+                          "correct_answer": "Energy production",
+                          "explanation": "Mitochondria are known as the powerhouse of the cell, producing energy."
+                        },
+                        {
+                          "question": "Which of these structures is found in animal cells but not in most plant cells?",
+                          "options": ["Cytoplasm", "Cell membrane", "Centrioles", "Chloroplasts"],
+                          "correct_answer": "Centrioles",
+                          "explanation": "Centrioles are involved in cell division and are typically found in animal cells."
+                        },
+                        {
+                          "question": "Why is methylene blue used when observing cheek cells?",
+                          "options": ["To color the cell wall", "To make the nucleus more visible", "To dissolve the cell", "To stain chloroplasts"],
+                          "correct_answer": "To make the nucleus more visible",
+                          "explanation": "Methylene blue stains the nucleus, making it easier to see."
+                        },
+                        {
+                          "question": "What shape do plant cells typically have?",
+                          "options": ["Round", "Irregular", "Rectangular or square", "Star-shaped"],
+                          "correct_answer": "Rectangular or square",
+                          "explanation": "The cell wall gives plant cells a more rigid, rectangular structure."
+                        },
+                        {
+                          "question": "Which structure controls the passage of substances into and out of the cell?",
+                          "options": ["Cytoplasm", "Nucleus", "Cell membrane", "Vacuole"],
+                          "correct_answer": "Cell membrane",
+                          "explanation": "The cell membrane regulates the movement of substances."
+                        },
+                        {
+                          "question": "Which organelle is large and central in plant cells but smaller or absent in animal cells?",
+                          "options": ["Mitochondria", "Vacuole", "Nucleus", "Ribosome"],
+                          "correct_answer": "Vacuole",
+                          "explanation": "Plant cells have a large central vacuole for storage and structural support."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 4",
+                      "questions": [
+                        {
+                          "question": "What substance is stored in plant cell vacuoles?",
+                          "options": ["Chlorophyll", "Water, nutrients, and waste", "DNA", "Mitochondria"],
+                          "correct_answer": "Water, nutrients, and waste",
+                          "explanation": "The vacuole in plant cells stores water, nutrients, and waste."
+                        },
+                        {
+                          "question": "What surrounds and supports plant cells, providing structure?",
+                          "options": ["Cytoplasm", "Plasma membrane", "Cell wall", "Mitochondria"],
+                          "correct_answer": "Cell wall",
+                          "explanation": "The cell wall supports and provides structure to plant cells."
+                        },
+                        {
+                          "question": "Which organelle modifies and packages proteins in both plant and animal cells?",
+                          "options": ["Ribosomes", "Golgi apparatus", "Lysosome", "Nucleolus"],
+                          "correct_answer": "Golgi apparatus",
+                          "explanation": "The Golgi apparatus modifies and packages proteins for transport."
+                        },
+                        {
+                          "question": "What differentiates the cytoplasm in plant and animal cells?",
+                          "options": ["It has different functions", "It only exists in plants", "It is more rigid in animals", "It contains different organelles"],
+                          "correct_answer": "It contains different organelles",
+                          "explanation": "Cytoplasm holds various organelles, which differ between plants and animals."
+                        },
+                        {
+                          "question": "What is one key difference in cell division between plant and animal cells?",
+                          "options": ["Plant cells use centrioles", "Animal cells lack a cell wall", "Plant cells do not divide", "Animal cells only use chloroplasts"],
+                          "correct_answer": "Animal cells lack a cell wall",
+                          "explanation": "Animal cells do not have a cell wall, affecting how they divide."
+                        },
+                        {
+                          "question": "In the microscope experiment, what must be done to avoid air bubbles?",
+                          "options": ["Press cover slip gently", "Add salt", "Use a spoon", "Keep cells dry"],
+                          "correct_answer": "Press cover slip gently",
+                          "explanation": "Placing the cover slip gently helps avoid trapping air bubbles."
+                        },
+                        {
+                          "question": "What does a cell's nucleus contain?",
+                          "options": ["RNA", "Chlorophyll", "Genetic material (DNA)", "Proteins only"],
+                          "correct_answer": "Genetic material (DNA)",
+                          "explanation": "The nucleus contains DNA, the cell's genetic material."
+                        },
+                        {
+                          "question": "Why do animal cells have more flexible shapes than plant cells?",
+                          "options": ["They lack a cell wall", "They have more mitochondria", "They store more water", "They have larger vacuoles"],
+                          "correct_answer": "They lack a cell wall",
+                          "explanation": "The absence of a rigid cell wall allows flexibility."
+                        },
+                        {
+                          "question": "What is the jelly-like substance found in cells?",
+                          "options": ["Nucleus", "Cytoplasm", "Vacuole", "Golgi body"],
+                          "correct_answer": "Cytoplasm",
+                          "explanation": "Cytoplasm is a jelly-like substance that fills cells and supports organelles."
+                        },
+                        {
+                          "question": "What is the purpose of staining cells during the experiment?",
+                          "options": ["To break the cells", "To make structures visible", "To remove cell parts", "To prevent movement"],
+                          "correct_answer": "To make structures visible",
+                          "explanation": "Staining helps highlight cell structures for observation."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 5",
+                      "questions": [
+                        {
+                          "question": "What organelle is responsible for the synthesis of proteins in both plant and animal cells?",
+                          "options": ["Nucleus", "Ribosomes", "Mitochondria", "Golgi apparatus"],
+                          "correct_answer": "Ribosomes",
+                          "explanation": "Ribosomes are responsible for synthesizing proteins in both plant and animal cells."
+                        },
+                        {
+                          "question": "Which organelle is responsible for the production of energy in animal cells?",
+                          "options": ["Chloroplast", "Mitochondria", "Nucleus", "Cell membrane"],
+                          "correct_answer": "Mitochondria",
+                          "explanation": "Mitochondria are responsible for producing energy (ATP) in animal cells."
+                        },
+                        {
+                          "question": "Which part of the cell controls the movement of substances in and out of the cell?",
+                          "options": ["Nucleus", "Cytoplasm", "Cell membrane", "Golgi apparatus"],
+                          "correct_answer": "Cell membrane",
+                          "explanation": "The cell membrane controls the movement of substances into and out of the cell."
+                        },
+                        {
+                          "question": "What is the main function of chloroplasts in plant cells?",
+                          "options": ["Photosynthesis", "Respiration", "Cell division", "Protein synthesis"],
+                          "correct_answer": "Photosynthesis",
+                          "explanation": "Chloroplasts are responsible for photosynthesis in plant cells."
+                        },
+                        {
+                          "question": "How do plant cells store energy?",
+                          "options": ["In the form of glucose", "In the form of starch", "In the form of lipids", "In the form of proteins"],
+                          "correct_answer": "In the form of starch",
+                          "explanation": "Plant cells store energy in the form of starch."
+                        },
+                        {
+                          "question": "What type of cell is typically larger, plant cells or animal cells?",
+                          "options": ["Plant cells", "Animal cells", "Both are the same size", "It depends on the species"],
+                          "correct_answer": "Plant cells",
+                          "explanation": "Plant cells are typically larger than animal cells due to the large central vacuole."
+                        },
+                        {
+                          "question": "Which of the following is true about the shape of animal cells?",
+                          "options": ["They are round or irregular in shape", "They are rectangular", "They are square", "They have fixed shapes"],
+                          "correct_answer": "They are round or irregular in shape",
+                          "explanation": "Animal cells typically have irregular or round shapes because they lack a rigid cell wall."
+                        },
+                        {
+                          "question": "Which organelle is found in animal cells but not in plant cells?",
+                          "options": ["Chloroplast", "Nucleus", "Centrioles", "Vacuole"],
+                          "correct_answer": "Centrioles",
+                          "explanation": "Centrioles are found in animal cells and are involved in cell division."
+                        },
+                        {
+                          "question": "In which type of cells do we find large vacuoles?",
+                          "options": ["Animal cells", "Plant cells", "Both", "Neither"],
+                          "correct_answer": "Plant cells",
+                          "explanation": "Plant cells contain large central vacuoles that store water and other substances."
+                        },
+                        {
+                          "question": "Which part of the plant cell gives it its rigid structure?",
+                          "options": ["Chloroplast", "Cell membrane", "Vacuole", "Cell wall"],
+                          "correct_answer": "Cell wall",
+                          "explanation": "The cell wall provides structure and rigidity to plant cells."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 6",
+                      "questions": [
+                        {
+                          "question": "What is the primary function of the mitochondria in animal cells?",
+                          "options": ["Protein synthesis", "Energy production", "Transporting materials", "Photosynthesis"],
+                          "correct_answer": "Energy production",
+                          "explanation": "Mitochondria are the powerhouse of the cell, producing energy through cellular respiration."
+                        },
+                        {
+                          "question": "What is the function of ribosomes in both plant and animal cells?",
+                          "options": ["Energy production", "Protein synthesis", "Photosynthesis", "Transporting materials"],
+                          "correct_answer": "Protein synthesis",
+                          "explanation": "Ribosomes are responsible for protein synthesis in both plant and animal cells."
+                        },
+                        {
+                          "question": "What is the liquid portion of the cell where organelles are suspended?",
+                          "options": ["Cytoplasm", "Nucleus", "Cell membrane", "Vacuole"],
+                          "correct_answer": "Cytoplasm",
+                          "explanation": "The cytoplasm is a jelly-like substance that fills the cell and suspends organelles."
+                        },
+                        {
+                          "question": "What is a major function of the Golgi apparatus in both plant and animal cells?",
+                          "options": ["Protein synthesis", "Storing energy", "Modifying and packaging proteins", "Breaking down waste"],
+                          "correct_answer": "Modifying and packaging proteins",
+                          "explanation": "The Golgi apparatus modifies, sorts, and packages proteins for secretion or transport."
+                        },
+                        {
+                          "question": "What is the term for the structure that provides shape and support to the cell?",
+                          "options": ["Cytoplasm", "Nucleus", "Cell membrane", "Cell wall"],
+                          "correct_answer": "Cell wall",
+                          "explanation": "The cell wall provides shape, structure, and support to plant cells."
+                        },
+                        {
+                          "question": "What organelle is involved in cellular respiration?",
+                          "options": ["Chloroplast", "Nucleus", "Mitochondria", "Endoplasmic reticulum"],
+                          "correct_answer": "Mitochondria",
+                          "explanation": "Mitochondria are responsible for cellular respiration, generating energy in the form of ATP."
+                        },
+                        {
+                          "question": "What substance is found inside the nucleus of a cell?",
+                          "options": ["DNA", "Mitochondria", "Chloroplasts", "Vacuole"],
+                          "correct_answer": "DNA",
+                          "explanation": "The nucleus contains DNA, which carries the genetic instructions for the cell."
+                        },
+                        {
+                          "question": "Which of these organelles is responsible for photosynthesis?",
+                          "options": ["Mitochondria", "Nucleus", "Chloroplast", "Ribosomes"],
+                          "correct_answer": "Chloroplast",
+                          "explanation": "Chloroplasts contain chlorophyll, which is used to capture light energy for photosynthesis."
+                        },
+                        {
+                          "question": "What is the structure that regulates what enters and exits the cell?",
+                          "options": ["Mitochondria", "Golgi apparatus", "Cell membrane", "Endoplasmic reticulum"],
+                          "correct_answer": "Cell membrane",
+                          "explanation": "The cell membrane controls the movement of substances in and out of the cell."
+                        },
+                        {
+                          "question": "What type of cell division occurs in both plant and animal cells?",
+                          "options": ["Mitosis", "Meiosis", "Binary fission", "Endocytosis"],
+                          "correct_answer": "Mitosis",
+                          "explanation": "Mitosis is the process of cell division in both plant and animal cells, resulting in two identical daughter cells."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 7",
+                      "questions": [
+                        {
+                          "question": "What structure provides energy to both plant and animal cells?",
+                          "options": ["Nucleus", "Golgi apparatus", "Mitochondria", "Chloroplasts"],
+                          "correct_answer": "Mitochondria",
+                          "explanation": "Mitochondria are responsible for converting nutrients into energy for the cell."
+                        },
+                        {
+                          "question": "In what structure does photosynthesis occur in plant cells?",
+                          "options": ["Nucleus", "Ribosomes", "Chloroplasts", "Mitochondria"],
+                          "correct_answer": "Chloroplasts",
+                          "explanation": "Chloroplasts are the organelles where photosynthesis takes place in plant cells."
+                        },
+                        {
+                          "question": "What organelle is responsible for breaking down waste and debris in the cell?",
+                          "options": ["Lysosomes", "Mitochondria", "Ribosomes", "Golgi apparatus"],
+                          "correct_answer": "Lysosomes",
+                          "explanation": "Lysosomes contain digestive enzymes that break down waste material in the cell."
+                        },
+                        {
+                          "question": "What cell structure is responsible for storing genetic information?",
+                          "options": ["Nucleus", "Mitochondria", "Cell membrane", "Endoplasmic reticulum"],
+                          "correct_answer": "Nucleus",
+                          "explanation": "The nucleus stores the genetic material (DNA) that controls cell functions."
+                        },
+                        {
+                          "question": "Which of these is NOT found in plant cells?",
+                          "options": ["Chloroplast", "Cell wall", "Centrioles", "Vacuole"],
+                          "correct_answer": "Centrioles",
+                          "explanation": "Centrioles are found in animal cells and are involved in cell division, but they are absent in most plant cells."
+                        },
+                        {
+                          "question": "What is the structure of the cell that provides energy in animal cells?",
+                          "options": ["Chloroplast", "Mitochondria", "Nucleus", "Endoplasmic reticulum"],
+                          "correct_answer": "Mitochondria",
+                          "explanation": "Mitochondria are the powerhouses of the cell, generating energy through cellular respiration."
+                        },
+                        {
+                          "question": "What organelle helps in the synthesis of lipids and proteins?",
+                          "options": ["Rough endoplasmic reticulum", "Smooth endoplasmic reticulum", "Golgi apparatus", "Mitochondria"],
+                          "correct_answer": "Rough endoplasmic reticulum",
+                          "explanation": "The rough endoplasmic reticulum has ribosomes attached to its surface and helps in protein synthesis."
+                        },
+                        {
+                          "question": "What is the function of the endoplasmic reticulum in plant and animal cells?",
+                          "options": ["Energy production", "Cell division", "Synthesis and transport of proteins and lipids", "Photosynthesis"],
+                          "correct_answer": "Synthesis and transport of proteins and lipids",
+                          "explanation": "The endoplasmic reticulum synthesizes proteins and lipids and transports them within the cell."
+                        },
+                        {
+                          "question": "Which organelle is responsible for controlling cell activities?",
+                          "options": ["Nucleus", "Mitochondria", "Golgi apparatus", "Lysosome"],
+                          "correct_answer": "Nucleus",
+                          "explanation": "The nucleus controls the activities of the cell, including growth, metabolism, and reproduction."
+                        },
+                        {
+                          "question": "What is a key characteristic of plant cell vacuoles?",
+                          "options": ["They are small and numerous", "They store water and nutrients", "They store proteins", "They break down waste"],
+                          "correct_answer": "They store water and nutrients",
+                          "explanation": "Vacuoles in plant cells store water, nutrients, and other substances."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 8",
+                      "questions": [
+                        {
+                          "question": "What is the function of the plasma membrane?",
+                          "options": ["Regulates cell division", "Protects the cell", "Controls the movement of materials in and out of the cell", "Contains the cell's genetic material"],
+                          "correct_answer": "Controls the movement of materials in and out of the cell",
+                          "explanation": "The plasma membrane regulates what enters and exits the cell."
+                        },
+                        {
+                          "question": "Which part of the plant cell helps in structural support?",
+                          "options": ["Vacuole", "Nucleus", "Cell wall", "Mitochondria"],
+                          "correct_answer": "Cell wall",
+                          "explanation": "The cell wall provides rigidity and support to plant cells."
+                        },
+                        {
+                          "question": "In what organelle does cellular respiration take place?",
+                          "options": ["Mitochondria", "Chloroplast", "Nucleus", "Vacuole"],
+                          "correct_answer": "Mitochondria",
+                          "explanation": "Mitochondria are the site of cellular respiration, where energy is produced."
+                        },
+                        {
+                          "question": "What organelle is found in both plant and animal cells that is involved in protein synthesis?",
+                          "options": ["Nucleus", "Ribosomes", "Mitochondria", "Endoplasmic reticulum"],
+                          "correct_answer": "Ribosomes",
+                          "explanation": "Ribosomes are responsible for translating genetic information into proteins."
+                        },
+                        {
+                          "question": "What is the main difference between the vacuoles in plant and animal cells?",
+                          "options": ["Plant cells have multiple small vacuoles", "Animal cells have large vacuoles", "Plant cells have one large central vacuole", "Vacuoles are absent in animal cells"],
+                          "correct_answer": "Plant cells have one large central vacuole",
+                          "explanation": "In plant cells, the vacuole is large and central, while in animal cells, vacuoles are smaller and more numerous."
+                        },
+                        {
+                          "question": "What does the cell membrane's structure consist of?",
+                          "options": ["Phospholipid bilayer", "Single lipid layer", "Protein layer", "Polysaccharide layer"],
+                          "correct_answer": "Phospholipid bilayer",
+                          "explanation": "The cell membrane consists of a phospholipid bilayer with embedded proteins."
+                        },
+                        {
+                          "question": "What happens in the nucleus of a cell?",
+                          "options": ["Protein synthesis", "Energy production", "Cell division", "Storage of genetic material"],
+                          "correct_answer": "Storage of genetic material",
+                          "explanation": "The nucleus stores the cell's genetic information in the form of DNA."
+                        },
+                        {
+                          "question": "What organelle contains enzymes to digest cellular waste?",
+                          "options": ["Lysosomes", "Golgi apparatus", "Mitochondria", "Ribosomes"],
+                          "correct_answer": "Lysosomes",
+                          "explanation": "Lysosomes contain enzymes that break down waste materials and cellular debris."
+                        },
+                        {
+                          "question": "Which part of the plant cell is responsible for converting light energy into chemical energy?",
+                          "options": ["Mitochondria", "Chloroplast", "Nucleus", "Endoplasmic reticulum"],
+                          "correct_answer": "Chloroplast",
+                          "explanation": "Chloroplasts carry out photosynthesis, converting light energy into chemical energy stored in glucose."
+                        },
+                        {
+                          "question": "What is the function of the cytoplasm?",
+                          "options": ["Store energy", "Support organelles", "Generate energy", "Store waste"],
+                          "correct_answer": "Support organelles",
+                          "explanation": "The cytoplasm supports and holds organelles in place within the cell."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 9",
+                      "questions": [
+                        {
+                          "question": "Which of the following is unique to plant cells?",
+                          "options": ["Mitochondria", "Chloroplast", "Nucleus", "Ribosomes"],
+                          "correct_answer": "Chloroplast",
+                          "explanation": "Chloroplasts are unique to plant cells and are responsible for photosynthesis."
+                        },
+                        {
+                          "question": "What is the function of the smooth endoplasmic reticulum (SER)?",
+                          "options": ["Synthesizing proteins", "Synthesizing lipids", "Cell division", "Storage of waste products"],
+                          "correct_answer": "Synthesizing lipids",
+                          "explanation": "The smooth endoplasmic reticulum (SER) is involved in the synthesis of lipids and the detoxification of chemicals."
+                        },
+                        {
+                          "question": "What structure is involved in cell division in animal cells?",
+                          "options": ["Chloroplast", "Centrioles", "Vacuole", "Nucleus"],
+                          "correct_answer": "Centrioles",
+                          "explanation": "Centrioles are involved in organizing the microtubules that separate chromosomes during cell division in animal cells."
+                        },
+                        {
+                          "question": "Which organelle is responsible for transporting proteins and lipids within the cell?",
+                          "options": ["Golgi apparatus", "Endoplasmic reticulum", "Mitochondria", "Ribosomes"],
+                          "correct_answer": "Endoplasmic reticulum",
+                          "explanation": "The endoplasmic reticulum (ER) transports proteins and lipids within the cell."
+                        },
+                        {
+                          "question": "What structure protects the cell and regulates its interaction with the environment?",
+                          "options": ["Cytoplasm", "Golgi apparatus", "Cell membrane", "Ribosomes"],
+                          "correct_answer": "Cell membrane",
+                          "explanation": "The cell membrane protects the cell and regulates what enters and exits, maintaining homeostasis."
+                        },
+                        {
+                          "question": "What organelle is responsible for digesting waste and cellular debris?",
+                          "options": ["Lysosome", "Mitochondrion", "Golgi apparatus", "Nucleus"],
+                          "correct_answer": "Lysosome",
+                          "explanation": "Lysosomes contain enzymes that digest waste and cellular debris."
+                        },
+                        {
+                          "question": "Which of these is found in both plant and animal cells?",
+                          "options": ["Chloroplast", "Vacuole", "Ribosome", "Cell wall"],
+                          "correct_answer": "Ribosome",
+                          "explanation": "Ribosomes are found in both plant and animal cells and are involved in protein synthesis."
+                        },
+                        {
+                          "question": "What is the primary function of the cell wall in plant cells?",
+                          "options": ["Provides energy", "Stores water", "Gives structure and support", "Regulates cell division"],
+                          "correct_answer": "Gives structure and support",
+                          "explanation": "The cell wall gives structure and support to plant cells and protects them from external damage."
+                        },
+                        {
+                          "question": "What organelle controls the activities of the cell and contains genetic information?",
+                          "options": ["Ribosomes", "Nucleus", "Golgi apparatus", "Mitochondria"],
+                          "correct_answer": "Nucleus",
+                          "explanation": "The nucleus controls the cell's activities and stores genetic material in the form of DNA."
+                        },
+                        {
+                          "question": "What is the difference between plant and animal cells in terms of their energy production?",
+                          "options": ["Animal cells have mitochondria, but plant cells do not", "Plant cells have mitochondria, but animal cells do not", "Both plant and animal cells have mitochondria for energy production", "Plant cells use chloroplasts for energy production while animal cells do not"],
+                          "correct_answer": "Both plant and animal cells have mitochondria for energy production",
+                          "explanation": "Both plant and animal cells have mitochondria, which are responsible for energy production via cellular respiration."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 10",
+                      "questions": [
+                        {
+                          "question": "Which organelle is involved in the packaging and secretion of proteins?",
+                          "options": ["Golgi apparatus", "Ribosomes", "Endoplasmic reticulum", "Chloroplasts"],
+                          "correct_answer": "Golgi apparatus",
+                          "explanation": "The Golgi apparatus modifies, sorts, and packages proteins for secretion or transport."
+                        },
+                        {
+                          "question": "What is the function of the central vacuole in plant cells?",
+                          "options": ["Storage of food", "Storage of water and nutrients", "Photosynthesis", "Protein synthesis"],
+                          "correct_answer": "Storage of water and nutrients",
+                          "explanation": "The central vacuole stores water, nutrients, and waste products, helping maintain turgor pressure in plant cells."
+                        },
+                        {
+                          "question": "What is the function of the ribosomes?",
+                          "options": ["Protein synthesis", "Energy production", "DNA replication", "Cell division"],
+                          "correct_answer": "Protein synthesis",
+                          "explanation": "Ribosomes are responsible for synthesizing proteins based on the genetic code provided by mRNA."
+                        },
+                        {
+                          "question": "What is the outermost layer of an animal cell?",
+                          "options": ["Cell wall", "Cytoplasm", "Cell membrane", "Nucleus"],
+                          "correct_answer": "Cell membrane",
+                          "explanation": "The cell membrane is the outermost layer of animal cells, protecting the cell and regulating material exchange."
+                        },
+                        {
+                          "question": "What organelle converts sunlight into chemical energy in plant cells?",
+                          "options": ["Mitochondria", "Chloroplast", "Golgi apparatus", "Endoplasmic reticulum"],
+                          "correct_answer": "Chloroplast",
+                          "explanation": "Chloroplasts contain chlorophyll and convert sunlight into chemical energy through photosynthesis."
+                        },
+                        {
+                          "question": "What is the role of mitochondria in both plant and animal cells?",
+                          "options": ["Protein synthesis", "Photosynthesis", "Cellular respiration", "Cell division"],
+                          "correct_answer": "Cellular respiration",
+                          "explanation": "Mitochondria generate energy for the cell by converting glucose into ATP through cellular respiration."
+                        },
+                        {
+                          "question": "Which of the following structures is responsible for maintaining the shape of animal cells?",
+                          "options": ["Cell wall", "Cytoskeleton", "Vacuole", "Chloroplast"],
+                          "correct_answer": "Cytoskeleton",
+                          "explanation": "The cytoskeleton provides structural support to animal cells, maintaining their shape."
+                        },
+                        {
+                          "question": "What structure controls the exchange of materials between the cell and its environment?",
+                          "options": ["Nucleus", "Mitochondria", "Golgi apparatus", "Cell membrane"],
+                          "correct_answer": "Cell membrane",
+                          "explanation": "The cell membrane controls the movement of materials in and out of the cell, maintaining homeostasis."
+                        },
+                        {
+                          "question": "Which of the following is found only in plant cells?",
+                          "options": ["Vacuole", "Chloroplast", "Centrioles", "Lysosomes"],
+                          "correct_answer": "Chloroplast",
+                          "explanation": "Chloroplasts are found only in plant cells and are responsible for photosynthesis."
+                        },
+                        {
+                          "question": "What is the primary difference between plant and animal cells regarding vacuoles?",
+                          "options": ["Plant cells have multiple small vacuoles", "Animal cells have large vacuoles", "Plant cells have one large central vacuole", "Both have the same size vacuoles"],
+                          "correct_answer": "Plant cells have one large central vacuole",
+                          "explanation": "Plant cells typically have one large central vacuole that stores water and helps maintain cell turgor."
+                        }
+                      ]
                     }
                   ]
-                }
-                
+                } 
               ]
             },
             {
@@ -46422,6 +48001,201 @@
                           ],
                           "correct_answer": "Asthma",
                           "explanation": "Asthma is a chronic respiratory condition that affects airflow in the lungs."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 3",
+                      "questions": [
+                        {
+                          "question": "What part of the respiratory system does the balloon in the experiment represent?",
+                          "options": ["Lung", "Trachea", "Diaphragm", "Nose"],
+                          "correct_answer": "Lung",
+                          "explanation": "The balloon in the experiment represents the lung, as it inflates and deflates to simulate the lung's action during breathing."
+                        },
+                        {
+                          "question": "What is the role of the diaphragm in the respiratory system?",
+                          "options": ["To filter air", "To expand the chest cavity", "To push air out of the lungs", "To help in the movement of oxygen into the blood"],
+                          "correct_answer": "To expand the chest cavity",
+                          "explanation": "The diaphragm contracts and moves downward during inhalation, expanding the chest cavity and allowing the lungs to fill with air."
+                        },
+                        {
+                          "question": "In this experiment, what does the smaller balloon represent?",
+                          "options": ["The diaphragm", "The trachea", "The lung", "The chest cavity"],
+                          "correct_answer": "The lung",
+                          "explanation": "The smaller balloon represents the lung in the model, inflating during inhalation and deflating during exhalation."
+                        },
+                        {
+                          "question": "What role does the straw play in the balloon lung model?",
+                          "options": ["Represents the trachea", "Represents the diaphragm", "Represents the lung", "Represents the nose"],
+                          "correct_answer": "Represents the trachea",
+                          "explanation": "The straw represents the trachea, through which air flows into and out of the lungs."
+                        },
+                        {
+                          "question": "When you pull the diaphragm balloon down, what does it simulate?",
+                          "options": ["Exhalation", "Inhalation", "Breathing out", "Breathing in"],
+                          "correct_answer": "Inhalation",
+                          "explanation": "Pulling the diaphragm balloon down simulates the action of the diaphragm during inhalation, allowing the lung (smaller balloon) to inflate."
+                        },
+                        {
+                          "question": "What happens to the lung balloon when the diaphragm balloon is released?",
+                          "options": ["It inflates", "It deflates", "It stays the same", "It pops"],
+                          "correct_answer": "It deflates",
+                          "explanation": "Releasing the diaphragm balloon simulates exhalation, and the lung balloon deflates as air is expelled."
+                        },
+                        {
+                          "question": "What material is used to create the chest cavity in the model?",
+                          "options": ["Plastic bottle", "Balloon", "Straw", "Tape"],
+                          "correct_answer": "Plastic bottle",
+                          "explanation": "The plastic bottle is cut in half to create the chest cavity model in this experiment."
+                        },
+                        {
+                          "question": "Why is it important to secure the connections with tape?",
+                          "options": ["To avoid air leaks", "To keep the model from falling apart", "To decorate the model", "To add weight to the model"],
+                          "correct_answer": "To avoid air leaks",
+                          "explanation": "Securing the connections with tape ensures that no air leaks out, allowing the model to function correctly."
+                        },
+                        {
+                          "question": "What does this experiment help demonstrate about the respiratory system?",
+                          "options": ["How food is digested", "How blood circulates", "How the lungs inflate and deflate", "How the heart beats"],
+                          "correct_answer": "How the lungs inflate and deflate",
+                          "explanation": "The experiment demonstrates the mechanics of lung expansion and contraction during inhalation and exhalation."
+                        },
+                        {
+                          "question": "What could you use to improve the accuracy of the balloon lung model?",
+                          "options": ["Use smaller balloons", "Increase the amount of tape", "Use a larger bottle", "Use a more flexible material for the diaphragm"],
+                          "correct_answer": "Use a more flexible material for the diaphragm",
+                          "explanation": "Using a more flexible material for the diaphragm would make the model more realistic by allowing it to contract and expand more effectively."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 4",
+                      "questions": [
+                        {
+                          "question": "What process is being modeled by the balloon lung experiment?",
+                          "options": ["Excretion", "Digestion", "Breathing", "Circulation"],
+                          "correct_answer": "Breathing",
+                          "explanation": "The balloon lung experiment models the process of breathing, focusing on inhalation and exhalation."
+                        },
+                        {
+                          "question": "What happens to the volume of the chest cavity when the diaphragm is pulled down?",
+                          "options": ["It decreases", "It stays the same", "It increases", "It fluctuates"],
+                          "correct_answer": "It increases",
+                          "explanation": "When the diaphragm is pulled down, the volume of the chest cavity increases, allowing the lungs to expand and fill with air."
+                        },
+                        {
+                          "question": "How does the balloon lung model help demonstrate the role of the diaphragm?",
+                          "options": ["By showing how the diaphragm inflates", "By showing how the diaphragm contracts", "By showing the lung size", "By showing how the trachea works"],
+                          "correct_answer": "By showing how the diaphragm contracts",
+                          "explanation": "The balloon lung model helps demonstrate how the diaphragm contracts and moves down to allow the lungs to fill with air."
+                        },
+                        {
+                          "question": "What is the first step in setting up the balloon lung model?",
+                          "options": ["Blow up the small balloon", "Cut the plastic bottle in half", "Tape the balloons together", "Label the parts of the model"],
+                          "correct_answer": "Cut the plastic bottle in half",
+                          "explanation": "The first step is cutting the plastic bottle in half to create the chest cavity for the model."
+                        },
+                        {
+                          "question": "What would happen if the balloon diaphragm was not stretched over the bottle opening?",
+                          "options": ["The lungs would not inflate", "The lungs would inflate too much", "The chest cavity would collapse", "The experiment would be too difficult to complete"],
+                          "correct_answer": "The lungs would not inflate",
+                          "explanation": "If the diaphragm balloon is not stretched properly, the model will not function correctly, and the lungs (small balloon) will not inflate."
+                        },
+                        {
+                          "question": "What does the smaller balloon represent in the model?",
+                          "options": ["Trachea", "Diaphragm", "Lung", "Chest cavity"],
+                          "correct_answer": "Lung",
+                          "explanation": "The smaller balloon represents the lung in the model, as it inflates and deflates to simulate lung movement."
+                        },
+                        {
+                          "question": "What happens to the lung balloon when the diaphragm is pushed back up?",
+                          "options": ["It inflates", "It deflates", "It remains the same", "It shrinks"],
+                          "correct_answer": "It deflates",
+                          "explanation": "When the diaphragm is pushed back up, it simulates exhalation, causing the lung balloon to deflate."
+                        },
+                        {
+                          "question": "Why is it important to use a larger balloon for the diaphragm?",
+                          "options": ["To make the model look bigger", "To make the diaphragm more flexible", "To represent a larger chest cavity", "To represent a larger lung"],
+                          "correct_answer": "To make the diaphragm more flexible",
+                          "explanation": "A larger balloon for the diaphragm helps simulate the movement of the diaphragm more effectively during inhalation and exhalation."
+                        },
+                        {
+                          "question": "Which of the following is a correct description of exhalation in this model?",
+                          "options": ["The diaphragm moves downward", "The diaphragm moves upward", "The lung inflates", "The straw is removed"],
+                          "correct_answer": "The diaphragm moves upward",
+                          "explanation": "During exhalation, the diaphragm moves upward, and the lung deflates as air is expelled."
+                        },
+                        {
+                          "question": "What does this experiment help you understand about the human respiratory system?",
+                          "options": ["The digestion of food", "The process of breathing", "The circulation of blood", "The excretion of waste"],
+                          "correct_answer": "The process of breathing",
+                          "explanation": "The experiment helps you understand the process of breathing, specifically how the diaphragm and chest cavity work to enable lung expansion and contraction."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 5",
+                      "questions": [
+                        {
+                          "question": "What happens when the diaphragm is pulled down in the balloon lung model?",
+                          "options": ["It causes the lung to deflate", "It causes the lung to inflate", "It causes the lung to stay the same", "It causes the lung to pop"],
+                          "correct_answer": "It causes the lung to inflate",
+                          "explanation": "Pulling the diaphragm down simulates inhalation and causes the lung balloon to inflate as the chest cavity expands."
+                        },
+                        {
+                          "question": "What does the straw in the balloon lung model simulate?",
+                          "options": ["The trachea", "The bronchus", "The diaphragm", "The lung"],
+                          "correct_answer": "The trachea",
+                          "explanation": "The straw in the model represents the trachea, which carries air into and out of the lungs."
+                        },
+                        {
+                          "question": "What is the purpose of the balloon diaphragm in the model?",
+                          "options": ["To simulate the chest cavity", "To simulate the trachea", "To simulate lung expansion", "To simulate the diaphragm's movement during breathing"],
+                          "correct_answer": "To simulate the diaphragm's movement during breathing",
+                          "explanation": "The balloon diaphragm represents the diaphragm's movement during breathing and helps in simulating inhalation and exhalation."
+                        },
+                        {
+                          "question": "What happens to the diaphragm balloon during exhalation in the model?",
+                          "options": ["It moves downward", "It stays still", "It moves upward", "It inflates"],
+                          "correct_answer": "It moves upward",
+                          "explanation": "During exhalation, the diaphragm moves upward, pushing air out of the lung balloon."
+                        },
+                        {
+                          "question": "What would you observe if the diaphragm balloon was not pulled down enough?",
+                          "options": ["The lung would inflate too much", "The lung would not inflate properly", "The lung would deflate too quickly", "The chest cavity would collapse"],
+                          "correct_answer": "The lung would not inflate properly",
+                          "explanation": "If the diaphragm balloon is not pulled down enough, the chest cavity will not expand enough, and the lung (smaller balloon) will not inflate correctly."
+                        },
+                        {
+                          "question": "Which of these is the role of the diaphragm during inhalation?",
+                          "options": ["To inflate the lung", "To move upward", "To contract and push air out", "To filter the air"],
+                          "correct_answer": "To inflate the lung",
+                          "explanation": "During inhalation, the diaphragm contracts and moves downward, increasing the volume of the chest cavity and inflating the lungs."
+                        },
+                        {
+                          "question": "Why is it important to observe the deflation of the lung balloon?",
+                          "options": ["To understand inhalation", "To understand exhalation", "To understand air intake", "To understand the role of the trachea"],
+                          "correct_answer": "To understand exhalation",
+                          "explanation": "Observing the deflation of the lung balloon helps you understand how exhalation works, as the diaphragm moves upward, expelling air from the lungs."
+                        },
+                        {
+                          "question": "What does the chest cavity in the balloon lung model represent?",
+                          "options": ["The lungs", "The diaphragm", "The rib cage", "The heart"],
+                          "correct_answer": "The rib cage",
+                          "explanation": "The plastic bottle cut in half represents the chest cavity, which houses the lungs and helps facilitate breathing."
+                        },
+                        {
+                          "question": "How can this experiment be improved for better demonstration of breathing?",
+                          "options": ["Using a larger bottle", "Using a smaller diaphragm", "Using a stronger tape", "Using different balloon sizes"],
+                          "correct_answer": "Using different balloon sizes",
+                          "explanation": "Using different balloon sizes allows for more accurate demonstration of lung inflation and deflation during inhalation and exhalation."
+                        },
+                        {
+                          "question": "What is the role of air pressure in this balloon lung model?",
+                          "options": ["It inflates the diaphragm", "It pushes air into the trachea", "It helps inflate and deflate the lung", "It moves the chest cavity"],
+                          "correct_answer": "It helps inflate and deflate the lung",
+                          "explanation": "Air pressure plays a crucial role in inflating and deflating the lung by moving air in and out of the chest cavity during breathing."
                         }
                       ]
                     }
@@ -65140,7 +66914,521 @@
                           "explanation": "Interpreting the results is crucial for understanding how species evolved and their relationships."
                         }
                       ]
-                    }
+                    },
+                    {
+                      "set_name": "Quiz Set 3",
+                      "questions": [
+                        {
+                          "question": "What is a phylogenetic tree used to represent?",
+                          "options": ["Evolutionary relationships", "Population growth", "Genetic mutations", "Cell structure"],
+                          "correct_answer": "Evolutionary relationships",
+                          "explanation": "A phylogenetic tree represents the evolutionary relationships among different species, showing their common ancestry."
+                        },
+                        {
+                          "question": "Which software can be used to construct a phylogenetic tree?",
+                          "options": ["MEGA", "Photoshop", "Microsoft Word", "Excel"],
+                          "correct_answer": "MEGA",
+                          "explanation": "MEGA (Molecular Evolutionary Genetics Analysis) software is commonly used for constructing phylogenetic trees from DNA sequences."
+                        },
+                        {
+                          "question": "What type of data is required to construct a phylogenetic tree?",
+                          "options": ["Behavioral data", "DNA sequences", "Habitat data", "Diet data"],
+                          "correct_answer": "DNA sequences",
+                          "explanation": "DNA sequences are analyzed to determine the evolutionary relationships between species in a phylogenetic tree."
+                        },
+                        {
+                          "question": "Why is it important to align DNA sequences before constructing a phylogenetic tree?",
+                          "options": ["To make sequences shorter", "To ensure comparable sites are aligned", "To change the genetic code", "To remove mutations"],
+                          "correct_answer": "To ensure comparable sites are aligned",
+                          "explanation": "DNA sequences must be aligned to ensure comparable sites are analyzed accurately, which is essential for building an accurate phylogenetic tree."
+                        },
+                        {
+                          "question": "Which method is commonly used to construct phylogenetic trees?",
+                          "options": ["Maximum Likelihood", "Histogram analysis", "T-Distribution", "Line graphing"],
+                          "correct_answer": "Maximum Likelihood",
+                          "explanation": "Maximum Likelihood is one of the common methods used to construct phylogenetic trees based on genetic data."
+                        },
+                        {
+                          "question": "What can be inferred from branches that share a common node in a phylogenetic tree?",
+                          "options": ["No relationship", "Closer evolutionary relationship", "Different habitats", "Identical diet"],
+                          "correct_answer": "Closer evolutionary relationship",
+                          "explanation": "Branches that share a common node indicate that the species have a closer evolutionary relationship due to a common ancestor."
+                        },
+                        {
+                          "question": "What is the role of bioinformatics software in phylogenetic analysis?",
+                          "options": ["Drawing simple shapes", "Analyzing DNA sequences", "Changing DNA sequences", "Writing essays"],
+                          "correct_answer": "Analyzing DNA sequences",
+                          "explanation": "Bioinformatics software is used to analyze DNA sequences, align them, and construct phylogenetic trees to study evolutionary relationships."
+                        },
+                        {
+                          "question": "What type of tree structure best describes the branching pattern of a phylogenetic tree?",
+                          "options": ["Circular", "Linear", "Hierarchical", "Random"],
+                          "correct_answer": "Hierarchical",
+                          "explanation": "A phylogenetic tree is hierarchical, with branches that represent evolutionary relationships based on a shared ancestry."
+                        },
+                        {
+                          "question": "How does a phylogenetic tree help scientists?",
+                          "options": ["By predicting weather", "By understanding evolutionary history", "By measuring animal size", "By defining animal behavior"],
+                          "correct_answer": "By understanding evolutionary history",
+                          "explanation": "Phylogenetic trees help scientists understand the evolutionary history and relationships among different species."
+                        },
+                        {
+                          "question": "What is meant by 'common ancestor' in the context of phylogenetic trees?",
+                          "options": ["An ancestor shared by multiple species", "An unrelated species", "A modern-day species", "A plant only"],
+                          "correct_answer": "An ancestor shared by multiple species",
+                          "explanation": "A common ancestor refers to an ancestor from which multiple species have evolved."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 4",
+                      "questions": [
+                        {
+                          "question": "What is the primary purpose of aligning DNA sequences before analysis?",
+                          "options": ["To remove unwanted characters", "To align comparable regions", "To change species type", "To reduce data size"],
+                          "correct_answer": "To align comparable regions",
+                          "explanation": "Aligning DNA sequences ensures comparable regions are matched for accurate analysis."
+                        },
+                        {
+                          "question": "Which of the following tools can provide access to DNA sequences for analysis?",
+                          "options": ["NCBI", "Microsoft Word", "AutoCAD", "Genetic Scanner"],
+                          "correct_answer": "NCBI",
+                          "explanation": "The National Center for Biotechnology Information (NCBI) provides access to a vast collection of DNA sequences for analysis."
+                        },
+                        {
+                          "question": "What does the length of a branch in a phylogenetic tree represent?",
+                          "options": ["Diet variation", "Genetic similarity", "Evolutionary time", "Color preference"],
+                          "correct_answer": "Evolutionary time",
+                          "explanation": "The length of branches often represents evolutionary time or genetic differences between species."
+                        },
+                        {
+                          "question": "What does a node on a phylogenetic tree signify?",
+                          "options": ["A living species", "A common ancestor", "A random mutation", "An extinct species"],
+                          "correct_answer": "A common ancestor",
+                          "explanation": "A node in a phylogenetic tree represents a common ancestor shared by different branches."
+                        },
+                        {
+                          "question": "Which of these methods is used to calculate the evolutionary distance between species?",
+                          "options": ["Line graph analysis", "Neighbor-Joining method", "Alphabetical sorting", "Random Sampling"],
+                          "correct_answer": "Neighbor-Joining method",
+                          "explanation": "The Neighbor-Joining method is commonly used to calculate evolutionary distances for constructing phylogenetic trees."
+                        },
+                        {
+                          "question": "What can be inferred if two species share a recent common ancestor?",
+                          "options": ["They are unrelated", "They have similar evolutionary paths", "They evolved at different times", "They share no similarities"],
+                          "correct_answer": "They have similar evolutionary paths",
+                          "explanation": "Species with a recent common ancestor are more closely related and have similar evolutionary paths."
+                        },
+                        {
+                          "question": "What kind of data is typically used to construct phylogenetic trees?",
+                          "options": ["Behavioral patterns", "Fossil records", "DNA and protein sequences", "Climate data"],
+                          "correct_answer": "DNA and protein sequences",
+                          "explanation": "Phylogenetic trees are typically constructed using DNA and protein sequences to analyze genetic relationships."
+                        },
+                        {
+                          "question": "Which of these describes a monophyletic group?",
+                          "options": ["A group with a single ancestor and all its descendants", "A random collection of species", "A single unrelated species", "A group with mixed ancestry"],
+                          "correct_answer": "A group with a single ancestor and all its descendants",
+                          "explanation": "A monophyletic group includes a common ancestor and all its descendants, highlighting a distinct evolutionary lineage."
+                        },
+                        {
+                          "question": "How can bioinformatics databases be useful in phylogenetic analysis?",
+                          "options": ["For recording sports scores", "For providing DNA sequences", "For tracking weather patterns", "For analyzing movie trends"],
+                          "correct_answer": "For providing DNA sequences",
+                          "explanation": "Bioinformatics databases provide access to DNA sequences, which are essential for constructing phylogenetic trees."
+                        },
+                        {
+                          "question": "What does it indicate if two branches converge at a single point?",
+                          "options": ["An unrelated event", "A common ancestor", "Dissimilar traits", "Opposing evolutionary paths"],
+                          "correct_answer": "A common ancestor",
+                          "explanation": "When two branches converge at a point, it signifies a common ancestor shared by the connected species."
+                        }
+                      ]
+                    },
+                    {
+                      "set_5": [
+                        {
+                          "question": "What is a phylogenetic tree used to represent?",
+                          "options": ["Family trees of humans", "Relationships among species based on DNA", "A timeline of geological events", "Evolutionary changes of individual traits"],
+                          "correct_answer": "Relationships among species based on DNA",
+                          "explanation": "A phylogenetic tree shows the evolutionary relationships among different species, often inferred from DNA data."
+                        },
+                        {
+                          "question": "Which tool can be used to align DNA sequences?",
+                          "options": ["MEGA", "Adobe Photoshop", "Excel", "PowerPoint"],
+                          "correct_answer": "MEGA",
+                          "explanation": "MEGA (Molecular Evolutionary Genetics Analysis) is a software used for aligning and analyzing DNA and protein sequences."
+                        },
+                        {
+                          "question": "What type of data do phylogenetic trees most commonly use?",
+                          "options": ["Behavioral data", "DNA sequence data", "Meteorological data", "Mathematical models"],
+                          "correct_answer": "DNA sequence data",
+                          "explanation": "Phylogenetic trees typically use DNA or protein sequence data to infer evolutionary relationships."
+                        },
+                        {
+                          "question": "What does a branch length in a phylogenetic tree represent?",
+                          "options": ["Physical distance", "Genetic change or divergence", "Time of day", "Random noise in data"],
+                          "correct_answer": "Genetic change or divergence",
+                          "explanation": "In a phylogenetic tree, the branch length often indicates the amount of genetic change or divergence that has occurred."
+                        },
+                        {
+                          "question": "Which database provides free access to a vast array of genetic data for phylogenetic studies?",
+                          "options": ["GenBank", "Wikipedia", "Spotify", "Social Media Archives"],
+                          "correct_answer": "GenBank",
+                          "explanation": "GenBank is a repository for genetic sequence data and is widely used in phylogenetic research."
+                        },
+                        {
+                          "question": "When constructing a phylogenetic tree, why might multiple methods be used?",
+                          "options": ["To create confusion", "To validate relationships across methods", "To reduce accuracy", "To make it look complex"],
+                          "correct_answer": "To validate relationships across methods",
+                          "explanation": "Using multiple methods for constructing phylogenetic trees helps ensure that the inferred relationships are robust and accurate."
+                        },
+                        {
+                          "question": "Which of the following represents a challenge in constructing phylogenetic trees?",
+                          "options": ["Low cost of DNA sequencing", "Too many sequences to compare", "Missing or incomplete data", "Access to reliable software"],
+                          "correct_answer": "Missing or incomplete data",
+                          "explanation": "Incomplete or missing data can hinder accurate construction of phylogenetic trees, as the analysis may be less reliable."
+                        },
+                        {
+                          "question": "What does it mean when two species share a recent common ancestor in a phylogenetic tree?",
+                          "options": ["They are unrelated", "They diverged long ago", "They are closely related", "They cannot be compared"],
+                          "correct_answer": "They are closely related",
+                          "explanation": "Sharing a recent common ancestor indicates that two species have a close evolutionary relationship."
+                        },
+                        {
+                          "question": "How are evolutionary relationships validated?",
+                          "options": ["Only by appearance", "By comparing DNA, fossil records, and other evidence", "Using social media data", "Through random guessing"],
+                          "correct_answer": "By comparing DNA, fossil records, and other evidence",
+                          "explanation": "Comparative methods involving DNA, fossil data, and other lines of evidence validate evolutionary relationships."
+                        },
+                        {
+                          "question": "What role does mutation play in evolution?",
+                          "options": ["Creates identical species", "Causes population stability", "Introduces genetic variation", "Only affects physical traits"],
+                          "correct_answer": "Introduces genetic variation",
+                          "explanation": "Mutations introduce new genetic variations, contributing to evolutionary change and the divergence of species."
+                        }
+                      ]
+                    },
+                    {
+                      "set_6": [
+                        {
+                          "question": "How can bioinformatics software aid in building phylogenetic trees?",
+                          "options": ["By coloring the trees", "By calculating evolutionary distances", "By removing species", "By deleting DNA sequences"],
+                          "correct_answer": "By calculating evolutionary distances",
+                          "explanation": "Bioinformatics software can calculate genetic distances, making it easier to construct and analyze phylogenetic trees."
+                        },
+                        {
+                          "question": "What does it mean if two species have highly similar DNA sequences?",
+                          "options": ["They are not related", "They likely share a recent common ancestor", "They evolved independently", "They do not belong to the same domain"],
+                          "correct_answer": "They likely share a recent common ancestor",
+                          "explanation": "Highly similar DNA sequences usually indicate a shared recent ancestor, reflecting a close evolutionary relationship."
+                        },
+                        {
+                          "question": "Which method is commonly used to align DNA sequences before building phylogenetic trees?",
+                          "options": ["Phylogenetic Sorting", "Multiple Sequence Alignment", "Natural Grouping", "Spectral Analysis"],
+                          "correct_answer": "Multiple Sequence Alignment",
+                          "explanation": "Multiple Sequence Alignment (MSA) aligns sequences to highlight similarities and differences for constructing phylogenetic trees."
+                        },
+                        {
+                          "question": "What can cause inaccuracies in phylogenetic analyses?",
+                          "options": ["Data inconsistencies", "Accurate alignment", "Reliable data sources", "Perfect DNA sequencing"],
+                          "correct_answer": "Data inconsistencies",
+                          "explanation": "Inaccuracies can arise due to incomplete, incorrect, or inconsistent data used in building phylogenetic models."
+                        },
+                        {
+                          "question": "Which feature distinguishes eukaryotic and prokaryotic DNA sequences for phylogenetic purposes?",
+                          "options": ["Presence of a cell wall", "Chromosomal complexity", "Absence of genetic information", "Cell membrane structure"],
+                          "correct_answer": "Chromosomal complexity",
+                          "explanation": "Eukaryotic DNA is organized into more complex chromosomes compared to prokaryotes, which impacts phylogenetic studies."
+                        },
+                        {
+                          "question": "What is an evolutionary clade in a phylogenetic tree?",
+                          "options": ["A group of unrelated species", "A branch including a common ancestor and all its descendants", "An isolated DNA sequence", "A randomly aligned node"],
+                          "correct_answer": "A branch including a common ancestor and all its descendants",
+                          "explanation": "A clade represents an evolutionary branch in which a common ancestor and all its descendants are grouped."
+                        },
+                        {
+                          "question": "Which evolutionary process is often revealed in phylogenetic trees?",
+                          "options": ["Sudden extinction", "Convergent evolution", "Linear growth", "Parallel elimination"],
+                          "correct_answer": "Convergent evolution",
+                          "explanation": "Phylogenetic trees can reveal convergent evolution, where species evolve similar traits due to environmental pressures, not common ancestry."
+                        },
+                        {
+                          "question": "How does genetic variation contribute to phylogenetic differences?",
+                          "options": ["By keeping DNA sequences identical", "By creating mutations that accumulate over generations", "By preventing speciation", "By making all species identical"],
+                          "correct_answer": "By creating mutations that accumulate over generations",
+                          "explanation": "Genetic variation and mutation accumulation over time lead to differences observed in phylogenetic comparisons."
+                        },
+                        {
+                          "question": "What type of evidence strengthens phylogenetic findings?",
+                          "options": ["Only physical appearance", "DNA sequences, fossils, and morphological data", "Literature reviews", "Social behavior data"],
+                          "correct_answer": "DNA sequences, fossils, and morphological data",
+                          "explanation": "Combining DNA evidence, fossil records, and morphological traits provides a strong basis for phylogenetic analysis."
+                        },
+                        {
+                          "question": "Why are phylogenetic trees considered hypotheses?",
+                          "options": ["They can never be tested", "They represent one possible evolutionary scenario", "They are entirely subjective", "They ignore genetic evidence"],
+                          "correct_answer": "They represent one possible evolutionary scenario",
+                          "explanation": "Phylogenetic trees offer one interpretation of evolutionary history, subject to change with new evidence."
+                        }
+                      ]
+                    },
+                    {
+                      "set_7": [
+                        {
+                          "question": "What is a phylogenetic tree primarily used to illustrate?",
+                          "options": ["An individual's family history", "Evolutionary relationships among species", "Human social hierarchies", "Cultural heritage"],
+                          "correct_answer": "Evolutionary relationships among species",
+                          "explanation": "Phylogenetic trees illustrate how species are evolutionarily related based on shared characteristics and genetic data."
+                        },
+                        {
+                          "question": "Which part of a phylogenetic tree represents a common ancestor?",
+                          "options": ["The nodes where branches meet", "The leaf tips", "The trunk", "Empty spaces"],
+                          "correct_answer": "The nodes where branches meet",
+                          "explanation": "In a phylogenetic tree, nodes represent points where lineages diverged from a common ancestor."
+                        },
+                        {
+                          "question": "What term describes species that share a common branch on a phylogenetic tree?",
+                          "options": ["Random grouping", "Parallel nodes", "Sister taxa", "Convergent pairs"],
+                          "correct_answer": "Sister taxa",
+                          "explanation": "Sister taxa are groups of organisms that share a common branch on a phylogenetic tree and are each other's closest relatives."
+                        },
+                        {
+                          "question": "How can phylogenetic trees help in tracing evolutionary changes?",
+                          "options": ["By ignoring differences", "By highlighting evolutionary transitions and divergence points", "By changing DNA sequences", "By eliminating variation"],
+                          "correct_answer": "By highlighting evolutionary transitions and divergence points",
+                          "explanation": "Phylogenetic trees show where species diverged and help trace evolutionary changes over time."
+                        },
+                        {
+                          "question": "Why is DNA sequence alignment critical before building phylogenetic trees?",
+                          "options": ["It simplifies DNA structure", "It removes junk DNA", "It ensures accurate comparisons between aligned regions", "It randomizes data"],
+                          "correct_answer": "It ensures accurate comparisons between aligned regions",
+                          "explanation": "Accurate alignment of DNA sequences is critical to ensure that meaningful comparisons are made across comparable regions."
+                        },
+                        {
+                          "question": "What does a long branch length in a phylogenetic tree indicate?",
+                          "options": ["Recent common ancestor", "Higher level of DNA similarity", "Greater evolutionary change", "Absence of evolution"],
+                          "correct_answer": "Greater evolutionary change",
+                          "explanation": "Longer branches often signify more evolutionary change or a greater amount of genetic difference between species."
+                        },
+                        {
+                          "question": "What method may be used to assess the reliability of a phylogenetic tree?",
+                          "options": ["Tree coloring", "Genetic exclusion", "Bootstrap analysis", "Manual selection"],
+                          "correct_answer": "Bootstrap analysis",
+                          "explanation": "Bootstrap analysis involves resampling the data to estimate the reliability of branches in a phylogenetic tree."
+                        },
+                        {
+                          "question": "Which of the following represents a correct comparison between homologous structures?",
+                          "options": ["Unrelated traits across different species", "Similar structures derived from a common ancestor", "Traits that evolved independently", "All DNA sequences"],
+                          "correct_answer": "Similar structures derived from a common ancestor",
+                          "explanation": "Homologous structures reflect common ancestry, whereas analogous traits evolve independently."
+                        },
+                        {
+                          "question": "What is the main purpose of constructing phylogenetic trees in evolutionary biology?",
+                          "options": ["To study climate change", "To analyze social behaviors", "To understand evolutionary relationships and origins", "To separate unrelated data"],
+                          "correct_answer": "To understand evolutionary relationships and origins",
+                          "explanation": "Phylogenetic trees are used to trace the evolutionary relationships and origins of species."
+                        },
+                        {
+                          "question": "How can genetic markers be used to differentiate species in phylogenetic studies?",
+                          "options": ["By creating random DNA changes", "By serving as unique identifiers for specific evolutionary lineages", "By hiding DNA sequences", "By excluding mutations"],
+                          "correct_answer": "By serving as unique identifiers for specific evolutionary lineages",
+                          "explanation": "Genetic markers help distinguish species and lineages by providing identifiable genetic differences."
+                        }
+                      ]
+                    },
+                    {
+                      "set_8": [
+                        {
+                          "question": "What is the difference between rooted and unrooted phylogenetic trees?",
+                          "options": ["Rooted trees show a common ancestor; unrooted trees do not", "Rooted trees are less useful", "Unrooted trees only show modern species", "Rooted trees lack branch points"],
+                          "correct_answer": "Rooted trees show a common ancestor; unrooted trees do not",
+                          "explanation": "Rooted trees illustrate the ancestral lineage, while unrooted trees only show relationships without specifying an ancestor."
+                        },
+                        {
+                          "question": "Which factor can cause variations in phylogenetic analyses?",
+                          "options": ["Stable environments", "Uniform DNA sequences", "Mutation rates", "Identical data"],
+                          "correct_answer": "Mutation rates",
+                          "explanation": "Variations in mutation rates across different species can influence phylogenetic analyses and branch lengths."
+                        },
+                        {
+                          "question": "What does 'monophyletic' mean in terms of phylogenetic groups?",
+                          "options": ["A group with no common ancestor", "A group with all descendants and a common ancestor", "A group with unrelated species", "An artificial grouping"],
+                          "correct_answer": "A group with all descendants and a common ancestor",
+                          "explanation": "A monophyletic group contains an ancestor and all of its descendants, reflecting a true evolutionary lineage."
+                        },
+                        {
+                          "question": "Which software tool is commonly used to build phylogenetic trees?",
+                          "options": ["MEGA", "Excel", "Photoshop", "AutoCAD"],
+                          "correct_answer": "MEGA",
+                          "explanation": "MEGA (Molecular Evolutionary Genetics Analysis) is a software tool widely used to construct phylogenetic trees."
+                        },
+                        {
+                          "question": "What challenge arises when comparing highly divergent sequences in phylogenetic analysis?",
+                          "options": ["Improved alignment", "Easy comparison", "Greater alignment errors", "Unchanged genetic data"],
+                          "correct_answer": "Greater alignment errors",
+                          "explanation": "Highly divergent sequences may lead to misalignment and reduce the accuracy of phylogenetic analyses."
+                        },
+                        {
+                          "question": "How does horizontal gene transfer impact phylogenetic analysis?",
+                          "options": ["It simplifies species separation", "It complicates phylogenetic tree construction", "It is irrelevant to DNA sequences", "It blocks evolution"],
+                          "correct_answer": "It complicates phylogenetic tree construction",
+                          "explanation": "Horizontal gene transfer can cause unexpected similarities, complicating the depiction of evolutionary relationships."
+                        },
+                        {
+                          "question": "Which is a key feature of evolutionary trees?",
+                          "options": ["Displaying DNA sequences only", "Highlighting random traits", "Depicting divergence of species from common ancestors", "Ignoring mutations"],
+                          "correct_answer": "Depicting divergence of species from common ancestors",
+                          "explanation": "Evolutionary trees depict how species diverged from common ancestors and evolved over time."
+                        },
+                        {
+                          "question": "In DNA-based phylogenetics, what does a 'molecular clock' refer to?",
+                          "options": ["A clock for measuring time", "Mutation rates as a measure of evolutionary time", "Gene expression patterns", "Physical features"],
+                          "correct_answer": "Mutation rates as a measure of evolutionary time",
+                          "explanation": "The molecular clock concept uses mutation rates to estimate the time of divergence between species."
+                        },
+                        {
+                          "question": "What are analogous traits?",
+                          "options": ["Traits evolved due to shared ancestry", "Traits evolved independently due to similar selection pressures", "Traits that never changed", "Traits found only in humans"],
+                          "correct_answer": "Traits evolved independently due to similar selection pressures",
+                          "explanation": "Analogous traits arise independently in different species due to similar environmental pressures, not shared ancestry."
+                        },
+                        {
+                          "question": "Which concept describes the shared genetic heritage among organisms?",
+                          "options": ["Random variation", "Genetic divergence", "Common descent", "Artificial grouping"],
+                          "correct_answer": "Common descent",
+                          "explanation": "Common descent refers to the idea that all living organisms share a common genetic heritage."
+                        }
+                      ]
+                    },
+                    {
+                      "set_9": [
+                        {
+                          "question": "What is the significance of bootstrap analysis in phylogenetic trees?",
+                          "options": ["It tests the reliability of the tree", "It changes the evolutionary history", "It selects the tree method", "It deletes redundant data"],
+                          "correct_answer": "It tests the reliability of the tree",
+                          "explanation": "Bootstrap analysis is used to assess the reliability of the phylogenetic tree by resampling data."
+                        },
+                        {
+                          "question": "In a phylogenetic tree, what do the branch lengths represent?",
+                          "options": ["Time or genetic change", "Geographical distance", "Number of species", "DNA sequence number"],
+                          "correct_answer": "Time or genetic change",
+                          "explanation": "Branch lengths in a phylogenetic tree often represent the amount of genetic change or evolutionary time."
+                        },
+                        {
+                          "question": "What does the term 'clade' refer to in a phylogenetic tree?",
+                          "options": ["A single species", "A group of species and their common ancestor", "The longest branch", "An unrelated group of species"],
+                          "correct_answer": "A group of species and their common ancestor",
+                          "explanation": "A clade includes an ancestor species and all of its descendants, representing a complete branch of the evolutionary tree."
+                        },
+                        {
+                          "question": "How does genetic drift affect phylogenetic tree construction?",
+                          "options": ["It causes more distinct relationships", "It can introduce random changes, complicating analysis", "It accelerates mutation rates", "It prevents divergence"],
+                          "correct_answer": "It can introduce random changes, complicating analysis",
+                          "explanation": "Genetic drift introduces random changes that may obscure clear evolutionary relationships between species."
+                        },
+                        {
+                          "question": "What is the first step in constructing a phylogenetic tree from DNA sequences?",
+                          "options": ["Align the DNA sequences", "Select the tree-building method", "Collect species data", "Perform sequence clustering"],
+                          "correct_answer": "Align the DNA sequences",
+                          "explanation": "Aligning DNA sequences is the critical first step in accurately comparing genetic material before building a phylogenetic tree."
+                        },
+                        {
+                          "question": "Which tree-building method is often used for large datasets of DNA sequences?",
+                          "options": ["Maximum likelihood", "Minimum threshold", "Random sampling", "Least squares"],
+                          "correct_answer": "Maximum likelihood",
+                          "explanation": "Maximum likelihood is commonly used for large datasets as it calculates the most probable tree structure based on the data."
+                        },
+                        {
+                          "question": "What type of data is most commonly used in constructing phylogenetic trees?",
+                          "options": ["Molecular data", "Geological data", "Climate data", "Behavioral data"],
+                          "correct_answer": "Molecular data",
+                          "explanation": "Molecular data, particularly DNA sequences, is the primary data used to construct phylogenetic trees."
+                        },
+                        {
+                          "question": "How does a phylogenetic tree help in understanding evolutionary biology?",
+                          "options": ["By showing random genetic variations", "By demonstrating species relationships and ancestry", "By ranking species by size", "By categorizing species by habitat"],
+                          "correct_answer": "By demonstrating species relationships and ancestry",
+                          "explanation": "Phylogenetic trees provide insights into species' evolutionary history by mapping their genetic relationships and common ancestry."
+                        },
+                        {
+                          "question": "What does it mean if two species are placed on the same branch of a phylogenetic tree?",
+                          "options": ["They are genetically identical", "They share a more recent common ancestor", "They are unrelated", "They live in similar environments"],
+                          "correct_answer": "They share a more recent common ancestor",
+                          "explanation": "Species on the same branch share a more recent common ancestor and are more closely related in evolutionary terms."
+                        },
+                        {
+                          "question": "What might cause errors in a phylogenetic tree construction?",
+                          "options": ["Data misalignment", "Misinterpretation of genetic data", "Inaccurate sequence data", "All of the above"],
+                          "correct_answer": "All of the above",
+                          "explanation": "Errors in data alignment, interpretation, or sequence data can lead to inaccuracies in phylogenetic tree construction."
+                        }
+                      ]
+                    },
+                    {
+                      "set_10": [
+                        {
+                          "question": "What does the concept of 'homoplasy' refer to in phylogenetic analysis?",
+                          "options": ["Similar traits due to common ancestry", "Similar traits due to convergent evolution", "Random trait distribution", "Traits found only in one species"],
+                          "correct_answer": "Similar traits due to convergent evolution",
+                          "explanation": "Homoplasy occurs when species evolve similar traits independently due to similar environmental pressures, not common ancestry."
+                        },
+                        {
+                          "question": "What is the significance of molecular clocks in phylogenetics?",
+                          "options": ["They measure mutation rates", "They estimate species' geographic locations", "They speed up evolutionary changes", "They synchronize genetic data"],
+                          "correct_answer": "They measure mutation rates",
+                          "explanation": "Molecular clocks use mutation rates to estimate the time since two species diverged from a common ancestor."
+                        },
+                        {
+                          "question": "What is the role of outgroups in phylogenetic analysis?",
+                          "options": ["To provide a comparison for rooting the tree", "To act as the primary focus of analysis", "To increase the accuracy of mutation rates", "To confuse tree construction"],
+                          "correct_answer": "To provide a comparison for rooting the tree",
+                          "explanation": "Outgroups are used as a reference point to root the phylogenetic tree and determine the direction of evolutionary changes."
+                        },
+                        {
+                          "question": "How do mutations influence phylogenetic tree construction?",
+                          "options": ["By preventing evolutionary relationships", "By introducing genetic variation that can be traced", "By eliminating evolutionary evidence", "By reducing tree complexity"],
+                          "correct_answer": "By introducing genetic variation that can be traced",
+                          "explanation": "Mutations contribute to genetic diversity, which helps scientists trace evolutionary relationships in phylogenetic analysis."
+                        },
+                        {
+                          "question": "What does it mean if two species have identical DNA sequences in phylogenetic analysis?",
+                          "options": ["They share the same evolutionary lineage", "They are the same species", "They are unrelated", "They evolved in parallel"],
+                          "correct_answer": "They share the same evolutionary lineage",
+                          "explanation": "Identical DNA sequences suggest that the species share a common ancestor and have evolved along similar paths."
+                        },
+                        {
+                          "question": "Why is it important to consider both morphological and molecular data in phylogenetic studies?",
+                          "options": ["They are the same", "Morphological data is always more reliable", "Molecular data can confirm or refine morphological interpretations", "Morphological data is less accurate"],
+                          "correct_answer": "Molecular data can confirm or refine morphological interpretations",
+                          "explanation": "Molecular and morphological data complement each other, helping to refine and confirm evolutionary relationships."
+                        },
+                        {
+                          "question": "How can genetic similarities in a phylogenetic tree indicate relatedness?",
+                          "options": ["Higher similarity means more divergence", "Higher similarity means closer evolutionary relationship", "It has no effect", "Higher similarity leads to more mutations"],
+                          "correct_answer": "Higher similarity means closer evolutionary relationship",
+                          "explanation": "Genetic similarity generally indicates a closer evolutionary relationship between species."
+                        },
+                        {
+                          "question": "What does the term 'parsimony' refer to in phylogenetic tree construction?",
+                          "options": ["The simplest explanation is preferred", "The most complex tree is selected", "Randomized data selection", "Choosing the fastest tree-building method"],
+                          "correct_answer": "The simplest explanation is preferred",
+                          "explanation": "Parsimony in phylogenetics means selecting the tree that requires the fewest evolutionary changes to explain the data."
+                        },
+                        {
+                          "question": "What kind of data does a phylogenetic tree primarily use to determine relationships?",
+                          "options": ["Geographical", "Genetic", "Morphological only", "Behavioral"],
+                          "correct_answer": "Genetic",
+                          "explanation": "Genetic data, such as DNA sequences, is the most commonly used data to determine evolutionary relationships in phylogenetic analysis."
+                        },
+                        {
+                          "question": "What does it mean if a phylogenetic tree shows several branches with similar lengths?",
+                          "options": ["Equal evolutionary changes between species", "No evolutionary divergence", "Equal mutation rates", "Common ancestor for all species"],
+                          "correct_answer": "Equal evolutionary changes between species",
+                          "explanation": "Branches with similar lengths suggest that the species underwent similar amounts of evolutionary change or divergence."
+                        }
+                      ]
+                    }                                       
                   ]
                 }                
               ]
