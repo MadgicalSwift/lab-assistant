@@ -10,7 +10,7 @@ export const localisedStrings = {
   experimentTopicMessage: 'Here are some fun experiments for you to try! 🎉🔬 Select one to start your scientific journey!',
   startButton:'Start Quiz 🚀',
   correctAnswer: `✅ Nice work! That's correct!`,
-  incorrectAnswer: '❌ Not quite! Try again next time!',
+  incorrectAnswer: '❌ Wrong option❗ Please learn from the right option below ⬇️',
   afterScoreMessage: `Amazing work! 🌟🚀 Would you like to explore another thrilling experiment 🧪⚡, or go back to the quiz? 📊💪`,
   selectExperimentButton: 'Select Experiment 🔬',
   mainMenuButton: 'Main Menu 🏠',

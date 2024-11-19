@@ -75,4 +75,8 @@ export class User {
 
   @IsNumber()
   score: number = 0;
+  selectedSet: null;
+  questionsAnswered: number;
+  selectedMainTopic: any;
+  selectedSubtopic: any;
 }

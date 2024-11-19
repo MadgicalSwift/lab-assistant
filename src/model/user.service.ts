@@ -6,6 +6,15 @@ const { USERS_TABLE } = process.env;
 
 @Injectable()
 export class UserService {
+  saveUserChallenge(from: any, Botid: any, challengeData: { topic: any; subTopic: any; question: { setNumber: any; score: number; badge: string; }[]; }) {
+    throw new Error('Method not implemented.');
+  }
+  saveUserName(from: any, botID: string, body: any) {
+    throw new Error('Method not implemented.');
+  }
+  getTopStudents(Botid: any, selectedMainTopic: any, selectedSet: any, selectedSubtopic: any) {
+    throw new Error('Method not implemented.');
+  }
   async createUser(
     mobileNumber: string,
     language: string,
