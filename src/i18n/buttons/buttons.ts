@@ -165,26 +165,47 @@ ${selectedExperimentDetail.steps
   }
 }
 
-export function videoWithButton(from: string, video_link: string) {
+// export function videoWithButton(from: string, video_link: string) {
+//   return {
+//     to: from,
+//     type: 'button',
+//     button: {
+//       body: {
+//         type: 'text',
+//         text: {
+//           body: video_link,
+//         },
+//       },
+//       buttons: [
+//         {
+//           type: 'solid',
+//           body: localisedStrings.startButton,
+//           reply: localisedStrings.startButton,
+//         },
+//       ],
+//       allow_custom_response: false,
+//     },
+//   };
+// }
+export function videoWithButton(from: string, videoUrl: string, videoTitle: string , subTopic: string, aboutVideo: string) {
+  console.log(videoUrl);
+  console.log(videoTitle);
   return {
-    to: from,
-    type: 'button',
-    button: {
-      body: {
-        type: 'text',
-        text: {
-          body: video_link,
+    to: from, // Recipient's mobile number
+    type: "article", // Message type is article
+    article: [
+      {
+        tags: [`${subTopic}`], // Subtopic name
+        title: videoTitle, // Title of the video
+        header: {
+          type: "text",
+          text: {
+            body: videoUrl, // URL of the video
+          },
         },
+        description: aboutVideo
       },
-      buttons: [
-        {
-          type: 'solid',
-          body: localisedStrings.startButton,
-          reply: localisedStrings.startButton,
-        },
-      ],
-      allow_custom_response: false,
-    },
+    ],
   };
 }
 
@@ -193,6 +214,7 @@ export function firstQuestionWithOptionButtons(
   selectedExperimentquestion: any,
 ) {
   // Select a random question set
+  console.log(selectedExperimentquestion)
   const randomSet =
     selectedExperimentquestion[
       Math.floor(Math.random() * selectedExperimentquestion.length)

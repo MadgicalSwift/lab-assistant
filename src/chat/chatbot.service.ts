@@ -25,15 +25,24 @@ export class ChatbotService {
   }
 
   public async processMessage(body: any): Promise<any> {
-    const { from, text, button_response } = body;
+    const { from, text, button_response , persistent_menu_response} = body;
     const buttonBody = button_response?.body;
     const textBody = text?.body;
     let botID = process.env.BOT_ID;
     let userData = await this.userService.findUserByMobileNumber(from, botID);
     if (!userData) {
       console.log('Creating new user');
+      if(persistent_menu_response){ 
+        if (persistent_menu_response. body=="Change State"){
+          await this.message.sendScienceTopics(from, buttonBody);
+          await this.userService.saveUser(userData);
+           
       userData = await this.userService.createUser(from, 'english', botID);
     }
+  }
+}
+         
+    
     const classGroup = data.classGroups.find(
       (group) => group.class === userData.classGroup,
     );
@@ -46,12 +55,17 @@ export class ChatbotService {
       ?.experiments.find(
         (experiment) => experiment.experiment_name === buttonBody,
       );
-    const selectedExperimentquestion = classGroup?.topics
+      
+    const selectedExperimentquestion = 
+    classGroup?.topics
       .find((t) => t.topic_name === userData.scienceTopic)
       ?.levels.find((l) => l.level_name === userData.difficultyLevel)
       ?.experiments.find(
         (experiment) => experiment.experiment_name === userData.experimentName,
       );
+      console.log(selectedExperimentquestion,"akash")
+      console.log(classGroup)
+    
 
     if (buttonBody) {
       // Mixpanel tracking data
@@ -59,7 +73,13 @@ export class ChatbotService {
         distinct_id: from,
         button: buttonBody,
         botID: botID,
-      };
+      
+    
+        
+      
+    };
+    
+      
 
       this.mixpanel.track('Button_Click', trackingData);
       switch (true) {
@@ -78,35 +98,70 @@ export class ChatbotService {
           await this.message.sendExperimentTopics(from, userData);
           break;
 
+
+
+          case localisedStrings.startButton.includes(buttonBody): {
+            const { setName } = await this.message.sendExperimentFirstQuestion(
+              from,
+              selectedExperimentquestion?.quiz_sets,
+            );
+            userData.setName = setName;
+            userData.currentQuestionIndex =
+              typeof userData.currentQuestionIndex === 'number'
+                ? userData.currentQuestionIndex + 1
+                : 1;
+            break;
+          }
+          
+          
+
+
+
+
+
+
         case selectedExperimentDetails !== undefined:
           userData.experimentName = buttonBody;
-          await this.message.sendExperimentDetails(
-            from,
-            selectedExperimentDetails,
-          );
-
-          await this.message.sendExperimentVideo(
-            from,
-            selectedExperimentDetails,
-          );
-          break;
-
-        case localisedStrings.startButton.includes(buttonBody): {
-          const { setName } = await this.message.sendExperimentFirstQuestion(
-            from,
-            selectedExperimentquestion?.quiz_sets,
-          );
-          userData.setName = setName;
-          userData.currentQuestionIndex =
-            typeof userData.currentQuestionIndex === 'number'
-              ? userData.currentQuestionIndex + 1
-              : 1;
-          break;
+          // await this.message.sendExperimentDetails(
+          //   from,
+          //   selectedExperimentDetails,
+          // );
+        // const videoUrl = selectedExperimentDetails.video_link
+        // const subTopic = selectedExperimentDetails.experiment_name
+        // const videotitle = selectedExperimentDetails.title
+        // const aboutVideo = selectedExperimentDetails.description
+        if ('title' in selectedExperimentDetails && 'description' in selectedExperimentDetails) {
+          const videoUrl = selectedExperimentDetails.video_link;
+          let subTopic = selectedExperimentDetails.experiment_name;
+          const videotitle = selectedExperimentDetails.title;
+          const aboutVideo = selectedExperimentDetails.description;
+        
+          if(subTopic.length > 50){
+            subTopic = subTopic.slice(0, 50) + '...'
+          }
+  
+          await this.message.sendVideo(from, videoUrl, videotitle, subTopic, aboutVideo);
         }
+       
+        await this.message.sendExperimentDetails(
+          from,
+          selectedExperimentDetails,
+        );
+        await this.message.sendExperimentFirstQuestion(
+              from,
+              selectedExperimentquestion?.quiz_sets,
+            );
+          break;
+        
+          
+          
+
+       
 
         case localisedStrings.selectExperimentButton === buttonBody:
           await this.message.sendExperimentTopics(from, userData);
           break;
+          
 
         case localisedStrings.mainMenuButton === buttonBody:
           await this.message.sendClassButtons(from);

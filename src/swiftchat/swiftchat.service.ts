@@ -101,7 +101,9 @@ export class SwiftchatMessageService extends MessageService {
   async sendExperimentFirstQuestion(
     from: string,
     selectedExperimentquestion: any,
+
   ) {
+    console.log( selectedExperimentquestion)
     const { messageData, setName } = firstQuestionWithOptionButtons(
       from,
       selectedExperimentquestion,
@@ -248,20 +250,28 @@ export class SwiftchatMessageService extends MessageService {
     return response;
   }
 
-  async sendExperimentVideo(from: string, selectedExperimentDetails: any) {
-    if (!selectedExperimentDetails.video_link) {
+  async sendVideo(from: string, videoUrl: string, title:any, subTopic: string, aboutVideo: string ) {
+    if (!videoUrl) {
       return;
     }
-    const messageData = videoWithButton(
-      from,
-      selectedExperimentDetails.video_link,
-    );
-    const response = await this.sendMessage(
-      this.baseUrl,
-      messageData,
-      this.apiKey,
-    );
-    return response;
+        console.log(videoUrl)
+    
+    const videoData = videoWithButton(
+               from, // The recipient's phone number
+              videoUrl, // Video URL
+              title,
+              subTopic,
+              aboutVideo
+          );
+       console.log(videoData)
+    // Send the video message using the sendMessage function
+    try {
+      const response = await this.sendMessage(this.baseUrl, videoData, this.apiKey);
+      console.log('Message sent successfully:', response);
+      return response
+    } catch (error) {
+      console.error('Error sending video message:', error);
+    }
   }
   
   async sendLanguageChangedMessage(from: string, language: string) {
