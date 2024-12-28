@@ -133,7 +133,6 @@ ${selectedExperimentDetail.steps
   .map((step, index) => `${index + 1}. ${step}`)
   .join('\n\n')}
 `;
-  if (!selectedExperimentDetail.video_link) {
     return {
       to: from,
       type: 'button',
@@ -154,15 +153,7 @@ ${selectedExperimentDetail.steps
         allow_custom_response: false,
       },
     };
-  } else {
-    return {
-      to: from,
-      type: 'text',
-      text: {
-        body: experimentDetails,
-      },
-    };
-  }
+ 
 }
 
 // export function videoWithButton(from: string, video_link: string) {
@@ -195,7 +186,7 @@ export function videoWithButton(from: string, videoUrl: string, videoTitle: stri
     type: "article", // Message type is article
     article: [
       {
-        tags: [`${subTopic}`], // Subtopic name
+        // tags: [`${subTopic}`], // Subtopic name
         title: videoTitle, // Title of the video
         header: {
           type: "text",

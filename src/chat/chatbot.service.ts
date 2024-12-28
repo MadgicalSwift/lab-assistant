@@ -147,10 +147,10 @@ export class ChatbotService {
           from,
           selectedExperimentDetails,
         );
-        await this.message.sendExperimentFirstQuestion(
-              from,
-              selectedExperimentquestion?.quiz_sets,
-            );
+        // await this.message.sendExperimentFirstQuestion(
+        //       from,
+        //       selectedExperimentquestion?.quiz_sets,
+        //     );
           break;
         
           
