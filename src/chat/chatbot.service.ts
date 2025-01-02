@@ -33,7 +33,7 @@ export class ChatbotService {
     if (!userData) {
       console.log('Creating new user');
       if(persistent_menu_response){ 
-        if (persistent_menu_response. body=="Change State"){
+        if (persistent_menu_response. body=="Change Class"){
           await this.message.sendScienceTopics(from, buttonBody);
           await this.userService.saveUser(userData);
            
@@ -147,10 +147,7 @@ export class ChatbotService {
           from,
           selectedExperimentDetails,
         );
-        // await this.message.sendExperimentFirstQuestion(
-        //       from,
-        //       selectedExperimentquestion?.quiz_sets,
-        //     );
+      
           break;
         
           

@@ -42060,7 +42060,704 @@
                           "explanation": "Adding a little water can help restore the slime's consistency."
                         }
                       ]
+                    },
+                    {
+                      "set_name": "Quiz Set 3",
+                      "questions": [
+                        {
+                          "question": "What type of glue is typically used to make slime?",
+                          "options": [
+                            "Super glue",
+                            "PVA glue (white school glue)",
+                            "Epoxy glue",
+                            "Hot glue"
+                          ],
+                          "correct_answer": "PVA glue (white school glue)",
+                          "explanation": "PVA glue is the main ingredient used to create slime due to its properties."
+                        },
+                        {
+                          "question": "What is the role of baking soda in the slime recipe?",
+                          "options": [
+                            "To add color",
+                            "To thicken the slime",
+                            "To act as a preservative",
+                            "To create bubbles"
+                          ],
+                          "correct_answer": "To thicken the slime",
+                          "explanation": "Baking soda helps to thicken the slime and improve its consistency."
+                        },
+                        {
+                          "question": "What happens when contact lens solution is added to the glue mixture?",
+                          "options": [
+                            "It dissolves the glue",
+                            "It makes the mixture solidify",
+                            "It adds color",
+                            "It has no effect"
+                          ],
+                          "correct_answer": "It makes the mixture solidify",
+                          "explanation": "The boric acid in contact lens solution reacts with the glue to form the slime."
+                        },
+                        {
+                          "question": "Which property of slime is primarily due to its polymer nature?",
+                          "options": [
+                            "Color",
+                            "Elasticity",
+                            "Taste",
+                            "Odor"
+                          ],
+                          "correct_answer": "Elasticity",
+                          "explanation": "Slime's elasticity comes from the long chains of polymers that allow it to stretch."
+                        },
+                        {
+                          "question": "What should you do if the slime is too sticky?",
+                          "options": [
+                            "Add more glue",
+                            "Add more water",
+                            "Add more contact lens solution",
+                            "Stop mixing"
+                          ],
+                          "correct_answer": "Add more contact lens solution",
+                          "explanation": "Adding more contact lens solution can help reduce stickiness and improve texture."
+                        },
+                        {
+                          "question": "What is a characteristic of polymers?",
+                          "options": [
+                            "They are all solid",
+                            "They are made of repeating units",
+                            "They cannot change state",
+                            "They have no practical uses"
+                          ],
+                          "correct_answer": "They are made of repeating units",
+                          "explanation": "Polymers are large molecules made up of repeating structural units."
+                        },
+                        {
+                          "question": "How can you change the color of the slime?",
+                          "options": [
+                            "By adding water",
+                            "By adding baking soda",
+                            "By adding food coloring",
+                            "By using different glue"
+                          ],
+                          "correct_answer": "By adding food coloring",
+                          "explanation": "Food coloring can be added to the slime mixture to create different colors."
+                        },
+                        {
+                          "question": "Why is it important to record observations during the slime-making process?",
+                          "options": [
+                            "To waste time",
+                            "To improve your memory",
+                            "To understand the changes in texture and properties",
+                            "To impress others"
+                          ],
+                          "correct_answer": "To understand the changes in texture and properties",
+                          "explanation": "Recording observations helps to analyze the outcome and understand the science behind slime."
+                        },
+                        {
+                          "question": "What should you use to store slime for later use?",
+                          "options": [
+                            "An open container",
+                            "A cardboard box",
+                            "Plastic wrap or airtight container",
+                            "A paper bag"
+                          ],
+                          "correct_answer": "Plastic wrap or airtight container",
+                          "explanation": "Storing slime in an airtight container keeps it from drying out."
+                        },
+                        {
+                          "question": "What is the main scientific concept explored in this experiment?",
+                          "options": [
+                            "Chemical reactions",
+                            "Thermodynamics",
+                            "Polymers",
+                            "Biochemistry"
+                          ],
+                          "correct_answer": "Polymers",
+                          "explanation": "The experiment explores the properties and characteristics of polymers through slime making."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 4",
+                      "questions": [
+                        {
+                          "question": "What ingredient helps to make slime stretchy?",
+                          "options": [
+                            "Baking soda",
+                            "Cornstarch",
+                            "Glue",
+                            "Shampoo"
+                          ],
+                          "correct_answer": "Glue",
+                          "explanation": "Glue, especially PVA glue, is a key ingredient that makes slime stretchy."
+                        },
+                        {
+                          "question": "What happens when you mix too much baking soda in slime?",
+                          "options": [
+                            "The slime becomes too hard",
+                            "The slime becomes more liquid",
+                            "The slime becomes more elastic",
+                            "The slime becomes more sticky"
+                          ],
+                          "correct_answer": "The slime becomes too hard",
+                          "explanation": "Excess baking soda can make the slime too stiff and less stretchy."
+                        },
+                        {
+                          "question": "Which ingredient is needed to help the slime maintain its consistency?",
+                          "options": [
+                            "Contact lens solution",
+                            "Sugar",
+                            "Flour",
+                            "Gelatin"
+                          ],
+                          "correct_answer": "Contact lens solution",
+                          "explanation": "Contact lens solution reacts with the glue to help the slime maintain its consistency."
+                        },
+                        {
+                          "question": "What happens when you add too much contact lens solution?",
+                          "options": [
+                            "The slime becomes too runny",
+                            "The slime becomes hard and crumbly",
+                            "The slime becomes stretchy",
+                            "The slime becomes bouncy"
+                          ],
+                          "correct_answer": "The slime becomes hard and crumbly",
+                          "explanation": "Too much contact lens solution can cause the slime to become too firm."
+                        },
+                        {
+                          "question": "What is a possible variation you can use to make slime more fluffy?",
+                          "options": [
+                            "Add more glue",
+                            "Add shaving cream",
+                            "Add more contact lens solution",
+                            "Add sugar"
+                          ],
+                          "correct_answer": "Add shaving cream",
+                          "explanation": "Shaving cream can add air and make the slime fluffier."
+                        },
+                        {
+                          "question": "Which of the following should NOT be used in slime-making?",
+                          "options": [
+                            "PVA glue",
+                            "Contact lens solution",
+                            "Toothpaste",
+                            "Baking soda"
+                          ],
+                          "correct_answer": "Toothpaste",
+                          "explanation": "Toothpaste is not an ingredient that is safe or effective for making slime."
+                        },
+                        {
+                          "question": "How do you make the slime less sticky?",
+                          "options": [
+                            "Add more glue",
+                            "Add more water",
+                            "Add more contact lens solution",
+                            "Stop mixing"
+                          ],
+                          "correct_answer": "Add more contact lens solution",
+                          "explanation": "Adding contact lens solution helps to reduce the stickiness of slime."
+                        },
+                        {
+                          "question": "What is the purpose of mixing in the baking soda slowly?",
+                          "options": [
+                            "To make the slime stretchy",
+                            "To ensure proper consistency",
+                            "To add more color",
+                            "To make the slime hard"
+                          ],
+                          "correct_answer": "To ensure proper consistency",
+                          "explanation": "Adding baking soda slowly helps to control the texture and consistency of the slime."
+                        },
+                        {
+                          "question": "What can you add to make your slime glow in the dark?",
+                          "options": [
+                            "Glow-in-the-dark paint",
+                            "Food coloring",
+                            "Shaving cream",
+                            "Baking soda"
+                          ],
+                          "correct_answer": "Glow-in-the-dark paint",
+                          "explanation": "Glow-in-the-dark paint can be added to make slime glow in the dark."
+                        },
+                        {
+                          "question": "Why is it important to knead the slime after mixing?",
+                          "options": [
+                            "To make it smoother and stretchier",
+                            "To make it more colorful",
+                            "To make it harder",
+                            "To make it smell better"
+                          ],
+                          "correct_answer": "To make it smoother and stretchier",
+                          "explanation": "Kneading helps to smooth out the slime and increase its stretchiness."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 5",
+                      "questions": [
+                        {
+                          "question": "What is the primary ingredient in making slime?",
+                          "options": [
+                            "Glue",
+                            "Shaving cream",
+                            "Cornstarch",
+                            "Soap"
+                          ],
+                          "correct_answer": "Glue",
+                          "explanation": "Glue is the main ingredient used in most slime recipes."
+                        },
+                        {
+                          "question": "What effect does adding cornstarch have on slime?",
+                          "options": [
+                            "Makes it more liquid",
+                            "Makes it more stretchy",
+                            "Makes it more bouncy",
+                            "Makes it thicker"
+                          ],
+                          "correct_answer": "Makes it thicker",
+                          "explanation": "Cornstarch thickens the slime and gives it a smoother texture."
+                        },
+                        {
+                          "question": "Which of the following is essential for activating slime?",
+                          "options": [
+                            "Water",
+                            "Contact lens solution",
+                            "Flour",
+                            "Sugar"
+                          ],
+                          "correct_answer": "Contact lens solution",
+                          "explanation": "Contact lens solution helps to activate the glue, turning it into slime."
+                        },
+                        {
+                          "question": "What should you do if the slime is too runny?",
+                          "options": [
+                            "Add more glue",
+                            "Add more water",
+                            "Add more contact lens solution",
+                            "Add more food coloring"
+                          ],
+                          "correct_answer": "Add more glue",
+                          "explanation": "Adding more glue helps to thicken the slime if it is too runny."
+                        },
+                        {
+                          "question": "What is a non-typical ingredient that can be added to slime for texture?",
+                          "options": [
+                            "Rice",
+                            "Glycerin",
+                            "Styrofoam beads",
+                            "Coffee"
+                          ],
+                          "correct_answer": "Styrofoam beads",
+                          "explanation": "Styrofoam beads can add a crunchy texture to the slime."
+                        },
+                        {
+                          "question": "Which tool is commonly used to stir the slime mixture?",
+                          "options": [
+                            "Fork",
+                            "Wooden stick",
+                            "Spoon",
+                            "Hand"
+                          ],
+                          "correct_answer": "Wooden stick",
+                          "explanation": "A wooden stick or spoon is typically used to stir the slime ingredients."
+                        },
+                        {
+                          "question": "Which type of glue is commonly used in making slime?",
+                          "options": [
+                            "Super glue",
+                            "PVA glue",
+                            "Hot glue",
+                            "Glue stick"
+                          ],
+                          "correct_answer": "PVA glue",
+                          "explanation": "PVA glue is the most common glue used in slime recipes."
+                        },
+                        {
+                          "question": "What can happen if you add too much food coloring to slime?",
+                          "options": [
+                            "It makes the slime glow",
+                            "It changes the texture",
+                            "It becomes very dark",
+                            "It makes it more sticky"
+                          ],
+                          "correct_answer": "It becomes very dark",
+                          "explanation": "Too much food coloring can make the slime too dark and affect its appearance."
+                        },
+                        {
+                          "question": "What is the effect of kneading the slime?",
+                          "options": [
+                            "Makes it more runny",
+                            "Improves the texture and elasticity",
+                            "Changes the color",
+                            "Makes it smell better"
+                          ],
+                          "correct_answer": "Improves the texture and elasticity",
+                          "explanation": "Kneading helps to improve the slime's texture and make it stretchier."
+                        },
+                        {
+                          "question": "What type of solution is commonly used to activate slime?",
+                          "options": [
+                            "Baking soda solution",
+                            "Water solution",
+                            "Contact lens solution",
+                            "Vinegar solution"
+                          ],
+                          "correct_answer": "Contact lens solution",
+                          "explanation": "Contact lens solution contains boric acid, which reacts with glue to form slime."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 6",
+                      "questions": [
+                        {
+                          "question": "What does the baking soda do in the slime recipe?",
+                          "options": [
+                            "Makes it stretchy",
+                            "Helps the glue form into slime",
+                            "Adds color",
+                            "Makes it firmer"
+                          ],
+                          "correct_answer": "Helps the glue form into slime",
+                          "explanation": "Baking soda reacts with contact lens solution to form slime from glue."
+                        },
+                        {
+                          "question": "What should you do if the slime is too hard?",
+                          "options": [
+                            "Add more baking soda",
+                            "Add more water",
+                            "Add more glue",
+                            "Add more contact lens solution"
+                          ],
+                          "correct_answer": "Add more contact lens solution",
+                          "explanation": "Adding more contact lens solution helps soften the slime and improves its texture."
+                        },
+                        {
+                          "question": "How do you make a clear slime?",
+                          "options": [
+                            "Use clear glue",
+                            "Add more food coloring",
+                            "Add more baking soda",
+                            "Use white glue"
+                          ],
+                          "correct_answer": "Use clear glue",
+                          "explanation": "Clear glue is essential for making clear slime."
+                        },
+                        {
+                          "question": "What can cause slime to become too runny?",
+                          "options": [
+                            "Too much glue",
+                            "Too much contact lens solution",
+                            "Too much food coloring",
+                            "Too much baking soda"
+                          ],
+                          "correct_answer": "Too much contact lens solution",
+                          "explanation": "Excess contact lens solution can make the slime too runny and watery."
+                        },
+                        {
+                          "question": "How can you make slime that changes color?",
+                          "options": [
+                            "By using different glue",
+                            "By adding temperature-sensitive pigments",
+                            "By adding food coloring",
+                            "By adding more baking soda"
+                          ],
+                          "correct_answer": "By adding temperature-sensitive pigments",
+                          "explanation": "Thermochromic pigments can make slime change color based on temperature."
+                        },
+                        {
+                          "question": "What is the role of food coloring in slime-making?",
+                          "options": [
+                            "To make it stretchier",
+                            "To add color",
+                            "To make it firmer",
+                            "To make it smell better"
+                          ],
+                          "correct_answer": "To add color",
+                          "explanation": "Food coloring is used to give the slime its desired color."
+                        },
+                        {
+                          "question": "What happens when you add too much water to the slime mixture?",
+                          "options": [
+                            "The slime becomes more solid",
+                            "The slime becomes less stretchy",
+                            "The slime becomes too runny",
+                            "The slime becomes more elastic"
+                          ],
+                          "correct_answer": "The slime becomes too runny",
+                          "explanation": "Excess water can make the slime too watery and less stretchy."
+                        },
+                        {
+                          "question": "What is the purpose of kneading the slime?",
+                          "options": [
+                            "To make it smoother and stretchier",
+                            "To add air",
+                            "To change the color",
+                            "To add texture"
+                          ],
+                          "correct_answer": "To make it smoother and stretchier",
+                          "explanation": "Kneading helps to make the slime smoother and enhances its stretchiness."
+                        },
+                        {
+                          "question": "How long should you knead the slime?",
+                          "options": [
+                            "1-2 minutes",
+                            "10 minutes",
+                            "5 minutes",
+                            "15 minutes"
+                          ],
+                          "correct_answer": "1-2 minutes",
+                          "explanation": "Kneading for 1-2 minutes is typically enough to improve the texture."
+                        },
+                        {
+                          "question": "How can you make slime less sticky?",
+                          "options": [
+                            "Add more water",
+                            "Add more glue",
+                            "Add more baking soda",
+                            "Add more contact lens solution"
+                          ],
+                          "correct_answer": "Add more contact lens solution",
+                          "explanation": "More contact lens solution can help reduce the stickiness of slime."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 7",
+                      "questions": [
+                        {
+                          "question": "What happens when you mix glue with baking soda?",
+                          "options": [
+                            "It turns into slime",
+                            "It becomes liquid",
+                            "It becomes solid",
+                            "It changes color"
+                          ],
+                          "correct_answer": "It turns into slime",
+                          "explanation": "The reaction between glue and baking soda helps form slime."
+                        },
+                        {
+                          "question": "What should you do if your slime is too hard?",
+                          "options": [
+                            "Add more contact lens solution",
+                            "Add more food coloring",
+                            "Add more water",
+                            "Add more glue"
+                          ],
+                          "correct_answer": "Add more contact lens solution",
+                          "explanation": "Adding contact lens solution helps soften the slime and improve its consistency."
+                        },
+                        {
+                          "question": "What causes slime to be stretchy?",
+                          "options": [
+                            "Water",
+                            "Polymer chains",
+                            "Food coloring",
+                            "Baking soda"
+                          ],
+                          "correct_answer": "Polymer chains",
+                          "explanation": "Slime's stretchiness is due to the long polymer chains in the glue."
+                        },
+                        {
+                          "question": "What happens when you over-knead slime?",
+                          "options": [
+                            "It becomes more sticky",
+                            "It becomes less elastic",
+                            "It becomes fluffier",
+                            "It becomes more colorful"
+                          ],
+                          "correct_answer": "It becomes less elastic",
+                          "explanation": "Over-kneading can reduce the slime's stretchiness and make it less elastic."
+                        },
+                        {
+                          "question": "How can you make your slime more colorful?",
+                          "options": [
+                            "Add more glue",
+                            "Add more contact lens solution",
+                            "Add food coloring",
+                            "Add baking soda"
+                          ],
+                          "correct_answer": "Add food coloring",
+                          "explanation": "Food coloring is used to give slime its desired color."
+                        },
+                        {
+                          "question": "How do you know when the slime is ready to play with?",
+                          "options": [
+                            "When it stops being sticky",
+                            "When it changes color",
+                            "When it becomes clear",
+                            "When it feels slimy"
+                          ],
+                          "correct_answer": "When it stops being sticky",
+                          "explanation": "Slime is ready to play with when it has a smooth texture and stops being too sticky."
+                        },
+                        {
+                          "question": "Which ingredient is needed to activate the slime?",
+                          "options": [
+                            "Cornstarch",
+                            "Baking soda",
+                            "Contact lens solution",
+                            "Sugar"
+                          ],
+                          "correct_answer": "Contact lens solution",
+                          "explanation": "Contact lens solution contains boric acid that helps activate the slime."
+                        },
+                        {
+                          "question": "What happens when you add too much food coloring?",
+                          "options": [
+                            "Slime becomes thicker",
+                            "Slime becomes more stretchy",
+                            "Slime becomes darker",
+                            "Slime changes color"
+                          ],
+                          "correct_answer": "Slime becomes darker",
+                          "explanation": "Too much food coloring can make the slime too dark and affect its overall appearance."
+                        },
+                        {
+                          "question": "Why is it important to measure ingredients in slime-making?",
+                          "options": [
+                            "To create a perfect slime texture",
+                            "To make it colorful",
+                            "To increase the slime's shelf life",
+                            "To make it glow"
+                          ],
+                          "correct_answer": "To create a perfect slime texture",
+                          "explanation": "Measuring ingredients ensures you get the right texture for your slime."
+                        },
+                        {
+                          "question": "What is one way to make your slime more stretchy?",
+                          "options": [
+                            "Add more glue",
+                            "Add more food coloring",
+                            "Add more baking soda",
+                            "Add more contact lens solution"
+                          ],
+                          "correct_answer": "Add more glue",
+                          "explanation": "Adding more glue can help make the slime more stretchy and smooth."
+                        }
+                      ]
+                    },
+                    {
+                      "set_name": "Quiz Set 8",
+                      "questions": [
+                        {
+                          "question": "What ingredient is added to make slime less sticky?",
+                          "options": [
+                            "Salt",
+                            "Baking powder",
+                            "Contact lens solution",
+                            "Vinegar"
+                          ],
+                          "correct_answer": "Contact lens solution",
+                          "explanation": "Contact lens solution contains boric acid, which helps make the slime less sticky."
+                        },
+                        {
+                          "question": "What is the purpose of cornstarch in some slime recipes?",
+                          "options": [
+                            "To add color",
+                            "To make the slime harder",
+                            "To thicken the slime",
+                            "To make the slime smoother"
+                          ],
+                          "correct_answer": "To thicken the slime",
+                          "explanation": "Cornstarch acts as a thickening agent, giving the slime a smoother and firmer texture."
+                        },
+                        {
+                          "question": "Which of the following can change the texture of slime?",
+                          "options": [
+                            "Temperature",
+                            "Light",
+                            "Music",
+                            "Time of day"
+                          ],
+                          "correct_answer": "Temperature",
+                          "explanation": "Slime's texture can change depending on the temperature, becoming firmer in colder conditions and softer in warmer conditions."
+                        },
+                        {
+                          "question": "What happens if you add too much contact lens solution?",
+                          "options": [
+                            "The slime will be too sticky",
+                            "The slime will become too firm",
+                            "The slime will turn into a liquid",
+                            "The slime will change color"
+                          ],
+                          "correct_answer": "The slime will become too firm",
+                          "explanation": "Excess contact lens solution can make the slime too firm and less stretchy."
+                        },
+                        {
+                          "question": "What happens when slime is exposed to heat for an extended period?",
+                          "options": [
+                            "It becomes harder",
+                            "It becomes more stretchy",
+                            "It melts and becomes liquid",
+                            "It stays the same"
+                          ],
+                          "correct_answer": "It becomes more stretchy",
+                          "explanation": "Heat can make the slime more malleable and stretchy, but prolonged exposure can cause it to break down."
+                        },
+                        {
+                          "question": "What can be used to make slime glow in the dark?",
+                          "options": [
+                            "Glow in the dark paint",
+                            "Food coloring",
+                            "Neon lights",
+                            "Glow sticks"
+                          ],
+                          "correct_answer": "Glow in the dark paint",
+                          "explanation": "Glow in the dark paint can be mixed into slime to make it glow when the lights are turned off."
+                        },
+                        {
+                          "question": "What is the purpose of shaving cream in some slime recipes?",
+                          "options": [
+                            "To make it smell nice",
+                            "To add color",
+                            "To make it fluffier and lighter",
+                            "To add texture"
+                          ],
+                          "correct_answer": "To make it fluffier and lighter",
+                          "explanation": "Shaving cream can make slime lighter and give it a fluffier, more cloud-like texture."
+                        },
+                        {
+                          "question": "What happens if you mix slime with too much water?",
+                          "options": [
+                            "It will become more stretchy",
+                            "It will become more solid",
+                            "It will turn into a liquid",
+                            "It will lose its slime properties"
+                          ],
+                          "correct_answer": "It will lose its slime properties",
+                          "explanation": "Adding too much water will cause the slime to lose its elasticity and become runny."
+                        },
+                        {
+                          "question": "What is the first step in making slime?",
+                          "options": [
+                            "Add food coloring",
+                            "Mix the glue with water",
+                            "Add baking soda",
+                            "Mix the glue with contact lens solution"
+                          ],
+                          "correct_answer": "Mix the glue with water",
+                          "explanation": "The first step in making slime is to mix glue with water to create a base for the slime."
+                        },
+                        {
+                          "question": "What is a common cause of slime turning hard over time?",
+                          "options": [
+                            "Too much water",
+                            "Too much contact lens solution",
+                            "Not enough baking soda",
+                            "Exposure to air"
+                          ],
+                          "correct_answer": "Exposure to air",
+                          "explanation": "Slime can dry out and harden if left exposed to air for too long."
+                        }
+                      ]
                     }
+
+                    
+                    
+                    
+                    
+                    
+                    
                   ]
                 },
                 {
@@ -48572,6 +49269,9 @@
                         }
                       ]
                     }
+                    
+                   
+                    
                   ]
                 }
                 ,
