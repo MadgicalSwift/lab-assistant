@@ -1,9 +1,8 @@
-import { Injectable } from '@nestjs/common';
+import { Body, Injectable } from '@nestjs/common';
 import * as dotenv from 'dotenv';
 import { LocalizationService } from 'src/localization/localization.service';
 import { MessageService } from 'src/message/message.service';
 import { localisedStrings } from 'src/i18n/en/localised-strings';
-import data from 'src/datasource/data.json';
 import {
   createClassButton,
   scienceTopicButtons,
@@ -13,7 +12,7 @@ import {
   firstQuestionWithOptionButtons,
   nextQuestionWithOptionButtons,
   scoreWithButtons,
-  videoWithButton,
+  startAndExploreButton
 } from 'src/i18n/buttons/buttons';
 dotenv.config();
 
@@ -88,15 +87,80 @@ export class SwiftchatMessageService extends MessageService {
     return response;
   }
 
+  
+//===================================
+async sendStartQuizandExploreButton(from: string, selectedCategory: any) {
+  const requestData = startAndExploreButton(from, selectedCategory);
+  await this.sendMessage(this.baseUrl, requestData, this.apiKey);
+}
+
+
+async sendQuizMessage(from: string) {
+  const requestData = this.prepareRequestData(
+    from,
+    localisedStrings.quizMessage(),
+  );
+  await this.sendMessage(this.baseUrl, requestData, this.apiKey);
+}
+
+    
   async sendExperimentDetails(from: string, selectedExperimentDetails: any) {
-    const messageData = experimentDetails(from, selectedExperimentDetails);
-    const response = await this.sendMessage(
-      this.baseUrl,
-      messageData,
-      this.apiKey,
-    );
-    return response;
+    // Validate the selected experiment details
+    if (!selectedExperimentDetails || !selectedExperimentDetails.experiment_name) {
+      console.log('Experiment details are invalid or missing.');
+      return;
+    }
+  
+    // Construct the experiment URL dynamically
+    const experimentUrl = `https://scienceexperiments.web.app/experiment/${encodeURIComponent(
+      selectedExperimentDetails.experiment_name,
+    )}`;
+  
+    // Construct the experiment card
+    const experimentCard = {
+      header: {
+        type: 'text', 
+        text: {
+          body: selectedExperimentDetails.video_link
+        }, 
+      },
+      body: {
+        title: selectedExperimentDetails.experiment_name, 
+        subtitle: `Aim: ${selectedExperimentDetails.aim}`, 
+      },
+      actions: [
+        {
+          button_text: 'Learn More', // Button text
+          type: 'website', // Type of action
+          website: {
+            title: `Learn about ${selectedExperimentDetails.experiment_name}`, // Button title
+            payload: 'experiment_info', 
+            url: experimentUrl, 
+          },
+        },
+      ],
+    };
+  
+    // Prepare the request data for the platform
+    const requestData = {
+      to: from, 
+      type: 'card', 
+      card: [experimentCard], 
+    };
+  
+    // console.log('Prepared request data:', requestData);
+  
+    try {
+      const response = await this.sendMessage(this.baseUrl, requestData, this.apiKey);
+      console.log('Experiment details sent successfully:', response);
+      return response; 
+    } catch (error) {
+      console.error('Error sending experiment details:', error); // Error handling
+    }
+  
+    return experimentCard; 
   }
+
 
   async sendExperimentFirstQuestion(
     from: string,
@@ -250,29 +314,6 @@ export class SwiftchatMessageService extends MessageService {
     return response;
   }
 
-  async sendVideo(from: string, videoUrl: string, title:any, subTopic: string, aboutVideo: string ) {
-    if (!videoUrl) {
-      return;
-    }
-        console.log(videoUrl)
-    
-    const videoData = videoWithButton(
-               from, // The recipient's phone number
-              videoUrl, // Video URL
-              title,
-              subTopic,
-              aboutVideo
-          );
-       console.log(videoData)
-    // Send the video message using the sendMessage function
-    try {
-      const response = await this.sendMessage(this.baseUrl, videoData, this.apiKey);
-      console.log('Message sent successfully:', response);
-      return response
-    } catch (error) {
-      console.error('Error sending video message:', error);
-    }
-  }
   
   async sendLanguageChangedMessage(from: string, language: string) {
     const localisedStrings = LocalizationService.getLocalisedString(language);

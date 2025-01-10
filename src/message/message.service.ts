@@ -64,6 +64,9 @@ export abstract class MessageService {
   abstract sendQuestion(from: string, selectedExperimentquestion: any, setName: string, currentQuestionIndex: number);
   abstract sendFeedBack(from: string, selectedExperimentquestion: any, setName: string, currentQuestionIndex: number, buttonBody: string);
   abstract sendScoreWithButtons(from: string, score: number);
-  abstract sendVideo(from: string,  videoUrl: string, title:string, subTopic: string, aboutVideo: string);
   abstract sendLanguageChangedMessage(from: string, language: string);
+  //==============
+  abstract sendQuizMessage(from: string);
+  abstract sendStartQuizandExploreButton(from: string, selectedCategory: string);
+
 }

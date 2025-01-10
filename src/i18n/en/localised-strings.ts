@@ -8,7 +8,19 @@ export const localisedStrings = {
   difficultyLevelPrompt: 'What difficulty level would you like to try today?',  
   difficultyLevelButtons: ['Easy', 'Medium', 'Hard'],  
   experimentTopicMessage: 'Here are some fun experiments for you to try! 🎉🔬 Select one to start your scientific journey!',
+  //=========
+  afterCarousalMessage: (selectedCategory: any) => `Do you Want to test your knowledge about ${selectedCategory}? *click on start quiz*\n`,
+
   startButton:'Start Quiz 🚀',
+  //====================
+  quizMessage: () => `Welcome to the quiz! You'll be answering 10 questions, and for each correct answer, you'll earn 1 mark. Don't worry—incorrect answers won't cost you anything, as you'll score 0 for them. Ready to test your knowledge? Best of luck! :four_leaf_clover:`,
+
+  topic: `Do you want to change`,
+  ageButton: `Change age`,
+  topicbutton:`Change topic`,
+  levelButton:`Change level`,
+  subjectButton:`Change subject`,
+  exploreButton: 'Explore More Data',
   correctAnswer: `✅ Nice work! That's correct!`,
   incorrectAnswer: '❌ Wrong option❗ Please learn from the right option below ⬇️',
   afterScoreMessage: `Amazing work! 🌟🚀 Would you like to explore another thrilling experiment 🧪⚡, or go back to the quiz? 📊💪`,

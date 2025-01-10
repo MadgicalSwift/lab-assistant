@@ -18819,7 +18819,7 @@
                   ]
                 },
                 {
-                  "experiment_name": "How Do Plants Drink Water? (Capillary Action)",
+                  "experiment_name": "How Do Plants Drink Water (Capillary Action)",
                   "aim": "To demonstrate capillary action in plants and understand how they absorb water.",
                   "objectives": [
                     "Learn about the process of capillary action and its significance in plant biology.",
@@ -42334,7 +42334,7 @@
               "level_name": "Hard",
               "experiments": [
                 {
-                  "experiment_name": "Salt/Sugar Crystals",
+                  "experiment_name": "Salt or Sugar Crystals",
                   "aim": "To grow crystals using sugar or salt and understand the concepts of solubility and crystallization.",
                   "objectives": [
                     "Learn about the solubility of different substances and how temperature affects it.",
@@ -54507,6 +54507,7 @@
                   ]
                 }
                 ,
+                
                 {
                   "experiment_name": "Pendulum Energy",
                   "aim": "To investigate the energy transfer between potential and kinetic energy in a pendulum system.",

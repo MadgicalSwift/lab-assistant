@@ -11,7 +11,6 @@ export class ChatbotService {
   private readonly message: MessageService;
   private readonly userService: UserService;
   private readonly mixpanel: MixpanelService;
-
   constructor(
     intentClassifier: IntentClassifier,
     message: MessageService,
@@ -23,26 +22,43 @@ export class ChatbotService {
     this.userService = userService;
     this.mixpanel = mixpanel;
   }
-
   public async processMessage(body: any): Promise<any> {
-    const { from, text, button_response , persistent_menu_response} = body;
+    console.log("hgjhgjhgjgh",body)
+    const { from, text, button_response, persistent_menu_response} = body;
     const buttonBody = button_response?.body;
     const textBody = text?.body;
     let botID = process.env.BOT_ID;
     let userData = await this.userService.findUserByMobileNumber(from, botID);
     if (!userData) {
       console.log('Creating new user');
-      if(persistent_menu_response){ 
-        if (persistent_menu_response. body=="Change State"){
+      if(persistent_menu_response){
+        console.log("recieved",persistent_menu_response.body)
+        if (persistent_menu_response.body=="Change Class"){
           await this.message.sendScienceTopics(from, buttonBody);
           await this.userService.saveUser(userData);
-           
-      userData = await this.userService.createUser(from, 'english', botID);
-    }
+          userData = await this.userService.createUser(from, 'english', botID);
+        }
+        
   }
 }
-         
-    
+
+ if(persistent_menu_response){
+  if(persistent_menu_response.body=="Change Age"){
+    await this.message.sendClassButtons(from);
+  }
+  if(persistent_menu_response.body=="Change Subject"){
+    console.log(persistent_menu_response.body,"jhkjkjhkjhkjhkjhkjhkjhkjhkjhkjhkjhkjh")
+    await this.message.sendScienceTopics(from, persistent_menu_response.body);
+  }
+  if(persistent_menu_response.body=="Change Lavel"){
+
+    await this.message.sendDifficultyLevel(from);
+  }
+  if(persistent_menu_response.body=="Change Topic"){
+    await this.message.sendExperimentTopics(from, userData);
+  }
+ }
+
     const classGroup = data.classGroups.find(
       (group) => group.class === userData.classGroup,
     );
@@ -55,8 +71,7 @@ export class ChatbotService {
       ?.experiments.find(
         (experiment) => experiment.experiment_name === buttonBody,
       );
-      
-    const selectedExperimentquestion = 
+    const selectedExperimentquestion =
     classGroup?.topics
       .find((t) => t.topic_name === userData.scienceTopic)
       ?.levels.find((l) => l.level_name === userData.difficultyLevel)
@@ -65,103 +80,69 @@ export class ChatbotService {
       );
       console.log(selectedExperimentquestion,"akash")
       console.log(classGroup)
-    
-
     if (buttonBody) {
       // Mixpanel tracking data
       const trackingData = {
         distinct_id: from,
         button: buttonBody,
         botID: botID,
-      
-    
-        
-      
     };
-    
-      
-
       this.mixpanel.track('Button_Click', trackingData);
       switch (true) {
         case localisedStrings.classes.includes(buttonBody):
           userData.classGroup = buttonBody;
           await this.message.sendScienceTopics(from, buttonBody);
+          
           break;
-
         case selectedTopic !== undefined:
           userData.scienceTopic = buttonBody;
           await this.message.sendDifficultyLevel(from);
           break;
-
         case localisedStrings.difficultyLevelButtons.includes(buttonBody):
           userData.difficultyLevel = buttonBody;
           await this.message.sendExperimentTopics(from, userData);
           break;
-
-
-
           case localisedStrings.startButton.includes(buttonBody): {
+            await this.message.sendQuizMessage(from);
+
             const { setName } = await this.message.sendExperimentFirstQuestion(
               from,
               selectedExperimentquestion?.quiz_sets,
             );
+            
             userData.setName = setName;
             userData.currentQuestionIndex =
               typeof userData.currentQuestionIndex === 'number'
                 ? userData.currentQuestionIndex + 1
                 : 1;
-            break;
+            break;  
           }
-          
-          
-
-
-
-
-
 
         case selectedExperimentDetails !== undefined:
           userData.experimentName = buttonBody;
-          // await this.message.sendExperimentDetails(
-          //   from,
-          //   selectedExperimentDetails,
-          // );
-        // const videoUrl = selectedExperimentDetails.video_link
-        // const subTopic = selectedExperimentDetails.experiment_name
-        // const videotitle = selectedExperimentDetails.title
-        // const aboutVideo = selectedExperimentDetails.description
-        if ('title' in selectedExperimentDetails && 'description' in selectedExperimentDetails) {
+          if ('title' in selectedExperimentDetails && 'description' in selectedExperimentDetails) {
           const videoUrl = selectedExperimentDetails.video_link;
           let subTopic = selectedExperimentDetails.experiment_name;
           const videotitle = selectedExperimentDetails.title;
           const aboutVideo = selectedExperimentDetails.description;
-        
           if(subTopic.length > 50){
             subTopic = subTopic.slice(0, 50) + '...'
           }
-  
-          await this.message.sendVideo(from, videoUrl, videotitle, subTopic, aboutVideo);
         }
-       
         await this.message.sendExperimentDetails(
           from,
           selectedExperimentDetails,
         );
-        // await this.message.sendExperimentFirstQuestion(
-        //       from,
-        //       selectedExperimentquestion?.quiz_sets,
-        //     );
-          break;
-        
-          
-          
-
-       
+//====================
+          await this.message.sendStartQuizandExploreButton(
+            from,
+          userData.experimentName,
+          );        
+        break;
 
         case localisedStrings.selectExperimentButton === buttonBody:
           await this.message.sendExperimentTopics(from, userData);
           break;
-          
 
         case localisedStrings.mainMenuButton === buttonBody:
           await this.message.sendClassButtons(from);
@@ -176,6 +157,7 @@ export class ChatbotService {
           );
           userData.currentQuestionIndex += 1;
           break;
+
         default:
           {
             let feedback = await this.message.sendFeedBack(
@@ -215,11 +197,9 @@ export class ChatbotService {
         this.message.sendWelcomeMessage(from, userData.language);
         return;
       }
-
       userData.userName = textBody;
       await this.message.sendClassButtons(from);
     }
-
     await this.userService.saveUser(userData);
   }
 }

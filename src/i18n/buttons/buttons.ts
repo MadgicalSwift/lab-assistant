@@ -1,7 +1,6 @@
 import data from '../../datasource/data.json';
 import _ from 'lodash';
 import { localisedStrings } from '../en/localised-strings';
-
 export function createClassButton(from: string) {
   return {
     to: from,
@@ -22,15 +21,12 @@ export function createClassButton(from: string) {
     },
   };
 }
-
 export function scienceTopicButtons(from: string, buttonBody: string) {
   const classGroup = data.classGroups.find(
     (group) => group.class === buttonBody,
   );
-
   // Get topics from the found class group
   const topics = classGroup?.topics.map((topic) => topic.topic_name) || [];
-
   return {
     to: from,
     type: 'button',
@@ -50,7 +46,6 @@ export function scienceTopicButtons(from: string, buttonBody: string) {
     },
   };
 }
-
 export function difficultyLevelButtons(from: string) {
   return {
     to: from,
@@ -73,29 +68,24 @@ export function difficultyLevelButtons(from: string) {
     },
   };
 }
-
 export function experimentTopicButtons(from: string, userData: any) {
   const selectedClassGroup = data.classGroups.find(
     (group) => group.class === userData.classGroup,
   );
-
   // Find the selected science topic within the class group
   const selectedScienceTopic = selectedClassGroup?.topics.find(
     (topic) => topic.topic_name === userData.scienceTopic,
   );
-
   // Find the selected difficulty level within the science topic
   const selectedDifficultyLevel = selectedScienceTopic?.levels.find(
     (level) => level.level_name === userData.difficultyLevel,
   );
-
   // Map through the experiments and create buttons based on the experiment_name
   const buttons = selectedDifficultyLevel?.experiments.map((experiment) => ({
     type: 'solid',
     body: experiment.experiment_name,
     reply: experiment.experiment_name,
   }));
-
   // Return the button response with the experiment topic message
   return {
     to: from,
@@ -112,23 +102,19 @@ export function experimentTopicButtons(from: string, userData: any) {
     },
   };
 }
-
 export function experimentDetails(from: string, selectedExperimentDetail: any) {
   // Construct the experiment details message
   const experimentDetails = `
 **Overview**: ${selectedExperimentDetail.aim}
-
 **Objectives**:
 ${selectedExperimentDetail.objectives
   .map((objective, index) => `${index + 1}. ${objective}`)
   .join('\n\n')}
-
 **Materials Needed**:
 ${selectedExperimentDetail.materials_needed
   .map((material, index) => `${index + 1}. ${material}`)
   .join('\n\n')}
-
-**Step-by-Step Instructions**: 
+**Step-by-Step Instructions**:
 ${selectedExperimentDetail.steps
   .map((step, index) => `${index + 1}. ${step}`)
   .join('\n\n')}
@@ -153,51 +139,6 @@ ${selectedExperimentDetail.steps
         allow_custom_response: false,
       },
     };
- 
-}
-
-// export function videoWithButton(from: string, video_link: string) {
-//   return {
-//     to: from,
-//     type: 'button',
-//     button: {
-//       body: {
-//         type: 'text',
-//         text: {
-//           body: video_link,
-//         },
-//       },
-//       buttons: [
-//         {
-//           type: 'solid',
-//           body: localisedStrings.startButton,
-//           reply: localisedStrings.startButton,
-//         },
-//       ],
-//       allow_custom_response: false,
-//     },
-//   };
-// }
-export function videoWithButton(from: string, videoUrl: string, videoTitle: string , subTopic: string, aboutVideo: string) {
-  console.log(videoUrl);
-  console.log(videoTitle);
-  return {
-    to: from, // Recipient's mobile number
-    type: "article", // Message type is article
-    article: [
-      {
-        // tags: [`${subTopic}`], // Subtopic name
-        title: videoTitle, // Title of the video
-        header: {
-          type: "text",
-          text: {
-            body: videoUrl, // URL of the video
-          },
-        },
-        description: aboutVideo
-      },
-    ],
-  };
 }
 
 export function firstQuestionWithOptionButtons(
@@ -210,9 +151,7 @@ export function firstQuestionWithOptionButtons(
     selectedExperimentquestion[
       Math.floor(Math.random() * selectedExperimentquestion.length)
     ];
-
   const questionObject = randomSet.questions[0];
-
   // Check if the question exists for the given index
   if (!questionObject) {
     console.error('No question found at the provided index.');
@@ -238,12 +177,12 @@ export function firstQuestionWithOptionButtons(
       allow_custom_response: false,
     },
   };
-
   return {
     messageData,
     setName: randomSet.set_name,
   };
 }
+
 
 export function nextQuestionWithOptionButtons(
   from: string,
@@ -251,20 +190,16 @@ export function nextQuestionWithOptionButtons(
   setName: string,
   currentQuestionIndex: number,
 ) {
-
   // Find the set by setName and validate that it exists
   const questionSet = selectedExperimentquestion.find(
     (set: any) => set.set_name === setName,
   );
-  
   // Check if the questionSet and the specific question exist
   if (!questionSet || !questionSet.questions[currentQuestionIndex]) {
     console.error("Question set or specific question not found.");
     return;
   }
-
   const questionObject = questionSet.questions[currentQuestionIndex];
-
   // Check if the questionObject and its options are valid
   if (!questionObject || !questionObject.options) {
     console.error("Question object or options are missing.");
@@ -272,7 +207,6 @@ export function nextQuestionWithOptionButtons(
   }
   // Shuffle options using lodash
   const shuffledOptions = _.shuffle(questionObject.options);
-
   return {
     to: from,
     type: 'button',
@@ -280,7 +214,7 @@ export function nextQuestionWithOptionButtons(
       body: {
         type: 'text',
         text: {
-          body: questionObject.question,
+          body: `${currentQuestionIndex}: ${questionObject.question}` ,
         },
       },
       buttons: shuffledOptions.map((option: string) => ({
@@ -292,6 +226,36 @@ export function nextQuestionWithOptionButtons(
     },
   };
 }
+
+//================================
+export function startAndExploreButton(
+  from: string,
+  selectedCategory: any,) 
+  {
+  return {
+    to: from,
+    type: 'button',
+    button: {
+      body: {
+        type: 'text',
+        text: {
+          body: localisedStrings.afterCarousalMessage(selectedCategory),
+        },
+      },
+      buttons: [
+        {
+          type: 'solid',
+          body: localisedStrings.startButton,
+          reply: localisedStrings.startButton,
+        },
+        
+      ],
+      allow_custom_response: false,
+    },
+  };
+}
+
+
 
 export function scoreWithButtons(from: string) {
   return {
@@ -325,3 +289,12 @@ export function scoreWithButtons(from: string) {
     },
   };
 }
+
+
+
+
+
+
+
+
+
