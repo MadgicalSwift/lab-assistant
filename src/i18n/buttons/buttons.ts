@@ -25,6 +25,9 @@ export function scienceTopicButtons(from: string, buttonBody: string) {
   const classGroup = data.classGroups.find(
     (group) => group.class === buttonBody,
   );
+  if(!classGroup) {
+    console.error('Class group not found for the given class.');
+  }
   // Get topics from the found class group
   const topics = classGroup?.topics.map((topic) => topic.topic_name) || [];
   return {
@@ -146,7 +149,7 @@ export function firstQuestionWithOptionButtons(
   selectedExperimentquestion: any,
 ) {
   // Select a random question set
-  console.log(selectedExperimentquestion)
+ 
   const randomSet =
     selectedExperimentquestion[
       Math.floor(Math.random() * selectedExperimentquestion.length)
@@ -166,7 +169,7 @@ export function firstQuestionWithOptionButtons(
       body: {
         type: 'text',
         text: {
-          body: questionObject.question,
+          body: `Question 1.\n${questionObject.question}`,
         },
       },
       buttons: shuffledOptions.map((option: string) => ({
@@ -205,6 +208,8 @@ export function nextQuestionWithOptionButtons(
     console.error("Question object or options are missing.");
     return;
   }
+  currentQuestionIndex += 1;
+
   // Shuffle options using lodash
   const shuffledOptions = _.shuffle(questionObject.options);
   return {
@@ -214,7 +219,7 @@ export function nextQuestionWithOptionButtons(
       body: {
         type: 'text',
         text: {
-          body: `${currentQuestionIndex}: ${questionObject.question}` ,
+          body: `Question ${currentQuestionIndex}.\n${questionObject.question}` ,
         },
       },
       buttons: shuffledOptions.map((option: string) => ({

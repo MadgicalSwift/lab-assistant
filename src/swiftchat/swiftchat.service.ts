@@ -112,7 +112,7 @@ async sendQuizMessage(from: string) {
     }
   
     // Construct the experiment URL dynamically
-    const experimentUrl = `https://scienceexperiments.web.app/experiment/${encodeURIComponent(
+    const experimentUrl = `https://labassistanceui.geofriend.in/#/experiment/${encodeURIComponent(
       selectedExperimentDetails.experiment_name,
     )}`;
   
@@ -148,11 +148,11 @@ async sendQuizMessage(from: string) {
       card: [experimentCard], 
     };
   
-    // console.log('Prepared request data:', requestData);
+   
   
     try {
       const response = await this.sendMessage(this.baseUrl, requestData, this.apiKey);
-      console.log('Experiment details sent successfully:', response);
+      
       return response; 
     } catch (error) {
       console.error('Error sending experiment details:', error); // Error handling
@@ -167,7 +167,6 @@ async sendQuizMessage(from: string) {
     selectedExperimentquestion: any,
 
   ) {
-    console.log( selectedExperimentquestion)
     const { messageData, setName } = firstQuestionWithOptionButtons(
       from,
       selectedExperimentquestion,
@@ -225,7 +224,7 @@ async sendQuizMessage(from: string) {
       if (currentQuestion?.correct_answer === buttonBody) {
         const requestData = await this.prepareRequestData(
           from,
-          `${localisedStrings.correctAnswer}\n**${currentQuestion.explanation}**`,
+          `${localisedStrings.correctAnswer}\n**Explanation:** ${currentQuestion.explanation}`,
         );
         const response = await this.sendMessage(
           this.baseUrl,
@@ -236,7 +235,7 @@ async sendQuizMessage(from: string) {
       } else {
         const requestData = await this.prepareRequestData(
           from,
-          `${localisedStrings.incorrectAnswer}\n**${currentQuestion.explanation}**`,
+          `${localisedStrings.incorrectAnswer(currentQuestion)}`,
         );
         const response = await this.sendMessage(
           this.baseUrl,

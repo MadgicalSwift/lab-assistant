@@ -9,11 +9,11 @@ export const localisedStrings = {
   difficultyLevelButtons: ['Easy', 'Medium', 'Hard'],  
   experimentTopicMessage: 'Here are some fun experiments for you to try! 🎉🔬 Select one to start your scientific journey!',
   //=========
-  afterCarousalMessage: (selectedCategory: any) => `Do you Want to test your knowledge about ${selectedCategory}? *click on start quiz*\n`,
+  afterCarousalMessage: (selectedCategory: any) => `Ready to test your knowledge about ${selectedCategory}?\nClick on **Start Quiz 🚀** to begin!`,
 
   startButton:'Start Quiz 🚀',
   //====================
-  quizMessage: () => `Welcome to the quiz! You'll be answering 10 questions, and for each correct answer, you'll earn 1 mark. Don't worry—incorrect answers won't cost you anything, as you'll score 0 for them. Ready to test your knowledge? Best of luck! :four_leaf_clover:`,
+  quizMessage: () => `🎉 Welcome to the Quiz! 🎯 Get ready for 10 fun and challenging questions. 🧠 Earn 1 point for every correct answer. ❌ No points for incorrect ones. Good luck! 🚀`,
 
   topic: `Do you want to change`,
   ageButton: `Change age`,
@@ -22,7 +22,9 @@ export const localisedStrings = {
   subjectButton:`Change subject`,
   exploreButton: 'Explore More Data',
   correctAnswer: `✅ Nice work! That's correct!`,
-  incorrectAnswer: '❌ Wrong option❗ Please learn from the right option below ⬇️',
+  // incorrectAnswer: '❌ Wrong option❗ Please learn from the right option below ⬇️',
+  incorrectAnswer: (currentQuestion: any) => 
+    `❌ Oops! That’s not correct. The correct answer is **${currentQuestion.correct_answer}**.\n**Explanation:** ${currentQuestion.explanation}`,
   afterScoreMessage: `Amazing work! 🌟🚀 Would you like to explore another thrilling experiment 🧪⚡, or go back to the quiz? 📊💪`,
   selectExperimentButton: 'Select Experiment 🔬',
   mainMenuButton: 'Main Menu 🏠',
