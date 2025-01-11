@@ -9,7 +9,7 @@ export const localisedStrings = {
   difficultyLevelButtons: ['Easy', 'Medium', 'Hard'],  
   experimentTopicMessage: 'Here are some fun experiments for you to try! 🎉🔬 Select one to start your scientific journey!',
   //=========
-  afterCarousalMessage: (selectedCategory: any) => `Ready to test your knowledge about ${selectedCategory}?\nClick on **Start Quiz 🚀** to begin!`,
+  afterCarousalMessage: (selectedCategory: any) => `Ready to test your knowledge about ${selectedCategory}?\nClick on Start Quiz 🚀 to begin!`,
 
   startButton:'Start Quiz 🚀',
   //====================

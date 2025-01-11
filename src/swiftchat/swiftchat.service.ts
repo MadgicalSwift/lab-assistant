@@ -22,6 +22,7 @@ export class SwiftchatMessageService extends MessageService {
   apiKey = process.env.API_KEY;
   apiUrl = process.env.API_URL;
   baseUrl = `${this.apiUrl}/${this.botId}/messages`;
+  server_url = process.env.SERVER_LINK;
 
   private prepareRequestData(from: string, requestBody: any): any {
     return {
@@ -112,7 +113,7 @@ async sendQuizMessage(from: string) {
     }
   
     // Construct the experiment URL dynamically
-    const experimentUrl = `https://labassistanceui.geofriend.in/#/experiment/${encodeURIComponent(
+    const experimentUrl = `${this.server_url}#/experiment/${encodeURIComponent(
       selectedExperimentDetails.experiment_name,
     )}`;
   

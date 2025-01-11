@@ -186,11 +186,11 @@ export class ChatbotService {
           userData.currentQuestionIndex += 1;
           break;
       }
-    } else {
+    } else if(textBody) {
       if (localisedStrings.validText.includes(textBody)) {
         userData.score = 0;
         userData.currentQuestionIndex = 0;
-        this.message.sendWelcomeMessage(from, userData.language);
+        await this.message.sendWelcomeMessage(from, userData.language);
         return;
       }
       userData.userName = textBody;
