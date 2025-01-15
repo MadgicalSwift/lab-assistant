@@ -113,7 +113,7 @@ async sendQuizMessage(from: string) {
     }
   
     // Construct the experiment URL dynamically
-    const experimentUrl = `${this.server_url}#/experiment/${encodeURIComponent(
+    const experimentUrl = `${this.server_url}/experiment/${encodeURIComponent(
       selectedExperimentDetails.experiment_name,
     )}`;
   

@@ -1,6 +1,9 @@
 export const localisedStrings = {
   validText: ['hi', 'Hi', 'HI', 'hI', 'Hello', 'hello', 'hola', 'Hii', 'hii'], 
-  welcomeMessage: `Hello there! 👋 I'm the Lab Assistant, your science lab buddy! 🧪 What's your name, young scientist? 👩‍🔬👨‍🔬`,
+  // welcomeMessage: `Hello there! 👋 I'm the Lab Assistant, your science lab buddy! 🧪 What's your name, young scientist? 👩‍🔬👨‍🔬`,
+  // welcomeMessage: `Hello there! 👋 I'm the Lab Assistant, your science buddy! 🧪 Designed to make science fun and engaging, I'm here to guide you through interactive experiments, quizzes, and discoveries. 🌟 What's your name, young scientist? 👩‍🔬👨‍🔬`,
+  welcomeMessage: `Hello there! 👋 I'm the Lab Assistant! 🧪 Designed to make science fun and engaging, I'm here to guide you through interactive experiments, quizzes, and discoveries. 🌟 What's your name, young scientist? 👩‍🔬👨‍🔬`,
+  // welcomeMessage: `Hello there! 👋 Welcome to the *Lab Assistant*, your ultimate science companion! 🧪 Designed to make learning science interactive, fun, and engaging, this bot is here to guide you through a world of experiments, quizzes, and discoveries. 🌟 With tailored content for every age group, you'll explore exciting topics, challenge yourself with quizzes, and dive into hands-on experiments. Let's embark on this scientific adventure together! 🚀 What's your name, young scientist? 👩‍🔬👨‍🔬`,
   seeMoreMessage: 'See More Data',
   classPrompt: 'Which class group are you in? This will help me pick the best science experiments for you! 👨‍🏫',  
   classes: ['Below 6', '7-8', '9-10', '11-12'],
