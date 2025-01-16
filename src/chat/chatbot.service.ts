@@ -72,7 +72,7 @@ export class ChatbotService {
       ?.experiments.find(
         (experiment) => experiment.experiment_name === userData.experimentName,
       );
-   
+
     if (buttonBody) {
       // Mixpanel tracking data
       const trackingData = {
@@ -186,11 +186,12 @@ export class ChatbotService {
           userData.currentQuestionIndex += 1;
           break;
       }
-    } else if(textBody) {
+    } else if (textBody) {
       if (localisedStrings.validText.includes(textBody)) {
         userData.score = 0;
         userData.currentQuestionIndex = 0;
         await this.message.sendWelcomeMessage(from, userData.language);
+        await this.message.sendClassButtons(from);
         return;
       }
       userData.userName = textBody;

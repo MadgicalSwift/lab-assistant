@@ -154,8 +154,7 @@ export function firstQuestionWithOptionButtons(
     selectedExperimentquestion[
       Math.floor(Math.random() * selectedExperimentquestion.length)
     ];
-    console.log("randomset", randomSet);
-    console.log("Set_name==-", randomSet.set_name)
+
   const questionObject = randomSet.questions[0];
   // Check if the question exists for the given index
   if (!questionObject) {
@@ -199,14 +198,14 @@ export function nextQuestionWithOptionButtons(
   const questionSet = selectedExperimentquestion.find(
     (set: any) => set.set_name === setName,
   );
-  console.log("setName--", setName )
+  
   // Check if the questionSet and the specific question exist
   if (!questionSet || !questionSet.questions[currentQuestionIndex]) {
     console.error("Question set or specific question not found.");
     return;
   }
   const questionObject = questionSet.questions[currentQuestionIndex];
-  console.log("Question--", questionObject);
+
   // Check if the questionObject and its options are valid
   if (!questionObject || !questionObject.options) {
     console.error("Question object or options are missing.");
