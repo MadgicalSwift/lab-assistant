@@ -1911,142 +1911,147 @@
                   ]
                 },
                 {
-                  "experiment_name": "Clip Floats",
-                  "aim": "To demonstrate the concept of surface tension using a paper clip and water.",
+                  "experiment_name": "Electric Circuit with a Switch",
+                  "aim": "To create a simple electric circuit with a switch to control the flow of current and demonstrate its working.",
                   "objectives": [
-                    "Understand surface tension and how it allows objects to float on water.",
-                    "Learn about cohesion in water molecules.",
-                    "Explore how adding soap can break surface tension."
+                    "Understand the basic components of an electric circuit.",
+                    "Learn how to assemble an electric circuit with a switch.",
+                    "Demonstrate how a switch controls the flow of electricity in a circuit."
                   ],
                   "materials_needed": [
-                    "Paper clip",
-                    "Bowl of water",
-                    "Tissue paper or a small piece of thin paper",
-                    "Liquid dish soap (optional)"
+                    "Battery (1.5V or 9V)",
+                    "Battery holder",
+                    "Switch (e.g., a toggle or push-button switch)",
+                    "Bulb (small LED or filament bulb)",
+                    "Bulb holder (optional)",
+                    "Connecting wires with clips or bare ends",
+                    "Insulating tape"
                   ],
                   "steps": [
-                    "Fill a bowl with water.",
-                    "Carefully place a small piece of tissue paper on the surface of the water.",
-                    "Gently place the paper clip on top of the tissue paper.",
-                    "Wait for the tissue to sink, leaving the paper clip floating on the surface due to surface tension.",
-                    "Optional: Add a drop of dish soap near the paper clip and observe how the surface tension breaks, causing the paper clip to sink."
+                    "Attach the battery to the battery holder, ensuring the positive and negative terminals are connected correctly.",
+                    "Connect one end of a wire to the positive terminal of the battery holder. Secure it with a clip or insulating tape.",
+                    "Connect the free end of the wire to one terminal of the switch.",
+                    "Using another wire, connect the other terminal of the switch to one terminal of the bulb or bulb holder.",
+                    "Connect a third wire from the remaining terminal of the bulb holder to the negative terminal of the battery holder, completing the circuit.",
+                    "Check all connections to ensure they are secure and insulated to prevent short circuits.",
+                    "Turn the switch on and off to observe the bulb lighting up and going off, demonstrating the control of current flow in the circuit."
                   ],
-                  "video_link": "https://www.youtube.com/watch?v=Kvhv_m3L39A",
-                  "title": "Floating Paper Clip (Surface tension) Experiment",
-                  "description": "This amazing experiment works on surface tension. Surface tension is a thin sheet or skin formed by water. Surface tension tightly holds the water molecules together. Thus, if the surface tension of the water remains undisturbed, it will be able to support the paper clip.",
+                  "video_link": "https://www.youtube.com/watch?v=oDUAvaXsK1g",
+                  "title": "Electric Circuit with a Switch",
+                  "description": "This experiment involves creating a simple electric circuit with a switch to understand how current flows through the circuit and how the switch can be used to control it. It demonstrates basic principles of electrical connections and the function of a switch.",
                   "quiz_sets": [
                     {
                       "set_name": "Quiz Set 1",
                       "questions": [
                         {
-                          "question": "What materials are needed for the Floating Paper Clip experiment?",
+                          "question": "What is the primary purpose of a switch in an electric circuit?",
                           "options": [
-                            "Paper clip, bowl of water, tissue paper, dish soap",
-                            "Balloon, water, straw, tape",
-                            "Paper clip, dish soap, fan",
-                            "String, tape, water bowl"
+                            "To reduce the current flow",
+                            "To increase the voltage",
+                            "To control the flow of electricity",
+                            "To store electrical energy"
                           ],
-                          "correct_answer": "Paper clip, bowl of water, tissue paper, dish soap",
-                          "explanation": "These materials are essential to demonstrate surface tension with a paper clip."
+                          "correct_answer": "To control the flow of electricity",
+                          "explanation": "A switch allows or stops the flow of current in a circuit by opening or closing the connection."
                         },
                         {
-                          "question": "What is surface tension?",
+                          "question": "Which component is used to power the electric circuit in this experiment?",
                           "options": [
-                            "A force that pulls objects towards the center of the earth",
-                            "A property that allows the surface of water to support small objects",
-                            "A type of chemical reaction",
-                            "The ability of objects to float due to air pressure"
+                            "A switch",
+                            "A bulb",
+                            "A battery",
+                            "A resistor"
                           ],
-                          "correct_answer": "A property that allows the surface of water to support small objects",
-                          "explanation": "Surface tension is a phenomenon that allows the surface of a liquid to support light objects."
+                          "correct_answer": "A battery",
+                          "explanation": "The battery provides the electrical energy required to power the circuit."
                         },
                         {
-                          "question": "Why does the paper clip float on water during the experiment?",
+                          "question": "What happens when the switch is turned off in the circuit?",
                           "options": [
-                            "Due to surface tension of the water",
-                            "Because of the weight of the paper clip",
-                            "Because the paper clip is magnetic",
-                            "Because the water is boiling"
+                            "The bulb gets brighter",
+                            "The bulb goes off",
+                            "The current flow increases",
+                            "The circuit becomes incomplete"
                           ],
-                          "correct_answer": "Due to surface tension of the water",
-                          "explanation": "The cohesion of water molecules creates a 'film' that holds up the paper clip."
+                          "correct_answer": "The bulb goes off",
+                          "explanation": "When the switch is turned off, the circuit is broken, and the current flow stops, causing the bulb to go off."
                         },
                         {
-                          "question": "What role does the tissue paper play in this experiment?",
+                          "question": "What type of bulb is recommended for this experiment?",
                           "options": [
-                            "It supports the paper clip until it sinks, allowing it to float",
-                            "It adds weight to the experiment",
-                            "It changes the water's color",
-                            "It heats the water"
+                            "Tube light",
+                            "LED or small filament bulb",
+                            "Halogen lamp",
+                            "Fluorescent bulb"
                           ],
-                          "correct_answer": "It supports the paper clip until it sinks, allowing it to float",
-                          "explanation": "The tissue holds the paper clip briefly, allowing it to settle gently without breaking the water's surface tension."
+                          "correct_answer": "LED or small filament bulb",
+                          "explanation": "LEDs or small filament bulbs are ideal because they operate efficiently with low voltage and are easy to use in simple circuits."
                         },
                         {
-                          "question": "What is the effect of adding dish soap to the water?",
+                          "question": "What ensures the safety of the connections in an electric circuit?",
                           "options": [
-                            "It breaks the surface tension, causing the paper clip to sink",
-                            "It makes the paper clip float higher",
-                            "It changes the color of the paper clip",
-                            "It makes the paper clip move faster"
+                            "Using a larger battery",
+                            "Keeping wires uncovered",
+                            "Insulating the wires with tape",
+                            "Adding more bulbs"
                           ],
-                          "correct_answer": "It breaks the surface tension, causing the paper clip to sink",
-                          "explanation": "Dish soap reduces the cohesion of water molecules, breaking the surface tension."
+                          "correct_answer": "Insulating the wires with tape",
+                          "explanation": "Insulating tape prevents accidental short circuits and protects against electric shocks."
                         },
                         {
-                          "question": "What force is primarily responsible for holding the paper clip on the water’s surface?",
+                          "question": "What role does the battery holder play in the circuit?",
                           "options": [
-                            "Cohesion between water molecules",
-                            "Gravity",
-                            "Wind resistance",
-                            "Air pressure"
+                            "It stores electrical energy",
+                            "It helps connect the bulb and switch",
+                            "It securely holds the battery and makes connections to its terminals",
+                            "It controls the current flow"
                           ],
-                          "correct_answer": "Cohesion between water molecules",
-                          "explanation": "The cohesion between molecules keeps the surface intact, allowing the paper clip to float."
+                          "correct_answer": "It securely holds the battery and makes connections to its terminals",
+                          "explanation": "The battery holder ensures a stable connection to the battery's terminals for consistent current flow."
                         },
                         {
-                          "question": "What would happen if the tissue paper didn't sink during the experiment?",
+                          "question": "What is the function of the bulb in the circuit?",
                           "options": [
-                            "The paper clip wouldn't float",
-                            "The paper clip would float higher",
-                            "The paper clip would sink faster",
-                            "Nothing would change"
+                            "To convert electrical energy into light energy",
+                            "To store electrical energy",
+                            "To measure the current flow",
+                            "To regulate the voltage"
                           ],
-                          "correct_answer": "The paper clip wouldn't float",
-                          "explanation": "The tissue paper needs to sink for the paper clip to rest on the water’s surface."
+                          "correct_answer": "To convert electrical energy into light energy",
+                          "explanation": "The bulb converts the electrical energy from the circuit into light energy, indicating current flow."
                         },
                         {
-                          "question": "How does surface tension relate to cohesion?",
+                          "question": "What happens to the circuit when there is a loose connection?",
                           "options": [
-                            "Surface tension is the result of cohesive forces between water molecules",
-                            "Cohesion decreases surface tension",
-                            "They are not related",
-                            "Cohesion only applies to solid materials"
+                            "The bulb lights up brighter",
+                            "The circuit may not work correctly or stop working",
+                            "The current flow increases",
+                            "The voltage doubles"
                           ],
-                          "correct_answer": "Surface tension is the result of cohesive forces between water molecules",
-                          "explanation": "Cohesion causes water molecules to cling together, forming surface tension."
+                          "correct_answer": "The circuit may not work correctly or stop working",
+                          "explanation": "Loose connections can disrupt the flow of current, preventing the circuit from functioning properly."
                         },
                         {
-                          "question": "What happens to the floating paper clip when a drop of soap is added?",
+                          "question": "Why is it important to check the polarity of the battery when connecting it to the circuit?",
                           "options": [
-                            "It sinks immediately",
-                            "It floats higher",
-                            "It changes color",
-                            "It moves to the edge of the bowl"
+                            "To avoid short circuits",
+                            "To ensure proper current flow",
+                            "To protect the bulb",
+                            "To prevent overheating"
                           ],
-                          "correct_answer": "It sinks immediately",
-                          "explanation": "The soap breaks the surface tension, causing the paper clip to sink."
+                          "correct_answer": "To ensure proper current flow",
+                          "explanation": "Connecting the battery terminals correctly ensures that current flows in the intended direction."
                         },
                         {
-                          "question": "What other liquids have similar surface tension properties as water?",
+                          "question": "Which wire connects the bulb holder to the switch in the circuit?",
                           "options": [
-                            "Alcohol and mercury",
-                            "Oil and gasoline",
-                            "Honey and vinegar",
-                            "Air and steam"
+                            "The positive wire",
+                            "The neutral wire",
+                            "The wire from the battery's negative terminal",
+                            "The wire from the switch's terminal"
                           ],
-                          "correct_answer": "Alcohol and mercury",
-                          "explanation": "Alcohol and mercury exhibit surface tension, though they differ from water."
+                          "correct_answer": "The wire from the switch's terminal",
+                          "explanation": "The wire from the switch's terminal connects to the bulb holder to complete the circuit when the switch is turned on."
                         }
                       ]
                     },
@@ -2054,114 +2059,104 @@
                       "set_name": "Quiz Set 2",
                       "questions": [
                         {
-                          "question": "What is the main objective of the Floating Paper Clip experiment?",
-                          "options": [
-                            "To demonstrate the concept of surface tension",
-                            "To measure the weight of a paper clip",
-                            "To test the strength of different materials",
-                            "To observe chemical reactions in water"
-                          ],
-                          "correct_answer": "To demonstrate the concept of surface tension",
-                          "explanation": "The experiment focuses on demonstrating surface tension using a floating paper clip."
+                          "question": "What is the unit of electric current?",
+                          "options": ["Volt", "Watt", "Ampere", "Ohm"],
+                          "correct_answer": "Ampere",
+                          "explanation": "The SI unit of electric current is the ampere (A)."
                         },
                         {
-                          "question": "Why do water molecules stick together?",
+                          "question": "Which type of connection is used to ensure the bulb lights up in the circuit?",
                           "options": [
-                            "Due to cohesive forces between them",
-                            "Because they are solid",
-                            "Because of air pressure",
-                            "Because of gravitational pull"
+                            "Parallel connection",
+                            "Series connection",
+                            "Short connection",
+                            "Open connection"
                           ],
-                          "correct_answer": "Due to cohesive forces between them",
-                          "explanation": "Water molecules have cohesive forces that cause them to cling together."
+                          "correct_answer": "Series connection",
+                          "explanation": "In this experiment, components are connected in series to complete the circuit and light up the bulb."
                         },
                         {
-                          "question": "What effect does increasing the amount of dish soap have on surface tension?",
+                          "question": "What does a closed circuit mean?",
                           "options": [
-                            "It decreases surface tension",
-                            "It increases surface tension",
-                            "It has no effect",
-                            "It solidifies the water"
+                            "The current is blocked",
+                            "The current flows uninterrupted",
+                            "The switch is off",
+                            "The circuit is broken"
                           ],
-                          "correct_answer": "It decreases surface tension",
-                          "explanation": "Soap disrupts the cohesive forces in water, decreasing surface tension."
+                          "correct_answer": "The current flows uninterrupted",
+                          "explanation": "A closed circuit allows the current to flow continuously, completing the circuit."
                         },
                         {
-                          "question": "How does the size of the paper clip affect its ability to float?",
+                          "question": "Why is a switch placed in the circuit?",
                           "options": [
-                            "Larger paper clips are less likely to float",
-                            "Smaller paper clips sink faster",
-                            "No effect on flotation",
-                            "Larger paper clips float better"
+                            "To reduce the voltage",
+                            "To break or complete the circuit",
+                            "To act as a resistor",
+                            "To connect the battery"
                           ],
-                          "correct_answer": "Larger paper clips are less likely to float",
-                          "explanation": "A larger paper clip has more mass, making it harder for surface tension to support."
+                          "correct_answer": "To break or complete the circuit",
+                          "explanation": "The switch is used to control the flow of current by opening or closing the circuit."
                         },
                         {
-                          "question": "What would happen if the water was moving instead of still?",
+                          "question": "What will happen if the circuit is open?",
                           "options": [
-                            "The paper clip would sink due to disturbed surface tension",
-                            "The paper clip would float higher",
-                            "The paper clip would spin",
-                            "The experiment would be unaffected"
+                            "The bulb will light up",
+                            "The current will stop flowing",
+                            "The current will increase",
+                            "The switch will overheat"
                           ],
-                          "correct_answer": "The paper clip would sink due to disturbed surface tension",
-                          "explanation": "Moving water disrupts the cohesion between molecules, breaking the surface tension."
+                          "correct_answer": "The current will stop flowing",
+                          "explanation": "An open circuit breaks the connection, stopping the flow of current."
                         },
                         {
-                          "question": "Which of the following is NOT a factor that affects surface tension?",
+                          "question": "What is the role of the insulating tape in the circuit?",
                           "options": [
-                            "Color of the water",
-                            "Presence of soap",
-                            "Temperature",
-                            "Impurities in the water"
+                            "To conduct electricity",
+                            "To protect the wires from damage",
+                            "To connect the bulb and switch",
+                            "To increase resistance"
                           ],
-                          "correct_answer": "Color of the water",
-                          "explanation": "Color does not affect surface tension, but other factors like soap, temperature, and impurities do."
+                          "correct_answer": "To protect the wires from damage",
+                          "explanation": "Insulating tape ensures that the wires are safe and prevents short circuits or accidental contact."
                         },
                         {
-                          "question": "What term describes the ability of water to support small objects due to molecular forces?",
+                          "question": "What will happen if the positive and negative terminals of the battery are reversed in the circuit?",
                           "options": [
-                            "Surface tension",
-                            "Buoyancy",
-                            "Viscosity",
-                            "Density"
+                            "The bulb will not light up",
+                            "The bulb will glow brighter",
+                            "The circuit will short circuit",
+                            "The switch will stop working"
                           ],
-                          "correct_answer": "Surface tension",
-                          "explanation": "Surface tension refers to the ability of water to support small objects due to cohesive molecular forces."
+                          "correct_answer": "The bulb will not light up",
+                          "explanation": "Reversing the terminals disrupts the circuit's polarity, preventing the bulb from lighting up."
                         },
                         {
-                          "question": "What other natural phenomena are influenced by surface tension?",
-                          "options": [
-                            "Water droplets forming on a leaf",
-                            "The boiling point of water",
-                            "The freezing point of water",
-                            "The density of ice"
-                          ],
-                          "correct_answer": "Water droplets forming on a leaf",
-                          "explanation": "Surface tension allows water droplets to form and cling to surfaces, like leaves."
+                          "question": "Which material is commonly used for connecting wires in an electric circuit?",
+                          "options": ["Copper", "Plastic", "Glass", "Rubber"],
+                          "correct_answer": "Copper",
+                          "explanation": "Copper is a good conductor of electricity, making it ideal for connecting wires."
                         },
                         {
-                          "question": "What happens when the cohesion between water molecules is weakened?",
+                          "question": "What happens to the resistance of the circuit when more bulbs are added in series?",
                           "options": [
-                            "The surface tension decreases",
-                            "The paper clip floats higher",
-                            "The paper clip changes color",
-                            "The water evaporates faster"
+                            "The resistance increases",
+                            "The resistance decreases",
+                            "The resistance remains constant",
+                            "The circuit stops working"
                           ],
-                          "correct_answer": "The surface tension decreases",
-                          "explanation": "Weakening the cohesion between water molecules reduces surface tension."
+                          "correct_answer": "The resistance increases",
+                          "explanation": "Adding more bulbs in series increases the total resistance of the circuit."
                         },
                         {
-                          "question": "What kind of liquid would you use to replicate the experiment but make the paper clip sink immediately?",
+                          "question": "What will happen if the switch is faulty or does not work properly?",
                           "options": [
-                            "Dish soap solution",
-                            "Salt water",
-                            "Distilled water",
-                            "Oil"
+                            "The bulb will glow continuously",
+                            "The circuit will remain incomplete",
+                            "The current will increase",
+                            "The battery will get drained faster"
                           ],
-                          "correct_answer": "Dish soap solution",
-                          "explanation": "A dish soap solution breaks surface tension immediately, causing the paper clip to sink."
+                          "correct_answer": "The circuit will remain incomplete",
+                          "explanation": "A faulty switch cannot complete the circuit, preventing the current from flowing."
                         }
                       ]
                     },
@@ -2169,114 +2164,104 @@
                       "set_name": "Quiz Set 3",
                       "questions": [
                         {
-                          "question": "What is the main purpose of the Floating Paper Clip experiment?",
-                          "options": [
-                            "To observe how paper clips sink",
-                            "To demonstrate surface tension",
-                            "To measure water temperature",
-                            "To learn about paper properties"
-                          ],
-                          "correct_answer": "To demonstrate surface tension",
-                          "explanation": "The experiment showcases how surface tension allows the paper clip to float."
+                          "question": "Which component in the circuit acts as the load?",
+                          "options": ["Switch", "Battery", "Bulb", "Wire"],
+                          "correct_answer": "Bulb",
+                          "explanation": "The bulb is the load in the circuit as it uses electrical energy to produce light."
                         },
                         {
-                          "question": "What does surface tension enable in this experiment?",
+                          "question": "What is the function of the bulb in this experiment?",
                           "options": [
-                            "Objects to sink easily",
-                            "Objects to float on the surface",
-                            "Water to evaporate quickly",
-                            "Soap to mix with water"
+                            "To store electricity",
+                            "To indicate the flow of current",
+                            "To control the circuit",
+                            "To increase resistance"
                           ],
-                          "correct_answer": "Objects to float on the surface",
-                          "explanation": "Surface tension allows the paper clip to remain on the water's surface."
+                          "correct_answer": "To indicate the flow of current",
+                          "explanation": "The bulb lights up when current flows, acting as an indicator of a closed circuit."
                         },
                         {
-                          "question": "What happens when you add dish soap to the water?",
-                          "options": [
-                            "It increases surface tension",
-                            "It breaks surface tension",
-                            "It has no effect",
-                            "It makes the water warmer"
-                          ],
-                          "correct_answer": "It breaks surface tension",
-                          "explanation": "Dish soap disrupts the cohesive forces in water, reducing surface tension."
+                          "question": "Which part of the circuit is used to manually control the flow of current?",
+                          "options": ["Battery", "Wire", "Switch", "Bulb"],
+                          "correct_answer": "Switch",
+                          "explanation": "The switch allows the circuit to be opened or closed, controlling the flow of current."
                         },
                         {
-                          "question": "What is the role of cohesion in water molecules during the experiment?",
+                          "question": "What is the term used for the continuous path through which electricity flows?",
                           "options": [
-                            "It allows water to evaporate",
-                            "It keeps the paper clip afloat",
-                            "It causes the paper clip to sink",
-                            "It changes the temperature of water"
+                            "Load",
+                            "Circuit",
+                            "Insulator",
+                            "Terminal"
                           ],
-                          "correct_answer": "It keeps the paper clip afloat",
-                          "explanation": "Cohesion among water molecules creates surface tension that supports the paper clip."
+                          "correct_answer": "Circuit",
+                          "explanation": "A circuit is the continuous path that allows the flow of electricity."
                         },
                         {
-                          "question": "Why is tissue paper used in the experiment?",
+                          "question": "Why is it important to secure all connections in the circuit?",
                           "options": [
-                            "To absorb water",
-                            "To hold the paper clip in place",
-                            "To demonstrate buoyancy",
-                            "To provide a barrier"
+                            "To avoid current leakage or short circuits",
+                            "To increase the current flow",
+                            "To reduce the brightness of the bulb",
+                            "To keep the circuit open"
                           ],
-                          "correct_answer": "To hold the paper clip in place",
-                          "explanation": "Tissue paper allows the paper clip to float until it sinks."
+                          "correct_answer": "To avoid current leakage or short circuits",
+                          "explanation": "Securing connections ensures the circuit works safely and efficiently without interruptions."
                         },
                         {
-                          "question": "What could you observe when the tissue paper sinks?",
+                          "question": "Which of the following will prevent the circuit from working properly?",
                           "options": [
-                            "The paper clip sinks immediately",
-                            "The paper clip floats",
-                            "The paper clip disappears",
-                            "The water boils"
+                            "A properly connected switch",
+                            "Reversing the battery terminals",
+                            "Using insulated wires",
+                            "A complete circuit loop"
                           ],
-                          "correct_answer": "The paper clip floats",
-                          "explanation": "Once the tissue sinks, the paper clip remains on the surface due to surface tension."
+                          "correct_answer": "Reversing the battery terminals",
+                          "explanation": "Reversing the terminals disrupts the polarity, preventing proper current flow."
                         },
                         {
-                          "question": "What scientific principle does this experiment primarily illustrate?",
+                          "question": "What happens to the brightness of the bulb if the circuit has a weak battery?",
                           "options": [
-                            "Buoyancy",
-                            "Surface tension",
-                            "Density",
-                            "Viscosity"
+                            "The bulb will glow brighter",
+                            "The bulb will glow dimly",
+                            "The bulb will not glow at all",
+                            "The bulb will flicker continuously"
                           ],
-                          "correct_answer": "Surface tension",
-                          "explanation": "The experiment illustrates how surface tension allows objects to float."
+                          "correct_answer": "The bulb will glow dimly",
+                          "explanation": "A weak battery supplies less current, causing the bulb to glow dimly."
                         },
                         {
-                          "question": "What would happen if a heavier object was used instead of the paper clip?",
+                          "question": "What is the purpose of using a bulb holder in the circuit?",
                           "options": [
-                            "It would float",
-                            "It would sink",
-                            "It would evaporate",
-                            "It would dissolve"
+                            "To provide stability and secure connections for the bulb",
+                            "To reduce the flow of current",
+                            "To store electrical energy",
+                            "To measure the voltage"
                           ],
-                          "correct_answer": "It would sink",
-                          "explanation": "A heavier object likely does not experience sufficient surface tension to float."
+                          "correct_answer": "To provide stability and secure connections for the bulb",
+                          "explanation": "The bulb holder ensures the bulb is securely connected in the circuit."
                         },
                         {
-                          "question": "How could you modify this experiment to study temperature effects?",
+                          "question": "What is the effect of an open switch on the circuit?",
                           "options": [
-                            "Change the size of the bowl",
-                            "Use different types of soap",
-                            "Use warm or cold water",
-                            "Add more paper clips"
+                            "The bulb will light up",
+                            "The current will stop flowing",
+                            "The resistance will decrease",
+                            "The battery will overheat"
                           ],
-                          "correct_answer": "Use warm or cold water",
-                          "explanation": "Temperature changes can affect the surface tension of water."
+                          "correct_answer": "The current will stop flowing",
+                          "explanation": "An open switch breaks the circuit, stopping the flow of current."
                         },
                         {
-                          "question": "Why is understanding surface tension important in science?",
+                          "question": "How can the circuit be modified to include more bulbs without changing the switch operation?",
                           "options": [
-                            "It has no practical applications",
-                            "It explains how certain animals move on water",
-                            "It only relates to chemistry",
-                            "It affects only gases"
+                            "By connecting the bulbs in parallel",
+                            "By increasing the battery voltage",
+                            "By connecting the bulbs in series",
+                            "By replacing the switch with a resistor"
                           ],
-                          "correct_answer": "It explains how certain animals move on water",
-                          "explanation": "Surface tension is crucial for the survival of many small organisms."
+                          "correct_answer": "By connecting the bulbs in parallel",
+                          "explanation": "Connecting bulbs in parallel allows all bulbs to glow independently without altering the switch's function."
                         }
                       ]
                     },
@@ -2284,114 +2269,114 @@
                       "set_name": "Quiz Set 4",
                       "questions": [
                         {
-                          "question": "What happens to the surface tension of water when soap is added?",
+                          "question": "What type of switch would you use to turn on/off a circuit with minimal effort?",
                           "options": [
-                            "It increases",
-                            "It decreases",
-                            "It stays the same",
-                            "It solidifies"
+                            "Toggle switch",
+                            "Knife switch",
+                            "Push-button switch",
+                            "Rotary switch"
                           ],
-                          "correct_answer": "It decreases",
-                          "explanation": "Soap reduces the cohesive forces between water molecules, lowering surface tension."
+                          "correct_answer": "Push-button switch",
+                          "explanation": "A push-button switch is simple to use and requires minimal effort to open or close the circuit."
                         },
                         {
-                          "question": "What role does the paper clip play in the experiment?",
+                          "question": "What is the purpose of insulating tape in a circuit?",
                           "options": [
-                            "It absorbs water",
-                            "It demonstrates buoyancy",
-                            "It acts as a control",
-                            "It breaks the water surface"
+                            "To connect wires securely",
+                            "To prevent accidental short circuits",
+                            "To increase the circuit's resistance",
+                            "To make the circuit more stable"
                           ],
-                          "correct_answer": "It demonstrates buoyancy",
-                          "explanation": "The paper clip's ability to float showcases the effects of surface tension."
+                          "correct_answer": "To prevent accidental short circuits",
+                          "explanation": "Insulating tape is used to cover exposed wire connections, reducing the risk of short circuits."
                         },
                         {
-                          "question": "Why is it essential to place the paper clip gently on the tissue?",
+                          "question": "What is the role of a conductor in an electric circuit?",
                           "options": [
-                            "To avoid sinking the clip",
-                            "To keep the tissue dry",
-                            "To ensure it stays in the middle",
-                            "To prevent evaporation"
+                            "To resist the flow of electricity",
+                            "To allow electricity to flow through",
+                            "To store electrical energy",
+                            "To emit light"
                           ],
-                          "correct_answer": "To avoid sinking the clip",
-                          "explanation": "Placing it gently prevents breaking the surface tension prematurely."
+                          "correct_answer": "To allow electricity to flow through",
+                          "explanation": "Conductors, like wires, provide a pathway for electricity to flow within a circuit."
                         },
                         {
-                          "question": "What concept explains why the paper clip floats?",
+                          "question": "What is the function of the battery in an electric circuit?",
                           "options": [
-                            "Archimedes' principle",
-                            "Surface tension",
-                            "Gravity",
-                            "Density"
+                            "To provide electrical energy",
+                            "To control the flow of current",
+                            "To act as a load",
+                            "To conduct electricity"
                           ],
-                          "correct_answer": "Surface tension",
-                          "explanation": "The cohesive forces at the surface allow the paper clip to remain afloat."
+                          "correct_answer": "To provide electrical energy",
+                          "explanation": "The battery acts as the source of electrical energy, supplying current to the circuit."
                         },
                         {
-                          "question": "How does temperature affect water's surface tension?",
+                          "question": "What happens if the wire connections are loose in the circuit?",
                           "options": [
-                            "Higher temperatures decrease surface tension",
-                            "Lower temperatures decrease surface tension",
-                            "Temperature has no effect",
-                            "All temperatures increase surface tension"
+                            "The circuit will work efficiently",
+                            "The bulb will glow brighter",
+                            "The circuit may not work or may cause flickering",
+                            "The battery will overheat"
                           ],
-                          "correct_answer": "Higher temperatures decrease surface tension",
-                          "explanation": "Increasing temperature reduces the strength of cohesive forces between water molecules."
+                          "correct_answer": "The circuit may not work or may cause flickering",
+                          "explanation": "Loose connections disrupt the flow of current, leading to circuit failure or flickering."
                         },
                         {
-                          "question": "What can be inferred if the paper clip sinks after adding soap?",
+                          "question": "What is the term for a circuit where current flows without interruption?",
                           "options": [
-                            "Surface tension is too high",
-                            "Surface tension is broken",
-                            "The paper clip is too heavy",
-                            "The water is boiling"
+                            "Closed circuit",
+                            "Open circuit",
+                            "Short circuit",
+                            "Parallel circuit"
                           ],
-                          "correct_answer": "Surface tension is broken",
-                          "explanation": "Adding soap disrupts the cohesive forces that keep the paper clip afloat."
+                          "correct_answer": "Closed circuit",
+                          "explanation": "A closed circuit allows uninterrupted current flow, enabling the components to work."
                         },
                         {
-                          "question": "What is the primary scientific principle illustrated by this experiment?",
+                          "question": "If the bulb does not glow in a properly connected circuit, what could be the reason?",
                           "options": [
-                            "Density",
-                            "Buoyancy",
-                            "Surface tension",
-                            "Viscosity"
+                            "The battery is disconnected",
+                            "The bulb is fused",
+                            "The switch is off",
+                            "Any of the above"
                           ],
-                          "correct_answer": "Surface tension",
-                          "explanation": "The experiment demonstrates how surface tension affects floating objects."
+                          "correct_answer": "Any of the above",
+                          "explanation": "A disconnected battery, fused bulb, or an off switch can all prevent the bulb from glowing."
                         },
                         {
-                          "question": "What happens to the paper clip's position when the tissue sinks?",
+                          "question": "Why is it important to connect the switch in series with other components?",
                           "options": [
-                            "It sinks immediately",
-                            "It floats at the surface",
-                            "It moves to the bottom",
-                            "It disappears"
+                            "To reduce energy consumption",
+                            "To ensure the switch controls the entire circuit",
+                            "To allow multiple current paths",
+                            "To protect the battery from overheating"
                           ],
-                          "correct_answer": "It floats at the surface",
-                          "explanation": "After the tissue sinks, the paper clip stays afloat due to surface tension."
+                          "correct_answer": "To ensure the switch controls the entire circuit",
+                          "explanation": "When connected in series, the switch can open or close the entire circuit, controlling the current flow."
                         },
                         {
-                          "question": "Which factor could influence the results of the experiment?",
+                          "question": "What happens to the circuit if the switch is faulty?",
                           "options": [
-                            "The size of the paper clip",
-                            "The temperature of the water",
-                            "The type of soap used",
-                            "All of the above"
+                            "The circuit may not open or close properly",
+                            "The bulb will glow continuously",
+                            "The battery will supply excess voltage",
+                            "The wires will heat up"
                           ],
-                          "correct_answer": "All of the above",
-                          "explanation": "Various factors can affect surface tension and buoyancy in the experiment."
+                          "correct_answer": "The circuit may not open or close properly",
+                          "explanation": "A faulty switch prevents the circuit from operating correctly, disrupting current flow."
                         },
                         {
-                          "question": "What is the significance of surface tension in nature?",
+                          "question": "What is the main disadvantage of using a filament bulb instead of an LED in the circuit?",
                           "options": [
-                            "It causes water to evaporate",
-                            "It supports small organisms",
-                            "It only affects man-made structures",
-                            "It has no significance"
+                            "Higher energy consumption",
+                            "Lower brightness",
+                            "Difficult to connect",
+                            "Short lifespan"
                           ],
-                          "correct_answer": "It supports small organisms",
-                          "explanation": "Surface tension is critical for many organisms that rely on it for movement and survival."
+                          "correct_answer": "Higher energy consumption",
+                          "explanation": "Filament bulbs consume more energy compared to LEDs for the same amount of light output."
                         }
                       ]
                     },
@@ -2399,689 +2384,109 @@
                       "set_name": "Quiz Set 5",
                       "questions": [
                         {
-                          "question": "What happens to the water's surface when the tissue paper is placed on it?",
+                          "question": "What happens if the switch in the circuit is open?",
                           "options": [
-                            "It breaks instantly",
-                            "It becomes unstable",
-                            "It remains flat and stable",
-                            "It evaporates"
+                            "The bulb lights up",
+                            "The circuit is incomplete, and no current flows",
+                            "The battery gets discharged",
+                            "The bulb gets damaged"
                           ],
-                          "correct_answer": "It remains flat and stable",
-                          "explanation": "The surface tension allows the water to remain stable even with the tissue on top."
+                          "correct_answer": "The circuit is incomplete, and no current flows",
+                          "explanation": "When the switch is open, the circuit is broken, and no current can flow to light up the bulb."
                         },
                         {
-                          "question": "What physical property allows the paper clip to float on the water?",
+                          "question": "What type of energy does the bulb convert electrical energy into?",
                           "options": [
-                            "Density",
-                            "Surface tension",
-                            "Viscosity",
-                            "Weight"
+                            "Chemical energy",
+                            "Thermal and light energy",
+                            "Mechanical energy",
+                            "Nuclear energy"
                           ],
-                          "correct_answer": "Surface tension",
-                          "explanation": "Surface tension provides the force necessary for the paper clip to float."
+                          "correct_answer": "Thermal and light energy",
+                          "explanation": "The bulb converts electrical energy into thermal energy (heat) and light energy."
                         },
                         {
-                          "question": "What effect does adding more soap have on the experiment?",
+                          "question": "What ensures the safety of the circuit from short circuits?",
                           "options": [
-                            "Increases surface tension",
-                            "Decreases surface tension",
-                            "Has no effect",
-                            "Makes water evaporate"
+                            "Proper insulation of wires",
+                            "Using a high-capacity battery",
+                            "Adding multiple switches",
+                            "Using multiple bulbs"
                           ],
-                          "correct_answer": "Decreases surface tension",
-                          "explanation": "More soap disrupts cohesive forces, leading to lower surface tension."
+                          "correct_answer": "Proper insulation of wires",
+                          "explanation": "Insulating the wires prevents unintended contact between wires, avoiding short circuits."
                         },
                         {
-                          "question": "What is an example of cohesion in this experiment?",
+                          "question": "Which part of the circuit controls the flow of electricity?",
                           "options": [
-                            "Water molecules sticking to each other",
-                            "Soap mixing with water",
-                            "Paper clip sinking",
-                            "Tissue absorbing water"
+                            "Battery",
+                            "Switch",
+                            "Bulb",
+                            "Connecting wires"
                           ],
-                          "correct_answer": "Water molecules sticking to each other",
-                          "explanation": "Cohesion allows the water's surface to hold the paper clip."
+                          "correct_answer": "Switch",
+                          "explanation": "The switch acts as a controller, either allowing or stopping the flow of current in the circuit."
                         },
                         {
-                          "question": "What can happen if you drop the paper clip from a height onto the water?",
+                          "question": "What is the direction of conventional current in a circuit?",
                           "options": [
-                            "It will float",
-                            "It will sink",
-                            "It will bounce",
-                            "It will dissolve"
+                            "From the negative terminal to the positive terminal of the battery",
+                            "From the positive terminal to the negative terminal of the battery",
+                            "It flows back and forth",
+                            "It does not flow"
                           ],
-                          "correct_answer": "It will sink",
-                          "explanation": "Dropping the clip from a height can break the surface tension."
+                          "correct_answer": "From the positive terminal to the negative terminal of the battery",
+                          "explanation": "Conventional current flows from the positive terminal to the negative terminal of the battery."
                         },
                         {
-                          "question": "How does the experiment illustrate the concept of buoyancy?",
-                          "options": [
-                            "By showing how objects sink",
-                            "By demonstrating how objects float",
-                            "By using heavy materials",
-                            "By measuring weight"
-                          ],
-                          "correct_answer": "By demonstrating how objects float",
-                          "explanation": "It shows how surface tension allows the paper clip to float."
+                          "question": "Which of the following materials can be used to insulate wires?",
+                          "options": ["Copper", "Rubber", "Aluminum", "Iron"],
+                          "correct_answer": "Rubber",
+                          "explanation": "Rubber is a good insulator and is used to cover wires to prevent accidental shocks and short circuits."
                         },
                         {
-                          "question": "Why might this experiment be important for understanding everyday phenomena?",
+                          "question": "What will happen if the wires in a circuit are not connected properly?",
                           "options": [
-                            "It relates to how boats float",
-                            "It has no real-life application",
-                            "It only applies to small objects",
-                            "It only applies to chemicals"
+                            "The bulb will glow brighter",
+                            "The circuit will not work",
+                            "The switch will stop functioning",
+                            "The battery will overheat"
                           ],
-                          "correct_answer": "It relates to how boats float",
-                          "explanation": "The principles of surface tension are applicable in various contexts, including boating."
+                          "correct_answer": "The circuit will not work",
+                          "explanation": "A proper connection is necessary to complete the circuit and allow current to flow."
                         },
                         {
-                          "question": "What change occurs in the water's surface when the soap is added?",
+                          "question": "What role does the bulb play in the electric circuit?",
                           "options": [
-                            "It becomes more reflective",
-                            "It becomes bubbly",
-                            "It becomes less stable",
-                            "It freezes"
+                            "It stores electrical energy",
+                            "It produces light by using electrical energy",
+                            "It controls the flow of current",
+                            "It acts as an insulator"
                           ],
-                          "correct_answer": "It becomes less stable",
-                          "explanation": "Soap reduces the stability of the water surface, allowing objects to sink."
+                          "correct_answer": "It produces light by using electrical energy",
+                          "explanation": "The bulb converts electrical energy into light energy to produce light."
                         },
                         {
-                          "question": "What is the expected outcome if the experiment is repeated with oil instead of water?",
+                          "question": "Which property of the material in the wires allows electricity to flow?",
                           "options": [
-                            "The paper clip will float better",
-                            "The paper clip will sink",
-                            "The paper clip will dissolve",
-                            "The paper clip will evaporate"
+                            "Conductivity",
+                            "Flexibility",
+                            "Insulation",
+                            "Density"
                           ],
-                          "correct_answer": "The paper clip will sink",
-                          "explanation": "Oil has different properties, including lower surface tension compared to water."
+                          "correct_answer": "Conductivity",
+                          "explanation": "Conductivity is the property of a material that allows electric current to flow through it."
                         },
                         {
-                          "question": "How does this experiment connect to real-world applications?",
+                          "question": "What will happen if the switch and wires in a circuit are both faulty?",
                           "options": [
-                            "It shows how to cook food",
-                            "It helps understand cleaning agents",
-                            "It illustrates gravity",
-                            "It describes weather patterns"
+                            "The bulb will glow intermittently",
+                            "The circuit may not function at all",
+                            "The battery will provide more current",
+                            "The switch will bypass the wires"
                           ],
-                          "correct_answer": "It helps understand cleaning agents",
-                          "explanation": "The experiment relates to how surfactants in cleaning products work."
-                        }
-                      ]
-                    },
-                    {
-                      "set_name": "Quiz Set 6",
-                      "questions": [
-                        {
-                          "question": "What does the paper clip's ability to float demonstrate about surface tension?",
-                          "options": [
-                            "It shows surface tension is weak",
-                            "It shows surface tension is strong",
-                            "It shows that water is dense",
-                            "It shows gravity's effects"
-                          ],
-                          "correct_answer": "It shows surface tension is strong",
-                          "explanation": "The ability of the paper clip to float indicates strong cohesive forces at the surface."
-                        },
-                        {
-                          "question": "What would happen if you used a larger paper clip in the experiment?",
-                          "options": [
-                            "It would float better",
-                            "It would sink",
-                            "It would break the surface",
-                            "It would dissolve"
-                          ],
-                          "correct_answer": "It would sink",
-                          "explanation": "A larger paper clip may not float if its weight exceeds surface tension's support."
-                        },
-                        {
-                          "question": "What scientific concept is illustrated when the tissue paper sinks?",
-                          "options": [
-                            "Density",
-                            "Surface tension",
-                            "Cohesion",
-                            "Evaporation"
-                          ],
-                          "correct_answer": "Surface tension",
-                          "explanation": "The experiment highlights surface tension as the paper clip remains floating."
-                        },
-                        {
-                          "question": "Why is it crucial to conduct the experiment carefully?",
-                          "options": [
-                            "To ensure accurate results",
-                            "To avoid splashing",
-                            "To use more materials",
-                            "To maintain cleanliness"
-                          ],
-                          "correct_answer": "To ensure accurate results",
-                          "explanation": "Careful execution helps prevent breaking surface tension prematurely."
-                        },
-                        {
-                          "question": "What could be a potential source of error in this experiment?",
-                          "options": [
-                            "Using too little water",
-                            "Not using soap",
-                            "Dropping the paper clip from too low",
-                            "Using the wrong type of tissue"
-                          ],
-                          "correct_answer": "Using too little water",
-                          "explanation": "Insufficient water could lead to inaccurate observations of surface tension."
-                        },
-                        {
-                          "question": "How does the experiment relate to the behavior of water striders?",
-                          "options": [
-                            "They sink",
-                            "They float on surface tension",
-                            "They swim underwater",
-                            "They fly above water"
-                          ],
-                          "correct_answer": "They float on surface tension",
-                          "explanation": "Water striders utilize surface tension to move on water's surface."
-                        },
-                        {
-                          "question": "What is a practical application of understanding surface tension?",
-                          "options": [
-                            "Designing boats",
-                            "Measuring liquids",
-                            "Cooking food",
-                            "Writing with ink"
-                          ],
-                          "correct_answer": "Designing boats",
-                          "explanation": "Knowledge of surface tension aids in optimizing boat designs for better buoyancy."
-                        },
-                        {
-                          "question": "What would likely happen if you added a large amount of soap?",
-                          "options": [
-                            "The paper clip would float better",
-                            "The paper clip would sink",
-                            "The water would freeze",
-                            "The tissue would not absorb water"
-                          ],
-                          "correct_answer": "The paper clip would sink",
-                          "explanation": "Excessive soap would break the surface tension completely, causing the clip to sink."
-                        },
-                        {
-                          "question": "What is the importance of cohesion in this experiment?",
-                          "options": [
-                            "It causes water to evaporate",
-                            "It keeps the paper clip afloat",
-                            "It reduces the temperature",
-                            "It changes the water's density"
-                          ],
-                          "correct_answer": "It keeps the paper clip afloat",
-                          "explanation": "Cohesion between water molecules creates the surface tension needed for floating."
-                        },
-                        {
-                          "question": "What would happen if you used saltwater instead of fresh water?",
-                          "options": [
-                            "The paper clip would float better",
-                            "The paper clip would sink",
-                            "The surface tension would increase",
-                            "It would have no effect"
-                          ],
-                          "correct_answer": "The surface tension would increase",
-                          "explanation": "Salt can increase water's surface tension due to ionic interactions."
-                        }
-                      ]
-                    },
-                    {
-                      "set_name": "Quiz Set 7",
-                      "questions": [
-                        {
-                          "question": "How does the experiment demonstrate the effect of surface tension?",
-                          "options": [
-                            "By showing how objects sink",
-                            "By showing how objects can float",
-                            "By measuring temperature",
-                            "By observing color changes"
-                          ],
-                          "correct_answer": "By showing how objects can float",
-                          "explanation": "The paper clip floats due to the effects of surface tension."
-                        },
-                        {
-                          "question": "What physical change occurs when the tissue paper sinks?",
-                          "options": [
-                            "The water freezes",
-                            "The paper clip remains afloat",
-                            "The paper clip sinks",
-                            "The tissue disintegrates"
-                          ],
-                          "correct_answer": "The paper clip remains afloat",
-                          "explanation": "Even after the tissue sinks, surface tension keeps the paper clip afloat."
-                        },
-                        {
-                          "question": "What do we learn about soap from this experiment?",
-                          "options": [
-                            "Soap has no effect on water",
-                            "Soap increases surface tension",
-                            "Soap breaks surface tension",
-                            "Soap makes water evaporate"
-                          ],
-                          "correct_answer": "Soap breaks surface tension",
-                          "explanation": "The experiment shows how soap disrupts cohesive forces in water."
-                        },
-                        {
-                          "question": "Why is it necessary to perform the experiment in a calm environment?",
-                          "options": [
-                            "To avoid making a mess",
-                            "To ensure accurate results",
-                            "To keep the water warm",
-                            "To reduce evaporation"
-                          ],
-                          "correct_answer": "To ensure accurate results",
-                          "explanation": "A calm environment helps prevent disturbances that could affect the outcome."
-                        },
-                        {
-                          "question": "What would be a suitable alternative material to test instead of a paper clip?",
-                          "options": [
-                            "A wooden block",
-                            "A feather",
-                            "A small coin",
-                            "A rubber band"
-                          ],
-                          "correct_answer": "A small coin",
-                          "explanation": "A small coin can also demonstrate surface tension if placed carefully."
-                        },
-                        {
-                          "question": "What observation would indicate that surface tension is present?",
-                          "options": [
-                            "Water spilling over the edge",
-                            "Water droplets forming beads",
-                            "Tissue paper disintegrating",
-                            "Paper clip sinking immediately"
-                          ],
-                          "correct_answer": "Water droplets forming beads",
-                          "explanation": "The formation of beads shows the cohesive forces at work."
-                        },
-                        {
-                          "question": "Why is it significant that the paper clip floats without sinking?",
-                          "options": [
-                            "It means the paper clip is light",
-                            "It shows surface tension is strong",
-                            "It indicates the water is deep",
-                            "It suggests the water is clean"
-                          ],
-                          "correct_answer": "It shows surface tension is strong",
-                          "explanation": "The ability to float indicates strong cohesive forces among water molecules."
-                        },
-                        {
-                          "question": "What effect does surface tension have on small insects like water striders?",
-                          "options": [
-                            "They can walk on water",
-                            "They sink",
-                            "They cannot drink",
-                            "They drown easily"
-                          ],
-                          "correct_answer": "They can walk on water",
-                          "explanation": "Water striders utilize surface tension to stay above the water."
-                        },
-                        {
-                          "question": "What should be avoided to ensure the experiment's success?",
-                          "options": [
-                            "Using too much soap",
-                            "Dropping the paper clip from height",
-                            "Using different types of water",
-                            "Keeping the water temperature constant"
-                          ],
-                          "correct_answer": "Using too much soap",
-                          "explanation": "Excess soap can break surface tension and prevent accurate results."
-                        },
-                        {
-                          "question": "What is the most critical takeaway from this experiment?",
-                          "options": [
-                            "The paper clip can float",
-                            "Surface tension allows objects to float",
-                            "Soap is harmful to water",
-                            "Water is necessary for life"
-                          ],
-                          "correct_answer": "Surface tension allows objects to float",
-                          "explanation": "The experiment demonstrates the principle of surface tension effectively."
-                        }
-                      ]
-                    },
-                    {
-                      "set_name": "Quiz Set 8",
-                      "questions": [
-                        {
-                          "question": "What property of water is primarily being tested in this experiment?",
-                          "options": [
-                            "Viscosity",
-                            "Density",
-                            "Surface tension",
-                            "Temperature"
-                          ],
-                          "correct_answer": "Surface tension",
-                          "explanation": "The experiment tests the surface tension of water by observing the floating paper clip."
-                        },
-                        {
-                          "question": "What happens to the floating paper clip if the tissue paper is not used?",
-                          "options": [
-                            "It will sink immediately",
-                            "It will float indefinitely",
-                            "It will dissolve",
-                            "It will evaporate"
-                          ],
-                          "correct_answer": "It will sink immediately",
-                          "explanation": "Without the tissue, the paper clip would break the surface tension and sink."
-                        },
-                        {
-                          "question": "What is the expected outcome of adding more dish soap?",
-                          "options": [
-                            "The paper clip will float longer",
-                            "The paper clip will sink sooner",
-                            "The paper clip will bounce",
-                            "The paper clip will dissolve"
-                          ],
-                          "correct_answer": "The paper clip will sink sooner",
-                          "explanation": "More soap reduces surface tension, making it easier for the clip to sink."
-                        },
-                        {
-                          "question": "What can we conclude about the relationship between soap and surface tension?",
-                          "options": [
-                            "Soap has no effect",
-                            "Soap increases surface tension",
-                            "Soap decreases surface tension",
-                            "Soap solidifies water"
-                          ],
-                          "correct_answer": "Soap decreases surface tension",
-                          "explanation": "Soap molecules disrupt the cohesive forces among water molecules."
-                        },
-                        {
-                          "question": "What is a practical demonstration of surface tension in nature?",
-                          "options": [
-                            "Raindrops forming beads on leaves",
-                            "Water running off a car",
-                            "Water boiling",
-                            "Ice floating on water"
-                          ],
-                          "correct_answer": "Raindrops forming beads on leaves",
-                          "explanation": "Raindrops bead up due to surface tension, illustrating this property."
-                        },
-                        {
-                          "question": "What would happen to the experiment if conducted in a windy area?",
-                          "options": [
-                            "Results would be unaffected",
-                            "Results would be more accurate",
-                            "Surface tension would increase",
-                            "Results could be skewed"
-                          ],
-                          "correct_answer": "Results could be skewed",
-                          "explanation": "Wind can disturb the surface and affect the outcome of the experiment."
-                        },
-                        {
-                          "question": "What type of water is generally used in this experiment?",
-                          "options": [
-                            "Saltwater",
-                            "Freshwater",
-                            "Tap water",
-                            "Distilled water"
-                          ],
-                          "correct_answer": "Freshwater",
-                          "explanation": "Freshwater is commonly used as it has the appropriate properties for testing."
-                        },
-                        {
-                          "question": "What is the significance of observing the paper clip float for a long time?",
-                          "options": [
-                            "It means the water is clean",
-                            "It indicates strong surface tension",
-                            "It shows the paper clip is light",
-                            "It means the tissue is strong"
-                          ],
-                          "correct_answer": "It indicates strong surface tension",
-                          "explanation": "A longer floating duration demonstrates the effectiveness of surface tension."
-                        },
-                        {
-                          "question": "What scientific phenomenon is showcased through the sinking of the tissue paper?",
-                          "options": [
-                            "Buoyancy",
-                            "Surface tension",
-                            "Cohesion",
-                            "Capillary action"
-                          ],
-                          "correct_answer": "Surface tension",
-                          "explanation": "The sinking of the tissue paper illustrates how surface tension affects the water's surface."
-                        },
-                        {
-                          "question": "What can we learn from the experiment about small animals on water?",
-                          "options": [
-                            "They cannot survive",
-                            "They rely on surface tension",
-                            "They sink easily",
-                            "They do not interact with water"
-                          ],
-                          "correct_answer": "They rely on surface tension",
-                          "explanation": "Many small animals, like water striders, depend on surface tension to stay afloat."
-                        }
-                      ]
-                    },
-                    {
-                      "set_name": "Quiz Set 9",
-                      "questions": [
-                        {
-                          "question": "What happens when the surface tension is broken in this experiment?",
-                          "options": [
-                            "The paper clip floats higher",
-                            "The paper clip sinks",
-                            "The paper clip moves to the side",
-                            "The paper clip bounces"
-                          ],
-                          "correct_answer": "The paper clip sinks",
-                          "explanation": "Breaking surface tension causes the paper clip to lose buoyancy and sink."
-                        },
-                        {
-                          "question": "Why is the tissue paper essential in this experiment?",
-                          "options": [
-                            "It adds weight",
-                            "It provides a stable surface",
-                            "It absorbs water",
-                            "It cools the water"
-                          ],
-                          "correct_answer": "It provides a stable surface",
-                          "explanation": "The tissue paper allows the paper clip to float without breaking the water's surface."
-                        },
-                        {
-                          "question": "What does the experiment reveal about the effects of surface tension on various objects?",
-                          "options": [
-                            "Only light objects can float",
-                            "Heavy objects always sink",
-                            "Surface tension affects all objects equally",
-                            "Some heavy objects can float if surface tension is strong enough"
-                          ],
-                          "correct_answer": "Some heavy objects can float if surface tension is strong enough",
-                          "explanation": "The experiment shows that surface tension can support certain objects under specific conditions."
-                        },
-                        {
-                          "question": "What happens to the paper clip if you pull the tissue paper away quickly?",
-                          "options": [
-                            "The paper clip floats higher",
-                            "The paper clip sinks",
-                            "The paper clip stays in place",
-                            "The paper clip flies out of the bowl"
-                          ],
-                          "correct_answer": "The paper clip sinks",
-                          "explanation": "Removing the tissue breaks the surface tension, causing the paper clip to sink."
-                        },
-                        {
-                          "question": "What principle does this experiment help explain regarding small animals like water striders?",
-                          "options": [
-                            "They are heavy and sink",
-                            "They can walk on water due to surface tension",
-                            "They do not interact with the surface",
-                            "They rely on buoyancy alone"
-                          ],
-                          "correct_answer": "They can walk on water due to surface tension",
-                          "explanation": "Surface tension allows small insects to remain on the water's surface."
-                        },
-                        {
-                          "question": "What aspect of water's molecular structure contributes to surface tension?",
-                          "options": [
-                            "Hydrogen bonds",
-                            "Ionic bonds",
-                            "Covalent bonds",
-                            "Metallic bonds"
-                          ],
-                          "correct_answer": "Hydrogen bonds",
-                          "explanation": "Hydrogen bonds between water molecules create the cohesive forces that result in surface tension."
-                        },
-                        {
-                          "question": "How can this experiment be modified to test different liquids?",
-                          "options": [
-                            "By changing the temperature",
-                            "By using oils or syrups instead of water",
-                            "By adding more paper clips",
-                            "By using different types of soap"
-                          ],
-                          "correct_answer": "By using oils or syrups instead of water",
-                          "explanation": "Testing with different liquids can show how surface tension varies across substances."
-                        },
-                        {
-                          "question": "What phenomenon is observed when the paper clip floats on the water?",
-                          "options": [
-                            "Capillary action",
-                            "Surface tension",
-                            "Absorption",
-                            "Evaporation"
-                          ],
-                          "correct_answer": "Surface tension",
-                          "explanation": "The floating paper clip demonstrates the effects of surface tension in liquids."
-                        },
-                        {
-                          "question": "Why is it important to perform multiple trials in this experiment?",
-                          "options": [
-                            "To increase data accuracy",
-                            "To make it more fun",
-                            "To use more materials",
-                            "To avoid breaking the paper clip"
-                          ],
-                          "correct_answer": "To increase data accuracy",
-                          "explanation": "Multiple trials help confirm the reliability of the results."
-                        },
-                        {
-                          "question": "What happens to the behavior of the water as more soap is added?",
-                          "options": [
-                            "Water becomes less viscous",
-                            "Surface tension increases",
-                            "Water bubbles disappear",
-                            "Surface tension decreases"
-                          ],
-                          "correct_answer": "Surface tension decreases",
-                          "explanation": "Adding soap disrupts the cohesive forces, resulting in decreased surface tension."
-                        }
-                      ]
-                    },
-                    {
-                      "set_name": "Quiz Set 10",
-                      "questions": [
-                        {
-                          "question": "What is the primary focus of the experiment?",
-                          "options": [
-                            "To measure water temperature",
-                            "To observe surface tension",
-                            "To test the weight of objects",
-                            "To analyze water purity"
-                          ],
-                          "correct_answer": "To observe surface tension",
-                          "explanation": "The main goal of the experiment is to investigate the effects of surface tension on floating objects."
-                        },
-                        {
-                          "question": "Why does the paper clip float on the water?",
-                          "options": [
-                            "It is less dense than water",
-                            "It is very lightweight",
-                            "Surface tension supports it",
-                            "Water is frozen"
-                          ],
-                          "correct_answer": "Surface tension supports it",
-                          "explanation": "The cohesive forces at the water's surface allow the paper clip to float."
-                        },
-                        {
-                          "question": "What effect does temperature have on surface tension in this experiment?",
-                          "options": [
-                            "Higher temperatures increase surface tension",
-                            "Temperature has no effect",
-                            "Higher temperatures decrease surface tension",
-                            "Lower temperatures make water more viscous"
-                          ],
-                          "correct_answer": "Higher temperatures decrease surface tension",
-                          "explanation": "Temperature affects molecular motion, reducing cohesive forces and surface tension."
-                        },
-                        {
-                          "question": "What is the outcome when the paper clip is placed in hot water?",
-                          "options": [
-                            "It floats better",
-                            "It sinks immediately",
-                            "It disintegrates",
-                            "It evaporates"
-                          ],
-                          "correct_answer": "It sinks immediately",
-                          "explanation": "Hot water reduces surface tension, making it insufficient to support the clip."
-                        },
-                        {
-                          "question": "How does this experiment help us understand environmental concepts?",
-                          "options": [
-                            "By demonstrating water filtration",
-                            "By showcasing water pollution effects",
-                            "By analyzing water density",
-                            "By observing animal behaviors"
-                          ],
-                          "correct_answer": "By showcasing water pollution effects",
-                          "explanation": "Understanding surface tension can relate to how pollutants affect aquatic life."
-                        },
-                        {
-                          "question": "What can be inferred from the experiment regarding the use of surfactants?",
-                          "options": [
-                            "They enhance buoyancy",
-                            "They improve surface tension",
-                            "They decrease surface tension",
-                            "They have no effect on water"
-                          ],
-                          "correct_answer": "They decrease surface tension",
-                          "explanation": "Surfactants disrupt cohesive forces in water, reducing surface tension."
-                        },
-                        {
-                          "question": "What is a simple way to visualize surface tension in this experiment?",
-                          "options": [
-                            "Observing how a paper clip floats",
-                            "Measuring water temperature",
-                            "Comparing different liquids",
-                            "Watching water evaporate"
-                          ],
-                          "correct_answer": "Observing how a paper clip floats",
-                          "explanation": "The floating paper clip is a clear demonstration of surface tension in action."
-                        },
-                        {
-                          "question": "What scientific principle does this experiment illustrate?",
-                          "options": [
-                            "Buoyancy",
-                            "Surface tension",
-                            "Density",
-                            "Viscosity"
-                          ],
-                          "correct_answer": "Surface tension",
-                          "explanation": "The experiment effectively demonstrates the principles of surface tension."
-                        },
-                        {
-                          "question": "What would be a good follow-up experiment related to this one?",
-                          "options": [
-                            "Testing different paper clips",
-                            "Observing soap effects on water tension",
-                            "Measuring temperature effects on evaporation",
-                            "Comparing buoyancy of various objects"
-                          ],
-                          "correct_answer": "Observing soap effects on water tension",
-                          "explanation": "Investigating how soap affects surface tension can expand on this experiment."
-                        },
-                        {
-                          "question": "What role does cohesion play in this experiment?",
-                          "options": [
-                            "It affects the water's temperature",
-                            "It helps hold water molecules together",
-                            "It causes water to evaporate",
-                            "It determines water's density"
-                          ],
-                          "correct_answer": "It helps hold water molecules together",
-                          "explanation": "Cohesion contributes to surface tension, enabling the paper clip to float."
+                          "correct_answer": "The circuit may not function at all",
+                          "explanation": "Faulty components, like a broken switch or damaged wires, can disrupt the flow of current, causing the circuit to fail."
                         }
                       ]
                     }
