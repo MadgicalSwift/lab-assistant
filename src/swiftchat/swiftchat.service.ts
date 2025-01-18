@@ -207,7 +207,10 @@ async sendQuizMessage(from: string) {
     buttonBody: string,
     score: number,
   ) {
-  
+   
+  if(!score){
+    score = 0
+  }
     // Find the correct question set based on the setName
     const questionSet = selectedExperimentquestion.find(
       (set: any) => set.set_name === setName,

@@ -25292,7 +25292,7 @@
                   ]
                 },
                 {
-                  "experiment_name": " Build Feeder & Track",
+                  "experiment_name": "Build Feeder & Track",
                   "aim": "To construct a bird feeder and observe the types and number of birds that visit over time.",
                   "objectives": [
                     "Learn about different bird species and their feeding habits.",
@@ -27192,136 +27192,147 @@
               "level_name": "Easy",
               "experiments": [
                 {
-                  "experiment_name": "Friction Test Setup",
-                  "aim": "To investigate how different surface materials affect the amount of friction experienced by an object.",
+                  "experiment_name": "Reflection of Light Using Plane Mirrors",
+                  "aim": "To observe the reflection of light from a plane mirror and verify the laws of reflection.",
                   "objectives": [
-                    "Understand the concept of friction and its role in everyday life.",
-                    "Measure and compare the frictional forces on various surfaces.",
-                    "Analyze how surface texture impacts the movement of objects."
+                    "Understand the laws of reflection.",
+                    "Observe how light behaves when reflected from a plane mirror.",
+                    "Measure the angle of incidence and angle of reflection to verify the law of reflection."
                   ],
                   "materials_needed": [
-                    "Various surfaces (e.g., wood, carpet, metal, plastic, sandpaper)",
-                    "A small block or object (e.g., a toy car or a wooden block)",
-                    "Spring scale (to measure force in Newtons)",
-                    "Ruler (for measuring distance if needed)",
-                    "Notebook (for recording observations)",
-                    "Weights (optional, to apply different forces on the object)"
+                    "Plane mirror",
+                    "Light source (e.g., a laser pointer or torch)",
+                    "Protractor",
+                    "Ruler",
+                    "White paper or screen",
+                    "Straight edge (ruler)",
+                    "Stand (optional for holding the mirror and light source)"
                   ],
                   "steps": [
-                    "Set up a flat surface where you can test different materials, ensuring they are stable and secure.",
-                    "Select the first surface to test (e.g., wood) and place it on the flat surface.",
-                    "Attach the spring scale to the object and pull it across the surface at a steady speed, noting the maximum force indicated on the scale. Record this value in your notebook.",
-                    "Repeat the process for each surface material, ensuring to keep the pull angle and speed consistent for accurate comparison.",
-                    "If using weights, add them to the object and repeat the measurements to see how additional weight affects friction.",
-                    "Compare the results from each surface and analyze how the texture and material of the surfaces influence the frictional force.",
-                    "Discuss your findings, considering why some surfaces have more friction than others and how this applies to real-world scenarios."
+                    "Place the plane mirror vertically on a flat surface, ensuring it is stable.",
+                    "Position the light source at a known angle (say, 30°) from the normal (an imaginary line perpendicular to the surface of the mirror).",
+                    "Shine the light at the mirror and observe the reflected light. Use the protractor to measure the angle of incidence (the angle between the incoming ray and the normal).",
+                    "Using the straight edge, extend the reflected ray and measure the angle of reflection (the angle between the reflected ray and the normal).",
+                    "Compare the angle of incidence and angle of reflection to verify that they are equal, confirming the law of reflection (angle of incidence = angle of reflection).",
+                    "Place a piece of white paper or a screen where the reflected ray hits to make the reflection more visible.",
+                    "Repeat the experiment with different angles of incidence and measure the corresponding angles of reflection."
                   ],
-                  "video_link": "https://youtu.be/GKPxVr1DKko?si=aFlsuFHPyu-dbzSa",
-                  "title": "ASTM D1894 - How to set up a Friction Test Fixture",
-                  "description": "The Coefficient of Friction Jig is able to measure the static and kinetic COF of many different materials including paper and plastics.",
+                  "video_link": "https://www.youtube.com/watch?v=A4jseVHjI_4",
+                  "title": "Reflection of Light Using Plane Mirrors",
+                  "description": "This experiment demonstrates the behavior of light when it reflects off a plane mirror. By measuring the angles of incidence and reflection, the law of reflection (angle of incidence = angle of reflection) is verified, which is fundamental to understanding optics.",
                   "quiz_sets": [
                     {
                       "set_name": "Quiz Set 1",
                       "questions": [
                         {
-                          "question": "What is friction?",
+                          "question": "What is the law of reflection?",
                           "options": [
-                            "A force that opposes motion between two surfaces in contact",
-                            "The force that accelerates an object",
-                            "A type of energy",
-                            "The mass of an object"
+                            "Angle of incidence = Angle of reflection",
+                            "Angle of incidence > Angle of reflection",
+                            "Angle of reflection = 0°",
+                            "Angle of incidence = 90°"
                           ],
-                          "correct_answer": "A force that opposes motion between two surfaces in contact",
-                          "explanation": "Friction is a resistive force that occurs when two surfaces interact."
+                          "correct_answer": "Angle of incidence = Angle of reflection",
+                          "explanation": "The law of reflection states that the angle at which light strikes a mirror (incident angle) is equal to the angle at which it is reflected."
                         },
                         {
-                          "question": "Which surface is likely to have the highest friction?",
-                          "options": ["Wood", "Plastic", "Metal", "Carpet"],
-                          "correct_answer": "Carpet",
-                          "explanation": "Carpet generally has a rougher texture, resulting in higher friction compared to smoother surfaces."
-                        },
-                        {
-                          "question": "What instrument is used to measure friction in this experiment?",
+                          "question": "What is the normal line in the context of light reflection?",
                           "options": [
-                            "Ruler",
+                            "The line parallel to the mirror surface",
+                            "The line perpendicular to the mirror surface",
+                            "The path of the reflected light",
+                            "The path of the incident light"
+                          ],
+                          "correct_answer": "The line perpendicular to the mirror surface",
+                          "explanation": "The normal is an imaginary line perpendicular to the mirror surface, used to measure angles of incidence and reflection."
+                        },
+                        {
+                          "question": "What tool is used to measure the angle of incidence and reflection in this experiment?",
+                          "options": [
                             "Protractor",
-                            "Spring scale",
-                            "Stopwatch"
+                            "Compass",
+                            "Ruler",
+                            "Thermometer"
                           ],
-                          "correct_answer": "Spring scale",
-                          "explanation": "A spring scale measures the force needed to move the object, indicating the frictional force."
+                          "correct_answer": "Protractor",
+                          "explanation": "A protractor is used to measure the angles of incidence and reflection in the experiment."
                         },
                         {
-                          "question": "Why is it important to keep the pull angle consistent?",
+                          "question": "What happens to the angle of reflection when the angle of incidence increases?",
                           "options": [
-                            "To make it easier to pull the object",
-                            "To ensure accurate comparison of friction",
-                            "To reduce the force applied",
-                            "To make the experiment quicker"
+                            "It decreases",
+                            "It stays the same",
+                            "It increases",
+                            "It becomes 90°"
                           ],
-                          "correct_answer": "To ensure accurate comparison of friction",
-                          "explanation": "Consistent pulling conditions allow for valid comparisons across different surfaces."
+                          "correct_answer": "It increases",
+                          "explanation": "According to the law of reflection, when the angle of incidence increases, the angle of reflection increases by the same amount."
                         },
                         {
-                          "question": "What effect do additional weights have on friction?",
+                          "question": "In the experiment, what is used to visualize the reflected light?",
                           "options": [
-                            "They decrease friction",
-                            "They have no effect",
-                            "They increase friction",
-                            "They only affect motion speed"
+                            "Screen or white paper",
+                            "Magnifying glass",
+                            "Colored paper",
+                            "Filter"
                           ],
-                          "correct_answer": "They increase friction",
-                          "explanation": "Adding weight increases the normal force, which increases the frictional force."
+                          "correct_answer": "Screen or white paper",
+                          "explanation": "A screen or white paper is placed where the reflected light hits to make the reflection visible."
                         },
                         {
-                          "question": "What type of surface would provide the least friction?",
-                          "options": ["Sandpaper", "Wood", "Plastic", "Glass"],
-                          "correct_answer": "Glass",
-                          "explanation": "Glass surfaces are typically very smooth, leading to lower friction."
-                        },
-                        {
-                          "question": "How can you apply the findings of this experiment to real-world scenarios?",
+                          "question": "What would happen if the angle of incidence is 0°?",
                           "options": [
-                            "Choosing materials for flooring",
-                            "Designing vehicles",
-                            "Manufacturing products",
-                            "All of the above"
+                            "The light would be reflected back along the same path",
+                            "The light would be absorbed",
+                            "The light would scatter",
+                            "The light would pass through the mirror"
                           ],
-                          "correct_answer": "All of the above",
-                          "explanation": "Understanding friction helps in making informed choices in various applications."
+                          "correct_answer": "The light would be reflected back along the same path",
+                          "explanation": "If the angle of incidence is 0°, the light will reflect back in the same direction, following the law of reflection."
                         },
                         {
-                          "question": "What is a potential source of error in this experiment?",
+                          "question": "What is the purpose of placing the mirror vertically in this experiment?",
                           "options": [
-                            "Using different objects each time",
-                            "Not recording the values",
-                            "Inconsistent pulling speed",
-                            "All of the above"
+                            "To allow more light to be reflected",
+                            "To make the angles easier to measure",
+                            "To ensure the light is parallel to the ground",
+                            "To reduce the intensity of light"
                           ],
-                          "correct_answer": "Inconsistent pulling speed",
-                          "explanation": "Inconsistent speeds can lead to inaccurate friction measurements."
+                          "correct_answer": "To make the angles easier to measure",
+                          "explanation": "A vertical mirror allows for easy measurement of angles as the light source and the reflected ray can be clearly observed."
                         },
                         {
-                          "question": "Why do some surfaces create more friction than others?",
+                          "question": "What should you expect when you measure the angle of incidence and angle of reflection in the experiment?",
                           "options": [
-                            "Due to the materials they are made from",
-                            "Because of surface roughness",
-                            "Due to temperature",
-                            "All of the above"
+                            "The angle of reflection will be half of the angle of incidence",
+                            "The angle of reflection will be the same as the angle of incidence",
+                            "The angle of reflection will be larger than the angle of incidence",
+                            "The angle of reflection will be different each time"
                           ],
-                          "correct_answer": "All of the above",
-                          "explanation": "Friction is influenced by material properties, surface texture, and environmental conditions."
+                          "correct_answer": "The angle of reflection will be the same as the angle of incidence",
+                          "explanation": "According to the law of reflection, the angle of incidence is always equal to the angle of reflection."
                         },
                         {
-                          "question": "What does it mean if a surface has low friction?",
+                          "question": "Why is the white paper or screen used in the experiment?",
                           "options": [
-                            "It is hard to slide objects on it",
-                            "Objects slide easily over it",
-                            "It creates heat",
-                            "It is sticky"
+                            "To make the reflection more visible",
+                            "To measure the light intensity",
+                            "To reflect the light back into the mirror",
+                            "To block other light sources"
                           ],
-                          "correct_answer": "Objects slide easily over it",
-                          "explanation": "Low friction means less resistance to motion, allowing easier sliding."
+                          "correct_answer": "To make the reflection more visible",
+                          "explanation": "The white paper or screen provides a surface for the reflected light to hit, making it easier to observe the reflection."
+                        },
+                        {
+                          "question": "Which of the following is true when a light ray strikes a plane mirror?",
+                          "options": [
+                            "The light ray is bent",
+                            "The light ray is refracted",
+                            "The light ray is reflected back at the same angle",
+                            "The light ray is absorbed"
+                          ],
+                          "correct_answer": "The light ray is reflected back at the same angle",
+                          "explanation": "The light ray follows the law of reflection, where the angle of incidence equals the angle of reflection."
                         }
                       ]
                     },
@@ -27329,114 +27340,114 @@
                       "set_name": "Quiz Set 2",
                       "questions": [
                         {
-                          "question": "What is the formula for calculating frictional force?",
+                          "question": "What is the relationship between the angle of incidence and the angle of reflection?",
                           "options": [
-                            "Friction = mass × acceleration",
-                            "Friction = normal force × coefficient of friction",
-                            "Friction = distance ÷ time",
-                            "Friction = speed × time"
+                            "The angle of incidence is half of the angle of reflection",
+                            "The angle of incidence equals the angle of reflection",
+                            "The angle of reflection is always 90°",
+                            "The angle of reflection is greater than the angle of incidence"
                           ],
-                          "correct_answer": "Friction = normal force × coefficient of friction",
-                          "explanation": "Frictional force is calculated using the normal force and the coefficient of friction."
+                          "correct_answer": "The angle of incidence equals the angle of reflection",
+                          "explanation": "The law of reflection states that the angle of incidence is always equal to the angle of reflection."
                         },
                         {
-                          "question": "What happens to friction when a surface is lubricated?",
+                          "question": "In this experiment, what is the purpose of the protractor?",
                           "options": [
-                            "Friction increases",
-                            "Friction decreases",
-                            "Friction remains the same",
-                            "It becomes unpredictable"
+                            "To measure the intensity of light",
+                            "To measure the angles of incidence and reflection",
+                            "To focus the light beam",
+                            "To enhance the visibility of the light reflection"
                           ],
-                          "correct_answer": "Friction decreases",
-                          "explanation": "Lubrication reduces surface contact and decreases friction."
+                          "correct_answer": "To measure the angles of incidence and reflection",
+                          "explanation": "A protractor is used to accurately measure the angles of incidence and reflection during the experiment."
                         },
                         {
-                          "question": "How does temperature affect friction?",
+                          "question": "What does the term 'normal' refer to in the context of light reflection?",
                           "options": [
-                            "Increases friction in all cases",
-                            "Decreases friction in all cases",
-                            "Can either increase or decrease friction",
-                            "Has no effect on friction"
+                            "The path of the reflected light",
+                            "A line drawn parallel to the mirror surface",
+                            "A line drawn perpendicular to the mirror surface",
+                            "The light source itself"
                           ],
-                          "correct_answer": "Can either increase or decrease friction",
-                          "explanation": "Temperature changes can affect material properties, influencing friction."
+                          "correct_answer": "A line drawn perpendicular to the mirror surface",
+                          "explanation": "The normal is an imaginary line perpendicular to the mirror surface, used to measure angles of incidence and reflection."
                         },
                         {
-                          "question": "What is the purpose of testing multiple surfaces?",
+                          "question": "What happens to the reflected ray when the angle of incidence increases?",
                           "options": [
-                            "To see which one is prettiest",
-                            "To find a surface that is best for building",
-                            "To compare and analyze the effects of surface texture on friction",
-                            "To increase the time of the experiment"
+                            "The reflected ray stays the same",
+                            "The reflected ray moves away from the normal",
+                            "The reflected ray moves closer to the normal",
+                            "The reflected ray disappears"
                           ],
-                          "correct_answer": "To compare and analyze the effects of surface texture on friction",
-                          "explanation": "Testing multiple surfaces allows for a comprehensive understanding of how texture impacts friction."
+                          "correct_answer": "The reflected ray moves away from the normal",
+                          "explanation": "As the angle of incidence increases, the angle of reflection increases, causing the reflected ray to move away from the normal."
                         },
                         {
-                          "question": "What role does surface texture play in friction?",
+                          "question": "Why is it important to ensure that the light source and the mirror are both stable during the experiment?",
                           "options": [
-                            "Rough textures create less friction",
-                            "Smooth textures create more friction",
-                            "Rough textures create more friction",
-                            "Texture has no role"
+                            "To prevent any disruption in the reflected light",
+                            "To increase the brightness of the reflected light",
+                            "To decrease the angle of reflection",
+                            "To reduce the intensity of light"
                           ],
-                          "correct_answer": "Rough textures create more friction",
-                          "explanation": "Rough surfaces have more irregularities that impede motion, increasing friction."
+                          "correct_answer": "To prevent any disruption in the reflected light",
+                          "explanation": "Stability is important for accurate measurements of the angles and to ensure the reflection is clear and predictable."
                         },
                         {
-                          "question": "Why is friction important in everyday life?",
+                          "question": "What is the effect of using a curved mirror instead of a plane mirror in this experiment?",
                           "options": [
-                            "It helps objects move freely",
-                            "It allows for grip and traction",
-                            "It has no real-world applications",
-                            "It slows everything down"
+                            "The reflected ray would not follow the law of reflection",
+                            "The angle of reflection would be larger",
+                            "The reflection would be distorted",
+                            "The reflection would become dimmer"
                           ],
-                          "correct_answer": "It allows for grip and traction",
-                          "explanation": "Friction is essential for walking, driving, and many daily activities."
+                          "correct_answer": "The reflection would be distorted",
+                          "explanation": "Curved mirrors bend light differently than plane mirrors, leading to distorted reflections instead of following the simple law of reflection."
                         },
                         {
-                          "question": "What effect would a decrease in friction have on vehicle safety?",
+                          "question": "What would happen if the angle of incidence is 90°?",
                           "options": [
-                            "Improved stopping distance",
-                            "Increased stopping distance",
-                            "No effect on safety",
-                            "Improved traction"
+                            "The light would pass through the mirror",
+                            "The light would be absorbed by the mirror",
+                            "The reflected ray would return along the same path",
+                            "The light would scatter"
                           ],
-                          "correct_answer": "Increased stopping distance",
-                          "explanation": "Lower friction between tires and road can lead to longer stopping distances and safety hazards."
+                          "correct_answer": "The reflected ray would return along the same path",
+                          "explanation": "When the angle of incidence is 90°, the light is reflected directly back along the same path, following the law of reflection."
                         },
                         {
-                          "question": "How can this experiment help in engineering applications?",
+                          "question": "In the experiment, how can you confirm that the angle of incidence equals the angle of reflection?",
                           "options": [
-                            "It can assist in material selection for various products",
-                            "It is not useful for engineering",
-                            "It helps predict weather patterns",
-                            "It is only applicable to sports"
+                            "By measuring both angles with a protractor and comparing them",
+                            "By observing the behavior of light at the mirror",
+                            "By increasing the intensity of light",
+                            "By changing the color of the light source"
                           ],
-                          "correct_answer": "It can assist in material selection for various products",
-                          "explanation": "Understanding friction aids engineers in choosing the right materials for specific applications."
+                          "correct_answer": "By measuring both angles with a protractor and comparing them",
+                          "explanation": "The angles can be measured with a protractor and compared to verify the law of reflection."
                         },
                         {
-                          "question": "What is one way to reduce friction in machines?",
+                          "question": "Which of the following will NOT affect the angle of reflection in this experiment?",
                           "options": [
-                            "Use rough materials",
-                            "Increase the weight of components",
-                            "Incorporate bearings or lubricants",
-                            "Increase contact area"
+                            "The color of the light",
+                            "The angle of incidence",
+                            "The surface of the mirror",
+                            "The position of the light source"
                           ],
-                          "correct_answer": "Incorporate bearings or lubricants",
-                          "explanation": "Bearings and lubricants reduce direct contact, lowering friction between moving parts."
+                          "correct_answer": "The color of the light",
+                          "explanation": "The color of the light does not affect the angle of reflection, as it is based on the angle at which light strikes the mirror."
                         },
                         {
-                          "question": "Why do ice skaters glide easily over ice?",
+                          "question": "What is the purpose of using a white paper or screen to observe the reflected light?",
                           "options": [
-                            "Ice has very low friction",
-                            "Skaters are very light",
-                            "Ice is smooth and wet",
-                            "They are moving quickly"
+                            "To increase the intensity of the light",
+                            "To provide a surface where the reflected ray can be observed",
+                            "To focus the light into a single point",
+                            "To block out other light sources"
                           ],
-                          "correct_answer": "Ice has very low friction",
-                          "explanation": "The smooth surface and a thin layer of water reduce friction, allowing skaters to glide."
+                          "correct_answer": "To provide a surface where the reflected ray can be observed",
+                          "explanation": "The white paper or screen serves as a background where the reflected light can be clearly seen, making it easier to observe the reflection."
                         }
                       ]
                     },
@@ -27444,104 +27455,114 @@
                       "set_name": "Quiz Set 3",
                       "questions": [
                         {
-                          "question": "What does friction do to the motion of an object?",
+                          "question": "What does the law of reflection state?",
                           "options": [
-                            "Speeds it up",
-                            "Slows it down",
-                            "Has no effect",
-                            "Makes it stop immediately"
+                            "The angle of incidence equals the angle of reflection",
+                            "The angle of incidence is always 90°",
+                            "The angle of reflection is always 45°",
+                            "The angle of incidence is always less than the angle of reflection"
                           ],
-                          "correct_answer": "Slows it down",
-                          "explanation": "Friction opposes the motion of objects, thus slowing them down."
+                          "correct_answer": "The angle of incidence equals the angle of reflection",
+                          "explanation": "The law of reflection states that the angle of incidence is always equal to the angle of reflection, which is fundamental in optics."
                         },
                         {
-                          "question": "Which surface is likely to produce the most friction?",
-                          "options": ["Wood", "Metal", "Rubber", "Sandpaper"],
-                          "correct_answer": "Sandpaper",
-                          "explanation": "Sandpaper has a very rough texture, which increases friction."
-                        },
-                        {
-                          "question": "Which of the following is NOT a factor that affects friction?",
+                          "question": "In the experiment, what is used to verify the law of reflection?",
                           "options": [
-                            "Surface texture",
-                            "Object weight",
-                            "Air pressure",
-                            "Lubrication"
+                            "Measuring the intensity of the reflected light",
+                            "Comparing the angles of incidence and reflection",
+                            "Observing the color of the reflected light",
+                            "Checking the speed of the reflected light"
                           ],
-                          "correct_answer": "Air pressure",
-                          "explanation": "Air pressure does not directly affect the friction between surfaces."
+                          "correct_answer": "Comparing the angles of incidence and reflection",
+                          "explanation": "The law of reflection is verified by measuring and comparing the angles of incidence and reflection using a protractor."
                         },
                         {
-                          "question": "In this experiment, which tool is used to measure friction?",
+                          "question": "What is the normal line in the context of light reflection?",
                           "options": [
-                            "Thermometer",
-                            "Spring scale",
-                            "Ruler",
-                            "Clock"
+                            "The path of the reflected ray",
+                            "An imaginary line perpendicular to the mirror surface",
+                            "The angle at which light strikes the mirror",
+                            "The line along which the light travels"
                           ],
-                          "correct_answer": "Spring scale",
-                          "explanation": "A spring scale is used to measure the force of friction by pulling the object."
+                          "correct_answer": "An imaginary line perpendicular to the mirror surface",
+                          "explanation": "The normal line is an imaginary line that is perpendicular to the surface of the mirror and is used to measure angles of incidence and reflection."
                         },
                         {
-                          "question": "What happens when an object is pulled across a rough surface?",
+                          "question": "What would happen if the angle of incidence is increased in this experiment?",
                           "options": [
-                            "The object moves faster",
-                            "The object experiences more friction",
-                            "The object moves slower without friction",
-                            "The object stops immediately"
+                            "The reflected ray would bend towards the normal",
+                            "The reflected ray would stay the same",
+                            "The reflected ray would move away from the normal",
+                            "The reflected ray would become invisible"
                           ],
-                          "correct_answer": "The object experiences more friction",
-                          "explanation": "Rough surfaces cause more resistance, increasing the friction."
+                          "correct_answer": "The reflected ray would move away from the normal",
+                          "explanation": "As the angle of incidence increases, the angle of reflection increases as well, causing the reflected ray to move further away from the normal."
                         },
                         {
-                          "question": "What is the relationship between weight and friction?",
+                          "question": "Why is a protractor used in this experiment?",
                           "options": [
-                            "More weight means more friction",
-                            "More weight means less friction",
-                            "Weight does not affect friction",
-                            "Friction is only dependent on the surface"
+                            "To measure the intensity of the light",
+                            "To measure the angle of reflection",
+                            "To measure the angle of incidence",
+                            "To increase the brightness of the light"
                           ],
-                          "correct_answer": "More weight means more friction",
-                          "explanation": "Adding weight increases the normal force, which in turn increases friction."
+                          "correct_answer": "To measure the angle of incidence",
+                          "explanation": "A protractor is used to accurately measure the angle of incidence and the angle of reflection, which are critical in verifying the law of reflection."
                         },
                         {
-                          "question": "Which of these surfaces would produce the least friction?",
-                          "options": ["Plastic", "Metal", "Wood", "Sandpaper"],
-                          "correct_answer": "Plastic",
-                          "explanation": "Plastic is generally smoother, resulting in less friction."
-                        },
-                        {
-                          "question": "How does surface texture affect friction?",
+                          "question": "Which of the following will not affect the law of reflection?",
                           "options": [
-                            "Smoother surfaces have more friction",
-                            "Rougher surfaces have less friction",
-                            "Rougher surfaces have more friction",
-                            "Surface texture does not affect friction"
+                            "The angle at which light strikes the mirror",
+                            "The surface of the mirror",
+                            "The color of the light",
+                            "The angle of reflection"
                           ],
-                          "correct_answer": "Rougher surfaces have more friction",
-                          "explanation": "Rough textures create more resistance to motion, increasing friction."
+                          "correct_answer": "The color of the light",
+                          "explanation": "The color of the light does not affect the law of reflection; what matters is the angle at which the light strikes the mirror."
                         },
                         {
-                          "question": "Why is it important to measure the friction consistently in an experiment?",
+                          "question": "If the angle of incidence is 0°, what will happen to the reflected ray?",
                           "options": [
-                            "To see how fast the object moves",
-                            "To keep the object from stopping",
-                            "To compare the effect of different surfaces",
-                            "To make the surface smoother"
+                            "The light will pass through the mirror",
+                            "The light will be absorbed by the mirror",
+                            "The reflected ray will follow the same path as the incident ray",
+                            "The reflected ray will bend at a different angle"
                           ],
-                          "correct_answer": "To compare the effect of different surfaces",
-                          "explanation": "Consistent measurements allow for a fair comparison of friction on different surfaces."
+                          "correct_answer": "The reflected ray will follow the same path as the incident ray",
+                          "explanation": "When the angle of incidence is 0°, the light strikes the mirror perpendicularly and is reflected back along the same path."
                         },
                         {
-                          "question": "What would happen if the object were pulled with an uneven force?",
+                          "question": "In this experiment, why is a white screen used to observe the reflected ray?",
                           "options": [
-                            "It would move in a straight line",
-                            "The friction force would increase",
-                            "The measurements would be inaccurate",
-                            "The object would not move"
+                            "To reduce the intensity of the reflected light",
+                            "To make the reflected ray more visible",
+                            "To focus the reflected ray",
+                            "To absorb the light"
                           ],
-                          "correct_answer": "The measurements would be inaccurate",
-                          "explanation": "Uneven force application would cause inconsistent friction readings."
+                          "correct_answer": "To make the reflected ray more visible",
+                          "explanation": "The white screen provides a visible background where the reflected light can be clearly seen."
+                        },
+                        {
+                          "question": "If the surface of the plane mirror is uneven, how will it affect the reflection of light?",
+                          "options": [
+                            "The reflected ray will be brighter",
+                            "The reflection will be distorted or unclear",
+                            "The reflection will become more focused",
+                            "The light will pass through the mirror"
+                          ],
+                          "correct_answer": "The reflection will be distorted or unclear",
+                          "explanation": "An uneven surface causes light to scatter, distorting the reflection and making it unclear."
+                        },
+                        {
+                          "question": "How can we verify that the angle of incidence equals the angle of reflection in this experiment?",
+                          "options": [
+                            "By measuring the time it takes for light to travel",
+                            "By using a protractor to compare the two angles",
+                            "By changing the color of the light",
+                            "By adjusting the light source"
+                          ],
+                          "correct_answer": "By using a protractor to compare the two angles",
+                          "explanation": "We use a protractor to measure both the angle of incidence and the angle of reflection and compare them to verify that they are equal."
                         }
                       ]
                     },
@@ -27549,782 +27570,117 @@
                       "set_name": "Quiz Set 4",
                       "questions": [
                         {
-                          "question": "Which surface is likely to create the least friction?",
-                          "options": ["Concrete", "Ice", "Rubber", "Sandpaper"],
-                          "correct_answer": "Ice",
-                          "explanation": "Ice has a very smooth surface, causing very little friction."
+                          "question": "What is the main principle demonstrated in the experiment with a plane mirror?",
+                          "options": [
+                            "The refraction of light",
+                            "The reflection of light",
+                            "The diffraction of light",
+                            "The absorption of light"
+                          ],
+                          "correct_answer": "The reflection of light",
+                          "explanation": "This experiment demonstrates the behavior of light when it is reflected off a plane mirror."
                         },
                         {
-                          "question": "What is the main force that friction opposes?",
+                          "question": "Which component in the experiment is used to direct the light towards the plane mirror?",
                           "options": [
-                            "Weight",
-                            "Motion",
-                            "Inertia",
-                            "Momentum"
+                            "Protractor",
+                            "Ruler",
+                            "Light source",
+                            "Paper screen"
                           ],
-                          "correct_answer": "Motion",
-                          "explanation": "Friction resists the motion of objects sliding or rolling over a surface."
+                          "correct_answer": "Light source",
+                          "explanation": "The light source is used to emit light that will be directed towards the mirror for reflection."
                         },
                         {
-                          "question": "In the experiment, how can you increase the force of friction?",
+                          "question": "What will happen if the angle of incidence is doubled in the experiment?",
                           "options": [
-                            "Increase the weight of the object",
-                            "Use smoother surfaces",
-                            "Move the object faster",
-                            "Reduce the surface area in contact"
+                            "The angle of reflection will remain unchanged",
+                            "The reflected ray will bend at an increased angle",
+                            "The reflected ray will follow a different path",
+                            "The reflected ray will become invisible"
                           ],
-                          "correct_answer": "Increase the weight of the object",
-                          "explanation": "Increasing weight increases the normal force, which increases the friction."
+                          "correct_answer": "The angle of reflection will remain unchanged",
+                          "explanation": "According to the law of reflection, the angle of incidence will always equal the angle of reflection, regardless of the size of the angle."
                         },
                         {
-                          "question": "Why is it important to use different surfaces in the experiment?",
+                          "question": "How do we measure the angle of incidence in this experiment?",
                           "options": [
-                            "To test the strength of the object",
-                            "To observe the effect of surface texture on friction",
-                            "To make the experiment harder",
-                            "To make the object heavier"
+                            "Using a protractor placed on the light source",
+                            "Using a ruler to measure the distance",
+                            "Using a protractor between the light ray and the normal",
+                            "Using a straight edge along the light ray"
                           ],
-                          "correct_answer": "To observe the effect of surface texture on friction",
-                          "explanation": "Different surface textures create varying amounts of friction."
+                          "correct_answer": "Using a protractor between the light ray and the normal",
+                          "explanation": "The angle of incidence is measured with a protractor between the incoming light ray and the normal line."
                         },
                         {
-                          "question": "Which tool is used to measure the force required to move an object?",
+                          "question": "Which of the following is a correct statement based on the law of reflection?",
                           "options": [
-                            "Measuring tape",
-                            "Spring scale",
-                            "Balance scale",
-                            "Protractor"
+                            "The angle of incidence is always greater than the angle of reflection",
+                            "The angle of reflection is always 90°",
+                            "The angle of incidence is equal to the angle of reflection",
+                            "The angle of reflection is always 0°"
                           ],
-                          "correct_answer": "Spring scale",
-                          "explanation": "A spring scale measures the force applied to move an object, which is used to calculate friction."
+                          "correct_answer": "The angle of incidence is equal to the angle of reflection",
+                          "explanation": "The law of reflection states that the angle of incidence is always equal to the angle of reflection."
                         },
                         {
-                          "question": "What happens when friction is reduced between two surfaces?",
+                          "question": "What is the purpose of placing a white screen in the experiment?",
                           "options": [
-                            "Objects move more easily",
-                            "Objects stop moving",
-                            "Objects will require more force to move",
-                            "Friction stays the same"
+                            "To block the light rays",
+                            "To create a reflective surface",
+                            "To visualize the reflected ray",
+                            "To absorb extra light"
                           ],
-                          "correct_answer": "Objects move more easily",
-                          "explanation": "Reducing friction allows objects to slide more easily with less resistance."
+                          "correct_answer": "To visualize the reflected ray",
+                          "explanation": "The white screen is used to make the reflected ray visible, allowing for easier observation of the reflection."
                         },
                         {
-                          "question": "What effect does a rough surface have on the movement of an object?",
+                          "question": "What would happen if the plane mirror in the experiment were replaced with a concave mirror?",
                           "options": [
-                            "It causes more friction",
-                            "It causes less friction",
-                            "It has no effect",
-                            "It causes the object to fly"
+                            "The angle of incidence would remain the same",
+                            "The reflected rays would diverge",
+                            "The reflected rays would converge",
+                            "The light would pass through the mirror"
                           ],
-                          "correct_answer": "It causes more friction",
-                          "explanation": "Rough surfaces create more resistance, thus increasing friction."
+                          "correct_answer": "The reflected rays would converge",
+                          "explanation": "A concave mirror focuses light rays to a point, which is different from a plane mirror where the rays reflect symmetrically."
                         },
                         {
-                          "question": "Which of the following factors does NOT affect the amount of friction?",
+                          "question": "How does the angle of reflection change when the angle of incidence is increased?",
                           "options": [
-                            "Weight of the object",
-                            "Surface texture",
-                            "Speed of the object",
-                            "Material of the object"
+                            "The angle of reflection decreases",
+                            "The angle of reflection stays the same",
+                            "The angle of reflection increases",
+                            "The angle of reflection becomes unpredictable"
                           ],
-                          "correct_answer": "Speed of the object",
-                          "explanation": "Friction is mainly affected by weight, surface texture, and material, but not directly by speed."
+                          "correct_answer": "The angle of reflection increases",
+                          "explanation": "The law of reflection tells us that the angle of reflection increases as the angle of incidence increases."
                         },
                         {
-                          "question": "How does friction benefit us in everyday life?",
+                          "question": "In the experiment, why is the light source positioned at an angle to the normal line?",
                           "options": [
-                            "It helps us glide effortlessly",
-                            "It helps us stop vehicles safely",
-                            "It makes movement easier",
-                            "It reduces energy consumption"
+                            "To produce a higher intensity of light",
+                            "To demonstrate the behavior of light at different angles",
+                            "To allow light to pass through the mirror",
+                            "To decrease the brightness of the light"
                           ],
-                          "correct_answer": "It helps us stop vehicles safely",
-                          "explanation": "Friction is essential for stopping vehicles and walking, as it prevents slipping."
+                          "correct_answer": "To demonstrate the behavior of light at different angles",
+                          "explanation": "Positioning the light source at an angle helps to observe how light behaves at various angles of incidence and reflection."
                         },
                         {
-                          "question": "What effect would decreasing the surface area of contact between the object and the surface have on friction?",
+                          "question": "Which of the following is true about the normal line in the reflection experiment?",
                           "options": [
-                            "Friction would increase",
-                            "Friction would decrease",
-                            "Friction would stay the same",
-                            "There would be no effect on friction"
+                            "It is always parallel to the incoming light ray",
+                            "It is perpendicular to the mirror surface",
+                            "It is at a 45° angle to the mirror surface",
+                            "It always lies between the incident ray and the reflected ray"
                           ],
-                          "correct_answer": "Friction would decrease",
-                          "explanation": "Reducing surface area means fewer microscopic bumps come into contact, reducing friction."
+                          "correct_answer": "It is perpendicular to the mirror surface",
+                          "explanation": "The normal line is an imaginary line that is always perpendicular to the surface of the mirror."
                         }
                       ]
-                    },
-                    {
-                      "set_name": "Quiz Set 5",
-                      "questions": [
-                        {
-                          "question": "What is the primary factor that determines how much friction is produced between two surfaces?",
-                          "options": [
-                            "The weight of the object",
-                            "The surface texture",
-                            "The color of the material",
-                            "The temperature of the material"
-                          ],
-                          "correct_answer": "The surface texture",
-                          "explanation": "The roughness or smoothness of the surfaces in contact determines the amount of friction."
-                        },
-                        {
-                          "question": "How does friction affect the motion of vehicles?",
-                          "options": [
-                            "It speeds up the motion",
-                            "It slows down the motion",
-                            "It has no effect",
-                            "It helps maintain motion without any force"
-                          ],
-                          "correct_answer": "It slows down the motion",
-                          "explanation": "Friction acts against the motion of vehicles, slowing them down unless counteracted by other forces."
-                        },
-                        {
-                          "question": "In the experiment, what role does the spring scale play?",
-                          "options": [
-                            "To measure the object's mass",
-                            "To measure the object's speed",
-                            "To measure the force of friction",
-                            "To measure the object's temperature"
-                          ],
-                          "correct_answer": "To measure the force of friction",
-                          "explanation": "The spring scale measures the force needed to overcome friction and move the object."
-                        },
-                        {
-                          "question": "What happens to friction if the contact area between two objects increases?",
-                          "options": [
-                            "Friction increases",
-                            "Friction decreases",
-                            "Friction remains the same",
-                            "Friction depends on the speed of the object"
-                          ],
-                          "correct_answer": "Friction increases",
-                          "explanation": "Increasing the contact area increases the microscopic interaction between surfaces, thus increasing friction."
-                        },
-                        {
-                          "question": "What type of surface would you expect to produce the most friction?",
-                          "options": ["Glass", "Rubber", "Ice", "Sandpaper"],
-                          "correct_answer": "Sandpaper",
-                          "explanation": "Sandpaper has a very rough texture, which increases friction compared to smooth surfaces."
-                        },
-                        {
-                          "question": "Why do we use weights in friction experiments?",
-                          "options": [
-                            "To reduce the amount of friction",
-                            "To increase the normal force and friction",
-                            "To measure the weight of the object",
-                            "To change the object's temperature"
-                          ],
-                          "correct_answer": "To increase the normal force and friction",
-                          "explanation": "Adding weight increases the normal force, which results in more friction between surfaces."
-                        },
-                        {
-                          "question": "What is one way to reduce friction in everyday life?",
-                          "options": [
-                            "Using smooth surfaces",
-                            "Adding more weight to objects",
-                            "Using rough materials",
-                            "Increasing the object's speed"
-                          ],
-                          "correct_answer": "Using smooth surfaces",
-                          "explanation": "Smooth surfaces have fewer microscopic bumps, reducing the friction between them."
-                        },
-                        {
-                          "question": "Which of the following is NOT a factor that affects the amount of friction?",
-                          "options": [
-                            "Surface area",
-                            "Surface texture",
-                            "Speed of motion",
-                            "Weight of the object"
-                          ],
-                          "correct_answer": "Speed of motion",
-                          "explanation": "Friction is primarily influenced by surface area, texture, and weight, not the speed of the object."
-                        },
-                        {
-                          "question": "What would happen if you pulled the object too quickly during the experiment?",
-                          "options": [
-                            "The friction would increase",
-                            "The results would be inaccurate",
-                            "The object would not move",
-                            "The friction would decrease"
-                          ],
-                          "correct_answer": "The results would be inaccurate",
-                          "explanation": "Pulling the object too quickly may lead to inconsistent measurements of the frictional force."
-                        },
-                        {
-                          "question": "What is a real-world application where friction is useful?",
-                          "options": [
-                            "Slippery roads in winter",
-                            "Brakes on vehicles",
-                            "Smooth slides at playgrounds",
-                            "Airplanes gliding"
-                          ],
-                          "correct_answer": "Brakes on vehicles",
-                          "explanation": "Friction between brake pads and wheels helps vehicles slow down and stop."
-                        }
-                      ]
-                    },
-                    {
-                      "set_name": "Quiz Set 6",
-                      "questions": [
-                        {
-                          "question": "How does friction help us when we walk?",
-                          "options": [
-                            "By making our feet slide",
-                            "By preventing our feet from slipping",
-                            "By increasing the force on our legs",
-                            "By reducing the force needed to move"
-                          ],
-                          "correct_answer": "By preventing our feet from slipping",
-                          "explanation": "Friction between our shoes and the ground prevents slipping, allowing us to walk securely."
-                        },
-                        {
-                          "question": "What would happen if there were no friction on the road?",
-                          "options": [
-                            "Vehicles would easily stop",
-                            "Vehicles would have difficulty starting and stopping",
-                            "Cars would fly",
-                            "Friction would still occur"
-                          ],
-                          "correct_answer": "Vehicles would have difficulty starting and stopping",
-                          "explanation": "Without friction, cars would not be able to grip the road, making it difficult to start or stop."
-                        },
-                        {
-                          "question": "What surface would create the least friction for a car tire?",
-                          "options": [
-                            "Concrete road",
-                            "Wet road",
-                            "Ice",
-                            "Grass"
-                          ],
-                          "correct_answer": "Ice",
-                          "explanation": "Ice is smooth and reduces friction, making it difficult for car tires to grip."
-                        },
-                        {
-                          "question": "Which of the following materials is most likely to increase friction?",
-                          "options": ["Wood", "Plastic", "Rubber", "Metal"],
-                          "correct_answer": "Rubber",
-                          "explanation": "Rubber is known for its rough texture, which increases friction compared to smooth materials."
-                        },
-                        {
-                          "question": "What is the result of increased friction on a moving object?",
-                          "options": [
-                            "It moves faster",
-                            "It moves slower",
-                            "It stops immediately",
-                            "It does not affect motion"
-                          ],
-                          "correct_answer": "It moves slower",
-                          "explanation": "Increased friction resists motion, causing the object to move slower."
-                        },
-                        {
-                          "question": "How does the spring scale work in measuring friction?",
-                          "options": [
-                            "It measures weight",
-                            "It measures distance",
-                            "It measures the force needed to move an object",
-                            "It measures speed"
-                          ],
-                          "correct_answer": "It measures the force needed to move an object",
-                          "explanation": "The spring scale measures the force exerted to overcome friction and move an object."
-                        },
-                        {
-                          "question": "What happens when you reduce the weight of an object in the friction experiment?",
-                          "options": [
-                            "Friction increases",
-                            "Friction decreases",
-                            "The object moves faster",
-                            "The surface area increases"
-                          ],
-                          "correct_answer": "Friction decreases",
-                          "explanation": "Reducing the weight decreases the normal force, which in turn reduces the friction."
-                        },
-                        {
-                          "question": "Why is it important to keep the pull speed constant in the experiment?",
-                          "options": [
-                            "To ensure the object moves quickly",
-                            "To reduce friction",
-                            "To ensure accurate friction measurement",
-                            "To make the experiment easier"
-                          ],
-                          "correct_answer": "To ensure accurate friction measurement",
-                          "explanation": "Keeping a constant pull speed ensures that the friction measurements are consistent and reliable."
-                        },
-                        {
-                          "question": "Which of the following would create the most friction when pulling an object?",
-                          "options": [
-                            "A smooth metal surface",
-                            "A rough carpet surface",
-                            "A glass surface",
-                            "A smooth plastic surface"
-                          ],
-                          "correct_answer": "A rough carpet surface",
-                          "explanation": "Rough surfaces like carpet create more friction compared to smooth materials."
-                        },
-                        {
-                          "question": "What is the main effect of friction in everyday activities?",
-                          "options": [
-                            "It makes objects move faster",
-                            "It makes objects harder to move",
-                            "It slows down objects",
-                            "It stops objects instantly"
-                          ],
-                          "correct_answer": "It slows down objects",
-                          "explanation": "Friction slows the motion of objects by resisting their movement."
-                        }
-                      ]
-                    },
-                    {
-                      "set_name": "Quiz Set 7",
-                      "questions": [
-                        {
-                          "question": "What is friction?",
-                          "options": [
-                            "A force that opposes motion",
-                            "A force that increases motion",
-                            "A force that has no effect on motion",
-                            "A type of energy"
-                          ],
-                          "correct_answer": "A force that opposes motion",
-                          "explanation": "Friction is the force that resists the relative motion or tendency to such motion of two surfaces in contact."
-                        },
-                        {
-                          "question": "What effect does a smoother surface have on friction?",
-                          "options": [
-                            "It increases friction",
-                            "It decreases friction",
-                            "It has no effect",
-                            "It depends on the material"
-                          ],
-                          "correct_answer": "It decreases friction",
-                          "explanation": "Smoother surfaces have less microscopic roughness, which reduces the friction between the surfaces."
-                        },
-                        {
-                          "question": "Why is friction important for walking?",
-                          "options": [
-                            "It helps us glide",
-                            "It helps our feet grip the ground",
-                            "It speeds up our movement",
-                            "It stops us from falling"
-                          ],
-                          "correct_answer": "It helps our feet grip the ground",
-                          "explanation": "Friction between our shoes and the ground prevents us from slipping and allows us to walk safely."
-                        },
-                        {
-                          "question": "Which of the following is NOT a factor that affects friction?",
-                          "options": [
-                            "Surface texture",
-                            "Speed of motion",
-                            "Weight of the object",
-                            "Temperature of the material"
-                          ],
-                          "correct_answer": "Speed of motion",
-                          "explanation": "While surface texture, weight, and temperature affect friction, the speed of motion does not directly affect it."
-                        },
-                        {
-                          "question": "Which of the following materials would create the least friction on a flat surface?",
-                          "options": ["Wood", "Ice", "Carpet", "Sandpaper"],
-                          "correct_answer": "Ice",
-                          "explanation": "Ice is very smooth and reduces friction between surfaces, making it easier for objects to slide."
-                        },
-                        {
-                          "question": "What happens to friction when the normal force increases?",
-                          "options": [
-                            "Friction decreases",
-                            "Friction stays the same",
-                            "Friction increases",
-                            "Friction becomes zero"
-                          ],
-                          "correct_answer": "Friction increases",
-                          "explanation": "Friction is directly proportional to the normal force; as the normal force increases, so does the friction."
-                        },
-                        {
-                          "question": "In the friction experiment, why do we use different surfaces?",
-                          "options": [
-                            "To observe how surface texture affects friction",
-                            "To change the weight of the object",
-                            "To increase the object's speed",
-                            "To reduce the amount of force needed"
-                          ],
-                          "correct_answer": "To observe how surface texture affects friction",
-                          "explanation": "Different surfaces have different textures, which will show how friction changes depending on the roughness or smoothness of the material."
-                        },
-                        {
-                          "question": "How can friction be reduced in machinery?",
-                          "options": [
-                            "By increasing surface roughness",
-                            "By decreasing lubrication",
-                            "By using lubricants like oil",
-                            "By increasing the weight"
-                          ],
-                          "correct_answer": "By using lubricants like oil",
-                          "explanation": "Lubricants reduce the friction between moving parts by creating a thin layer that separates the surfaces."
-                        },
-                        {
-                          "question": "What kind of surface would you expect to generate the most friction?",
-                          "options": ["Smooth glass", "Rubber", "Wood", "Ice"],
-                          "correct_answer": "Rubber",
-                          "explanation": "Rubber has a high coefficient of friction due to its rough texture, making it grip surfaces better than smoother materials."
-                        },
-                        {
-                          "question": "How does increasing the weight of an object affect friction?",
-                          "options": [
-                            "Friction increases",
-                            "Friction decreases",
-                            "Friction stays the same",
-                            "Friction becomes zero"
-                          ],
-                          "correct_answer": "Friction increases",
-                          "explanation": "Increasing the weight of an object increases the normal force, which leads to more friction between the object and the surface."
-                        }
-                      ]
-                    },
-                    {
-                      "set_name": "Quiz Set 8",
-                      "questions": [
-                        {
-                          "question": "What is the purpose of a spring scale in the experiment?",
-                          "options": [
-                            "To measure the force of gravity",
-                            "To measure the force of friction",
-                            "To measure the weight of the object",
-                            "To measure the speed of the object"
-                          ],
-                          "correct_answer": "To measure the force of friction",
-                          "explanation": "The spring scale measures the force required to overcome friction and move an object."
-                        },
-                        {
-                          "question": "If an object is not moving, what can you conclude about the friction?",
-                          "options": [
-                            "There is no friction",
-                            "The friction is equal to the applied force",
-                            "The friction is greater than the applied force",
-                            "The friction is smaller than the applied force"
-                          ],
-                          "correct_answer": "The friction is equal to the applied force",
-                          "explanation": "If an object is at rest and not moving, the friction is equal to the applied force keeping it stationary."
-                        },
-                        {
-                          "question": "Which of the following is an example of increasing friction?",
-                          "options": [
-                            "Sanding a surface",
-                            "Using lubricants",
-                            "Polishing a car's surface",
-                            "Placing a toy on an ice surface"
-                          ],
-                          "correct_answer": "Sanding a surface",
-                          "explanation": "Sanding roughens the surface, which increases friction by creating more contact between surfaces."
-                        },
-                        {
-                          "question": "What role does the texture of a surface play in friction?",
-                          "options": [
-                            "Smooth surfaces create more friction",
-                            "Rough surfaces create more friction",
-                            "The texture does not affect friction",
-                            "Smooth surfaces create less friction"
-                          ],
-                          "correct_answer": "Rough surfaces create more friction",
-                          "explanation": "Rough surfaces have more microscopic bumps that increase friction compared to smooth surfaces."
-                        },
-                        {
-                          "question": "What effect does friction have on the energy of an object in motion?",
-                          "options": [
-                            "It converts motion into heat energy",
-                            "It makes the object move faster",
-                            "It increases the object's kinetic energy",
-                            "It has no effect"
-                          ],
-                          "correct_answer": "It converts motion into heat energy",
-                          "explanation": "Friction converts the kinetic energy of the moving object into heat, slowing it down over time."
-                        },
-                        {
-                          "question": "What would happen if you conducted the experiment on a wet surface?",
-                          "options": [
-                            "Friction would stay the same",
-                            "Friction would decrease",
-                            "Friction would increase",
-                            "The object would not move"
-                          ],
-                          "correct_answer": "Friction would decrease",
-                          "explanation": "Water lubricates surfaces, which reduces the friction between them."
-                        },
-                        {
-                          "question": "What is the relationship between friction and the normal force?",
-                          "options": [
-                            "Friction is independent of normal force",
-                            "Friction decreases as the normal force increases",
-                            "Friction increases as the normal force increases",
-                            "Friction is inversely proportional to the normal force"
-                          ],
-                          "correct_answer": "Friction increases as the normal force increases",
-                          "explanation": "Friction is directly proportional to the normal force, meaning that more weight or force pressing the surfaces together increases friction."
-                        },
-                        {
-                          "question": "Why might a car skid on a road when it rains?",
-                          "options": [
-                            "The road becomes too rough",
-                            "Water increases friction",
-                            "Water reduces friction",
-                            "The car's tires become too smooth"
-                          ],
-                          "correct_answer": "Water reduces friction",
-                          "explanation": "Water creates a thin layer between the tires and the road, reducing the friction and making the car more likely to skid."
-                        },
-                        {
-                          "question": "What is the key factor that affects the amount of friction between two surfaces?",
-                          "options": [
-                            "The temperature of the surfaces",
-                            "The weight of the object",
-                            "The texture of the surfaces",
-                            "The color of the surfaces"
-                          ],
-                          "correct_answer": "The texture of the surfaces",
-                          "explanation": "The roughness or smoothness of the surfaces in contact determines the amount of friction between them."
-                        },
-                        {
-                          "question": "Which of the following scenarios would result in less friction?",
-                          "options": [
-                            "A car on an icy road",
-                            "A car on a gravel road",
-                            "A car on a wet road",
-                            "A car on a dry road"
-                          ],
-                          "correct_answer": "A car on an icy road",
-                          "explanation": "Ice creates a very smooth surface, reducing friction and making it harder for the tires to grip."
-                        }
-                      ]
-                    },
-                    {
-                      "set_name": "Quiz Set 9",
-                      "questions": [
-                        {
-                          "question": "How does the weight of an object affect friction on a rough surface?",
-                          "options": [
-                            "It has no effect",
-                            "It decreases friction",
-                            "It increases friction",
-                            "It makes the object move faster"
-                          ],
-                          "correct_answer": "It increases friction",
-                          "explanation": "The greater the weight, the greater the normal force, which increases friction."
-                        },
-                        {
-                          "question": "What happens when two surfaces are polished?",
-                          "options": [
-                            "Friction increases",
-                            "Friction decreases",
-                            "Friction stays the same",
-                            "The object stops moving"
-                          ],
-                          "correct_answer": "Friction decreases",
-                          "explanation": "Polishing smooths out the surface, which reduces friction."
-                        },
-                        {
-                          "question": "Which of the following surfaces would produce the most friction?",
-                          "options": [
-                            "A sandpaper surface",
-                            "A glass surface",
-                            "An ice surface",
-                            "A waxed surface"
-                          ],
-                          "correct_answer": "A sandpaper surface",
-                          "explanation": "Sandpaper has a rough texture that creates high friction."
-                        },
-                        {
-                          "question": "What is a practical application of friction?",
-                          "options": [
-                            "Walking on slippery surfaces",
-                            "Using car brakes",
-                            "Sliding on ice",
-                            "Sailing"
-                          ],
-                          "correct_answer": "Using car brakes",
-                          "explanation": "Friction between the brake pads and wheels slows down the car when braking."
-                        },
-                        {
-                          "question": "Which of the following factors does NOT affect the friction between two surfaces?",
-                          "options": [
-                            "The roughness of the surfaces",
-                            "The temperature of the materials",
-                            "The material of the surfaces",
-                            "The color of the surfaces"
-                          ],
-                          "correct_answer": "The color of the surfaces",
-                          "explanation": "The color of surfaces does not affect the friction between them."
-                        },
-                        {
-                          "question": "Which of the following best describes the force of friction?",
-                          "options": [
-                            "A force that moves objects",
-                            "A force that resists motion",
-                            "A force that attracts objects",
-                            "A force that only acts on moving objects"
-                          ],
-                          "correct_answer": "A force that resists motion",
-                          "explanation": "Friction is the force that opposes the relative motion between two objects in contact."
-                        },
-                        {
-                          "question": "What effect does lubrication have on friction?",
-                          "options": [
-                            "It increases friction",
-                            "It decreases friction",
-                            "It has no effect on friction",
-                            "It makes the surfaces smoother"
-                          ],
-                          "correct_answer": "It decreases friction",
-                          "explanation": "Lubricants, such as oil, reduce friction by providing a barrier between the surfaces."
-                        },
-                        {
-                          "question": "What would happen if you tested friction on a wet surface versus a dry surface?",
-                          "options": [
-                            "Friction would increase on the wet surface",
-                            "Friction would stay the same",
-                            "Friction would decrease on the wet surface",
-                            "Friction would be zero on the wet surface"
-                          ],
-                          "correct_answer": "Friction would decrease on the wet surface",
-                          "explanation": "Water reduces the amount of contact between surfaces, lowering friction."
-                        },
-                        {
-                          "question": "Which surface would you expect to generate the least friction when pulling an object?",
-                          "options": [
-                            "Wooden floor",
-                            "Carpet",
-                            "Ice",
-                            "Metal surface"
-                          ],
-                          "correct_answer": "Ice",
-                          "explanation": "Ice is very smooth and reduces friction significantly."
-                        },
-                        {
-                          "question": "Why does friction increase as the roughness of the surface increases?",
-                          "options": [
-                            "The surface becomes more uneven, creating more contact points",
-                            "The surface becomes more slippery",
-                            "The surface becomes smoother",
-                            "The surface absorbs the force"
-                          ],
-                          "correct_answer": "The surface becomes more uneven, creating more contact points",
-                          "explanation": "Rough surfaces have more microscopic bumps that create more contact points, increasing friction."
-                        }
-                      ]
-                    },
-                    {
-                      "set_name": "Quiz Set 10",
-                      "questions": [
-                        {
-                          "question": "Which of the following is true about friction on a smooth surface?",
-                          "options": [
-                            "Friction is high",
-                            "Friction is low",
-                            "Friction is equal to weight",
-                            "Friction is constant"
-                          ],
-                          "correct_answer": "Friction is low",
-                          "explanation": "Smooth surfaces have fewer irregularities, which reduces friction."
-                        },
-                        {
-                          "question": "How does the mass of an object influence friction?",
-                          "options": [
-                            "More mass leads to less friction",
-                            "More mass leads to more friction",
-                            "Mass does not affect friction",
-                            "Mass makes no difference in friction"
-                          ],
-                          "correct_answer": "More mass leads to more friction",
-                          "explanation": "Increased mass increases the normal force, which leads to higher friction."
-                        },
-                        {
-                          "question": "What happens to the motion of an object when the frictional force exceeds the applied force?",
-                          "options": [
-                            "The object accelerates",
-                            "The object continues moving at a constant speed",
-                            "The object remains at rest",
-                            "The object stops moving"
-                          ],
-                          "correct_answer": "The object remains at rest",
-                          "explanation": "If the frictional force is greater than the applied force, the object will not move."
-                        },
-                        {
-                          "question": "Which of the following objects would generate the least friction?",
-                          "options": [
-                            "A wooden block",
-                            "A rubber ball",
-                            "A metal rod",
-                            "A smooth metal plate"
-                          ],
-                          "correct_answer": "A smooth metal plate",
-                          "explanation": "A smooth metal plate has the least surface roughness, thus generating less friction."
-                        },
-                        {
-                          "question": "In a friction experiment, why is it important to keep the pulling speed constant?",
-                          "options": [
-                            "To prevent the object from falling",
-                            "To ensure a uniform measurement of friction",
-                            "To increase the force applied",
-                            "To measure the object’s weight"
-                          ],
-                          "correct_answer": "To ensure a uniform measurement of friction",
-                          "explanation": "Changing the speed can alter the results, so keeping it constant ensures accurate and consistent friction measurements."
-                        },
-                        {
-                          "question": "What would happen if you used a very rough surface in the friction experiment?",
-                          "options": [
-                            "The object would slide faster",
-                            "The friction would be very low",
-                            "The friction would be very high",
-                            "The object would not move"
-                          ],
-                          "correct_answer": "The friction would be very high",
-                          "explanation": "A rough surface creates more resistance and contact points, increasing the friction."
-                        },
-                        {
-                          "question": "What is the relationship between the frictional force and the normal force?",
-                          "options": [
-                            "Friction is directly proportional to the normal force",
-                            "Friction is inversely proportional to the normal force",
-                            "Friction is independent of the normal force",
-                            "Friction decreases as the normal force increases"
-                          ],
-                          "correct_answer": "Friction is directly proportional to the normal force",
-                          "explanation": "The greater the normal force (the weight of the object), the greater the friction."
-                        },
-                        {
-                          "question": "How can friction be reduced on a metal surface?",
-                          "options": [
-                            "By adding more weight",
-                            "By increasing the surface roughness",
-                            "By applying lubricants",
-                            "By heating the surface"
-                          ],
-                          "correct_answer": "By applying lubricants",
-                          "explanation": "Lubricants reduce friction by forming a layer between two surfaces, allowing them to move more smoothly."
-                        },
-                        {
-                          "question": "Which of these actions would increase friction?",
-                          "options": [
-                            "Sanding the surface",
-                            "Applying oil",
-                            "Heating the surface",
-                            "Lubricating with water"
-                          ],
-                          "correct_answer": "Sanding the surface",
-                          "explanation": "Sanding increases the surface roughness, which increases friction."
-                        },
-                        {
-                          "question": "What is the effect of increasing the contact area on friction?",
-                          "options": [
-                            "It increases friction",
-                            "It decreases friction",
-                            "It has no effect on friction",
-                            "It makes the surface smoother"
-                          ],
-                          "correct_answer": "It increases friction",
-                          "explanation": "Increasing the contact area usually increases friction, but the normal force is the dominant factor."
-                        }
-                      ]
-                    }
+                    }    
                   ]
                 },
                 {
@@ -30819,7 +30175,7 @@
                     "If using weights, compare how the mass of the object affects its speed as it rolls down the ramp.",
                     "Discuss your findings, focusing on how potential energy at the top of the ramp is converted into kinetic energy as the object descends."
                   ],
-                  "video_link": "https://youtu.be/61S0KW7e-rc?si=N2eC1NdaUY4FI8VR",
+                  "video_link": "https://www.youtube.com/watch?v=0GoaCe-RgT4",
                   "title": "Physics experiment -Ball rolling down curved and straight ramp.",
                   "description": "This video shows the difference in speed when a toy balls goes down the same ramp, for the same distance, but the ramp has a different surface in each test.",
                   "quiz_sets": [
@@ -62755,7 +62111,7 @@
                     "Repeat the experiment with varying volumes and temperatures, recording all data carefully.",
                     "Plot the data to visualize the relationship between pressure and volume, as well as temperature and pressure, and discuss how they align with the Ideal Gas Law."
                   ],
-                  "video_link": "https://youtu.be/uWcfe2AS7O0?si=nM8_a_5blYDuaqKX",
+                  "video_link": "https://www.youtube.com/watch?v=YgqlglLcScM",
                   "title": "Gas Laws: Temperature Vs. Volume; Charles law demo",
                   "description": "As the temperature increases, the volume of the gas also increases! You can see this as the balloon expands as its heated and rises up the beaker, as well as how it shrinks as it cools outside of the beaker.",
                   "quiz_sets": [
@@ -63293,104 +62649,114 @@
                       "set_name": "Quiz Set 1",
                       "questions": [
                         {
-                          "question": "What is the definition of projectile motion?",
+                          "question": "What is the primary aim of the projectile motion experiment?",
                           "options": [
-                            "Motion in a straight line only.",
-                            "Motion influenced by air resistance only.",
-                            "Motion of an object thrown into the air under the influence of gravity.",
-                            "Motion with constant speed in a circular path."
+                            "To measure the speed of light",
+                            "To investigate the principles of projectile motion",
+                            "To analyze circular motion",
+                            "To study the laws of reflection"
                           ],
-                          "correct_answer": "Motion of an object thrown into the air under the influence of gravity.",
-                          "explanation": "Projectile motion refers to the motion of an object that is launched into the air and is influenced by gravity."
+                          "correct_answer": "To investigate the principles of projectile motion",
+                          "explanation": "The experiment focuses on understanding the behavior of projectiles and analyzing their motion."
                         },
                         {
-                          "question": "What factors affect the distance traveled by a projectile?",
+                          "question": "Which tool is used to measure the launch angle in this experiment?",
                           "options": [
-                            "Mass of the projectile only.",
-                            "Launch angle and initial velocity.",
-                            "Air resistance only.",
-                            "Shape of the projectile."
+                            "A motion sensor",
+                            "A protractor",
+                            "A spring scale",
+                            "A thermometer"
                           ],
-                          "correct_answer": "Launch angle and initial velocity.",
-                          "explanation": "The distance traveled by a projectile is primarily affected by the angle at which it is launched and its initial velocity."
+                          "correct_answer": "A protractor",
+                          "explanation": "A protractor is used to measure the angle at which the projectile is launched."
                         },
                         {
-                          "question": "What is the ideal launch angle for maximum range in projectile motion?",
-                          "options": ["0°", "30°", "45°", "90°"],
+                          "question": "What does the motion sensor track during the experiment?",
+                          "options": [
+                            "The temperature of the projectile",
+                            "The trajectory of the projectile",
+                            "The mass of the projectile",
+                            "The color of the projectile"
+                          ],
+                          "correct_answer": "The trajectory of the projectile",
+                          "explanation": "The motion sensor records data about the flight path of the projectile."
+                        },
+                        {
+                          "question": "Why are different launch angles used in the experiment?",
+                          "options": [
+                            "To study the effects of air resistance",
+                            "To observe how launch angle affects the distance traveled",
+                            "To measure the time of flight for projectiles",
+                            "To calculate the weight of the projectiles"
+                          ],
+                          "correct_answer": "To observe how launch angle affects the distance traveled",
+                          "explanation": "Varying the launch angles allows the experiment to explore how trajectory and distance are related."
+                        },
+                        {
+                          "question": "What is the ideal launch angle to achieve maximum range for a projectile in a vacuum?",
+                          "options": [
+                            "30°",
+                            "45°",
+                            "60°",
+                            "90°"
+                          ],
                           "correct_answer": "45°",
-                          "explanation": "The theoretical angle for maximum range in projectile motion, without air resistance, is 45°."
+                          "explanation": "In a vacuum with no air resistance, a 45° launch angle maximizes the range of the projectile."
                         },
                         {
-                          "question": "What role does the motion sensor play in this experiment?",
+                          "question": "What type of motion does a projectile exhibit under ideal conditions (ignoring air resistance)?",
                           "options": [
-                            "It launches the projectile.",
-                            "It measures the mass of the projectile.",
-                            "It tracks the projectile's flight path and records data.",
-                            "It calculates the launch angle."
+                            "Circular motion",
+                            "Rectilinear motion",
+                            "Parabolic motion",
+                            "Oscillatory motion"
                           ],
-                          "correct_answer": "It tracks the projectile's flight path and records data.",
-                          "explanation": "The motion sensor is used to gather data about the projectile's trajectory, including speed and distance."
+                          "correct_answer": "Parabolic motion",
+                          "explanation": "A projectile follows a parabolic path under the influence of gravity."
                         },
                         {
-                          "question": "What happens to the projectile's velocity as it rises?",
+                          "question": "What factors are analyzed to determine the distance traveled by the projectile?",
                           "options": [
-                            "It increases.",
-                            "It decreases.",
-                            "It remains constant.",
-                            "It fluctuates."
+                            "Launch angle and mass",
+                            "Initial velocity and air pressure",
+                            "Launch angle and initial velocity",
+                            "Temperature and gravity"
                           ],
-                          "correct_answer": "It decreases.",
-                          "explanation": "As a projectile rises, it experiences a downward force due to gravity, which reduces its upward velocity."
+                          "correct_answer": "Launch angle and initial velocity",
+                          "explanation": "The distance traveled depends on the initial velocity and the angle at which the projectile is launched."
                         },
                         {
-                          "question": "Why is safety gear, like goggles, necessary during this experiment?",
+                          "question": "Which of the following forces acts on the projectile after it is launched (ignoring air resistance)?",
                           "options": [
-                            "To look professional.",
-                            "To protect against potential eye injury from flying projectiles.",
-                            "To enhance focus.",
-                            "To improve vision."
+                            "Friction",
+                            "Centripetal force",
+                            "Gravitational force",
+                            "Magnetic force"
                           ],
-                          "correct_answer": "To protect against potential eye injury from flying projectiles.",
-                          "explanation": "Wearing safety goggles helps protect your eyes from any accidents that may occur during the launch."
+                          "correct_answer": "Gravitational force",
+                          "explanation": "Gravity is the only force acting on the projectile in ideal conditions, pulling it downward."
                         },
                         {
-                          "question": "What type of graph is useful for analyzing the relationship between launch angle and distance traveled?",
+                          "question": "What happens to the vertical velocity of the projectile at the highest point of its trajectory?",
                           "options": [
-                            "Bar graph.",
-                            "Line graph.",
-                            "Pie chart.",
-                            "Histogram."
+                            "It becomes zero",
+                            "It reaches its maximum value",
+                            "It becomes equal to the horizontal velocity",
+                            "It doubles in value"
                           ],
-                          "correct_answer": "Line graph.",
-                          "explanation": "A line graph can effectively display the relationship between two continuous variables, such as launch angle and distance."
+                          "correct_answer": "It becomes zero",
+                          "explanation": "At the highest point of its trajectory, the vertical velocity of the projectile momentarily becomes zero."
                         },
                         {
-                          "question": "Which angle would likely produce the shortest distance for a projectile?",
-                          "options": ["15°", "30°", "45°", "75°"],
-                          "correct_answer": "15°",
-                          "explanation": "A launch angle of 15° would produce a relatively low trajectory, resulting in a shorter distance compared to higher angles."
-                        },
-                        {
-                          "question": "What is the primary force acting on a projectile during its flight?",
+                          "question": "Which safety precaution is essential while conducting this experiment?",
                           "options": [
-                            "Friction.",
-                            "Gravity.",
-                            "Magnetism.",
-                            "Tension."
+                            "Wearing gloves to handle the projectile",
+                            "Using a thermometer to measure the projectile's temperature",
+                            "Wearing safety goggles during launching",
+                            "Measuring the launch angle twice"
                           ],
-                          "correct_answer": "Gravity.",
-                          "explanation": "Gravity is the primary force acting on a projectile, pulling it down towards the Earth during its flight."
-                        },
-                        {
-                          "question": "What is meant by the term 'initial velocity' in this context?",
-                          "options": [
-                            "The speed of the projectile just before it lands.",
-                            "The speed of the projectile at its highest point.",
-                            "The speed at which the projectile is launched.",
-                            "The average speed during flight."
-                          ],
-                          "correct_answer": "The speed at which the projectile is launched.",
-                          "explanation": "Initial velocity refers to the speed and direction of the projectile at the moment it is launched."
+                          "correct_answer": "Wearing safety goggles during launching",
+                          "explanation": "Safety goggles protect the eyes in case of accidental mishaps during the launching process."
                         }
                       ]
                     },
@@ -63398,112 +62764,117 @@
                       "set_name": "Quiz Set 2",
                       "questions": [
                         {
-                          "question": "What happens to a projectile's motion when it reaches its peak height?",
+                          "question": "What is the primary purpose of using a projectile launcher in this experiment?",
                           "options": [
-                            "It accelerates upwards.",
-                            "It starts descending.",
-                            "It remains stationary.",
-                            "It breaks apart."
+                            "To measure air pressure",
+                            "To provide consistent and controlled initial velocity",
+                            "To track the projectile's weight",
+                            "To calculate the force of gravity"
                           ],
-                          "correct_answer": "It starts descending.",
-                          "explanation": "At peak height, the projectile's vertical velocity becomes zero, and it then begins to descend due to gravity."
+                          "correct_answer": "To provide consistent and controlled initial velocity",
+                          "explanation": "The launcher ensures consistent initial velocity for accurate and repeatable measurements."
                         },
                         {
-                          "question": "How does air resistance affect projectile motion?",
+                          "question": "Which two motions combine to form the projectile's trajectory?",
                           "options": [
-                            "It has no effect.",
-                            "It increases the distance traveled.",
-                            "It decreases the distance traveled.",
-                            "It only affects vertical motion."
+                            "Linear and rotational motion",
+                            "Vertical and horizontal motion",
+                            "Circular and parabolic motion",
+                            "Oscillatory and rectilinear motion"
                           ],
-                          "correct_answer": "It decreases the distance traveled.",
-                          "explanation": "Air resistance opposes the motion of the projectile, reducing the distance it travels."
+                          "correct_answer": "Vertical and horizontal motion",
+                          "explanation": "Projectile motion is a combination of vertical motion under gravity and horizontal uniform motion."
                         },
                         {
-                          "question": "If a projectile is launched at a higher initial velocity, what is the expected effect on its range?",
+                          "question": "What role does gravity play in projectile motion?",
                           "options": [
-                            "The range decreases.",
-                            "The range remains the same.",
-                            "The range increases.",
-                            "The projectile will not reach the ground."
+                            "It accelerates the projectile upward",
+                            "It acts as the centripetal force",
+                            "It constantly pulls the projectile downward",
+                            "It has no effect on the motion"
                           ],
-                          "correct_answer": "The range increases.",
-                          "explanation": "A higher initial velocity generally increases the range of the projectile, assuming the launch angle is optimal."
+                          "correct_answer": "It constantly pulls the projectile downward",
+                          "explanation": "Gravity affects the vertical motion by pulling the projectile downward, giving it a parabolic trajectory."
                         },
                         {
-                          "question": "What is the trajectory of a projectile in ideal conditions?",
+                          "question": "How does increasing the initial velocity affect the range of the projectile?",
                           "options": [
-                            "Straight line.",
-                            "Circular path.",
-                            "Parabolic curve.",
-                            "Spiral path."
+                            "The range decreases",
+                            "The range increases",
+                            "The range remains unchanged",
+                            "The range becomes zero"
                           ],
-                          "correct_answer": "Parabolic curve.",
-                          "explanation": "The trajectory of a projectile, under ideal conditions without air resistance, follows a parabolic path."
+                          "correct_answer": "The range increases",
+                          "explanation": "Increasing the initial velocity results in a longer horizontal distance covered by the projectile."
                         },
                         {
-                          "question": "Which angle would likely yield the longest horizontal distance?",
-                          "options": ["30°", "45°", "60°", "90°"],
-                          "correct_answer": "45°",
-                          "explanation": "In ideal projectile motion, a launch angle of 45° typically results in the maximum horizontal distance."
+                          "question": "What does the term 'initial velocity' refer to in this experiment?",
+                          "options": [
+                            "The velocity of the projectile at its highest point",
+                            "The velocity of the projectile before it is launched",
+                            "The velocity of the projectile as it hits the ground",
+                            "The velocity of the projectile immediately after launch"
+                          ],
+                          "correct_answer": "The velocity of the projectile immediately after launch",
+                          "explanation": "Initial velocity is the speed and direction of the projectile at the moment it is launched."
                         },
                         {
-                          "question": "What measurement is necessary to calculate the kinetic energy of a projectile?",
+                          "question": "Which launch angle produces the shortest horizontal range, assuming no air resistance?",
                           "options": [
-                            "Distance traveled.",
-                            "Launch angle.",
-                            "Mass and initial velocity.",
-                            "Time of flight."
+                            "0°",
+                            "45°",
+                            "60°",
+                            "90°"
                           ],
-                          "correct_answer": "Mass and initial velocity.",
-                          "explanation": "Kinetic energy depends on both the mass of the projectile and its velocity at launch (KE = 1/2 mv²)."
+                          "correct_answer": "90°",
+                          "explanation": "At 90°, the projectile goes straight up and comes straight down, resulting in zero horizontal range."
                         },
                         {
-                          "question": "What tool can be used to measure the launch angle accurately?",
+                          "question": "Why is it important to repeat the experiment multiple times with different launch angles?",
                           "options": [
-                            "Ruler.",
-                            "Protractor.",
-                            "Motion sensor.",
-                            "Measuring tape."
+                            "To measure the mass of the projectile",
+                            "To minimize errors and observe the effects of different angles on range",
+                            "To test the durability of the projectile launcher",
+                            "To measure the force of air resistance"
                           ],
-                          "correct_answer": "Protractor.",
-                          "explanation": "A protractor is specifically designed to measure angles accurately."
+                          "correct_answer": "To minimize errors and observe the effects of different angles on range",
+                          "explanation": "Repeating the experiment allows for more accurate conclusions and highlights how launch angles affect the trajectory."
                         },
                         {
-                          "question": "What is the effect of increasing launch height on the distance traveled?",
+                          "question": "What shape does the trajectory of a projectile typically take under ideal conditions?",
                           "options": [
-                            "It has no effect.",
-                            "It increases the distance.",
-                            "It decreases the distance.",
-                            "It makes the projectile spin."
+                            "Linear",
+                            "Circular",
+                            "Hyperbolic",
+                            "Parabolic"
                           ],
-                          "correct_answer": "It increases the distance.",
-                          "explanation": "Increasing the launch height gives the projectile more time to travel horizontally before hitting the ground."
+                          "correct_answer": "Parabolic",
+                          "explanation": "The combination of uniform horizontal motion and accelerated vertical motion produces a parabolic trajectory."
                         },
                         {
-                          "question": "What can be inferred if a projectile lands far from the launch point?",
+                          "question": "What does the horizontal component of velocity remain during projectile motion (ignoring air resistance)?",
                           "options": [
-                            "The launch angle was too low.",
-                            "The launch velocity was high.",
-                            "The projectile was heavy.",
-                            "Air resistance was negligible."
+                            "Constant",
+                            "Increasing",
+                            "Decreasing",
+                            "Zero"
                           ],
-                          "correct_answer": "The launch velocity was high.",
-                          "explanation": "A longer distance indicates that the projectile likely had a high launch velocity."
+                          "correct_answer": "Constant",
+                          "explanation": "In the absence of air resistance, the horizontal velocity remains constant throughout the motion."
                         },
                         {
-                          "question": "In which situation would a projectile experience the least air resistance?",
+                          "question": "Which instrument is used to measure the horizontal distance covered by the projectile?",
                           "options": [
-                            "When launched at a steep angle.",
-                            "When launched horizontally.",
-                            "When launched at a low speed.",
-                            "When launched at a high speed."
+                            "A protractor",
+                            "A stopwatch",
+                            "A measuring tape",
+                            "A motion sensor"
                           ],
-                          "correct_answer": "When launched at a steep angle.",
-                          "explanation": "Launching at a steep angle usually reduces horizontal distance, and thus, there’s less time for air resistance to affect the projectile."
+                          "correct_answer": "A measuring tape",
+                          "explanation": "The measuring tape is used to measure the horizontal distance (range) covered by the projectile."
                         }
                       ]
-                    }
+                    } 
                   ]
                 },
                 {
