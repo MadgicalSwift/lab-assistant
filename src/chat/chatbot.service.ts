@@ -82,6 +82,11 @@ export class ChatbotService {
       };
       this.mixpanel.track('Button_Click', trackingData);
       switch (true) {
+        case localisedStrings.changeExperimentButton === buttonBody:
+        
+          await this.message.sendExperimentTopics(from, userData);
+          break;
+
         case localisedStrings.classes.includes(buttonBody):
           userData.classGroup = buttonBody;
           await this.message.sendScienceTopics(from, buttonBody);
@@ -162,6 +167,7 @@ export class ChatbotService {
               userData.setName,
               userData.currentQuestionIndex,
               buttonBody,
+              userData.score,
             );
             if (typeof userData.score !== 'number' || isNaN(userData.score)) {
               userData.score = 0;

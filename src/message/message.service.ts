@@ -62,7 +62,7 @@ export abstract class MessageService {
   abstract sendExperimentDetails(from: string, selectedExperimentDetails: any);
   abstract sendExperimentFirstQuestion(from: string, selectedExperimentquestion: any);
   abstract sendQuestion(from: string, selectedExperimentquestion: any, setName: string, currentQuestionIndex: number);
-  abstract sendFeedBack(from: string, selectedExperimentquestion: any, setName: string, currentQuestionIndex: number, buttonBody: string);
+  abstract sendFeedBack(from: string, selectedExperimentquestion: any, setName: string, currentQuestionIndex: number, buttonBody: string, score: number);
   abstract sendScoreWithButtons(from: string, score: number);
   abstract sendLanguageChangedMessage(from: string, language: string);
   //==============

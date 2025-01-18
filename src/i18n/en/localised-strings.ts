@@ -2,7 +2,7 @@ export const localisedStrings = {
   validText: ['hi', 'Hi', 'HI', 'hI', 'Hello', 'hello', 'hola', 'Hii', 'hii'], 
   welcomeMessage: `Hey there! 👋 I'm your Lab Assistant! 🧪 Ready to make science fun and exciting? I'm here to guide you through interactive experiments, quizzes, and cool discoveries. Let’s explore together! 🌟`,
   seeMoreMessage: 'See More Data',
-  classPrompt: 'Which class group are you in? This will help me pick the best science experiments for you! 👨‍🏫',  
+  classPrompt: 'Which class are you in? This will help me pick the best science experiments for you! 👨‍🏫',  
   classes: ['Below 6', '7-8', '9-10', '11-12'],
   scienceTopicMessage: `Choose a science topic you'd love to explore! 🔍🧬 Let's dive into some exciting discoveries!`,  
   difficultyLevelPrompt: 'What difficulty level would you like to try today?',  
@@ -13,7 +13,7 @@ export const localisedStrings = {
 
   startButton:'Start Quiz 🚀',
   //====================
-  quizMessage: () => `🎉 Welcome to the Quiz! 🎯 Get ready for 10 fun and challenging questions. 🧠 Earn 1 point for every correct answer. ❌ No points for incorrect ones. Good luck! 🚀`,
+  quizMessage: () => `🎉 Let’s start the Quiz! 🧠 Answer 10 fun questions and earn 1 point for each correct answer. Good luck! 🚀`,
 
   topic: `Do you want to change`,
   ageButton: `Change age`,
@@ -27,6 +27,7 @@ export const localisedStrings = {
     `❌ Oops! That’s not correct. The correct answer is **${currentQuestion.correct_answer}**.\n**Explanation:** ${currentQuestion.explanation}`,
   afterScoreMessage: `Amazing work! 🌟🚀 Would you like to explore another thrilling experiment 🧪⚡, or go back to the quiz? 📊💪`,
   selectExperimentButton: 'Select Experiment 🔬',
+  changeExperimentButton: 'Change Experiment 🧪',
   mainMenuButton: 'Main Menu 🏠',
   retakeQuizButton: 'Retake Quiz 🔄',
   shareMessage: (score: number) => `I scored ${score}/10 in the Lab Quiz! Try it: https://web.convegenius.ai/bots?botId=0201039737557804`,

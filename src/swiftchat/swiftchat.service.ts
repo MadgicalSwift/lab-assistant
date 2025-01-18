@@ -131,7 +131,7 @@ async sendQuizMessage(from: string) {
       },
       actions: [
         {
-          button_text: 'Learn More', // Button text
+          button_text: 'Lab Tutorial', // Button text
           type: 'website', // Type of action
           website: {
             title: `Learn about ${selectedExperimentDetails.experiment_name}`, // Button title
@@ -193,40 +193,45 @@ async sendQuizMessage(from: string) {
       currentQuestionIndex,
     );
     const response = await this.sendMessage(
-      this.baseUrl,
+      this.baseUrl, 
       messageData,
       this.apiKey,
     );
     return response;
   }
-
   async sendFeedBack(
     from: string,
     selectedExperimentquestion: any,
     setName: string,
     currentQuestionIndex: number,
     buttonBody: string,
+    score: number,
   ) {
+  
     // Find the correct question set based on the setName
     const questionSet = selectedExperimentquestion.find(
       (set: any) => set.set_name === setName,
     );
-
+  
     if (questionSet) {
-      let currentQuestion: any; 
-
+      let currentQuestion: any;
+  
       if (currentQuestionIndex === 0) {
         currentQuestion = questionSet.questions[0];
       } else {
         currentQuestion = questionSet.questions[currentQuestionIndex - 1];
       }
-
+  
       // Check if buttonBody matches the correct answer for this question
       if (currentQuestion?.correct_answer === buttonBody) {
-        const requestData = await this.prepareRequestData(
-          from,
-          `${localisedStrings.correctAnswer}\n**Explanation:** ${currentQuestion.explanation}`,
-        );
+        let feedbackMessage = `${localisedStrings.correctAnswer}\n**Explanation:** ${currentQuestion.explanation}`;
+  
+        // Exclude score from feedback if currentQuestionIndex is 10
+        if (currentQuestionIndex !== 10) {
+          feedbackMessage += `\nYour score is ${score+=1}/10.\nComplete the quiz to see your final score.`;
+        }
+  
+        const requestData = await this.prepareRequestData(from, feedbackMessage);
         const response = await this.sendMessage(
           this.baseUrl,
           requestData,
@@ -234,10 +239,14 @@ async sendQuizMessage(from: string) {
         );
         return 1;
       } else {
-        const requestData = await this.prepareRequestData(
-          from,
-          `${localisedStrings.incorrectAnswer(currentQuestion)}`,
-        );
+        let feedbackMessage = `${localisedStrings.incorrectAnswer(currentQuestion)}`;
+  
+        // Exclude score from feedback if currentQuestionIndex is 10
+        if (currentQuestionIndex !== 10) {
+          feedbackMessage += `\nYour score is ${score}/10.\nComplete the quiz to see your final score.`;
+        }
+  
+        const requestData = await this.prepareRequestData(from, feedbackMessage);
         const response = await this.sendMessage(
           this.baseUrl,
           requestData,

@@ -138,6 +138,11 @@ ${selectedExperimentDetail.steps
             body: localisedStrings.startButton,
             reply: localisedStrings.startButton,
           },
+          {
+            type: 'solid',
+            body: localisedStrings.changeExperimentButton,
+            reply: localisedStrings.changeExperimentButton,
+          },
         ],
         allow_custom_response: false,
       },
@@ -256,7 +261,11 @@ export function startAndExploreButton(
           body: localisedStrings.startButton,
           reply: localisedStrings.startButton,
         },
-        
+        {
+          type: 'solid',
+          body: localisedStrings.changeExperimentButton,
+          reply: localisedStrings.changeExperimentButton,
+        },
       ],
       allow_custom_response: false,
     },
