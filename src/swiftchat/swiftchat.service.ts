@@ -3,6 +3,7 @@ import * as dotenv from 'dotenv';
 import { LocalizationService } from 'src/localization/localization.service';
 import { MessageService } from 'src/message/message.service';
 import { localisedStrings } from 'src/i18n/en/localised-strings';
+
 import {
   createClassButton,
   scienceTopicButtons,
@@ -113,7 +114,7 @@ async sendQuizMessage(from: string) {
     }
   
     // Construct the experiment URL dynamically
-    const experimentUrl = `${this.server_url}/experiment/${encodeURIComponent(
+    const experimentUrl = `${this.server_url}/#/experiment/${encodeURIComponent(
       selectedExperimentDetails.experiment_name,
     )}`;
   

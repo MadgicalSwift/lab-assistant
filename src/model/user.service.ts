@@ -2,6 +2,9 @@ import { Injectable } from '@nestjs/common';
 import { User } from './user.entity';
 import { dynamoDBClient } from 'src/config/database-config.service';
 import { v4 as uuidv4 } from 'uuid';
+//const { USERS_TABLE } = process.env;
+import * as dotenv from 'dotenv';
+dotenv.config();
 const { USERS_TABLE } = process.env;
 
 @Injectable()
