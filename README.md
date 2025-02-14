@@ -1,6 +1,27 @@
-#  Chatbot NestJS Boilerplate
+# Project Title:
+Lab Assistant Bot: A Virtual Science Lab for Kids
 
-In this comprehensive guide, we introduce you to our Chatbot Starter Kit, a resource designed to empower developers in building robust chatbot applications. Whether you are just starting your journey in chatbot development or are an experienced developer seeking an efficient solution, this document is your go-to resource for mastering the use of our starter kit.
+# Project Description:
+The Lab Assistant Bot is an interactive learning tool designed to help students understand and explore science experiments. It provides step-by-step instructions for conducting experiments, educational videos, quizzes, and explanations to reinforce scientific concepts. This bot is ideal for kids below 6th to 12th, focusing on making science fun and easy to understand.
+
+# Key Features:
+1. Interactive Science Experiments:
+
+2. Detailed steps for hands-on learning (e.g., "Balloon Rocket Test" to demonstrate Newton’s Third Law of Motion).
+Simple materials listed to make experiments accessible.
+Educational Video Links:
+
+3. Demonstrations of each experiment through easy-to-understand videos.
+Quiz Sets:
+
+4. Engaging quiz questions to test and reinforce knowledge.
+Immediate explanations for correct answers to improve comprehension.
+Concept Reinforcement:
+
+5. Concepts such as action-reaction forces, air pressure, and thrust are explained in simple terms.
+Topic and Level Categorization:
+
+6. Easy-level topics for young learners with gradual progression to more complex topics.
 
 
 # Prerequisites
@@ -8,7 +29,7 @@ Before you begin, ensure you have met the following requirements:
 
 * Node.js and npm installed
 * Nest.js CLI installed (npm install -g @nestjs/cli)
-* MySQL database accessible
+* DynamoDb database accessible
 
 ## Getting Started
 ### Installation
@@ -18,15 +39,15 @@ Click the "Fork" button in the upper right corner of the repository page. This w
 
 * Clone this repository:
 ```
-https://github.com/madgicaltechdom/chatbot-nestjs-boilerplate.git
+https://github.com/MadgicalSwift/lab-assistant.git
 ```
 * Navigate to the Project Directory:
 ```
-cd chatbot-nestjs-boilerplate
+cd lab-assistant
 ```
 * Install Project Dependencies:
 ```bash
-$ npm install
+$ npm install or npm i
 ```
 
 ## Running the app
@@ -58,19 +79,30 @@ $ npm run test:cov
 # Add the following environment variables:
 
 ```bash
+USERS_TABLE= testing-table-1
+REGION= ap-south-1
+ACCESS_KEY_ID= ACCESS_KEY_ID
+SECRET_ACCESS_KEY=SECRET_ACCESS_KEY
 API_URL = API_URL
 BOT_ID = BOT_ID
 API_KEY = API_KEY
-DATA_BASE=DATA_BASE
-DB_HOST=DB_HOST
-DB_USER=DB_USER
-DB_PASSWORD=DB_PASSWORD
 ```
+
 # API Endpoints
 ```
 POST api/message: Endpoint for handling user requests. 
 Get/api/status: Endpoint for checking the status of  api
 ```
+
+# Make their local server to public server
+```
+Install and run ngrok using command "ngrok http 3000" Copy forwarding Url
+insatall and run postman and past url in the body 
+and send PUt request Url https://v1-api.swiftchat.ai/api/bots/Bot_Id/webhook-url
+```
+
+
+
 # folder structure
 
 ```bash
