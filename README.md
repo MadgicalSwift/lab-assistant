@@ -2,7 +2,7 @@
 Lab Assistant Bot: A Virtual Science Lab for Kids
 
 # Project Description:
-The Lab Assistant Bot is an interactive learning tool designed to help students understand and explore science experiments. It provides step-by-step instructions for conducting experiments, educational videos, quizzes, and explanations to reinforce scientific concepts. This bot is ideal for kids below 6th to 12th, focusing on making science fun and easy to understand.
+The Lab Assistant Bot is an interactive learning tool designed to help students explore and understand science experiments. It provides step-by-step instructions, educational videos, quizzes, and explanations to reinforce scientific concepts. This bot is ideal for students from 6th to 12th grade, focusing on making science fun and easy to understand.
 
 # Key Features:
 1. Interactive Science Experiments:
@@ -79,8 +79,8 @@ $ npm run test:cov
 # Add the following environment variables:
 
 ```bash
-USERS_TABLE= testing-table-1
-REGION= ap-south-1
+USERS_TABLE= user_table
+REGION= region
 ACCESS_KEY_ID= ACCESS_KEY_ID
 SECRET_ACCESS_KEY=SECRET_ACCESS_KEY
 API_URL = API_URL
@@ -97,7 +97,7 @@ Get/api/status: Endpoint for checking the status of  api
 # Make their local server to public server
 ```
 Install and run ngrok using command "ngrok http 3000" Copy forwarding Url
-insatall and run postman and past url in the body 
+install and run postman and past url in the body 
 and send PUt request Url https://v1-api.swiftchat.ai/api/bots/Bot_Id/webhook-url
 ```
 
