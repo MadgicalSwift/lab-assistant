@@ -10,27 +10,24 @@
               "level_name": "Easy",
               "experiments": [
                 {
-                  "experiment_name": "Balloon Rocket Test",
-                  "aim": "To demonstrate Newton's Third Law of Motion using a balloon and string.",
+                  "experiment_name": "Paper Towel Magic",
+                  "aim": "To demonstrate how a paper towel absorbs water and transfers it to another surface.",
                   "objectives": [
-                    "Understand the concept of action and reaction forces.",
-                    "Learn about Newton's Third Law of Motion.",
-                    "Observe how air pressure can create thrust."
+                    "Understand the concept of absorption.",
+                    "Observe how water moves through a material."
                   ],
                   "materials_needed": [
-                    "Balloon",
-                    "Long string (about 10-15 feet)",
-                    "Drinking straw",
-                    "Tape",
-                    "Scissors"
+                    "Two clear glasses",
+                    "Water",
+                    "Food coloring (optional)",
+                    "Paper towel"
                   ],
                   "steps": [
-                    "Thread the string through the straw.",
-                    "Tie both ends of the string to two sturdy objects (e.g., two chairs) at a distance from each other.",
-                    "Blow up the balloon but do not tie it; hold the open end tightly.",
-                    "Tape the inflated balloon to the straw.",
-                    "Let go of the balloon and observe as it moves along the string."
-                  ],
+                    "Fill one glass with water and add a few drops of food coloring (optional).",
+                    "Keep the second glass empty.",
+                    "Take a paper towel and fold it lengthwise.",
+                    "Place one end of the paper towel in the glass with water and the other end in the empty glass.",
+                    "Wait for a few minutes and observe how the water moves up the paper towel and into the empty glass." ],
                   "video_link": "https://www.youtube.com/watch?v=TfZsGy_q9zA&t=26s",
                   "title": "Balloon Rocket Science Experiment for Kids",
                   "description": "The balloon rocket experiment is easy to set up and is definitely fun for children. We used two balloons and two strings to make a balloon race.",
@@ -1188,37 +1185,28 @@
                   ]
                 },
                 {
-                  "experiment_name": "How to Make a Paper Lantern",
-                  "aim": "To create a decorative paper lantern using simple materials and crafting techniques.",
+                  "experiment_name": "Magic Pepper and Soap Experiment",
+                  "aim": "To demonstrate how soap affects surface tension using black pepper and water.",
                   "objectives": [
-                    "Learn how to construct a 3D lantern structure.",
-                    "Understand the process of layering tissue paper for durability and aesthetics.",
-                    "Explore creative design by experimenting with shapes and colors."
+                    "To understand the concept of surface tension.",
+                    "To observe how soap reduces surface tension.",
+                    "To see how water molecules react when surface tension is disrupted."
+
                   ],
                   "materials_needed": [
-                    "Garden sticks or willow twigs",
-                    "Masking tape",
-                    "Tissue paper (preferably light colors)",
-                    "PVA glue (mixed with water in a 1:1 ratio)",
-                    "A small piece of sponge",
-                    "Torch",
-                    "A piece of string (50–60 cm long)",
-                    "A strong stick or cane (be cautious of splinters)"
+                    "A plate",
+                    "Water",
+                    "Black pepper",
+                    "Dish soap "   
+
                   ],
                   "steps": [
-                    "Using masking tape, construct a 3D shape from the sticks by taping together the ends and points where the sticks join.",
-                    "Ensure strong joints by using plenty of masking tape.",
-                    "Experiment with creative shapes. For rounded designs, use willow twigs as they are flexible and easy to bend.",
-                    "Dampen a square of tissue paper (not too large) with the PVA solution using a sponge.",
-                    "Lay the tissue paper over the framework of your 3D shape.",
-                    "Repeat the process, ensuring the tissue paper squares overlap, until the entire framework is covered. Apply more than one layer of tissue for added strength.",
-                    "Allow the lantern to dry completely.",
-                    "Cut a small hole in the top of the lantern.",
-                    "Tie one end of the string to the bottom of the torch. Thread the other end through the hole in the lantern and pull it until the lit end of the torch hangs in the middle of the lantern.",
-                    "Secure the string to the frame and leave some extra length.",
-                    "Tie the spare end of the string to a stick or cane so the lantern hangs freely.",
-                    "Turn on your torch and admire your beautiful, glowing lantern!"
-                  ],
+                    "Fill a plate with water.",
+                    "Sprinkle black pepper evenly on the water's surface.",
+                    "Dip your finger in dish soap.",
+                    "Touch the water and observe the pepper quickly move away."
+
+                    ],
                   "video_link": "https://www.youtube.com/watch?v=7RzRMxTrGd0&t=40s",
                   "title": "How to Make a Paper Lantern",
                   "description": "This guide will teach you how to craft a unique paper lantern using simple materials. Perfect for festive decorations, creative projects, or ambient lighting!",
@@ -3663,14 +3651,14 @@
                   "experiment_name": "Raisin Dance",
                   "aim": "To observe how carbonation in a liquid can cause raisins to 'dance' by lifting them up and down.",
                   "objectives": [
-                    "Understand the concept of buoyancy and density.",
-                    "Learn how gas bubbles in carbonated liquids interact with solid objects.",
-                    "Observe how carbon dioxide bubbles can cause an object to float and sink repeatedly."
+                    "Watch how bubbles stick to the raisins and make them float.",
+                     "See what happens when the bubbles pop.",
+                    "Understand how gas in a liquid can make things move."
                   ],
                   "materials_needed": [
                     "A clear glass or cup",
-                    "Carbonated soda or sparkling water",
-                    "A handful of raisins"
+                    "Fizzy drink (like soda or sparkling water)",
+                    "A few raisins"
                   ],
                   "steps": [
                     "Fill the glass or cup with carbonated soda or sparkling water.",
@@ -9020,27 +9008,23 @@
               "level_name": "Easy",
               "experiments": [
                 {
-                  "experiment_name": "Bag Water Cycle",
-                  "aim": "To demonstrate the water cycle through evaporation, condensation, and precipitation using a simple bag setup.",
+                  "experiment_name": "Mini Rain Cycle in a Jar",
+                  "aim": "To see how water evaporates and turns into tiny water droplets (condensation).",
                   "objectives": [
-                    "Understand the stages of the water cycle: evaporation, condensation, and precipitation.",
-                    "Observe how temperature affects water in different states.",
-                    "Learn about the importance of the water cycle in nature."
+                    "Learn how water changes into steam when heated.",   
+                   "Watch how water droplets form when steam cools down."
                   ],
                   "materials_needed": [
-                    "Ziplock bag or clear plastic bag",
-                    "Water",
-                    "Permanent markers (to draw the sun and clouds)",
-                    "Tape (to attach the bag to a window or sunny spot)",
-                    "Small amount of blue food coloring (optional)"
+                    "A glass jar with a lid",
+                    "Warm water",
+                     "Ice cubes"
                   ],
                   "steps": [
-                    "Fill the Ziplock bag with about a quarter of water.",
-                    "If desired, add a few drops of blue food coloring to make the water more visible.",
-                    "Use the permanent markers to draw the sun and clouds on the front of the bag.",
-                    "Seal the bag tightly and tape it to a sunny window.",
-                    "Observe over the days how the water evaporates, condenses on the sides of the bag, and eventually drips back down, simulating the water cycle."
-                  ],
+                    "Pour warm water into the jar (about halfway full).",
+                     "Close the jar with the lid.",
+                     "Place a few ice cubes on top of the lid.",
+                     "Wait and watch as tiny water droplets form inside the jar, like rain!"  
+                    ],
                   "video_link": "https://youtu.be/VZB44_X0pFw?si=UQd30EDYs83CFZ3Z",
                   "title": "Try This: See the Water Cycle in a Bag",
                   "description": "See the water cycle using just a plastic bag, water, permanent marker, and the sun in this #SMOatHome activity from Science Museum Oklahoma!",
@@ -14036,23 +14020,23 @@
                   "experiment_name": "Water Testing",
                   "aim": "To test the quality of water using simple indicators and understand the importance of water quality for health and the environment.",
                   "objectives": [
-                    "Learn about different indicators of water quality.",
-                    "Perform tests to determine pH, turbidity, and the presence of specific contaminants.",
-                    "Analyze and interpret the results to assess water quality."
+                    "Learn how to check if water is clean or dirty.",
+                     "Use simple tests to compare different water samples.",
+                      "Understand why clean water is important for drinking and daily use."
                   ],
                   "materials_needed": [
                     "Clear plastic cups or containers",
-                    "pH test strips or liquid indicator",
-                    "Turbidity test kit (can be homemade using a flashlight)",
-                    "Sample water from different sources (tap water, pond water, etc.)",
+                    "Water samples (tap water, muddy water, pond water, etc.)",
+                    "A flashlight",
+                    "Coffee filter or cloth",
                     "Notebook for recording results"
                   ],
                   "steps": [
-                    "Collect water samples from different sources.",
-                    "Test the pH of each sample using pH test strips or liquid indicators, and record the results.",
-                    "Measure turbidity by shining a flashlight through the water and observing how clear it is; note down observations.",
-                    "If available, use additional indicators to test for other contaminants (like chlorine or nitrates).",
-                    "Discuss the findings and their implications for water quality and safety."
+                    "Collect water samples from different sources like tap water, pond water, or muddy water.",
+                    "Observe the color and clarity of each sample and note down differences.",
+                    "Shine a flashlight through each water sample and check how well the light passes through.",
+                    "Pour each sample through a coffee filter or cloth into a clean cup and compare the filtered water with the original sample.",
+                    "Record and discuss findings about which sample was the cleanest and why clean water is important."
                   ],
                   "video_link": "https://youtu.be/roHI0-X3J9M?si=rpnubNXnXPWbMg94",
                   "title": "How to Use Your Drinking Water Test Kits",
@@ -15101,31 +15085,26 @@
               "level_name": "Hard",
               "experiments": [
                 {
-                  "experiment_name": "Jar Ecosystem DIY",
-                  "aim": "To create a self-sustaining ecosystem in a jar and observe the interactions between plants and the environment.",
+                  "experiment_name": "Air Pollution Test",
+                  "aim": "To observe and compare the amount of dust and pollution in different areas.",
                   "objectives": [
-                    "Understand the components of an ecosystem and their functions.",
-                    "Learn how plants, soil, and water interact in a closed environment.",
-                    "Observe the water cycle and nutrient recycling within the terrarium."
+                    "Understand that air contains dust and pollutants.",
+                    "Learn how pollution levels vary in different places.",
+                    "Observe and record how air pollution affects our surroundings."
                   ],
                   "materials_needed": [
-                    "A clear glass or plastic jar with a lid (e.g., a mason jar)",
-                    "Small pebbles or gravel (for drainage)",
-                    "Activated charcoal (optional, to reduce odors)",
-                    "Potting soil or soil mix suitable for plants",
-                    "Small plants (e.g., moss, ferns, or small succulents)",
-                    "Water (to moisten the soil)",
-                    "Decorative elements (optional, such as small stones or figurines)"
+                    "White paper or a paper plate",
+                    "Petroleum jelly or cooking oil",
+                    "Tape",
+                     "A notebook for recording observations"
                   ],
                   "steps": [
-                    "Start by adding a layer of small pebbles or gravel at the bottom of the jar for drainage.",
-                    "If using, add a thin layer of activated charcoal to help keep the terrarium fresh.",
-                    "Add potting soil on top of the gravel, enough to accommodate the roots of the plants.",
-                    "Plant the small plants into the soil, ensuring they have enough space to grow.",
-                    "Lightly water the plants to moisten the soil, but avoid overwatering.",
-                    "Optionally, add decorative elements to personalize your terrarium.",
-                    "Seal the jar with the lid, creating a closed ecosystem.",
-                    "Place the terrarium in a location with indirect sunlight and observe the changes over time, noting any growth and interactions."
+                    "Apply a thin layer of petroleum jelly or cooking oil on the paper.",
+                    "Tape the paper in different locations, such as a busy road, a garden, and inside a room.",
+                     "Leave the papers undisturbed for 24 hours.",
+                    "Observe the dust and dirt collected on each paper.",
+                     "Compare which location had the most pollution.",
+                     "Discuss why some areas have more dust and pollution than others."
                   ],
                   "video_link": "https://youtu.be/C47NVz8kJDs?si=1ihGc8lIpuo4qAIs",
                   "title": "DIY Jar Terrarium: A Beginners Guide",
@@ -16044,28 +16023,27 @@
                   ]
                 },
                 {
-                  "experiment_name": "Soil Layers Study",
-                  "aim": "To explore the different layers of soil and understand their composition and significance in the environment.",
+                  "experiment_name": "Soil Absorption Test",
+                  "aim": "To observe how different types of soil absorb water.",
                   "objectives": [
-                    "Learn about the various layers of soil and their characteristics.",
-                    "Understand the role of each soil layer in supporting plant growth and ecosystems.",
-                    "Observe the differences in texture, color, and composition of soil samples."
+                    "Learn how different soils hold water differently.",
+                    "Understand which type of soil is best for growing plants.",
+                    "Compare the water absorption capacity of sand, clay, and garden soil."
                   ],
                   "materials_needed": [
-                    "Clear container or jar (to create a soil profile)",
-                    "Different soil samples (e.g., topsoil, subsoil, clay, sand)",
-                    "Spoon or small shovel (for collecting soil samples)",
-                    "Water (for testing soil drainage)",
-                    "Labeling materials (e.g., tags or markers)",
-                    "Notebook (for recording observations)"
+                    "Three clear plastic cups",
+                     "Sand, clay, and garden soil",
+                    "Water",
+                    "Measuring cup",
+                    "Spoon",
+                     "Notebook for recording observations"
                   ],
                   "steps": [
-                    "Collect soil samples from different locations (e.g., garden, park, field) and label each sample.",
-                    "In the clear container, start layering the soil samples in the order of their depth: topsoil, subsoil, clay, and sand.",
-                    "Observe and record the color, texture, and any visible materials (like rocks or organic matter) in each layer.",
-                    "Optionally, add a small amount of water to each layer to observe drainage and how quickly the water penetrates each type of soil.",
-                    "Discuss the importance of each soil layer in relation to plant growth, water retention, and soil health.",
-                    "Write a summary of your findings, noting any patterns or differences observed among the soil layers."
+                    "Fill each cup with a different type of soil (sand, clay, and garden soil).",
+                    "Pour the same amount of water into each cup.",
+                    "Observe how quickly the water disappears into the soil.",
+                    "Note which soil absorbs the most water and which holds water on the surface.",
+                    "Compare the results and discuss which soil is best for plants."
                   ],
                   "video_link": "https://youtu.be/bgqea0E2eAY?si=GAN-mPcIfvrk1JCJ",
                   "title": "Layers Of Soil - The Dr. Binocs Show | Best Learning Videos For Kids | Peekaboo Kidz",
@@ -18812,29 +18790,26 @@
                   ]
                 },
                 {
-                  "experiment_name": "How Do Plants Drink Water (Capillary Action)",
-                  "aim": "To demonstrate capillary action in plants and understand how they absorb water.",
+                  "experiment_name": "Leaf Water Absorption Test",
+                  "aim": "To observe how leaves absorb water and understand the importance of water for plants.",
                   "objectives": [
-                    "Learn about the process of capillary action and its significance in plant biology.",
-                    "Observe how water moves through plant stems.",
-                    "Understand the role of xylem in transporting water within plants."
+                    "Learn that leaves can take in water.",
+                    "Observe how water moves through a leaf.",
+                    "Understand why water is important for plant survival."
                   ],
                   "materials_needed": [
-                    "Celery stalks or white flowers (e.g., carnations)",
-                    "Food coloring (any color)",
-                    "Clear glasses or containers (one for each stalk or flower)",
-                    "Water",
-                    "Knife (for cutting the stalks or stems, with adult supervision)",
-                    "Notebook (for recording observations)"
+                    "A fresh green leaf (with stem attached)",
+                    "A clear glass or cup",
+                    "Colored water (mix a few drops of food coloring with water)",
+                     "A notebook for recording observations"
                   ],
                   "steps": [
-                    "Fill each clear glass or container with water and add a few drops of food coloring to the water, mixing it well.",
-                    "Trim the ends of the celery stalks or flowers slightly to ensure fresh cuts.",
-                    "Place one celery stalk or flower in each glass of colored water.",
-                    "Leave the containers undisturbed for several hours or overnight.",
-                    "Observe the movement of colored water up the celery stalks or flower stems over time.",
-                    "Record your observations in a notebook, noting how high the colored water travels and any changes in the plant's appearance.",
-                    "Discuss the results, explaining how capillary action enables plants to transport water from the roots to the leaves."
+                    "Fill a glass with colored water.",
+                   "Place the leaf stem into the colored water.",
+                    "Keep the glass in a bright place but away from direct sunlight.",
+                 "Observe the leaf after a few hours and note any changes.",
+                  "Check again after 24 hours to see if any color appears in the leaf veins, showing that the leaf has absorbed water.",
+                  "Record observations about how the leaf changes over time."
                   ],
                   "video_link": "https://www.youtube.com/watch?v=akt8mjmOalI",
                   "quiz_sets": [
@@ -20655,33 +20630,27 @@
               "level_name": "Medium",
               "experiments": [
                 {
-                  "experiment_name": "Seed Growth Tracker",
-                  "aim": "To observe and document the process of seed germination and the growth of plants over time.",
+                  "experiment_name": "Leaf Impressions Experiment",
+                  "aim": "To create leaf impressions and observe the patterns and structures of different leaves.",
                   "objectives": [
-                    "Learn about the stages of seed germination and plant growth.",
-                    "Understand the factors that affect seed germination (e.g., water, light, temperature).",
-                    "Record observations and measure growth progress throughout the experiment."
+                    "Learn that leaves have unique shapes, veins, and textures.",
+                    "Observe how leaf veins help in water and nutrient transport.",
+                    "Develop creativity while making leaf prints."
                   ],
                   "materials_needed": [
-                    "Various types of seeds (e.g., beans, peas, or sunflower seeds)",
-                    "Potting soil or seed starting mix",
-                    "Small pots or containers (with drainage holes)",
-                    "Water",
-                    "Plastic wrap or a clear lid (to maintain humidity)",
-                    "Ruler (for measuring growth)",
-                    "Notebook (for recording observations and data)",
-                    "Markers (for labeling containers)"
+                    "Different types of leaves (fresh and dry)",
+                    "White paper",
+                    "Crayons or colored pencils",
+                    "A rolling pin or a smooth, heavy object",
+                      "A notebook for recording observations"
                   ],
                   "steps": [
-                    "Fill each pot or container with potting soil, leaving some space at the top.",
-                    "Plant several seeds in each container, following the recommended depth for the specific seed type.",
-                    "Water the soil gently to moisten it, ensuring it is damp but not soggy.",
-                    "Cover the containers with plastic wrap or a clear lid to create a humid environment, helping to promote germination.",
-                    "Place the containers in a warm, well-lit area (but avoid direct sunlight to prevent overheating).",
-                    "Check the soil daily, adding water as needed to keep it moist.",
-                    "Once the seeds germinate, remove the plastic wrap and continue to care for the plants as they grow.",
-                    "Measure and record the height of the plants regularly in your notebook, noting any changes in appearance.",
-                    "Discuss the growth stages of the plants, and observe any differences in growth between the different seed types."
+                    "Collect different types of leaves with various shapes and sizes.",
+                   "Place a leaf under a white sheet of paper.",
+                    "Gently rub a crayon or colored pencil over the paper to reveal the leaf’s texture and veins.",
+                    "Try the same process with different leaves and compare the impressions.",
+                    "Observe and note differences in leaf shapes and vein patterns.",
+                    "Discuss why leaves have different textures and patterns."
                   ],
                   "video_link": "https://youtu.be/CBjrdMlZlfE?si=FVKjfYUWkqD5_rIw",
                   "title": "How Plants Grow",
@@ -25439,36 +25408,26 @@
                   ]
                 },
                 {
-                  "experiment_name": "Plant Propagation Fun",
-                  "aim": "To explore the method of plant propagation through cuttings and observe the growth of new plants.",
+                  "experiment_name": "Do Plants Breathe? ",
+                  "aim": "To observe how plants release oxygen during photosynthesis.",
                   "objectives": [
-                    "Learn about different methods of plant propagation.",
-                    "Understand the importance of cuttings in plant reproduction.",
-                    "Observe and record the growth process of new plants from cuttings."
+                    "Learn that plants produce oxygen.",
+                    "Observe tiny air bubbles forming on leaves.",
+                     "Understand the role of sunlight in photosynthesis."
                   ],
                   "materials_needed": [
-                    "Healthy parent plant (e.g., pothos, coleus, or other easy-to-propagate plants)",
-                    "Sharp scissors or pruning shears",
-                    "Small pots or containers (with drainage holes)",
-                    "Potting soil or rooting medium",
-                    "Water",
-                    "Plastic bag or plastic wrap (to maintain humidity)",
-                    "Notebook (for recording observations)",
-                    "Optional: rooting hormone (to encourage faster root development)"
+                    "A fresh green leaf",
+                   "A clear glass or bowl",
+                       "Water",
+                 "A small rock or weight",
+                     "Sunlight"
                   ],
                   "steps": [
-                    "Choose a healthy parent plant and identify suitable stems or leaves for cuttings.",
-                    "Using sharp scissors or pruning shears, take cuttings that are about 4-6 inches long, ensuring each cutting has at least two leaves.",
-                    "Remove the lower leaves from each cutting to expose the stem, reducing moisture loss.",
-                    "If using rooting hormone, dip the cut end of each cutting into the hormone (this step is optional but can help root development).",
-                    "Fill small pots with potting soil or a suitable rooting medium and make a hole in the center for each cutting.",
-                    "Plant the cuttings into the soil, ensuring they are buried deep enough to support themselves but not so deep that leaves touch the soil.",
-                    "Water the cuttings lightly to settle the soil around them and cover the pots with a plastic bag or plastic wrap to maintain humidity.",
-                    "Place the pots in a warm, bright location but out of direct sunlight to prevent overheating.",
-                    "Check the cuttings regularly, watering them as needed to keep the soil moist but not soggy.",
-                    "After a few weeks, observe for signs of new growth and roots forming. Remove the plastic covering once roots have established and new growth is visible.",
-                    "Record your observations in a notebook, noting the time it took for roots to develop and any changes in the cuttings.",
-                    "Discuss the process and importance of plant propagation in gardening and ecosystem sustainability."
+                    "Fill the glass or bowl with water.",
+                    "Place the leaf in the water and push it down with a small rock.",
+                    "Keep the setup in sunlight for 2-3 hours.",
+                    "Observe tiny air bubbles forming on the leaf surface, showing that the leaf is releasing oxygen.",
+                    "Record observations and discuss how plants help provide oxygen in nature."   
                   ],
                   "video_link": "https://youtu.be/M-m6X9Tfcnc?si=47GQ_4wsUs6gWC-y",
                   "title": "Fun and easy guide to plant propagation",
@@ -26617,6 +26576,83 @@
         }
       ]
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     {
       "class": "7-8",
       "topics": [
@@ -28308,32 +28344,27 @@
                   ]
                 },
                 {
-                  "experiment_name": "Balloon Rocket Fun",
-                  "aim": "To explore the principles of propulsion by creating a balloon rocket and observing its movement.",
+                  "experiment_name": "Light & Shadows Experiment",
+                  "aim": "To explore how light interacts with objects to form shadows and understand the factors affecting shadow size and shape.",
                   "objectives": [
-                    "Understand the concept of propulsion and Newton's third law of motion.",
-                    "Investigate how the size and shape of a balloon affect the rocket's speed and distance.",
-                    "Conduct experiments to measure and analyze the rocket's performance."
+                    "Understand the formation of shadows when light is blocked by an object.",
+                    "Observe how the size and shape of a shadow change with the position of the light source.",
+                     "Learn the difference between transparent, translucent, and opaque objects."
                   ],
                   "materials_needed": [
-                    "Balloons (various sizes and shapes for comparison)",
-                    "String (about 2-3 meters long)",
-                    "Straw (for guiding the balloon's path)",
-                    "Tape (for securing the balloon and straw)",
-                    "Scissors (for cutting string and balloon if necessary)",
-                    "Measuring tape (for measuring distance traveled)",
-                    "Notebook (for recording observations)",
-                    "Weight (optional, to test the effect of added mass on the rocket's performance)"
+                    "A flashlight or desk lamp",
+                     "A variety of objects (transparent, translucent, and opaque)",
+                    "White paper or a plain surface for shadow projection",
+                     "A ruler (to measure shadow length)",
+                      "Notebook for recording observations"
                   ],
                   "steps": [
-                    "Thread the string through the straw and secure it tightly between two points (like two chairs or walls) so that it is taut.",
-                    "Inflate the balloon without tying it off and pinch the end to hold the air inside.",
-                    "Attach the balloon to the straw using tape, ensuring the open end of the balloon is facing away from the direction you want it to travel.",
-                    "Release the balloon and observe its motion along the string, noting how it propels itself as the air escapes.",
-                    "Measure the distance traveled by the balloon rocket using the measuring tape.",
-                    "Repeat the experiment with different balloon sizes and shapes, recording the distances traveled each time.",
-                    "Optionally, add weights to the balloon to see how the added mass affects its speed and distance.",
-                    "Analyze the results, discussing how the size and shape of the balloon and the amount of air inside influence the rocket's performance."
+                    "Set up the light source in a dark or dimly lit room and place a white paper or surface to capture shadows.",
+                    "Place an opaque object (such as a book or toy) in front of the light source and observe the shadow formed.",
+                    "Move the object closer and farther from the light source and note how the shadow size changes.",
+                    "Use translucent and transparent objects (such as frosted plastic or clear glass) and observe how their shadows differ from opaque objects.",
+                    "Record observations about shadow clarity, size, and shape based on object type and position.",
+                    "Discuss findings on how light travels in straight lines and how different materials affect shadow formation."
                   ],
                   "video_link": "https://youtu.be/iV3NXFkdUyw?si=Ynv7o3aCKTzXKiPk",
                   "title": "Balloon Rocket! Newton's Third Law of Motion.",
@@ -29497,30 +29528,27 @@
               "level_name": "Medium",
               "experiments": [
                 {
-                  "experiment_name": "Ramp Energy Test",
-                  "aim": "To investigate the relationship between potential and kinetic energy by rolling objects down a ramp.",
+                  "experiment_name": "Friction on Different Surfaces",
+                  "aim": "To observe how friction affects the movement of objects on different surfaces and understand the role of friction in everyday life.",
                   "objectives": [
-                    "Understand the concepts of potential and kinetic energy.",
-                    "Observe how the height of an object affects its potential energy and the resulting kinetic energy as it moves.",
-                    "Conduct experiments to measure and compare the speeds of different objects as they roll down a ramp."
+                    "Understand how friction acts as a force that resists motion.",
+                   "Compare the effects of friction on different surfaces.",
+                   "Learn how surface texture influences the movement of objects."
                   ],
                   "materials_needed": [
-                    "Ramp (can be made from a long board or a piece of cardboard)",
-                    "Various objects to roll (e.g., balls, toy cars, or marbles)",
-                    "Ruler (for measuring height and distance)",
-                    "Stopwatch (for timing the descent of the objects)",
-                    "Notebook (for recording observations)",
-                    "Weights (optional, to test how mass affects the energy transfer)"
+                    "A small wooden block or toy car",
+                    "A ramp (made from cardboard, plastic, or wood)",
+                     "Different surface materials (sandpaper, cloth, plastic sheet, smooth tile, etc.)",
+                     "A ruler or measuring tape",
+                     "Notebook for recording observations"
                   ],
                   "steps": [
-                    "Set up the ramp at an angle, ensuring it is stable and secure.",
-                    "Measure the height of the ramp from the ground to the top and record this value in your notebook.",
-                    "Place one of the objects at the top of the ramp and release it without pushing.",
-                    "Use the stopwatch to time how long it takes for the object to reach the bottom of the ramp, recording the time.",
-                    "Repeat the process for each object, measuring the height and time for each descent.",
-                    "Calculate the average speed of each object using the formula: speed = distance/time.",
-                    "If using weights, compare how the mass of the object affects its speed as it rolls down the ramp.",
-                    "Discuss your findings, focusing on how potential energy at the top of the ramp is converted into kinetic energy as the object descends."
+                    "Set up the ramp on a flat surface and place one of the surface materials on it.",
+                    "Place the wooden block or toy car at the top of the ramp and release it, allowing it to slide down without pushing.",
+                     "Measure the distance traveled by the object after it reaches the bottom of the ramp and record the result.",
+                     "Repeat the experiment with different surface materials and compare how far the object travels.",
+                      "Observe and record which surfaces slow the object down the most and which allow it to move the farthest.",
+                       "Discuss findings on how rougher surfaces increase friction, slowing movement, while smoother surfaces reduce friction, allowing objects to move more freely."
                   ],
                   "video_link": "https://www.youtube.com/watch?v=0GoaCe-RgT4",
                   "title": "Physics experiment -Ball rolling down curved and straight ramp.",
@@ -30330,30 +30358,26 @@
                   ]
                 },
                 {
-                  "experiment_name": "Weight & Fall Study",
-                  "aim": "To examine how the weight of an object influences its rate of fall in a gravitational field.",
+                  "experiment_name": "Gravity & Falling Objects",
+                  "aim": "To understand how gravity affects the motion of falling objects and explore whether weight influences the speed of a free-falling object.",
                   "objectives": [
-                    "Understand the principles of gravity and air resistance.",
-                    "Investigate whether heavier objects fall faster than lighter ones.",
-                    "Analyze the effects of different shapes and sizes on the fall rate of objects."
+                    "Learn about gravity as the force that pulls objects toward the Earth.",
+                    "Observe how objects of different weights fall to the ground.",
+                     "Understand that in the absence of air resistance, all objects fall at the same rate."
                   ],
                   "materials_needed": [
-                    "Various objects with different weights (e.g., a feather, a small ball, a heavy book, a marble)",
-                    "Measuring tape (to measure height from which objects will be dropped)",
-                    "Stopwatch (for timing how long it takes for each object to fall)",
-                    "Notebook (for recording observations)",
-                    "Scale (to measure the weight of each object)",
-                    "Safety goggles (for protection if needed during the experiment)"
+                    "Two objects of different weights but similar shapes (e.g., a book and a notebook, or a small ball and a larger ball)",
+                    "A stopwatch (optional)",
+                     "A ruler or measuring tape",
+                      "Notebook for recording observations"
                   ],
                   "steps": [
-                    "Choose a suitable height to drop the objects from (e.g., a balcony or a tall table).",
-                    "Measure and record the height from which you will drop the objects.",
-                    "Drop the first object and use the stopwatch to time how long it takes to reach the ground. Record the time in your notebook.",
-                    "Repeat the dropping process for the same object multiple times to obtain an average fall time.",
-                    "Drop each of the other objects in the same manner, ensuring to record the time taken for each.",
-                    "If using different shapes, discuss how the shape may affect the fall rate due to air resistance.",
-                    "Analyze the results to see if heavier objects consistently fall faster than lighter ones, and discuss the role of air resistance in your findings.",
-                    "Consider using a video recording to analyze the falls more precisely, if available."
+                    "Hold both objects at the same height and predict which one will hit the ground first.",
+                    "Drop both objects at the same time and observe their motion as they fall.",
+                    "Repeat the experiment multiple times to ensure accuracy.",
+                    "If possible, try different objects (e.g., a feather and a stone) and observe if air resistance affects the results.",
+                    "Record observations on how gravity pulls objects downward regardless of their weight.",
+                    "Discuss findings, explaining that in the absence of air resistance, all objects would fall at the same rate due to gravity."
                   ],
                   "video_link": "https://youtu.be/6lHBww2G8W8?si=yzf5pJmmaQGR8Iwv",
                   "title": "Physics class11#Unknown weight #Parallelogram law.",
@@ -31512,33 +31536,28 @@
                   ]
                 },
                 {
-                  "experiment_name": "Rubber Band Car Test",
-                  "aim": "To construct a rubber band-powered car and investigate how potential energy is converted into kinetic energy.",
+                  "experiment_name": "Elasticity Test with Rubber Bands",
+                  "aim": "To understand the concept of elasticity by observing how rubber bands stretch and return to their original shape when force is applied.",
                   "objectives": [
-                    "Understand the principles of energy conversion.",
-                    "Build a simple rubber band car using common materials.",
-                    "Test and measure the distance traveled by the car under different conditions."
+                    "Learn about elasticity as a property of materials.",
+                    "Observe how rubber bands stretch under different amounts of force.",
+                    "Understand the relationship between force and extension."
                   ],
                   "materials_needed": [
-                    "Rubber bands (various sizes)",
-                    "Cardboard or plastic for the car body (e.g., a cut-out from a cereal box)",
-                    "Plastic bottle caps or small wheels (for the wheels)",
-                    "Skewers or straws (for axles)",
-                    "Tape or glue (to secure components)",
-                    "Ruler (for measuring distance traveled)",
-                    "Notebook (for recording observations)",
-                    "Scissors (for cutting materials)",
-                    "Weights (optional, to test the effect of mass on distance traveled)"
+                    "Rubber bands (different sizes and thicknesses)",
+                    "A ruler or measuring tape",
+                    "A small hook or stand to hang the rubber bands",
+                    "Weights (such as small bags of rice, coins, or washers)",
+                    "Notebook for recording observations"
                   ],
                   "steps": [
-                    "Cut a piece of cardboard or plastic into a rectangular shape for the car body, approximately 15 cm long.",
-                    "Attach two bottle caps or small wheels to either end of the car body using skewers or straws as axles.",
-                    "Secure the rubber band to the back of the car, ensuring it can be wound up without slipping off.",
-                    "Wind the rubber band by rotating the car backward and then release it to see how far the car travels.",
-                    "Measure and record the distance the car travels after each release.",
-                    "Experiment with different lengths of rubber bands and varying weights on the car to see how they affect performance.",
-                    "Repeat the process several times to gather consistent data, and analyze how well energy conversion occurs in your car.",
-                    "Discuss your findings, focusing on the relationship between potential energy stored in the rubber band and the kinetic energy of the moving car."
+                    "Attach one end of a rubber band to a fixed point, such as a hook or stand.",
+                    "Measure and record the initial length of the rubber band without any weight.",
+                    "Hang a small weight (e.g., a few coins) on the rubber band and measure how much it stretches.",
+                    "Gradually increase the weight and measure the new length each time.",
+                     "Repeat the experiment with rubber bands of different sizes and thicknesses to compare their elasticity.",
+                    "Record observations about how different rubber bands stretch and whether they return to their original shape after removing the weight.",
+                    "Discuss findings on how elasticity allows materials to stretch and return to their original form, and why some materials are more elastic than others."
                   ],
                   "video_link": "https://youtu.be/arQUnjlWdNk?si=fHgShbzl4TozF18a",
                   "title": "Rubber Band Powered Car",
@@ -32702,34 +32721,29 @@
               "level_name": "Hard",
               "experiments": [
                 {
-                  "experiment_name": "Making a Simple Motor",
-                  "aim": "To build a simple electric motor using basic materials and understand the principles of electromagnetism.",
+                  "experiment_name": "Electromagnet DIY",
+                  "aim": "To create a simple electromagnet and observe how electricity can be used to generate a magnetic field.",
                   "objectives": [
-                    "Learn about the relationship between electricity and magnetism.",
-                    "Understand how electric current can create motion.",
-                    "Construct a working electric motor from readily available materials."
+                     "Understand the relationship between electricity and magnetism.",
+                    "Learn how to make a temporary magnet using electric current.",
+                     "Explore factors that affect the strength of an electromagnet."
                   ],
                   "materials_needed": [
-                    "Copper wire (about 22-24 gauge)",
-                    "AA battery (or any suitable battery)",
-                    "Small magnet (neodymium or ceramic)",
-                    "Paper clips (2 or more for supports)",
-                    "Electrical tape (for securing components)",
-                    "Scissors (for cutting wire)",
-                    "Ruler (for measuring wire length)",
-                    "Notebook (for recording observations)"
-                  ],
+                    "A large iron nail (or iron bolt)",
+                    "Insulated copper wire (about 1 meter)",
+                    "A battery (AA, AAA, or 9V)",
+                      "Paper clips or small iron objects (to test magnetism)",
+                    "Electrical tape (optional)",
+                    "Notebook for recording observations"
+                   ],
                   "steps": [
-                    "Cut a piece of copper wire approximately 30 cm long.",
-                    "Create a coil by wrapping the copper wire around a cylindrical object (like a marker) to form a loop, leaving some straight ends for connections.",
-                    "Remove the coil from the marker and twist the ends together to keep the coil intact.",
-                    "Use the scissors to strip the insulation off the ends of the copper wire if needed, ensuring you have a good connection.",
-                    "Straighten the paper clips and use them as stands to hold the coil above the battery.",
-                    "Position the magnet underneath the coil, ensuring it is aligned with the center of the coil.",
-                    "Connect one end of the wire to the positive terminal of the battery and the other end to the negative terminal. You may need to adjust the position of the coil to start the motor.",
-                    "Observe the coil as it begins to spin due to the interaction of the magnetic field and electric current.",
-                    "Experiment with different coil sizes, number of turns, and magnet placements to see how these changes affect the motor's speed and performance.",
-                    "Record your findings in the notebook and discuss how the motor works, relating it to the principles of electromagnetism."
+                    "Wrap the copper wire around the iron nail, leaving both ends free for connection. Ensure the coils are tight and evenly spaced.",
+                     "Connect the wire ends to the battery terminals (one to the positive and one to the negative terminal). You can use tape to secure the connections.",
+                    "Bring the nail close to small iron objects (such as paper clips) and observe if they are attracted to the nail.",
+                    "Disconnect the battery and observe what happens to the magnetic effect.",
+                    "Repeat the experiment by increasing the number of wire turns around the nail and note if the strength of the electromagnet changes.",
+                    "Record observations about how the number of coils and battery power affect the strength of the electromagnet.",
+                    "Discuss findings on how electromagnets are used in real-life applications like electric bells, motors, and cranes."
                   ],
                   "video_link": "https://youtu.be/E45ZbIfXLSU?si=vEkhytjYL28aDRMA",
                   "title": "How to make vacuum cleaner for car at home || powerful vacuum cleaner for school project || science",
@@ -33884,31 +33898,29 @@
                   ]
                 },
                 {
-                  "experiment_name": "Energy Conservation Model",
-                  "aim": "To explore the law of conservation of energy through a roller coaster model and observe energy transformations.",
+                  "experiment_name": "Heat Transfer Experiment",
+                  "aim": "To observe how heat transfers through conduction, convection, and radiation using simple materials.",
                   "objectives": [
-                    "Understand the principles of potential and kinetic energy.",
-                    "Investigate how energy is conserved in a closed system.",
-                    "Analyze the energy transformations that occur as the roller coaster moves."
+                    "Understand the three modes of heat transfer: conduction, convection, and radiation.",
+                    "Observe how different materials conduct heat at different rates.",
+                    "Analyze real-life examples of heat transfer."
+                    
                   ],
                   "materials_needed": [
-                    "Flexible track (can be made from foam pipe insulation or plastic tubing)",
-                    "Small toy car or marble (to serve as the roller coaster car)",
-                    "Ruler (for measuring height and distance)",
-                    "Weights (optional, to test how mass affects energy transfer)",
-                    "Notebook (for recording observations)",
-                    "Tape (to secure the track if needed)",
-                    "Protractor (to measure angles of the track if needed)"
+                    "Metal spoon, plastic spoon, wooden spoon",
+                    "Cup of hot water",
+                     "Candle and metal rod",
+                     "Pot of water and stove",
+                     "Small paper pieces or food coloring",
+                      "Notebook for recording observations"
+
                   ],
                   "steps": [
-                    "Construct a roller coaster track using flexible material, ensuring it has hills, loops, and drops.",
-                    "Measure and record the height of the starting point of the coaster.",
-                    "Place the toy car or marble at the highest point of the track and release it, observing its movement.",
-                    "Measure the distances traveled and the heights reached at various points along the track, recording the data in your notebook.",
-                    "Discuss how potential energy at the highest point is converted into kinetic energy as the car descends.",
-                    "If using weights, compare how different masses affect the speed and energy transformations throughout the ride.",
-                    "Experiment with varying the height of the initial drop and the angles of the track to see how these changes influence energy conservation.",
-                    "Analyze your findings, relating them back to the law of conservation of energy and discussing how energy is transformed rather than lost."
+                    "Fill a cup with hot water and place a metal spoon, plastic spoon, and wooden spoon in it. Wait for a few minutes and touch the handles to observe which one heats up the fastest.",
+                    "Heat a pot of water on a stove and drop small paper pieces or food coloring into it. Observe how the warm water rises and the cooler water moves down.",
+                    "Light a candle and hold a metal rod near the flame without touching it. Feel the warmth from the flame at a short distance.",
+                    "Record observations on how heat moves through different materials and how it travels without direct contact."
+                   
                   ],
                   "video_link": "https://youtu.be/Ra86hEZIR6Q?si=fmwSf4iP2Wpkpr1a",
                   "title": "How to make free energy with small dc motor / 100% working free energy generator",
@@ -38388,33 +38400,31 @@
                   ]
                 },
                 {
-                  "experiment_name": "Water Splitting Experiment",
-                  "aim": "To demonstrate the process of electrolysis by splitting water into hydrogen and oxygen gases.",
+                  "experiment_name": "Rusting of Iron",
+                  "aim": "To observe the conditions necessary for rusting and understand how iron reacts with oxygen and water to form rust.",
                   "objectives": [
-                    "Understand the principles of electrolysis and the chemical reactions involved.",
-                    "Observe the production of gases and identify their properties.",
-                    "Learn about the applications of electrolysis in real-world scenarios."
-                  ],
+                    "Understand the process of rusting as a chemical change.",
+                    "Identify the conditions required for rusting to occur.",
+                    "Learn how to prevent rusting using different methods."
+
+                    ],
                   "materials_needed": [
+                    "Three iron nails or small iron objects",
+                    "Three test tubes or clear plastic cups",
                     "Water",
-                    "Salt (table salt or baking soda, as an electrolyte)",
-                    "Two electrodes (can be made from carbon or stainless steel)",
-                    "A power source (e.g., 9V battery or DC power supply)",
-                    "Clear container or glass jar",
-                    "Wires with alligator clips (for connections)",
-                    "Safety goggles (for eye protection)",
-                    "Notebook (for recording observations)"
+                    "Cooking oil",
+                    "Boiled water (to remove dissolved oxygen)",
+                    "Salt (optional, to speed up rusting)",
+                    "Notebook for recording observations"
+
                   ],
                   "steps": [
-                    "Fill the clear container or glass jar with water, leaving some space at the top.",
-                    "Dissolve a small amount of salt or baking soda in the water to enhance conductivity.",
-                    "Attach the two electrodes to the container, ensuring they do not touch each other.",
-                    "Connect one electrode to the positive terminal of the power source and the other electrode to the negative terminal using alligator clips.",
-                    "Turn on the power source and observe what happens at each electrode.",
-                    "Watch for the production of gas bubbles around the electrodes, with hydrogen forming at the negative electrode and oxygen at the positive electrode.",
-                    "Use the notebook to record your observations, including the rate of gas production and any changes in water temperature.",
-                    "Discuss the chemical reactions occurring during electrolysis: 2H2O → 2H2 + O2.",
-                    "Consider discussing the practical applications of electrolysis, such as hydrogen fuel production and water purification."
+                    "Place an iron nail in a test tube with tap water and leave it exposed to air.",
+                    "Place another iron nail in a test tube with boiled water and add a layer of oil on top to prevent air from entering.",
+                    "Place the third iron nail in a test tube with dry salt or silica gel, ensuring it remains dry.",
+                    "Leave all three test tubes undisturbed for a few days and observe any changes.",
+                    "Record observations about which nail rusts the most and which one does not rust at all."
+
                   ],
                   "video_link": "https://youtu.be/Gr1_Hzl1F-w?si=XzCZ2GYzi7rY2F8R",
                   "title": "How To Produce Oxygen Gas At Home/OXYGEN AND HYDROGEN From Water | Electrolysis Of Water",
@@ -41870,33 +41880,29 @@
                   ]
                 },
                 {
-                  "experiment_name": "Water Electrolysis",
-                  "aim": "To demonstrate the process of electrolysis by splitting water into hydrogen and oxygen gases through electrochemical reactions.",
+                  "experiment_name": "Limewater Carbon Dioxide Test",
+                  "aim": "To test for the presence of carbon dioxide (CO₂) by passing it through limewater and observing the changes.",
                   "objectives": [
-                    "Understand the principles of electrolysis and the chemical reactions involved.",
-                    "Observe the production of hydrogen and oxygen gases at the electrodes.",
-                    "Learn about the applications of electrolysis in real-world scenarios."
-                  ],
+                    "Understand how carbon dioxide reacts with limewater.",
+                    "Learn a simple method to detect CO₂ in exhaled air or combustion gases.",
+                    "Observe the formation of a new substance, indicating a chemical change."
+
+                     ],
                   "materials_needed": [
-                    "Water",
-                    "Salt (table salt or baking soda, as an electrolyte)",
-                    "Two electrodes (carbon rods or stainless steel wires)",
-                    "A power source (e.g., 9V battery or DC power supply)",
-                    "Clear container or glass jar",
-                    "Wires with alligator clips (for connections)",
-                    "Safety goggles (for eye protection)",
-                    "Notebook (for recording observations)"
+                    "Clear limewater (prepared by dissolving a small amount of calcium hydroxide Ca(OH)₂  in water and filtering the solution)",
+                    "Drinking straw or glass tube",
+                    "Two transparent glasses or test tubes",
+                    "Vinegar and baking soda (alternative CO₂ source)",
+                    "Notebook for recording observations"
+
                   ],
                   "steps": [
-                    "Fill the clear container or glass jar with water, leaving some space at the top.",
-                    "Add a small amount of salt or baking soda to the water to enhance conductivity.",
-                    "Attach the two electrodes to the container, ensuring they do not touch each other.",
-                    "Connect one electrode to the positive terminal of the power source and the other electrode to the negative terminal using alligator clips.",
-                    "Turn on the power source and observe what happens at each electrode.",
-                    "Watch for the production of gas bubbles around the electrodes, with hydrogen forming at the negative electrode and oxygen at the positive electrode.",
-                    "Use the notebook to record your observations, including the rate of gas production and any changes in water temperature.",
-                    "Discuss the chemical reactions occurring during electrolysis: 2H2O → 2H2 + O2.",
-                    "Consider discussing the practical applications of electrolysis, such as hydrogen fuel production and water purification."
+                    "Pour limewater into a glass or test tube.",
+                    "Blow air through a straw into the limewater and observe any changes.",
+                    "Mix vinegar and baking soda in another glass to produce carbon dioxide.",
+                    "Direct the gas from the reaction into another glass of limewater.",
+                    "Observe and record the changes in both cases."
+
                   ],
                   "video_link": "https://youtu.be/Gr1_Hzl1F-w?si=9QggiFtc9YyINf7g",
                   "title": "How To Produce Oxygen Gas At Home/OXYGEN AND HYDROGEN From Water | Electrolysis Of Water At Home",
@@ -47968,37 +47974,45 @@
               "level_name": "Hard",
               "experiments": [
                 {
-                  "experiment_name": "Fruit DNA Extraction",
-                  "aim": "To extract DNA from fruit cells using simple household materials to understand the structure and function of DNA.",
+                  "experiment_name": " Extracting DNA from a Banana",
+                  "aim": "To extract and observe DNA from a banana using simple household materials.",
                   "objectives": [
-                    "Learn about the structure of DNA and its role in living organisms.",
-                    "Understand the process of cellular lysis and how to separate DNA from other cellular components.",
-                    "Gain hands-on experience with a simple scientific technique."
-                  ],
+                    "To understand the basic structure of DNA.",
+                    "To learn the process of DNA extraction.",
+                    "To observe DNA using a simple extraction method."
+
+                     ],
                   "materials_needed": [
-                    "Fruits (such as strawberries, bananas, or kiwis)",
-                    "Dish soap",
-                    "Salt",
-                    "Water",
-                    "Coffee filter or cheesecloth",
-                    "Glass jar or cup",
-                    "Measuring spoons",
-                    "Test tube or small clear container (for observing the DNA)",
-                    "Popsicle stick or toothpick (for collecting DNA)",
-                    "Notebook (for recording observations)"
+                    "1 ripe banana",
+                    "Warm water",
+                    "A pinch of salt",
+                    "Dish soap (liquid)",
+                    "Cold rubbing alcohol",
+                    "Strainer or coffee filter",
+                    "Clear glass or transparent container"
+
                   ],
                   "steps": [
-                    "Begin by mashing about 1/2 cup of fruit in a glass jar or cup to break down the cells.",
-                    "In a separate container, mix 1 cup of water, 1 teaspoon of dish soap, and 1/2 teaspoon of salt to create a solution.",
-                    "Pour the soap solution over the mashed fruit and gently mix to avoid creating too many bubbles.",
-                    "Let the mixture sit for about 5-10 minutes to allow the soap to break down the cell membranes.",
-                    "Using a coffee filter or cheesecloth, strain the mixture into another container to separate the liquid from the solid fruit material.",
-                    "Pour the filtered liquid into a test tube or small clear container.",
-                    "Slowly add cold alcohol (such as isopropyl or ethanol) along the side of the container to create a layer above the fruit liquid. Do not mix.",
-                    "After a few moments, white strands of DNA will begin to precipitate at the interface between the alcohol and fruit liquid.",
-                    "Use a popsicle stick or toothpick to gently collect the visible DNA strands.",
-                    "Discuss the significance of DNA and the extraction process, reflecting on any challenges faced during the experiment."
-                  ],
+                    "Prepare the Banana Mixture:",
+
+                    "Mash ½ a ripe banana in a bowl.",
+                    "Add warm water and a pinch of salt, then mix well.\n",
+                    "Break Open the Cells:",                    
+                    "Add a few drops of dish soap and stir gently.",
+                    "The dish soap helps break the cell membranes to release the DNA.\n",
+                    "Filter the Mixture:",
+                    
+                    "Pour the mixture through a strainer or coffee filter into a clean container.",
+                    "This removes solid particles, leaving a liquid containing the DNA.\n",
+                    "Extract the DNA:",
+                    
+                    "Slowly pour cold rubbing alcohol down the side of the container.",
+                    "Do not mix—let the alcohol sit on top of the mixture.\n",
+                    "Observe the DNA:",
+                    
+                    "Wait a few minutes. A white, stringy substance will appear—this is the banana’s DNA!"
+
+                        ],
                   "video_link": "https://youtu.be/ojGRBQ2FjP8?si=VL_GLDYymTkfMgXu",
                   "title": "Extracting DNA from fruit",
                   "description": "Mixing the washing-up liquid, the water and the salt we create a mixture that will help break up the strawberry cells when we squash them, and release the DNA contained inside of each cell.",
@@ -48489,32 +48503,29 @@
                   ]
                 },
                 {
-                  "experiment_name": "Neuron Model with Clay",
-                  "aim": "To create a 3D model of a neuron using clay or pipe cleaners to understand its structure and function.",
+                  "experiment_name": "Growing Fungi on Bread",
+                  "aim": "To observe the growth of fungi on bread and understand the role of fungi in decomposition.",
                   "objectives": [
-                    "Learn about the anatomy of a neuron and its main components.",
-                    "Understand the role of neurons in transmitting signals in the nervous system.",
-                    "Develop creativity and hands-on skills through model building."
+                    "To study how fungi grow and break down food.",
+                    "To identify the conditions that promote fungal growth.",
+                    "To compare fungal growth on moist and dry bread."
+                    
+
                   ],
                   "materials_needed": [
-                    "Clay or pipe cleaners (various colors)",
-                    "Scissors (if using pipe cleaners)",
-                    "Markers (for labeling parts of the neuron)",
-                    "Reference images of neurons (for guidance)",
-                    "Tray or base for displaying the model",
-                    "Notebook (for recording observations and reflections)"
+                    "1 slice of bread",
+                    "Plastic bag (zip-lock or airtight)",
+                    "Water spray bottle",
+                    "Warm, dark place for storage"
+
                   ],
                   "steps": [
-                    "Begin by reviewing reference images of neurons to identify the major parts, including the cell body, dendrites, axon, and axon terminals.",
-                    "Using clay, shape the cell body (soma) into a round or oval form.",
-                    "Create dendrites by rolling out smaller pieces of clay or twisting pipe cleaners into branching structures and attach them to the cell body.",
-                    "For the axon, roll out a longer piece of clay or use a straight pipe cleaner, attaching it to the cell body.",
-                    "Add myelin sheaths by wrapping small pieces of clay around the axon at intervals (if using clay) or by using a different colored pipe cleaner for visual distinction.",
-                    "Create axon terminals by shaping smaller pieces of clay or bending the ends of pipe cleaners outward from the axon.",
-                    "Label each part of the neuron with markers, indicating its name and function.",
-                    "Discuss how this model represents the real structure of a neuron and the role of each component in signal transmission.",
-                    "Reflect on the building process, noting any challenges faced and solutions found."
-                  ],
+                    "Slightly moisten a slice of bread.",
+                    "Place it in a plastic bag and seal it.",
+                    "Store the bag in a warm, dark place for 3-5 days.",
+                    "Observe and compare mold growth on moist vs. dry bread. "
+
+                       ],
                   "video_link": "https://youtu.be/8FGmtUTO_Fg?si=1BSDLOKHo62NaU8g",
                   "title": "Making a clay model of Nerve cell",
                   "description": "Let's make a clay model of neuron or nerve cell. A nerve cell is the fundamental unit of nervous system. It is involved in transfer of nerve impulses. ",
@@ -54348,7 +54359,7 @@
                     "Release the pendulum and use the stopwatch to time how long it takes to complete several swings, noting the time for one complete swing.",
                     "Measure the height of the pendulum bob at its highest point (maximum potential energy) and at its lowest point (maximum kinetic energy).",
                     "Calculate the potential energy at the highest point using the formula: \\( PE = mgh \\) (where \\( m \\) is mass, \\( g \\) is gravity, and \\( h \\) is height).",
-                    "Calculate the kinetic energy at the lowest point using the formula: \\( KE = \\frac{1}{2}mv^2 \\) (where \\( v \\) is velocity, which can be determined using the distance and time).",
+                    "Calculate the kinetic energy at the lowest point using the formula: \\( KE = 0.5*mv^2 \\) (where \\( v \\) is velocity, which can be determined using the distance and time).",
                     "Analyze the results to see how energy is conserved throughout the pendulum's motion, comparing potential and kinetic energy at various points.",
                     "Discuss the implications of energy transfer and conservation in real-world applications."
                   ],
