@@ -54096,11 +54096,11 @@
                   ],
                   "steps": [
                     "Calibrate the spring scale to ensure accurate measurements before starting the experiment.",
-                    "Attach a weight to the spring scale and record the force measured in newtons.",
-                    "Use the measuring tape to determine the mass of the weight being used.",
+                    "Attach a weight to the spring scale and record the force measured in Newtons.",
+                    "Use a balance scale to determine the mass of the weight being used.",
                     "If testing acceleration, set the weight in motion (using a flat surface) and time how long it takes to travel a set distance using the stopwatch.",
                     "Record the distance traveled and the time taken for each trial.",
-                    "Calculate the acceleration using the formula: \\( a = \\frac{d}{t^2} \\) (if distance and time are measured) or derive it from F = ma.",
+                    "Calculate the acceleration using the formula: \\(a =2d/(t^2)) (if distance and time are measured) or derive it from F = ma.",
                     "Repeat the experiment with different weights to gather data on how varying mass affects force and acceleration.",
                     "Analyze the results to demonstrate the relationship between force, mass, and acceleration, discussing how the findings illustrate Newton's Second Law."
                   ],
@@ -54359,7 +54359,7 @@
                     "Release the pendulum and use the stopwatch to time how long it takes to complete several swings, noting the time for one complete swing.",
                     "Measure the height of the pendulum bob at its highest point (maximum potential energy) and at its lowest point (maximum kinetic energy).",
                     "Calculate the potential energy at the highest point using the formula: \\( PE = mgh \\) (where \\( m \\) is mass, \\( g \\) is gravity, and \\( h \\) is height).",
-                    "Calculate the kinetic energy at the lowest point using the formula: \\( KE = 0.5*mv^2 \\) (where \\( v \\) is velocity, which can be determined using the distance and time).",
+                    "Calculate the kinetic energy at the lowest point using the formula: \\(KE = 0.5*mv^2) (where \\( v \\) is velocity, which can be determined using the distance and time).",
                     "Analyze the results to see how energy is conserved throughout the pendulum's motion, comparing potential and kinetic energy at various points.",
                     "Discuss the implications of energy transfer and conservation in real-world applications."
                   ],
@@ -54628,7 +54628,7 @@
                     "Release the weights and use the stopwatch to time how long it takes for one weight to fall a certain distance.",
                     "Measure the distance each weight falls and record the data.",
                     "Repeat the experiment with different combinations of weights to gather multiple data points.",
-                    "Calculate the acceleration using the formula: \\( a = \\frac{2d}{t^2} \\), where \\( d \\) is the distance fallen and \\( t \\) is the time taken.",
+                    "Calculate the acceleration using the formula: \\( a = 2d/t^2), where \\( d \\) is the distance fallen and \\( t \\) is the time taken.",
                     "Analyze the results to determine how the mass of the weights affects the acceleration of the system.",
                     "Discuss the implications of the results in terms of Newton's laws of motion and real-world applications."
                   ],
@@ -55127,34 +55127,30 @@
                   ]
                 },
                 {
-                  "experiment_name": "Projectile Motion Launcher",
-                  "aim": "To investigate the principles of projectile motion by launching a projectile and measuring its trajectory.",
+                  "experiment_name": "Refractive Index of Water Using a Coin",
+                  "aim": "To determine the refractive index of water by observing the apparent depth of a coin.",
                   "objectives": [
-                    "Understand the concepts of projectile motion, including range, height, and time of flight.",
-                    "Analyze the effects of launch angle and initial velocity on the projectile's motion.",
-                    "Apply mathematical equations to predict and calculate projectile motion parameters."
-                  ],
+                    "To understand the concept of refraction.",
+                    "To observe how light bends when it passes through water.",
+                    "To calculate the refractive index using the real and apparent depth of the coin."
+                    
+
+                     ],
                   "materials_needed": [
-                    "Projectile launcher (can be a spring-loaded or compressed air launcher)",
-                    "Projectile (e.g., a small ball or foam projectile)",
-                    "Protractor (to measure launch angles)",
-                    "Measuring tape (to measure the distance traveled)",
-                    "Stopwatch (to measure the time of flight)",
-                    "Target (e.g., a paper or cardboard target placed at a certain distance)",
-                    "Calculator (to perform calculations)",
-                    "Notebook and pen (for recording observations and data)"
+                    "Transparent glass or bowl",
+                    "Coin",
+                    "Water",
+                    "Ruler"
+
                   ],
                   "steps": [
-                    "Set up the projectile launcher on a stable surface, ensuring it is aimed at the desired angle.",
-                    "Use the protractor to adjust the launcher to different launch angles (e.g., 15°, 30°, 45°, 60°).",
-                    "Measure the initial velocity of the projectile if applicable, or use a consistent method of launching (e.g., pulling the launcher back a fixed distance).",
-                    "Launch the projectile and use the measuring tape to determine where it lands relative to the launcher.",
-                    "Record the distance traveled for each angle and the time of flight using the stopwatch.",
-                    "Repeat the experiment for different launch angles and initial velocities, recording all data in a table.",
-                    "Calculate the range and height of the projectile for each launch angle and analyze the data.",
-                    "Discuss how the launch angle and initial velocity affect the projectile's motion and compare the results to theoretical predictions.",
-                    "Conclude the experiment by summarizing the findings related to projectile motion."
-                  ],
+                    "Place a coin at the bottom of a transparent glass or bowl.",
+                    "Look at the coin from an angle where it is just out of sight.",
+                    "Slowly pour water into the container and observe the coin reappear due to refraction.",
+                    "Measure the real depth (d) of the coin and the apparent depth (d').",
+                    "Calculate the refractive index (n) using the formula: 𝑛 = Real Depth / Apparent Depth "
+
+                        ],
                   "video_link": "https://youtu.be/zLoMgH-78Lw?si=UAoUwGYfxl79XHya",
                   "title": "Making a Projectile Motion Launcher",
                   "description": "A Projectile Motion Launcher is a device or system designed to launch objects (projectiles) into motion, following a curved path governed by the principles of projectile motion in physics.",
@@ -55671,7 +55667,7 @@
                     "Slowly pour the vinegar over the baking soda in the cup and observe the reaction.",
                     "Record the observations, including any fizzing, bubbling, or gas production, as well as the duration of the reaction.",
                     "Discuss the reaction that occurs, noting that carbon dioxide gas is produced and causes the fizzing effect.",
-                    "Conclude the experiment by summarizing the findings and understanding the chemical equation for the reaction: \\( \\text{NaHCO}_3 + \\text{CH}_3\\text{COOH} \\rightarrow \\text{CO}_2 + \\text{H}_2\\text{O} + \\text{NaCH}_3\\text{COO} \\)."
+                    "Conclude the experiment by summarizing the findings and understanding the chemical equation for the reaction: ( NaHCO₃ + CH₃COOH → CO₂ + H₂O + NaCH₃COO)."
                   ],
                   "video_link": "https://youtu.be/v0SbfVnCcx0?si=RVCkn1G9H69c_Mcw",
                   "title": "The reaction of baking soda and vinegar explained",
@@ -56393,7 +56389,7 @@
                     "Observe the reaction as gas is produced, causing pressure to build up inside the bottle.",
                     "If using a balloon, stretch the balloon over the opening of the bottle instead of sealing it with a cap to collect the gas.",
                     "Record any changes you observe, including the inflation of the balloon (if used) and the time taken for the reaction.",
-                    "After the reaction has subsided, discuss the results and the chemical equation for the reaction: \\( \\text{NaHCO}_3 + \\text{CH}_3\\text{COOH} \\rightarrow \\text{CO}_2 + \\text{H}_2\\text{O} + \\text{NaCH}_3\\text{COO} \\)."
+                    "After the reaction has subsided, discuss the results and the chemical equation for the reaction: ( NaHCO₃ + CH₃COOH → CO₂ + H₂O + NaCH₃COO)."
                   ],
                   "video_link": "https://youtu.be/6SmWtNntziQ?si=BHmjYAkqDqCgFm0u",
                   "title": "ACIDS REACTS WITH METALS AND GIVE HYDROGEN GAS",
@@ -56827,7 +56823,7 @@
                     "After heating for about 10-15 minutes, remove the beaker from the heat and allow it to cool.",
                     "Test the pH of the product using pH paper or litmus paper to confirm the formation of the ester.",
                     "Observe any changes in smell or physical properties, noting the sweet fragrance characteristic of esters.",
-                    "Discuss the results and the reaction that took place: \\( \text{Alcohol} + \text{Carboxylic Acid} \rightarrow \text{Ester} + \text{Water} \\)."
+                    "Discuss the results and the reaction that took place: (Alcohol + Carboxylic Acid → Ester + Water)."
                   ],
                   "video_link": "https://youtu.be/eRFRlnDHceY?si=mx_xAeO9VFLI23SK",
                   "title": "Esterification Reaction between Alcohol and Carboxylic Acid",
@@ -57093,7 +57089,9 @@
                     "Insert the pH meter's probe into each solution and record the pH reading displayed on the meter.",
                     "Repeat the measurement for accuracy, ensuring the probe is cleaned between solutions.",
                     "Compile the results and compare the pH levels obtained from the indicators and the pH meter.",
-                    "Discuss any discrepancies and analyze the results to understand the acidity or alkalinity of each solution."
+                    "Discuss any discrepancies and analyze the results to understand the acidity or alkalinity of each solution.",
+                    "To repeat the experiment with other indicators"
+                
                   ],
                   "video_link": "https://youtu.be/a6dYHEC8A9g?si=-A4vJoiB7UbvqUek",
                   "title": "EXPERIMENT DIY PH indicator from red cabbage | What the Hack #22",
@@ -57345,6 +57343,7 @@
                     "Cool the products and measure the mass of the water formed (if applicable) to calculate the moles of hydrogen.",
                     "Using the mass of CO₂ produced, calculate the moles of carbon in the original compound.",
                     "Determine the empirical formula by calculating the mole ratio of carbon, hydrogen, and any other elements present.",
+                    "Empirical Formula Calculation: (C_xH_yO_z) = (Mass of element / Molar mass) → Simplified ratio",
                     "Discuss the results, noting any sources of error and how they might affect the calculated empirical formula."
                   ],
                   "video_link": "https://youtu.be/klkAzTWdYTw?si=F3K0opAKGkB8elBx",
@@ -57842,34 +57841,38 @@
                   ]
                 },
                 {
-                  "experiment_name": "Observing Human Skin Structure Using Onion Skin",
-                  "aim": "To compare the structure of human skin with that of onion skin and understand the layers involved.",
+                  "experiment_name": "Comparing Human Cheek Cells and Onion Skin Under a Microscope",
+                  "aim": "To observe and compare the structure of human cheek cells with that of onion skin cells, highlighting their similarities and differences.",
                   "objectives": [
-                    "Learn about the different layers of human skin.",
-                    "Understand the similarities and differences between human skin and onion skin.",
-                    "Develop skills in microscopy and observation."
+                    "Learn about the different layers and structures of human skin cells.",
+                    "Understand the similarities and differences between human epithelial cells and onion epidermal cells.",
+                    "Develop microscopy skills and improve observational techniques."
                   ],
-                  "materials_needed": [
+                  "materials_needed":  [
                     "Onion",
+                    "Cotton swab (for collecting cheek cells)",
                     "Microscope",
                     "Microscope slides",
                     "Cover slips",
                     "Tweezers",
                     "Scalpel or knife (for slicing the onion)",
-                    "Dropper (for adding water, if needed)",
+                    "Methylene blue stain (for cheek cell contrast)",
+                    "Dropper (for adding water or stain)",
                     "Notebook and pen (for recording observations)",
-                    "Safety goggles (for protection)"
+                    "Safety goggles and gloves (for protection)"
                   ],
-                  "steps": [
-                    "Put on safety goggles to ensure safety during the experiment.",
-                    "Carefully slice a thin layer of onion skin using a scalpel or knife.",
-                    "Prepare a microscope slide by placing the onion skin on it.",
-                    "Add a drop of water to the slide to prevent the skin from drying out and to enhance visibility.",
-                    "Place a cover slip over the onion skin to flatten it and eliminate air bubbles.",
-                    "Observe the slide under a microscope, starting with the lowest magnification.",
-                    "Adjust the focus and switch to higher magnification to see the details of the onion skin structure.",
-                    "Note the various layers of cells and their arrangement.",
-                    "Compare the observed structure with that of human skin, discussing similarities and differences."
+                  "steps":  [
+                    "Put on safety goggles and gloves for protection during the experiment.",
+                    "Carefully peel a thin layer of onion skin using tweezers and place it on a microscope slide.",
+                    "Add a drop of water to the slide and gently place a cover slip over the onion skin to flatten it and remove air bubbles.",
+                    "Using the lowest magnification of the microscope, observe the onion skin cells. Increase magnification for a clearer view of individual cells.",
+                    "Record observations, noting the shape, arrangement, and structure of the cells.",
+                    "To observe human cheek cells, gently scrape the inside of your cheek using a clean cotton swab.",
+                    "Smear the collected cells onto a separate microscope slide.",
+                    "Add a drop of methylene blue stain to make the cells more visible, then place a cover slip over the sample.",
+                    "Observe the cheek cells under the microscope, starting with low magnification before increasing it.",
+                    "Compare the human cheek cells with the onion skin cells, noting differences in shape, structure, and arrangement.",
+                    "Record observations and discuss the key differences, such as the presence of a nucleus in both but a cell wall only in onion cells."
                   ],
                   "video_link": "https://youtu.be/6gIneqf6pYU?si=iPckZuuz1c17RRtM",
                   "title": "Onion Peel Under the Microscope | How to Prepare Stained Temporary Mount of Onion Peel",
@@ -60733,12 +60736,13 @@
                     "Investigate the conservation of mechanical energy in a pendulum.",
                     "Learn how to measure energy transformations using a simple pendulum setup."
                   ],
-                  "materials_needed": [
+                  "materials_needed":  [
                     "String or thread (approximately 1 meter long)",
                     "Small weight (such as a washer or small ball) to act as the pendulum bob",
                     "Protractor (to measure the angle of release)",
                     "Stopwatch (to time the pendulum swings)",
                     "Ruler (to measure the length of the pendulum)",
+                    "Calculator (for energy calculations)",
                     "Data recording sheet (for observations and calculations)"
                   ],
                   "steps": [
@@ -60746,8 +60750,9 @@
                     "Measure the length of the pendulum from the pivot point to the center of the weight.",
                     "Using the protractor, pull the pendulum back to a specific angle (e.g., 30 degrees) and release it without pushing.",
                     "Use the stopwatch to time how long it takes for the pendulum to complete a certain number of swings (e.g., 10 swings) and record the time.",
-                    "Measure the maximum height reached by the pendulum during its swing to determine the potential energy at that point.",
-                    "At the lowest point of the swing, calculate the kinetic energy using the mass of the weight and its velocity (determined from the timing).",
+                    "Measure the maximum height reached by the pendulum during its swing to determine the potential energy at that point using the formula: PE = mgh (where *m* is mass, *g* is gravitational acceleration, and *h* is height).",
+                    "At the lowest point of the swing, calculate the kinetic energy using the formula: KE = ½ mv² (where *m* is mass and *v* is velocity).",
+                    "To determine velocity, use the equation: v = √(2gh), where *g* is 9.8 m/s², and *h* is the height difference from the highest point to the lowest point.",
                     "Repeat the experiment by varying the initial angle and measuring the corresponding times and heights.",
                     "Discuss how the energy transforms from potential to kinetic and back during the pendulum's motion, highlighting the principle of conservation of energy."
                   ],
@@ -63872,14 +63877,16 @@
                     "Developing solvent (mobile phase)",
                     "Pencil and ruler"
                   ],
-                  "steps": [
+                  "steps":  [
                     "Synthesize the organic compound by following the provided reaction procedure.",
                     "Once the synthesis is complete, prepare a solution of the product.",
                     "Spot the TLC plate with the product solution and any reference compounds using capillary tubes.",
                     "Place the plate in the TLC chamber containing the developing solvent.",
                     "Allow the solvent to rise up the plate, then remove the plate and let it dry.",
                     "Visualize the spots using UV light or a staining solution.",
-                    "Measure the distances moved by the solvent front and the spots, and calculate the Rf values to characterize the compound."
+                    "Measure the distances moved by the solvent front and the spots.",
+                    "Calculate the Rf value using the formula: Rf = (Distance traveled by the compound) / (Distance traveled by the solvent front).",
+                    "Compare the Rf value with known reference values to characterize the compound."
                   ],
                   "video_link": "https://youtu.be/ltT8vr5Wmz8?si=qQw5GNqEDNN_sKm0",
                   "title": "Performing Thin Layer Chromatography (TLC)",
@@ -65046,14 +65053,14 @@
                     "Beakers"
                   ],
                   "steps": [
-                    "Effect of pH on Amylase Activity:",
+                    "*Effect of pH on Amylase Activity:*",
                     "Prepare starch solutions in several test tubes and label them according to pH (e.g., pH 4, 6, 7, 8, 10).",
                     "Add a fixed amount of saliva to each test tube.",
                     "Incubate the test tubes at 37°C (body temperature) for 10 minutes.",
                     "Add a few drops of iodine solution to each test tube at regular intervals (e.g., every minute) and observe the color change.",
                     "Record the time taken for the blue-black color (indicating starch) to disappear for each pH.",
 
-                    "Effect of Temperature on Amylase Activity:",
+                    "*Effect of Temperature on Amylase Activity:*",
                     "Prepare starch solutions in several test tubes.",
                     "Add a fixed amount of saliva to each test tube.",
                     "Incubate the test tubes at different temperatures (e.g., 0°C, 20°C, 37°C, 60°C, 80°C) using a water bath or other setup.",
@@ -66475,7 +66482,7 @@
                     "Add the starch solution (10 mL) to each test tube and place the test tubes in the water bath for a few minutes to reach the set temperatures.",
                     "Add 2–3 drops of iodine solution to a clean test tube for use in testing.",
                     "After the test tubes reach the desired temperatures, add 1–2 mL of amylase solution to the starch solution in each test tube.",
-                    "tart the stopwatch immediately after adding the amylase.",
+                    "Start the stopwatch immediately after adding the amylase.",
                     "At regular intervals (e.g., every 1 minute), take a small sample of the solution and add it to the iodine solution in the test tube.",
                     "Observe the color change. The iodine will turn blue-black in the presence of starch. If the starch has been broken down into sugars, the solution will remain colorless.",
                     "Record the time taken for the iodine solution to remain colorless (indicating that the starch has been completely digested by the enzyme).",
