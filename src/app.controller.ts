@@ -36,6 +36,7 @@ export class AppController {
         },
       });
     } catch (error) {
+      console.log(`error := ` , error);
       res.status(500).send({
         status: {
           code: 1,

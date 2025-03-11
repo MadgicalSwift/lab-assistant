@@ -90,7 +90,7 @@ export class SwiftchatMessageService extends MessageService {
   }
 
   
-//===================================
+
 async sendStartQuizandExploreButton(from: string, selectedCategory: any) {
   const requestData = startAndExploreButton(from, selectedCategory);
   await this.sendMessage(this.baseUrl, requestData, this.apiKey);
@@ -138,6 +138,7 @@ async sendQuizMessage(from: string) {
             title: `Learn about ${selectedExperimentDetails.experiment_name}`, // Button title
             payload: 'experiment_info', 
             url: experimentUrl, 
+            // url: "https://www.youtube.com/watch?v=TfZsGy_q9zA&t=26s" //change 
           },
         },
       ],
@@ -215,6 +216,7 @@ async sendQuizMessage(from: string) {
     // Find the correct question set based on the setName
     const questionSet = selectedExperimentquestion.find(
       (set: any) => set.set_name === setName,
+      
     );
   
     if (questionSet) {
@@ -228,11 +230,11 @@ async sendQuizMessage(from: string) {
   
       // Check if buttonBody matches the correct answer for this question
       if (currentQuestion?.correct_answer === buttonBody) {
-        let feedbackMessage = `${localisedStrings.correctAnswer}\n**Explanation:** ${currentQuestion.explanation}`;
+        let feedbackMessage = `${localisedStrings.correctAnswer}\n*Explanation:* ${currentQuestion.explanation}`;
   
         // Exclude score from feedback if currentQuestionIndex is 10
         if (currentQuestionIndex !== 10) {
-          feedbackMessage += `\nYour score is ${score+=1}/10.\nComplete the quiz to see your final score.`;
+          feedbackMessage += `\nYour score is ${score+=1}/10.\n Complete the quiz to see your final score 🚀.`;
         }
   
         const requestData = await this.prepareRequestData(from, feedbackMessage);

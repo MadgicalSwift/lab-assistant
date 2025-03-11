@@ -33,6 +33,8 @@ export class ChatbotService {
     }
 
     if (persistent_menu_response) {
+      console.log('persistent_menu_response',persistent_menu_response);
+      
       if (persistent_menu_response.body == 'Change Class') {
         userData.score = 0;
         userData.currentQuestionIndex = 0;
@@ -42,7 +44,7 @@ export class ChatbotService {
         await this.userService.saveUser(userData);
         return;
       }
-      if (persistent_menu_response.body == 'Change Subject') {
+      else if (persistent_menu_response.body == 'Change Subject') {
         const classGroupToSend = userData.classGroup || '7-8';
         userData.classGroup = classGroupToSend;
         userData.score = 0;
@@ -74,6 +76,8 @@ export class ChatbotService {
       );
 
     if (buttonBody) {
+      console.log('buttonBody',buttonBody);
+      
       // Mixpanel tracking data
       const trackingData = {
         distinct_id: from,
