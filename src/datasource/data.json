@@ -36,114 +36,114 @@
                       "set_name": "Quiz Set 1",
                       "questions": [
                         {
-                          "question": "What materials are needed for the Balloon Rocket experiment?",
+                          "question": "What is the aim of the 'Paper Towel Magic' experiment?",
                           "options": [
-                            "Balloon, string, straw, tape",
-                            "Balloon, water, straw",
-                            "String, tape, air pump",
-                            "Balloon, string, fan"
+                            "To see if paper towels can change color",
+                            "To show how a paper towel absorbs water and moves it",
+                            "To check if paper towels are strong",
+                            "To test if paper towels can float"
                           ],
-                          "correct_answer": "Balloon, string, straw, tape",
-                          "explanation": "These materials are essential to set up the balloon rocket experiment and demonstrate Newton's Third Law of Motion."
+                          "correct_answer": "To show how a paper towel absorbs water and moves it",
+                          "explanation": "The experiment demonstrates how paper towels absorb water and transfer it to another surface."
                         },
                         {
-                          "question": "How does Newton's Third Law of Motion apply to a balloon rocket?",
+                          "question": "Which of the following materials is NOT needed for this experiment?",
                           "options": [
-                            "For every action, there is an equal and opposite reaction",
-                            "Objects remain in motion",
-                            "Force is equal to mass times acceleration",
-                            "Energy is conserved"
+                            "Paper towel",
+                            "Food coloring",
+                            "Sugar",
+                            "Two clear glasses"
                           ],
-                          "correct_answer": "For every action, there is an equal and opposite reaction",
-                          "explanation": "Newton's Third Law explains that the air rushing out of the balloon pushes it forward."
+                          "correct_answer": "Sugar",
+                          "explanation": "Sugar is not used in this experiment. The required materials are two glasses, water, food coloring (optional), and a paper towel."
                         },
                         {
-                          "question": "What is the action force in this experiment?",
+                          "question": "What happens when you place the paper towel in the water?",
                           "options": [
-                            "Air rushing out of the balloon",
-                            "Balloon moving along the string",
-                            "Gravity",
-                            "Friction"
+                            "The paper towel melts",
+                            "The water moves up the paper towel",
+                            "The paper towel stays dry",
+                            "The paper towel turns into a sponge"
                           ],
-                          "correct_answer": "Air rushing out of the balloon",
-                          "explanation": "The action force is the air pushing out of the balloon."
+                          "correct_answer": "The water moves up the paper towel",
+                          "explanation": "The paper towel absorbs the water, and it travels upward due to capillary action."
                         },
                         {
-                          "question": "What is the reaction force in this experiment?",
+                          "question": "Why do we use food coloring in this experiment?",
                           "options": [
-                            "Balloon moving forward",
-                            "Air entering the balloon",
-                            "Gravity",
-                            "String holding the balloon"
+                            "To make the water look nice",
+                            "To see how the water moves through the paper towel",
+                            "To make the paper towel colorful",
+                            "To make the water thicker"
                           ],
-                          "correct_answer": "Balloon moving forward",
-                          "explanation": "The reaction to the air exiting the balloon is the forward motion of the balloon."
+                          "correct_answer": "To see how the water moves through the paper towel",
+                          "explanation": "Food coloring helps us clearly observe how the water moves through the paper towel."
                         },
                         {
-                          "question": "Why does the balloon move along the string when released?",
+                          "question": "What should you do before placing the paper towel in the glasses?",
                           "options": [
-                            "Air pressure pushes it forward",
-                            "Gravity pulls it down",
-                            "The string pulls it along",
-                            "Friction with air"
+                            "Fold the paper towel lengthwise",
+                            "Cut the paper towel into small pieces",
+                            "Mix the water with oil",
+                            "Add sugar to the water"
                           ],
-                          "correct_answer": "Air pressure pushes it forward",
-                          "explanation": "The force of the air being expelled pushes the balloon in the opposite direction."
+                          "correct_answer": "Fold the paper towel lengthwise",
+                          "explanation": "Folding the paper towel makes it easier to transfer water between the glasses."
                         },
                         {
-                          "question": "What is thrust, and how is it created in this experiment?",
+                          "question": "Which glass will have water at the end of the experiment?",
                           "options": [
-                            "The force that moves the balloon forward, created by the expelled air",
-                            "The string pulling the balloon",
-                            "Gravity pulling the balloon",
-                            "The force of air inside the balloon holding it in place"
+                            "The glass that started empty",
+                            "The glass with water",
+                            "Both glasses will be empty",
+                            "Both glasses will be full"
                           ],
-                          "correct_answer": "The force that moves the balloon forward, created by the expelled air",
-                          "explanation": "Thrust is generated by the force of air moving out of the balloon."
+                          "correct_answer": "The glass that started empty",
+                          "explanation": "The water moves through the paper towel and transfers into the empty glass."
                         },
                         {
-                          "question": "How does the amount of air in the balloon affect its movement?",
+                          "question": "What scientific concept does this experiment demonstrate?",
                           "options": [
-                            "More air increases speed and distance",
-                            "Less air increases speed",
-                            "It doesn't affect movement",
-                            "More air slows the balloon"
+                            "Evaporation",
+                            "Absorption",
+                            "Condensation",
+                            "Magnetism"
                           ],
-                          "correct_answer": "More air increases speed and distance",
-                          "explanation": "With more air, the balloon has more thrust and can travel further and faster."
+                          "correct_answer": "Absorption",
+                          "explanation": "The experiment shows how the paper towel absorbs water and transfers it to another place."
                         },
                         {
-                          "question": "What happens to the balloon if there’s no string to guide it?",
+                          "question": "How long should you wait to observe the results?",
                           "options": [
-                            "It moves erratically and doesn't travel straight",
-                            "It goes faster",
-                            "It stops immediately",
-                            "It moves slower"
+                            "A few minutes",
+                            "One hour",
+                            "Instantly",
+                            "One day"
                           ],
-                          "correct_answer": "It moves erratically and doesn't travel straight",
-                          "explanation": "Without the string, the balloon can't maintain a straight path."
+                          "correct_answer": "A few minutes",
+                          "explanation": "It takes a few minutes for the water to move up the paper towel and into the empty glass."
                         },
                         {
-                          "question": "Why is it important to use a straw in this experiment?",
+                          "question": "What happens if you don’t use food coloring?",
                           "options": [
-                            "It reduces friction with the string",
-                            "It creates thrust",
-                            "It keeps the balloon from popping",
-                            "It holds the air in"
+                            "The experiment won’t work",
+                            "You won’t see the water moving clearly",
+                            "The paper towel will not absorb water",
+                            "The water will evaporate"
                           ],
-                          "correct_answer": "It reduces friction with the string",
-                          "explanation": "The straw helps the balloon slide smoothly along the string."
+                          "correct_answer": "You won’t see the water moving clearly",
+                          "explanation": "Food coloring helps visualize how the water moves, but the experiment will still work without it."
                         },
                         {
-                          "question": "How would the balloon’s movement change if the string was longer?",
+                          "question": "Why do we use two glasses in this experiment?",
                           "options": [
-                            "It would travel further",
-                            "It would stop moving",
-                            "It would move slower",
-                            "It would move faster"
+                            "One holds water, and the other collects the water",
+                            "One is for decoration",
+                            "To make the experiment harder",
+                            "To keep the paper towel steady"
                           ],
-                          "correct_answer": "It would travel further",
-                          "explanation": "With a longer string, the balloon has more space to travel before stopping."
+                          "correct_answer": "One holds water, and the other collects the water",
+                          "explanation": "One glass starts with water, and the empty one collects the transferred water through the paper towel."
                         }
                       ]
                     },
@@ -151,114 +151,114 @@
                       "set_name": "Quiz Set 2",
                       "questions": [
                         {
-                          "question": "What effect does the size of the balloon have on the distance it travels?",
+                          "question": "What is the main material used to transfer water in this experiment?",
                           "options": [
-                            "Larger balloons travel further",
-                            "Smaller balloons travel further",
-                            "No effect",
-                            "Larger balloons stop sooner"
+                            "A sponge",
+                            "A paper towel",
+                            "A plastic straw",
+                            "A cotton ball"
                           ],
-                          "correct_answer": "Larger balloons travel further",
-                          "explanation": "Larger balloons can hold more air, creating more thrust and covering more distance."
+                          "correct_answer": "A paper towel",
+                          "explanation": "The paper towel is used because it can absorb and move water through its fibers."
                         },
                         {
-                          "question": "What happens to the balloon rocket if it’s released without blowing up the balloon fully?",
+                          "question": "What will happen if you use a plastic sheet instead of a paper towel?",
                           "options": [
-                            "It moves a shorter distance",
-                            "It goes faster",
-                            "It moves further",
-                            "It doesn’t move at all"
+                            "The water will still move",
+                            "The plastic will absorb the water",
+                            "The water will not move",
+                            "The water will disappear"
                           ],
-                          "correct_answer": "It moves a shorter distance",
-                          "explanation": "Less air means less thrust, resulting in a shorter travel distance."
+                          "correct_answer": "The water will not move",
+                          "explanation": "Plastic does not absorb water, so the experiment will not work."
                         },
                         {
-                          "question": "How does the mass of the balloon impact the speed of its movement?",
+                          "question": "Which property of paper towels helps them absorb water?",
                           "options": [
-                            "Lighter balloons move faster",
-                            "Heavier balloons move faster",
-                            "No effect",
-                            "Lighter balloons move slower"
+                            "Softness",
+                            "Strength",
+                            "Tiny holes in the paper",
+                            "Smoothness"
                           ],
-                          "correct_answer": "Lighter balloons move faster",
-                          "explanation": "Lower mass allows for greater acceleration with the same thrust."
+                          "correct_answer": "Tiny holes in the paper",
+                          "explanation": "Paper towels have tiny holes that help them soak up and move water."
                         },
                         {
-                          "question": "Explain how Newton’s Third Law applies to rockets in space.",
+                          "question": "What role does gravity play in this experiment?",
                           "options": [
-                            "Thrust pushes them forward by expelling gas",
-                            "They rely on air pressure",
-                            "They need gravity to move",
-                            "They don’t apply Newton’s Third Law"
+                            "It pushes the water down",
+                            "It stops the water from moving",
+                            "It helps water move up the paper towel",
+                            "It makes the water disappear"
                           ],
-                          "correct_answer": "Thrust pushes them forward by expelling gas",
-                          "explanation": "Just like the balloon, rockets move forward by expelling fuel in the opposite direction."
+                          "correct_answer": "It pushes the water down",
+                          "explanation": "Gravity pulls the water down, but capillary action allows the water to move up the paper towel."
                         },
                         {
-                          "question": "What other examples in daily life demonstrate action and reaction forces?",
+                          "question": "Which part of the experiment shows water moving?",
                           "options": [
-                            "Walking, where feet push backward",
-                            "Pushing a wall",
-                            "Holding a pen",
-                            "Sleeping"
+                            "When the paper towel stays dry",
+                            "When the food coloring changes color",
+                            "When the water moves from one glass to the other",
+                            "When the water disappears"
                           ],
-                          "correct_answer": "Walking, where feet push backward",
-                          "explanation": "When walking, our feet push the ground back, and the ground pushes us forward."
+                          "correct_answer": "When the water moves from one glass to the other",
+                          "explanation": "This experiment helps us observe how water moves through a paper towel into the empty glass."
                         },
                         {
-                          "question": "How can changing the angle of the string affect the balloon’s movement?",
+                          "question": "What would happen if you used a thicker paper towel?",
                           "options": [
-                            "It changes the direction of movement",
-                            "No effect",
-                            "It slows it down",
-                            "It makes it go faster"
+                            "The water would move faster",
+                            "The water would move slower",
+                            "The experiment would not work",
+                            "The paper towel would break"
                           ],
-                          "correct_answer": "It changes the direction of movement",
-                          "explanation": "The balloon will follow the path set by the angle of the string."
+                          "correct_answer": "The water would move slower",
+                          "explanation": "A thicker paper towel may take longer to absorb and move water."
                         },
                         {
-                          "question": "What role does air resistance play in this experiment?",
+                          "question": "What would happen if you used hot water instead of cold water?",
                           "options": [
-                            "It slows the balloon down",
-                            "It speeds up the balloon",
-                            "It doesn’t affect the balloon",
-                            "It changes the balloon’s color"
+                            "The paper towel will burn",
+                            "The water will move faster",
+                            "The water will turn into ice",
+                            "The water will stop moving"
                           ],
-                          "correct_answer": "It slows the balloon down",
-                          "explanation": "Air resistance acts as a force against the movement of the balloon, slowing it down slightly."
+                          "correct_answer": "The water will move faster",
+                          "explanation": "Hot water moves through the paper towel faster because heat increases the movement of water molecules."
                         },
                         {
-                          "question": "How would you explain the concept of thrust to someone new to physics?",
+                          "question": "What is capillary action?",
                           "options": [
-                            "Thrust is the force that pushes objects forward",
-                            "Thrust pulls objects back",
-                            "Thrust is gravity at work",
-                            "Thrust is friction slowing things down"
+                            "The way water moves through a narrow space",
+                            "The way water flows in a river",
+                            "The way paper towels dry quickly",
+                            "The way gravity pulls objects down"
                           ],
-                          "correct_answer": "Thrust is the force that pushes objects forward",
-                          "explanation": "Thrust is the force generated by expelling a substance (like air or fuel) to move in the opposite direction."
+                          "correct_answer": "The way water moves through a narrow space",
+                          "explanation": "Capillary action is how water moves through small spaces, like in a paper towel."
                         },
                         {
-                          "question": "What real-world technologies use the principle observed in this experiment?",
+                          "question": "Why does the empty glass start filling with water?",
                           "options": [
-                            "Rockets, airplanes",
-                            "Cars, bicycles",
-                            "Trains, boats",
-                            "None"
+                            "Because the paper towel creates a vacuum",
+                            "Because of the force of air",
+                            "Because the paper towel absorbs and moves water",
+                            "Because the water jumps into the other glass"
                           ],
-                          "correct_answer": "Rockets, airplanes",
-                          "explanation": "Both rockets and airplanes rely on thrust to move forward."
+                          "correct_answer": "Because the paper towel absorbs and moves water",
+                          "explanation": "The paper towel absorbs water and moves it to the empty glass through capillary action."
                         },
                         {
-                          "question": "What would happen if you punctured the balloon during the experiment, and why?",
+                          "question": "What can you learn from this experiment?",
                           "options": [
-                            "It would stop moving immediately",
-                            "It would move faster",
-                            "It would move longer",
-                            "It would fly upwards"
+                            "Paper towels do not absorb water",
+                            "Water moves only downward",
+                            "Water can move through certain materials",
+                            "Water changes into a solid when absorbed"
                           ],
-                          "correct_answer": "It would stop moving immediately",
-                          "explanation": "A puncture would release all the air instantly, stopping the thrust."
+                          "correct_answer": "Water can move through certain materials",
+                          "explanation": "This experiment helps us understand how water moves through materials like paper towels."
                         }
                       ]
                     },
@@ -266,114 +266,114 @@
                       "set_name": "Quiz Set 3",
                       "questions": [
                         {
-                          "question": "What is the primary force that moves the balloon in the Balloon Rocket experiment?",
+                          "question": "Which glass should have water at the start of the experiment?",
                           "options": [
-                            "Air pressure from the balloon",
+                            "Both glasses",
+                            "The first glass",
+                            "The second glass",
+                            "Neither glass"
+                          ],
+                          "correct_answer": "The first glass",
+                          "explanation": "The first glass should be filled with water, while the second glass starts empty."
+                        },
+                        {
+                          "question": "Why do you need to fold the paper towel before using it?",
+                          "options": [
+                            "To make it stronger",
+                            "To help it absorb water better",
+                            "To make it colorful",
+                            "To prevent it from getting wet"
+                          ],
+                          "correct_answer": "To help it absorb water better",
+                          "explanation": "Folding the paper towel allows it to soak up and move water more effectively."
+                        },
+                        {
+                          "question": "Which force helps the water move upward in the paper towel?",
+                          "options": [
                             "Gravity",
-                            "String tension",
-                            "Wind"
+                            "Friction",
+                            "Capillary action",
+                            "Magnetism"
                           ],
-                          "correct_answer": "Air pressure from the balloon",
-                          "explanation": "The air released from the balloon creates a forward thrust, moving the balloon along the string."
+                          "correct_answer": "Capillary action",
+                          "explanation": "Capillary action allows water to move up the tiny spaces in the paper towel, even against gravity."
                         },
                         {
-                          "question": "How does Newton's Third Law of Motion explain the movement of the balloon?",
+                          "question": "What happens if the paper towel does not touch the empty glass?",
                           "options": [
-                            "Each action has an equal and opposite reaction.",
-                            "Objects stay in motion indefinitely.",
-                            "Gravity pulls all objects down.",
-                            "All forces are equal."
+                            "The experiment will still work",
+                            "The water will move faster",
+                            "The water will not reach the second glass",
+                            "The paper towel will break"
                           ],
-                          "correct_answer": "Each action has an equal and opposite reaction.",
-                          "explanation": "As air is expelled from the balloon, the balloon is pushed forward."
+                          "correct_answer": "The water will not reach the second glass",
+                          "explanation": "For the experiment to work, the paper towel must connect both glasses so the water can transfer."
                         },
                         {
-                          "question": "What effect does adding more air have on the distance the balloon travels?",
+                          "question": "What is the purpose of using two clear glasses?",
                           "options": [
-                            "It travels further.",
-                            "It moves slower.",
-                            "It stops faster.",
-                            "It doesn’t move."
+                            "To make the experiment look nice",
+                            "To see how water moves",
+                            "To make the paper towel wet",
+                            "To mix different liquids"
                           ],
-                          "correct_answer": "It travels further.",
-                          "explanation": "With more air, the balloon has more thrust and can travel a longer distance."
+                          "correct_answer": "To see how water moves",
+                          "explanation": "Clear glasses allow us to observe how water moves through the paper towel."
                         },
                         {
-                          "question": "What component keeps the balloon aligned along the string?",
+                          "question": "What would happen if the paper towel was too short?",
                           "options": [
-                            "The straw",
-                            "The tape",
-                            "The air pressure",
-                            "The chair"
+                            "The experiment would not work",
+                            "The water would move faster",
+                            "The paper towel would dissolve",
+                            "The water would turn into steam"
                           ],
-                          "correct_answer": "The straw",
-                          "explanation": "The straw helps the balloon slide along the string without much friction."
+                          "correct_answer": "The experiment would not work",
+                          "explanation": "If the paper towel is too short, it won’t reach the second glass, so the water cannot transfer."
                         },
                         {
-                          "question": "What would happen if there was no string for the balloon to follow?",
+                          "question": "What would happen if you used a very thick paper towel?",
                           "options": [
-                            "It would move in random directions.",
-                            "It would move faster.",
-                            "It would stop immediately.",
-                            "It would move in a straight line."
+                            "Water would move very slowly",
+                            "Water would move faster",
+                            "The paper towel would break",
+                            "The water would disappear"
                           ],
-                          "correct_answer": "It would move in random directions.",
-                          "explanation": "The string guides the balloon, and without it, the balloon's path would be uncontrolled."
+                          "correct_answer": "Water would move very slowly",
+                          "explanation": "A thicker paper towel can absorb more water but may slow down the movement of water."
                         },
                         {
-                          "question": "What happens to the balloon rocket if it’s released without being fully inflated?",
+                          "question": "How do you know the experiment is working?",
                           "options": [
-                            "It moves a shorter distance.",
-                            "It travels further.",
-                            "It doesn’t move at all.",
-                            "It moves faster."
+                            "The paper towel remains dry",
+                            "The water moves from one glass to another",
+                            "The water disappears",
+                            "The food coloring changes"
                           ],
-                          "correct_answer": "It moves a shorter distance.",
-                          "explanation": "With less air, there is less thrust, so the balloon doesn't travel as far."
+                          "correct_answer": "The water moves from one glass to another",
+                          "explanation": "If water travels up the paper towel and into the empty glass, the experiment is working."
                         },
                         {
-                          "question": "How does the balloon rocket demonstrate thrust?",
+                          "question": "What happens to the paper towel after the experiment?",
                           "options": [
-                            "By releasing air to push the balloon forward.",
-                            "By using gravity to pull it down.",
-                            "By pulling it with the string.",
-                            "By adding weight to increase speed."
+                            "It becomes dry",
+                            "It absorbs the water and becomes wet",
+                            "It changes into a sponge",
+                            "It dissolves in water"
                           ],
-                          "correct_answer": "By releasing air to push the balloon forward.",
-                          "explanation": "Thrust is created by the air rushing out of the balloon, moving it forward."
+                          "correct_answer": "It absorbs the water and becomes wet",
+                          "explanation": "The paper towel absorbs the water, making it wet and allowing the water to move through it."
                         },
                         {
-                          "question": "Why is the experiment a good example of action and reaction?",
+                          "question": "What is one real-life example of capillary action?",
                           "options": [
-                            "The balloon moves forward as air moves backward.",
-                            "The string pulls the balloon.",
-                            "The balloon rotates.",
-                            "The air pressure is constant."
+                            "Water moving through plant roots",
+                            "Water boiling in a pot",
+                            "Rain falling from the sky",
+                            "Water turning into ice"
                           ],
-                          "correct_answer": "The balloon moves forward as air moves backward.",
-                          "explanation": "The air moving backward pushes the balloon forward, illustrating action and reaction."
-                        },
-                        {
-                          "question": "What would happen if the string were angled upwards?",
-                          "options": [
-                            "The balloon would follow the angle.",
-                            "The balloon would stop.",
-                            "The balloon would go slower.",
-                            "The balloon would fall off."
-                          ],
-                          "correct_answer": "The balloon would follow the angle.",
-                          "explanation": "The balloon will move in the direction set by the angle of the string."
-                        },
-                        {
-                          "question": "What other objects can demonstrate Newton’s Third Law of Motion?",
-                          "options": [
-                            "A rocket, which pushes gases downward",
-                            "A pen resting on a table",
-                            "A stone lying on the ground",
-                            "A car moving straight"
-                          ],
-                          "correct_answer": "A rocket, which pushes gases downward",
-                          "explanation": "A rocket's movement is based on expelling gases downward to move upward."
+                          "correct_answer": "Water moving through plant roots",
+                          "explanation": "Plants use capillary action to absorb water from the soil and move it up to their leaves."
                         }
                       ]
                     },
@@ -381,114 +381,114 @@
                       "set_name": "Quiz Set 4",
                       "questions": [
                         {
-                          "question": "How does thrust impact the movement of the balloon rocket?",
+                          "question": "What is absorbed by the paper towel?",
                           "options": [
-                            "Thrust pushes it forward.",
-                            "Thrust pulls it down.",
-                            "Thrust keeps it still.",
-                            "Thrust pulls it backward."
+                            "Air",
+                            "Water",
+                            "Oil",
+                            "Sand"
                           ],
-                          "correct_answer": "Thrust pushes it forward.",
-                          "explanation": "Thrust from the expelled air pushes the balloon along the string."
+                          "correct_answer": "Water",
+                          "explanation": "Paper towels absorb water due to tiny holes in them."
                         },
                         {
-                          "question": "Why is the straw essential in this experiment?",
+                          "question": "Which material is NOT needed in this experiment?",
                           "options": [
-                            "To reduce friction along the string",
-                            "To create thrust",
-                            "To keep the balloon inflated",
-                            "To provide weight"
+                            "Glass",
+                            "Paper towel",
+                            "Food coloring",
+                            "Salt"
                           ],
-                          "correct_answer": "To reduce friction along the string",
-                          "explanation": "The straw allows the balloon to slide smoothly along the string."
+                          "correct_answer": "Salt",
+                          "explanation": "Salt is not needed for this experiment."
                         },
                         {
-                          "question": "What would happen if the string was removed in this experiment?",
+                          "question": "Why does water move up the paper towel?",
                           "options": [
-                            "The balloon would move unpredictably.",
-                            "It would move faster.",
-                            "It would go straight.",
-                            "It would not move at all."
+                            "Gravity",
+                            "Capillary action",
+                            "Evaporation",
+                            "Boiling"
                           ],
-                          "correct_answer": "The balloon would move unpredictably.",
-                          "explanation": "The string guides the balloon; without it, the balloon’s path is uncontrolled."
+                          "correct_answer": "Capillary action",
+                          "explanation": "Capillary action pulls water through tiny spaces."
                         },
                         {
-                          "question": "What principle explains the balloon's movement in this experiment?",
+                          "question": "What happens if no paper towel is used?",
                           "options": [
-                            "Newton's Third Law of Motion",
-                            "Law of Conservation of Energy",
-                            "Newton's First Law",
-                            "Law of Friction"
+                            "Water stays in one glass",
+                            "Water moves to the glass",
+                            "Water disappears",
+                            "Water turns solid"
                           ],
-                          "correct_answer": "Newton's Third Law of Motion",
-                          "explanation": "Newton's Third Law states that every action has an equal and opposite reaction."
+                          "correct_answer": "Water stays in one glass",
+                          "explanation": "Without a paper towel, water cannot move."
                         },
                         {
-                          "question": "If the balloon is only half filled, what effect will it have on the experiment?",
+                          "question": "How does the second glass get water?",
                           "options": [
-                            "It moves a shorter distance.",
-                            "It moves further.",
-                            "It goes faster.",
-                            "It remains stationary."
+                            "By boiling",
+                            "By magic",
+                            "By absorption",
+                            "By freezing"
                           ],
-                          "correct_answer": "It moves a shorter distance.",
-                          "explanation": "With less air, there is less thrust, and the balloon doesn't travel as far."
+                          "correct_answer": "By absorption",
+                          "explanation": "Water is absorbed and transferred by the paper towel."
                         },
                         {
-                          "question": "Why does the balloon follow the direction of the string?",
+                          "question": "What would happen if the paper towel was plastic?",
                           "options": [
-                            "The straw guides it along the string",
-                            "The air keeps it straight",
-                            "Gravity holds it",
-                            "The tape controls it"
+                            "Water would move",
+                            "Water would stay",
+                            "Water would boil",
+                            "Water would freeze"
                           ],
-                          "correct_answer": "The straw guides it along the string",
-                          "explanation": "The straw slides along the string, directing the balloon's movement."
+                          "correct_answer": "Water would stay",
+                          "explanation": "Plastic does not absorb water like a paper towel."
                         },
                         {
-                          "question": "How does the size of the balloon impact its movement distance?",
+                          "question": "What color will the second glass be if no color is used?",
                           "options": [
-                            "Larger balloons travel further.",
-                            "Smaller balloons travel further.",
-                            "No effect",
-                            "Larger balloons stop sooner"
+                            "Blue",
+                            "Green",
+                            "Clear",
+                            "Red"
                           ],
-                          "correct_answer": "Larger balloons travel further.",
-                          "explanation": "Larger balloons can hold more air, which increases thrust."
+                          "correct_answer": "Clear",
+                          "explanation": "Without food coloring, water stays clear."
                         },
                         {
-                          "question": "What would happen if the balloon is punctured?",
+                          "question": "What makes the paper towel wet?",
                           "options": [
-                            "It stops moving immediately",
-                            "It travels further",
-                            "It accelerates",
-                            "It changes direction"
+                            "Heat",
+                            "Water",
+                            "Air",
+                            "Salt"
                           ],
-                          "correct_answer": "It stops moving immediately",
-                          "explanation": "If punctured, the balloon loses air instantly and stops moving."
+                          "correct_answer": "Water",
+                          "explanation": "The paper towel absorbs water and becomes wet."
                         },
                         {
-                          "question": "Why does air pressure in the balloon create thrust?",
+                          "question": "What is the first step in this experiment?",
                           "options": [
-                            "Air rushes out, pushing the balloon forward.",
-                            "Air pushes it backward.",
-                            "The string pulls it forward.",
-                            "Gravity pulls it forward."
+                            "Filling a glass",
+                            "Folding paper towel",
+                            "Mixing colors",
+                            "Pouring water out"
                           ],
-                          "correct_answer": "Air rushes out, pushing the balloon forward.",
-                          "explanation": "The air exiting the balloon creates a force in the opposite direction, moving the balloon forward."
+                          "correct_answer": "Filling a glass",
+                          "explanation": "The experiment starts by filling one glass with water."
                         },
                         {
-                          "question": "What type of force is thrust in this experiment?",
+                          "question": "Which part of the paper towel absorbs water first?",
                           "options": [
-                            "Action force",
-                            "Frictional force",
-                            "Gravitational force",
-                            "Reaction force"
+                            "Middle",
+                            "End in water",
+                            "Top",
+                            "Whole towel"
                           ],
-                          "correct_answer": "Action force",
-                          "explanation": "Thrust is the action force generated by the air expelled from the balloon."
+                          "correct_answer": "End in water",
+                          "explanation": "The end touching water absorbs it first."
                         }
                       ]
                     },
@@ -496,114 +496,114 @@
                       "set_name": "Quiz Set 5",
                       "questions": [
                         {
-                          "question": "What does Newton's Third Law of Motion state in the context of this experiment?",
+                          "question": "What is the role of the empty glass?",
                           "options": [
-                            "For every action, there's an equal and opposite reaction.",
-                            "Force equals mass times acceleration.",
-                            "Energy is conserved.",
-                            "Objects in motion stay in motion."
+                            "To hold water",
+                            "To collect water",
+                            "To change color",
+                            "To stop water"
                           ],
-                          "correct_answer": "For every action, there's an equal and opposite reaction.",
-                          "explanation": "Newton’s Third Law is demonstrated as the air exits the balloon and the balloon moves forward."
+                          "correct_answer": "To collect water",
+                          "explanation": "Water moves into the empty glass."
                         },
                         {
-                          "question": "What effect would a larger balloon have on the distance traveled?",
+                          "question": "What happens if the paper towel is too short?",
                           "options": [
-                            "It would travel further.",
-                            "It would travel a shorter distance.",
-                            "No effect.",
-                            "It would travel slower."
+                            "Water moves faster",
+                            "Water moves slower",
+                            "Water may not move",
+                            "Water boils"
                           ],
-                          "correct_answer": "It would travel further.",
-                          "explanation": "A larger balloon can hold more air, creating more thrust and covering a greater distance."
+                          "correct_answer": "Water may not move",
+                          "explanation": "The towel must reach both glasses."
                         },
                         {
-                          "question": "Why does the balloon require a straw for this experiment?",
+                          "question": "Which force helps water move up?",
                           "options": [
-                            "To reduce friction along the string.",
-                            "To create thrust.",
-                            "To control the balloon's speed.",
-                            "To hold the air inside."
+                            "Capillary action",
+                            "Gravity",
+                            "Evaporation",
+                            "Condensation"
                           ],
-                          "correct_answer": "To reduce friction along the string.",
-                          "explanation": "The straw allows the balloon to slide along the string without much resistance."
+                          "correct_answer": "Capillary action",
+                          "explanation": "Water moves through tiny spaces in the towel."
                         },
                         {
-                          "question": "What would happen if the string were not taut?",
+                          "question": "Why should we fold the paper towel?",
                           "options": [
-                            "The balloon would not travel straight.",
-                            "The balloon would stop.",
-                            "The balloon would go faster.",
-                            "The balloon would fly off the string."
+                            "To fit in the glass",
+                            "To absorb more water",
+                            "To make it stronger",
+                            "To change color"
                           ],
-                          "correct_answer": "The balloon would not travel straight.",
-                          "explanation": "A taut string guides the balloon; without it, the balloon's path would be unpredictable."
+                          "correct_answer": "To absorb more water",
+                          "explanation": "Folding increases absorption."
                         },
                         {
-                          "question": "If you puncture the balloon during the experiment, what would happen?",
+                          "question": "What will happen if we use cold water?",
                           "options": [
-                            "The balloon would stop moving.",
-                            "The balloon would travel further.",
-                            "The balloon would move faster.",
-                            "The balloon would change direction."
+                            "Water moves slower",
+                            "Water moves faster",
+                            "Water turns to ice",
+                            "Water disappears"
                           ],
-                          "correct_answer": "The balloon would stop moving.",
-                          "explanation": "Puncturing the balloon releases all the air immediately, stopping its thrust and movement."
+                          "correct_answer": "Water moves slower",
+                          "explanation": "Cold water moves slower than warm water."
                         },
                         {
-                          "question": "What does thrust represent in this experiment?",
+                          "question": "What is the final result of the experiment?",
                           "options": [
-                            "The force that pushes the balloon forward.",
-                            "The force that holds the balloon still.",
-                            "The force pulling the balloon downward.",
-                            "The force causing friction."
+                            "Two empty glasses",
+                            "Water moves to second glass",
+                            "Paper towel melts",
+                            "Water turns to gas"
                           ],
-                          "correct_answer": "The force that pushes the balloon forward.",
-                          "explanation": "Thrust is generated by the expelled air, propelling the balloon in the opposite direction."
+                          "correct_answer": "Water moves to second glass",
+                          "explanation": "Water is absorbed and transferred."
                         },
                         {
-                          "question": "How does the amount of air in the balloon affect its speed?",
+                          "question": "Which part of the towel stays dry longest?",
                           "options": [
-                            "More air increases speed.",
-                            "More air decreases speed.",
-                            "Less air increases speed.",
-                            "It has no effect on speed."
+                            "Middle",
+                            "Top end",
+                            "Bottom end",
+                            "Whole towel"
                           ],
-                          "correct_answer": "More air increases speed.",
-                          "explanation": "The more air in the balloon, the greater the thrust, which increases speed."
+                          "correct_answer": "Top end",
+                          "explanation": "Water moves from bottom to top."
                         },
                         {
-                          "question": "What other real-world example follows Newton's Third Law?",
+                          "question": "What makes the experiment easier to see?",
                           "options": [
-                            "A rocket launching into space.",
-                            "A car parked on a hill.",
-                            "A ball rolling down a slope.",
-                            "A bird sitting on a branch."
+                            "Using food color",
+                            "Using a small towel",
+                            "Using plastic",
+                            "Using salt"
                           ],
-                          "correct_answer": "A rocket launching into space.",
-                          "explanation": "Like the balloon rocket, a rocket in space uses thrust to propel itself forward by expelling fuel backward."
+                          "correct_answer": "Using food color",
+                          "explanation": "Color helps us see the water movement."
                         },
                         {
-                          "question": "What is the action force in this experiment?",
+                          "question": "Why does the paper towel feel soft?",
                           "options": [
-                            "Air rushing out of the balloon.",
-                            "Gravity pulling down.",
-                            "The string holding the balloon.",
-                            "Friction against the straw."
+                            "It is made of cotton",
+                            "It has tiny holes",
+                            "It is heavy",
+                            "It is wet"
                           ],
-                          "correct_answer": "Air rushing out of the balloon.",
-                          "explanation": "The action force is the air being expelled from the balloon."
+                          "correct_answer": "It has tiny holes",
+                          "explanation": "Tiny holes help in absorption."
                         },
                         {
-                          "question": "What is the reaction force in this experiment?",
+                          "question": "What will happen if the towel is too thick?",
                           "options": [
-                            "Balloon moving forward.",
-                            "Balloon losing air.",
-                            "Gravity pulling it down.",
-                            "String tension."
+                            "Water moves faster",
+                            "Water moves slower",
+                            "Water disappears",
+                            "Water changes color"
                           ],
-                          "correct_answer": "Balloon moving forward.",
-                          "explanation": "The reaction to the air exiting the balloon is the forward motion of the balloon."
+                          "correct_answer": "Water moves slower",
+                          "explanation": "Thicker towels slow down absorption."
                         }
                       ]
                     },
@@ -611,114 +611,114 @@
                       "set_name": "Quiz Set 6",
                       "questions": [
                         {
-                          "question": "What force is responsible for the balloon's forward motion?",
+                          "question": "What is the purpose of this experiment?",
                           "options": [
-                            "Thrust generated by expelled air.",
-                            "Gravity acting on the balloon.",
-                            "The string pulling it.",
-                            "Air pressure holding it in place."
+                            "To test colors",
+                            "To show absorption",
+                            "To make bubbles",
+                            "To freeze water"
                           ],
-                          "correct_answer": "Thrust generated by expelled air.",
-                          "explanation": "The thrust from the expelled air pushes the balloon along the string."
+                          "correct_answer": "To show absorption",
+                          "explanation": "The experiment shows how towels absorb water."
                         },
                         {
-                          "question": "How does the size of the balloon impact the speed at which it moves?",
+                          "question": "Which object is NOT used in this experiment?",
                           "options": [
-                            "Larger balloons move faster due to increased thrust.",
-                            "Smaller balloons move faster.",
-                            "No effect.",
-                            "It moves slower."
+                            "Paper towel",
+                            "Glass",
+                            "Stone",
+                            "Water"
                           ],
-                          "correct_answer": "Larger balloons move faster due to increased thrust.",
-                          "explanation": "A larger balloon holds more air, which increases the thrust and speed of movement."
+                          "correct_answer": "Stone",
+                          "explanation": "A stone is not needed for this experiment."
                         },
                         {
-                          "question": "What concept is demonstrated by the balloon rocket experiment?",
+                          "question": "Why does the empty glass get water?",
                           "options": [
-                            "Action and reaction forces.",
-                            "Friction between surfaces.",
-                            "Thermal expansion.",
-                            "Electromagnetic force."
+                            "The towel absorbs",
+                            "The water jumps",
+                            "The glass pulls it",
+                            "The air moves it"
                           ],
-                          "correct_answer": "Action and reaction forces.",
-                          "explanation": "This experiment illustrates action and reaction forces, as described by Newton's Third Law."
+                          "correct_answer": "The towel absorbs",
+                          "explanation": "The towel absorbs and moves the water."
                         },
                         {
-                          "question": "What happens if the balloon is released without attaching it to the straw?",
+                          "question": "What if we remove the paper towel early?",
                           "options": [
-                            "It moves unpredictably.",
-                            "It moves faster.",
-                            "It stays in place.",
-                            "It moves in a straight line."
+                            "More water moves",
+                            "Less water moves",
+                            "Water moves faster",
+                            "Water changes color"
                           ],
-                          "correct_answer": "It moves unpredictably.",
-                          "explanation": "The straw guides the balloon, so without it, the balloon's movement is erratic."
+                          "correct_answer": "Less water moves",
+                          "explanation": "Water needs time to move fully."
                         },
                         {
-                          "question": "How would a longer string affect the balloon's movement?",
+                          "question": "What happens if we use two paper towels?",
                           "options": [
-                            "It would travel further.",
-                            "It would travel slower.",
-                            "It would stop moving.",
-                            "It would travel in a loop."
+                            "Water moves faster",
+                            "Water moves slower",
+                            "Water stops",
+                            "Water disappears"
                           ],
-                          "correct_answer": "It would travel further.",
-                          "explanation": "A longer string allows the balloon to travel a greater distance."
+                          "correct_answer": "Water moves faster",
+                          "explanation": "More towels help water move quicker."
                         },
                         {
-                          "question": "Why does the balloon move along the string and not fall down?",
+                          "question": "Which step comes first in the experiment?",
                           "options": [
-                            "Because of the straw reducing friction.",
-                            "Because gravity is not acting.",
-                            "Because of the balloon's shape.",
-                            "Because the string is holding it."
+                            "Filling one glass",
+                            "Folding the towel",
+                            "Adding the towel",
+                            "Watching water move"
                           ],
-                          "correct_answer": "Because of the straw reducing friction.",
-                          "explanation": "The straw reduces friction and guides the balloon along the string."
+                          "correct_answer": "Filling one glass",
+                          "explanation": "We must first add water to a glass."
                         },
                         {
-                          "question": "What would happen if the balloon was released upside down?",
+                          "question": "Which glass will have more water at the end?",
                           "options": [
-                            "It would still move forward.",
-                            "It would stay in place.",
-                            "It would move backward.",
-                            "It would slow down."
+                            "First glass",
+                            "Second glass",
+                            "Both equal",
+                            "No glass"
                           ],
-                          "correct_answer": "It would still move forward.",
-                          "explanation": "The direction of the air release determines movement, so orientation doesn’t affect direction."
+                          "correct_answer": "First glass",
+                          "explanation": "Some water stays in the first glass."
                         },
                         {
-                          "question": "What is the reaction force to the air expelled from the balloon?",
+                          "question": "What happens if we add more food coloring?",
                           "options": [
-                            "Balloon moving forward.",
-                            "Air pressure inside.",
-                            "Gravity pulling down.",
-                            "String holding the balloon."
+                            "Water changes faster",
+                            "Water gets darker",
+                            "Water moves slower",
+                            "Water turns solid"
                           ],
-                          "correct_answer": "Balloon moving forward.",
-                          "explanation": "The reaction force to the expelled air is the balloon's forward motion."
+                          "correct_answer": "Water gets darker",
+                          "explanation": "More color makes the water darker."
                         },
                         {
-                          "question": "How does Newton's Third Law apply to space travel?",
+                          "question": "What would happen with a dry towel?",
                           "options": [
-                            "Rockets expel gases backward to move forward.",
-                            "Rockets rely on Earth’s gravity.",
-                            "No laws apply in space.",
-                            "Energy is stored in the rocket."
+                            "Water moves fast",
+                            "Water moves slow",
+                            "Water disappears",
+                            "Water stops moving"
                           ],
-                          "correct_answer": "Rockets expel gases backward to move forward.",
-                          "explanation": "Rockets use Newton's Third Law by expelling fuel backward to propel forward."
+                          "correct_answer": "Water moves slow",
+                          "explanation": "A dry towel takes time to absorb water."
                         },
                         {
-                          "question": "Why do we use tape in the balloon rocket experiment?",
+                          "question": "What is another name for this experiment?",
                           "options": [
-                            "To attach the balloon to the straw.",
-                            "To stop air from escaping.",
-                            "To increase thrust.",
-                            "To weigh down the balloon."
+                            "Water magic",
+                            "Capillary action",
+                            "Towel drying",
+                            "Color mixing"
                           ],
-                          "correct_answer": "To attach the balloon to the straw.",
-                          "explanation": "The tape secures the balloon to the straw, allowing it to travel along the string."
+                          "correct_answer": "Capillary action",
+                          "explanation": "The water moves through capillary action."
                         }
                       ]
                     },
@@ -726,114 +726,114 @@
                       "set_name": "Quiz Set 7",
                       "questions": [
                         {
-                          "question": "What happens if you use a heavier balloon in this experiment?",
+                          "question": "What does the paper towel do in this experiment?",
                           "options": [
-                            "It moves slower due to more mass.",
-                            "It moves faster.",
-                            "No effect.",
-                            "It floats in place."
+                            "Absorbs water",
+                            "Holds air",
+                            "Stops water",
+                            "Makes bubbles"
                           ],
-                          "correct_answer": "It moves slower due to more mass.",
-                          "explanation": "A heavier balloon requires more thrust to move as quickly as a lighter one."
+                          "correct_answer": "Absorbs water",
+                          "explanation": "The towel absorbs and moves the water."
                         },
                         {
-                          "question": "What effect would a longer string have on the experiment?",
+                          "question": "Why do we need two glasses?",
                           "options": [
-                            "The balloon travels further.",
-                            "The balloon moves slower.",
-                            "The balloon stops faster.",
-                            "The balloon moves erratically."
+                            "To hold towels",
+                            "To show movement",
+                            "To mix colors",
+                            "To boil water"
                           ],
-                          "correct_answer": "The balloon travels further.",
-                          "explanation": "A longer string allows the balloon to travel a longer distance before stopping."
+                          "correct_answer": "To show movement",
+                          "explanation": "One glass holds water, the other collects it."
                         },
                         {
-                          "question": "How does this experiment demonstrate thrust?",
+                          "question": "What happens if we add salt to the water?",
                           "options": [
-                            "The air exiting the balloon pushes it forward.",
-                            "The balloon is pulled by the string.",
-                            "Gravity pulls it forward.",
-                            "Friction slows it down."
+                            "Water moves faster",
+                            "Water stops moving",
+                            "Towel melts",
+                            "Towel changes color"
                           ],
-                          "correct_answer": "The air exiting the balloon pushes it forward.",
-                          "explanation": "Thrust is the forward force created by the expelling air from the balloon."
+                          "correct_answer": "Water stops moving",
+                          "explanation": "Salt water is harder to absorb."
                         },
                         {
-                          "question": "What is the effect of releasing the balloon without inflating it fully?",
+                          "question": "What makes water move through the towel?",
                           "options": [
-                            "It travels a shorter distance.",
-                            "It travels further.",
-                            "It stops immediately.",
-                            "It moves faster."
+                            "Sunlight",
+                            "Capillary action",
+                            "Electricity",
+                            "Gravity"
                           ],
-                          "correct_answer": "It travels a shorter distance.",
-                          "explanation": "Less air results in less thrust, so the balloon travels a shorter distance."
+                          "correct_answer": "Capillary action",
+                          "explanation": "Tiny spaces in the towel help move water."
                         },
                         {
-                          "question": "How does this experiment illustrate action and reaction?",
+                          "question": "What would happen without food coloring?",
                           "options": [
-                            "Air moves back, balloon moves forward.",
-                            "The string pulls the balloon.",
-                            "Air pushes balloon down.",
-                            "Balloon stays still."
+                            "Water stays clear",
+                            "Water turns red",
+                            "Water moves slower",
+                            "Water disappears"
                           ],
-                          "correct_answer": "Air moves back, balloon moves forward.",
-                          "explanation": "The expulsion of air backward pushes the balloon forward."
+                          "correct_answer": "Water stays clear",
+                          "explanation": "Food coloring just helps us see movement."
                         },
                         {
-                          "question": "If a balloon is tied tightly, what will happen when you release it?",
+                          "question": "What is the best type of towel for this?",
                           "options": [
-                            "No air escapes; no motion.",
-                            "It moves faster.",
-                            "It travels further.",
-                            "It spins around."
+                            "Soft and thick",
+                            "Plastic",
+                            "Metal",
+                            "Very dry"
                           ],
-                          "correct_answer": "No air escapes; no motion.",
-                          "explanation": "If air cannot escape, the balloon will not produce thrust and won’t move."
+                          "correct_answer": "Soft and thick",
+                          "explanation": "A soft, thick towel absorbs more water."
                         },
                         {
-                          "question": "What would happen if the string was very loose?",
+                          "question": "What happens if we remove the towel early?",
                           "options": [
-                            "Balloon moves unpredictably.",
-                            "Balloon moves faster.",
-                            "Balloon moves in a straight line.",
-                            "Balloon stays still."
+                            "More water moves",
+                            "Less water moves",
+                            "Water turns solid",
+                            "Water moves faster"
                           ],
-                          "correct_answer": "Balloon moves unpredictably.",
-                          "explanation": "A loose string would prevent a controlled path, causing the balloon to move erratically."
+                          "correct_answer": "Less water moves",
+                          "explanation": "The towel needs time to transfer water."
                         },
                         {
-                          "question": "Why do we observe action and reaction in this experiment?",
+                          "question": "Why does the empty glass get water?",
                           "options": [
-                            "Balloon moves forward as air exits backward.",
-                            "String pulls the balloon.",
-                            "Gravity moves the balloon.",
-                            "The air pressure is constant."
+                            "Magic",
+                            "The towel absorbs",
+                            "The air moves it",
+                            "Water jumps"
                           ],
-                          "correct_answer": "Balloon moves forward as air exits backward.",
-                          "explanation": "The reaction of the balloon moving forward occurs as a result of air moving backward."
+                          "correct_answer": "The towel absorbs",
+                          "explanation": "Water moves through the towel."
                         },
                         {
-                          "question": "How does increasing the balloon size affect thrust?",
+                          "question": "What if we use a very thick towel?",
                           "options": [
-                            "More thrust from more air.",
-                            "Less thrust from more air.",
-                            "No effect on thrust.",
-                            "Thrust moves downward."
+                            "Water moves fast",
+                            "Water moves slow",
+                            "Water disappears",
+                            "Water turns to gas"
                           ],
-                          "correct_answer": "More thrust from more air.",
-                          "explanation": "A larger balloon holds more air, increasing the thrust created when air is expelled."
+                          "correct_answer": "Water moves slow",
+                          "explanation": "A thick towel absorbs water slowly."
                         },
                         {
-                          "question": "What part of the experiment demonstrates guided movement?",
+                          "question": "What would happen if we use a plastic towel?",
                           "options": [
-                            "The straw on the string.",
-                            "The balloon's air.",
-                            "Gravity's pull.",
-                            "Tape on the balloon."
+                            "Water moves faster",
+                            "Water moves slower",
+                            "Water does not move",
+                            "Water turns to ice"
                           ],
-                          "correct_answer": "The straw on the string.",
-                          "explanation": "The straw ensures the balloon moves in a controlled, guided direction along the string."
+                          "correct_answer": "Water does not move",
+                          "explanation": "Plastic does not absorb water."
                         }
                       ]
                     },
@@ -841,114 +841,114 @@
                       "set_name": "Quiz Set 8",
                       "questions": [
                         {
-                          "question": "If we attach a smaller balloon to the straw, what happens to the thrust?",
+                          "question": "What is the main idea of this experiment?",
                           "options": [
-                            "Thrust decreases.",
-                            "Thrust increases.",
-                            "Thrust remains the same.",
-                            "Thrust doubles."
+                            "How paper burns",
+                            "How water moves",
+                            "How air moves",
+                            "How ice melts"
                           ],
-                          "correct_answer": "Thrust decreases.",
-                          "explanation": "A smaller balloon holds less air, resulting in less thrust when the air is expelled."
+                          "correct_answer": "How water moves",
+                          "explanation": "The experiment shows how water moves in a towel."
                         },
                         {
-                          "question": "What effect does adding tape to the balloon have?",
+                          "question": "What do we do after folding the paper towel?",
                           "options": [
-                            "Holds it to the straw.",
-                            "Increases speed.",
-                            "Adds thrust.",
-                            "Decreases air pressure."
+                            "Throw it away",
+                            "Put it in water",
+                            "Heat it",
+                            "Shake it"
                           ],
-                          "correct_answer": "Holds it to the straw.",
-                          "explanation": "The tape secures the balloon to the straw, allowing it to move along the string."
+                          "correct_answer": "Put it in water",
+                          "explanation": "The towel is placed in water to absorb it."
                         },
                         {
-                          "question": "If the air exits faster, what happens to the balloon speed?",
+                          "question": "Why does the empty glass get water?",
                           "options": [
-                            "Balloon moves faster.",
-                            "Balloon moves slower.",
-                            "Balloon stays still.",
-                            "No effect."
+                            "Water jumps",
+                            "Towel absorbs",
+                            "Glass pulls it",
+                            "Water floats"
                           ],
-                          "correct_answer": "Balloon moves faster.",
-                          "explanation": "Faster exiting air results in higher thrust, propelling the balloon at a higher speed."
+                          "correct_answer": "Towel absorbs",
+                          "explanation": "The towel absorbs and moves the water."
                         },
                         {
-                          "question": "Why does the balloon need to be inflated before release?",
+                          "question": "What happens if the towel is too short?",
                           "options": [
-                            "To generate thrust from air pressure.",
-                            "To weigh it down.",
-                            "To keep it still.",
-                            "To pull it along the string."
+                            "Water moves faster",
+                            "Water stops moving",
+                            "Water disappears",
+                            "Water turns to ice"
                           ],
-                          "correct_answer": "To generate thrust from air pressure.",
-                          "explanation": "Inflated air creates pressure, and its release generates thrust to propel the balloon."
+                          "correct_answer": "Water stops moving",
+                          "explanation": "The towel must touch both glasses to work."
                         },
                         {
-                          "question": "What would happen if we used a thicker string?",
+                          "question": "What kind of water do we use?",
                           "options": [
-                            "Increased friction slows balloon.",
-                            "Balloon moves faster.",
-                            "No change.",
-                            "Balloon doesn’t move."
+                            "Hot water",
+                            "Cold water",
+                            "Any water",
+                            "Salt water"
                           ],
-                          "correct_answer": "Increased friction slows balloon.",
-                          "explanation": "A thicker string increases friction with the straw, slowing down the balloon's movement."
+                          "correct_answer": "Any water",
+                          "explanation": "Water of any temperature can be used."
                         },
                         {
-                          "question": "What aspect of Newton’s laws is illustrated by this experiment?",
+                          "question": "Which part of the towel gets wet first?",
                           "options": [
-                            "Third Law: action and reaction.",
-                            "Second Law: F=ma.",
-                            "First Law: inertia.",
-                            "Law of Gravity."
+                            "Bottom",
+                            "Middle",
+                            "Top",
+                            "Whole towel"
                           ],
-                          "correct_answer": "Third Law: action and reaction.",
-                          "explanation": "The balloon experiment demonstrates action and reaction forces, central to Newton's Third Law."
+                          "correct_answer": "Bottom",
+                          "explanation": "The bottom touches the water first."
                         },
                         {
-                          "question": "What happens if the balloon is only partially filled with air?",
+                          "question": "What does the paper towel act like?",
                           "options": [
-                            "It travels a shorter distance.",
-                            "It travels faster.",
-                            "It doesn’t move.",
-                            "It spins around."
+                            "A sponge",
+                            "A fan",
+                            "A mirror",
+                            "A balloon"
                           ],
-                          "correct_answer": "It travels a shorter distance.",
-                          "explanation": "Less air means less thrust, so the balloon travels a shorter distance."
+                          "correct_answer": "A sponge",
+                          "explanation": "The towel soaks up water like a sponge."
                         },
                         {
-                          "question": "How does the angle of the string affect the balloon's path?",
+                          "question": "What would happen without a second glass?",
                           "options": [
-                            "The balloon follows the angle.",
-                            "The balloon stops moving.",
-                            "The balloon speeds up.",
-                            "The balloon falls off."
+                            "Water disappears",
+                            "Water moves up",
+                            "Water stays",
+                            "Towel melts"
                           ],
-                          "correct_answer": "The balloon follows the angle.",
-                          "explanation": "If the string is angled, the balloon follows that angle as it moves forward."
+                          "correct_answer": "Water stays",
+                          "explanation": "Without a second glass, water stays in one place."
                         },
                         {
-                          "question": "Why is a straight string essential in this experiment?",
+                          "question": "Why do we use food coloring?",
                           "options": [
-                            "Ensures controlled movement.",
-                            "Increases speed.",
-                            "Increases thrust.",
-                            "No reason."
+                            "To drink it",
+                            "To see water move",
+                            "To freeze it",
+                            "To make bubbles"
                           ],
-                          "correct_answer": "Ensures controlled movement.",
-                          "explanation": "A straight string provides guidance, allowing the balloon to move in a predictable path."
+                          "correct_answer": "To see water move",
+                          "explanation": "The color helps us see the water movement."
                         },
                         {
-                          "question": "What is an example of thrust in everyday life?",
+                          "question": "What if we use a wet paper towel?",
                           "options": [
-                            "Airplane engines push air backward.",
-                            "Wind blowing leaves.",
-                            "Balloon falling to the ground.",
-                            "Car resting on a hill."
+                            "Water moves fast",
+                            "Water moves slow",
+                            "Water stops",
+                            "Water turns solid"
                           ],
-                          "correct_answer": "Airplane engines push air backward.",
-                          "explanation": "Airplanes generate thrust by pushing air backward to propel forward, similar to the balloon rocket."
+                          "correct_answer": "Water moves fast",
+                          "explanation": "A wet towel absorbs water quickly."
                         }
                       ]
                     },
@@ -956,114 +956,114 @@
                       "set_name": "Quiz Set 9",
                       "questions": [
                         {
-                          "question": "How does the air pressure inside the balloon affect movement?",
+                          "question": "What does the paper towel do in this experiment?",
                           "options": [
-                            "More pressure, more thrust.",
-                            "Less pressure, more thrust.",
-                            "No effect.",
-                            "Increases weight."
+                            "Absorbs water",
+                            "Creates bubbles",
+                            "Melts in water",
+                            "Changes color"
                           ],
-                          "correct_answer": "More pressure, more thrust.",
-                          "explanation": "More air pressure creates greater thrust, causing the balloon to travel further."
+                          "correct_answer": "Absorbs water",
+                          "explanation": "The paper towel soaks up water."
                         },
                         {
-                          "question": "What happens if the string is uneven?",
+                          "question": "What do we need to start the experiment?",
                           "options": [
-                            "Balloon movement is erratic.",
-                            "Balloon speeds up.",
-                            "Balloon moves in a straight line.",
-                            "Balloon moves faster."
+                            "A spoon",
+                            "Two glasses",
+                            "A balloon",
+                            "A candle"
                           ],
-                          "correct_answer": "Balloon movement is erratic.",
-                          "explanation": "Uneven tension in the string causes irregular movement in the balloon’s path."
+                          "correct_answer": "Two glasses",
+                          "explanation": "We use two glasses for water movement."
                         },
                         {
-                          "question": "Why does the balloon need to be attached to the straw?",
+                          "question": "What happens when the towel touches water?",
                           "options": [
-                            "To guide it along the string.",
-                            "To weigh it down.",
-                            "To keep it inflated.",
-                            "To make it move slower."
+                            "It burns",
+                            "It absorbs water",
+                            "It floats",
+                            "It turns solid"
                           ],
-                          "correct_answer": "To guide it along the string.",
-                          "explanation": "The straw allows the balloon to follow a controlled path along the string."
+                          "correct_answer": "It absorbs water",
+                          "explanation": "The towel soaks up water and moves it."
                         },
                         {
-                          "question": "If more tape is added to the balloon, what effect does it have?",
+                          "question": "Why do we use food coloring?",
                           "options": [
-                            "Increased weight may reduce speed.",
-                            "Increased thrust.",
-                            "No effect.",
-                            "Increases air pressure."
+                            "To make it colorful",
+                            "To see the water move",
+                            "To change the taste",
+                            "To make bubbles"
                           ],
-                          "correct_answer": "Increased weight may reduce speed.",
-                          "explanation": "More tape adds weight, which may reduce the overall speed of the balloon."
+                          "correct_answer": "To see the water move",
+                          "explanation": "The color helps us track water movement."
                         },
                         {
-                          "question": "What would happen if you used a rubber band instead of tape to attach the balloon?",
+                          "question": "What is the empty glass used for?",
                           "options": [
-                            "The balloon might not stay attached.",
-                            "The balloon would travel further.",
-                            "The balloon would move faster.",
-                            "The balloon would slow down."
+                            "Holding food",
+                            "Collecting water",
+                            "Making noise",
+                            "Stirring liquid"
                           ],
-                          "correct_answer": "The balloon might not stay attached.",
-                          "explanation": "A rubber band might not securely hold the balloon to the straw, impacting the experiment's success."
+                          "correct_answer": "Collecting water",
+                          "explanation": "The empty glass collects moved water."
                         },
                         {
-                          "question": "How does a guided path differ from free movement?",
+                          "question": "What happens if we use plastic instead?",
                           "options": [
-                            "Guided path is controlled.",
-                            "Free movement is faster.",
-                            "Guided path slows down.",
-                            "Free movement increases thrust."
+                            "Water moves faster",
+                            "Water does not move",
+                            "Water turns red",
+                            "Water boils"
                           ],
-                          "correct_answer": "Guided path is controlled.",
-                          "explanation": "The balloon’s movement is controlled by the guided path along the string."
+                          "correct_answer": "Water does not move",
+                          "explanation": "Plastic does not absorb water."
                         },
                         {
-                          "question": "What happens if the string is too thin?",
+                          "question": "Which material is best for this experiment?",
                           "options": [
-                            "Higher friction may slow down the balloon.",
-                            "Balloon moves faster.",
-                            "Balloon spins around.",
-                            "Balloon stops."
+                            "Paper towel",
+                            "Plastic",
+                            "Metal",
+                            "Stone"
                           ],
-                          "correct_answer": "Higher friction may slow down the balloon.",
-                          "explanation": "A thin string increases friction with the straw, potentially slowing down movement."
+                          "correct_answer": "Paper towel",
+                          "explanation": "Only paper towels absorb water well."
                         },
                         {
-                          "question": "How does Newton's Third Law apply to an airplane?",
+                          "question": "What happens if the towel is too short?",
                           "options": [
-                            "Engines push air backward to move forward.",
-                            "Gravity pulls the plane down.",
-                            "Wings lift the plane.",
-                            "Wheels allow landing."
+                            "Water moves faster",
+                            "Water does not move",
+                            "Water changes color",
+                            "Water disappears"
                           ],
-                          "correct_answer": "Engines push air backward to move forward.",
-                          "explanation": "Newton's Third Law is at work as airplanes expel air backward to propel forward."
+                          "correct_answer": "Water does not move",
+                          "explanation": "The towel must reach both glasses."
                         },
                         {
-                          "question": "What is the purpose of securing the balloon in place during the setup?",
+                          "question": "Why does water move up the towel?",
                           "options": [
-                            "Ensures it’s ready to release thrust.",
-                            "Increases thrust.",
-                            "Increases air pressure.",
-                            "Reduces friction."
+                            "Magic",
+                            "Absorption",
+                            "Heat",
+                            "Wind"
                           ],
-                          "correct_answer": "Ensures it’s ready to release thrust.",
-                          "explanation": "Securing the balloon keeps it steady and ready for a controlled release of thrust."
+                          "correct_answer": "Absorption",
+                          "explanation": "The towel absorbs and transfers water."
                         },
                         {
-                          "question": "What would happen if the balloon was empty at the start?",
+                          "question": "What would happen if the towel is already wet?",
                           "options": [
-                            "No thrust is generated; no movement.",
-                            "Balloon moves faster.",
-                            "Balloon moves erratically.",
-                            "Balloon flies backward."
+                            "Water moves slower",
+                            "Water moves faster",
+                            "Water turns solid",
+                            "Water disappears"
                           ],
-                          "correct_answer": "No thrust is generated; no movement.",
-                          "explanation": "Without air, no thrust is created, and the balloon cannot move."
+                          "correct_answer": "Water moves faster",
+                          "explanation": "A wet towel absorbs water quickly."
                         }
                       ]
                     },
@@ -1071,117 +1071,149 @@
                       "set_name": "Quiz Set 10",
                       "questions": [
                         {
-                          "question": "What does thrust rely on in this experiment?",
+                          "question": "What is the aim of this experiment?",
                           "options": [
-                            "Air pressure in the balloon.",
-                            "String's tension.",
-                            "Balloon's shape.",
-                            "Gravity acting on it."
+                            "To freeze water",
+                            "To boil water",
+                            "To show absorption",
+                            "To mix liquids"
                           ],
-                          "correct_answer": "Air pressure in the balloon.",
-                          "explanation": "Thrust is created by the air pressure inside the balloon."
+                          "correct_answer": "To show absorption",
+                          "explanation": "It shows how paper absorbs water."
                         },
                         {
-                          "question": "If a heavier balloon was used, what effect would it have?",
+                          "question": "Which material is NOT needed?",
                           "options": [
-                            "Decreased speed due to more mass.",
-                            "Increased speed.",
-                            "No effect.",
-                            "Thrust increases."
+                            "Paper towel",
+                            "Food coloring",
+                            "A pencil",
+                            "Two glasses"
                           ],
-                          "correct_answer": "Decreased speed due to more mass.",
-                          "explanation": "A heavier balloon would need more thrust to move as fast as a lighter one."
+                          "correct_answer": "A pencil",
+                          "explanation": "A pencil is not used in this experiment."
                         },
                         {
-                          "question": "How would a steeper angle in the string affect movement?",
+                          "question": "What happens when the towel touches water?",
                           "options": [
-                            "It would increase speed.",
-                            "It would decrease speed.",
-                            "No effect on speed.",
-                            "It would change direction."
+                            "It breaks",
+                            "It absorbs water",
+                            "It makes sound",
+                            "It glows"
                           ],
-                          "correct_answer": "It would increase speed.",
-                          "explanation": "A steeper angle allows gravity to assist the movement, increasing speed."
+                          "correct_answer": "It absorbs water",
+                          "explanation": "The towel soaks up water and moves it."
                         },
                         {
-                          "question": "Why does the balloon eventually stop moving?",
+                          "question": "What is the role of the second glass?",
                           "options": [
-                            "All air is expelled, so thrust ceases.",
-                            "Gravity pulls it down.",
-                            "String holds it in place.",
-                            "Air pressure increases."
+                            "It holds food",
+                            "It collects water",
+                            "It heats water",
+                            "It stores air"
                           ],
-                          "correct_answer": "All air is expelled, so thrust ceases.",
-                          "explanation": "When all air is expelled, thrust stops, causing the balloon to stop moving."
+                          "correct_answer": "It collects water",
+                          "explanation": "Water moves into the empty glass."
                         },
                         {
-                          "question": "What concept explains why the balloon moves forward when air exits backward?",
+                          "question": "Which liquid is used in this experiment?",
                           "options": [
-                            "Newton's Third Law of Motion.",
-                            "Thermal expansion.",
-                            "Inertia.",
-                            "Law of conservation of energy."
+                            "Oil",
+                            "Water",
+                            "Juice",
+                            "Milk"
                           ],
-                          "correct_answer": "Newton's Third Law of Motion.",
-                          "explanation": "Newton’s Third Law describes action and reaction, explaining why the balloon moves forward."
+                          "correct_answer": "Water",
+                          "explanation": "We use water to show absorption."
                         },
                         {
-                          "question": "How does this experiment show controlled motion?",
+                          "question": "Why do we fold the paper towel?",
                           "options": [
-                            "String guides balloon along path.",
-                            "Gravity holds it steady.",
-                            "Air pressure slows it down.",
-                            "Friction keeps it in place."
+                            "To make it longer",
+                            "To make it soft",
+                            "To make it absorb",
+                            "To make it colorful"
                           ],
-                          "correct_answer": "String guides balloon along path.",
-                          "explanation": "The string provides a controlled path for the balloon’s movement."
+                          "correct_answer": "To make it longer",
+                          "explanation": "A longer towel reaches both glasses."
                         },
                         {
-                          "question": "What would happen if the balloon was inflated more than usual?",
+                          "question": "What will happen if the towel is dry?",
                           "options": [
-                            "It would travel further.",
-                            "It would travel slower.",
-                            "No effect.",
-                            "It would travel in reverse."
+                            "It will absorb water",
+                            "It will turn solid",
+                            "It will break",
+                            "It will float"
                           ],
-                          "correct_answer": "It would travel further.",
-                          "explanation": "More air creates more thrust, allowing the balloon to travel a longer distance."
+                          "correct_answer": "It will absorb water",
+                          "explanation": "A dry towel quickly soaks water."
                         },
                         {
-                          "question": "What is the reaction force in this experiment?",
+                          "question": "Which property of water is shown here?",
                           "options": [
-                            "Balloon moving forward.",
-                            "Gravity pulling downward.",
-                            "String holding balloon.",
-                            "Air staying inside."
+                            "Absorption",
+                            "Evaporation",
+                            "Freezing",
+                            "Boiling"
                           ],
-                          "correct_answer": "Balloon moving forward.",
-                          "explanation": "The reaction to air moving backward is the balloon moving forward."
+                          "correct_answer": "Absorption",
+                          "explanation": "Water is absorbed by the towel."
                         },
                         {
-                          "question": "What role does the straw play in guiding the balloon?",
+                          "question": "Why do we use clear glasses?",
                           "options": [
-                            "Reduces friction along string.",
-                            "Increases speed.",
-                            "Creates more thrust.",
-                            "Reduces air pressure."
+                            "To see water move",
+                            "To make it heavy",
+                            "To make it strong",
+                            "To store food"
                           ],
-                          "correct_answer": "Reduces friction along string.",
-                          "explanation": "The straw reduces friction, allowing the balloon to slide smoothly along the string."
+                          "correct_answer": "To see water move",
+                          "explanation": "Clear glasses help us observe water."
                         },
                         {
-                          "question": "What would happen if the balloon was punctured before release?",
+                          "question": "What happens if no water is added?",
                           "options": [
-                            "No movement; air escapes prematurely.",
-                            "Increased speed.",
-                            "It travels further.",
-                            "It travels erratically."
+                            "The towel stays dry",
+                            "Water moves faster",
+                            "The towel glows",
+                            "The towel floats"
                           ],
-                          "correct_answer": "No movement; air escapes prematurely.",
-                          "explanation": "If punctured, the air escapes too soon, resulting in no movement."
+                          "correct_answer": "The towel stays dry",
+                          "explanation": "Without water, nothing is absorbed."
                         }
                       ]
                     }
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                     
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    
                   ]
                 },
                 {
@@ -4811,6 +4843,13 @@
                         }
                       ]
                     }
+
+
+
+
+
+
+                    
                   ]
                 },
                 {
