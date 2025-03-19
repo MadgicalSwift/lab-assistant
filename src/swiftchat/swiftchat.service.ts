@@ -155,6 +155,7 @@ async sendQuizMessage(from: string) {
   
     try {
       const response = await this.sendMessage(this.baseUrl, requestData, this.apiKey);
+      console.log("response",response );
       
       return response; 
     } catch (error) {
