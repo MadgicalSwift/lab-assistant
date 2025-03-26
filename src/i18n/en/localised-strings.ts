@@ -1,6 +1,6 @@
 export const localisedStrings = {
   validText: ['hi', 'Hi', 'HI', 'hI', 'Hello', 'hello', 'hola', 'Hii', 'hii'], 
-  welcomeMessage: `Hey there! 👋 I'm your Lab Assistant! 🧪 Ready to make science fun and exciting? I'm here to guide you through interactive experiments, quizzes, and cool discoveries. Let’s explore together! 🌟`,
+  welcomeMessage: `Hey there! 👋 I'm your Experiments Buddy! 🧪 Ready to make science fun and exciting? I'm here to guide you through interactive experiments, quizzes, and cool discoveries. Let’s explore together! 🌟`,
   seeMoreMessage: 'See More Data',
   classPrompt: 'Which class are you in? This will help me pick the best science experiments for you! 👨‍🏫',  
   classes: ['Below 6', '7-8', '9-10', '11-12'],
